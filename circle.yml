@@ -11,5 +11,7 @@ test:
     - "true"
 
 deployment:
-  npm:
-    - npm deploy
+  production:
+    branch: master
+    commands:
+      - npm run deploy
