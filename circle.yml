@@ -1,3 +1,6 @@
+machine:
+  nodejs: 4.2.6
+
 dependencies:
   pre:
     - npm install || cat npm-debug.log && exit 1
