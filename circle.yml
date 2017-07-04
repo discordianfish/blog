@@ -3,7 +3,8 @@ machine:
 
 dependencies:
   pre:
-    - npm install || cat npm-debug.log && exit 1
+    - npm install
+    - cat npm-debug.log || true
 
 test:
   override:
