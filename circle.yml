@@ -16,4 +16,4 @@ deployment:
     commands:
       - git config --global user.email "circle@5pi.de"
       - git config --global user.name "Johannes 'fish' Ziemke"
-      - npm run deploy
+      - GIT_SSH_COMMAND="ssh -i $HOME/.ssh/id_358dbf85a58fd5d1b2e4131e3b14cf1e" npm run deploy
