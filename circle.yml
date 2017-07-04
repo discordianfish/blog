@@ -1,0 +1,11 @@
+dependencies:
+  pre:
+    - npm install || cat npm-debug.log && exit 1
+
+test:
+  override:
+    - "true"
+
+deployment:
+  npm:
+    - npm deploy
