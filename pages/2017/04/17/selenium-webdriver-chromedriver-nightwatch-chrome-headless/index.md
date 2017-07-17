@@ -13,6 +13,7 @@ Apparently WebDriver is also used for talking *to* Selenium. I think this is cal
 Nightwatch -[webdriver]-> Selenium -[webdriver]-> Chromedriver -> Chrome
 ```
 Selenium comes in a server and standalone flavor, where the server apparently is only used for grid based testing where you would have a bunch of Selenium nodes running on different systems. Turns out, if you don’t need grid based testing or support for legacy browsers which don’t provide WebDriver adapter, there is little use for Selenium after all.
+
 Fortunately you can make Nightwatch talk directly to Chromedriver. This requires start_processto be set to false and selenium_host/_port to point the address of Chromedriver:
 ```
 {
