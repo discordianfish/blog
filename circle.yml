@@ -4,13 +4,12 @@ general:
       - gh-pages
 
 machine:
-  node:
-    version: 6.1.0
+  services:
+    - docker
 
 dependencies:
   pre:
-    - npm install
-    - cat npm-debug.log || true
+    - docker build -t blog .
 
 test:
   override:
@@ -20,6 +19,9 @@ deployment:
   production:
     branch: master
     commands:
-      - git config --global user.email "circle@5pi.de"
-      - git config --global user.name "Johannes 'fish' Ziemke"
-      - GIT_SSH_COMMAND="ssh -i $HOME/.ssh/id_358dbf85a58fd5d1b2e4131e3b14cf1e" npm run deploy
+      - mkdir $HOME/ssh
+      - sudo install -Dm 644 $HOME/.ssh/id_358dbf85a58fd5d1b2e4131e3b14cf1e
+          $HOME/ssh/id_rsa
+      - docker run
+        -v "$HOME/ssh/:/ssh/"
+        blog run deploy
