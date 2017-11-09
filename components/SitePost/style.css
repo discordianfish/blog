@@ -40,6 +40,17 @@
 .blog-post .readmore:hover {
 	border-bottom: 1px solid;
 }
+
+.blog-single code:hover {
+  max-width: inherit !important;
+}
+
+.blog-single pre:hover {
+  max-width: inherit !important;
+  margin-left: -7em !important;
+  margin-right: -7em !important;
+}
+
 .blog-single {
 	max-width: 945px;
 	margin-left: auto;
