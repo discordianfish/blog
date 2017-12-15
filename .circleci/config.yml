@@ -36,6 +36,9 @@ jobs:
       - setup_remote_docker
       - restore_cache: *cache_restore
       - run: *docker_load
+      - add_ssh_keys:
+          fingerprints:
+            - "35:8d:bf:85:a5:8f:d5:d1:b2:e4:13:1e:3b:14:cf:1e"
       - run:
           name: Install SSH key
           command: install -Dm 644 $HOME/.ssh/id_358dbf85a58fd5d1b2e4131e3b14cf1e
