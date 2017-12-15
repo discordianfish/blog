@@ -9,9 +9,9 @@ href="https://www.researchgate.net/304012394_fig1_Fig-1-The-seakeeping-coordinat
 src="https://www.researchgate.net/profile/Zhaolong_Yu/publication/304012394/figure/fig1/AS:373636524462081@1466093297802/Fig-1-The-seakeeping-coordinate-system.ppm"
 alt="Fig. 1 The seakeeping coordinate system"/></a>
 
-A year ago I blogged about how to build a [$15 Production Kubernetes Cluster on
-DigitalOcean](/2016/11/20/15-producation-grade-kubernetes-cluster/) and
-submitted it to [Hacker News](https://news.ycombinator.com/).
+About a year ago I blogged about how to build a [$15 Production Kubernetes
+Cluster on DigitalOcean](/2016/11/20/15-producation-grade-kubernetes-cluster/)
+and submitted it to [Hacker News](https://news.ycombinator.com/).
 
 HN being HN, soon after these comments trickled in:
 
@@ -94,6 +94,14 @@ networking, it even requires etcd to be writable from all nodes without
 authentication. Other options like kubespray don't support full TLS either. Not
 even the tectonic-installer, which in general looks very promising, supports TLS
 out the box by default.
+
+### (Self-)Sufficiency?
+The most common Kubernetes setups are not self-sufficient but depend often on
+multiple external Docker registries and components during runtime. Since usually
+these are referred to by mutable tags, there is also no way to guarantee that
+nobody changes a dependency without you noticing.
+Unfortunately this is something rarely discussed and there isn't any
+light-weight tooling I came across helping with this.
 
 ### Conclusion
 I can't claim I looked into every Kubernetes installer project and ignored

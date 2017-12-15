@@ -34,8 +34,8 @@ jobs:
       - image: docker:17.05.0-ce-git
     steps:
       - setup_remote_docker
-      - *cache_restore
-      - *docker_load
+      - restore_cache: *cache_restore
+      - run: *docker_load
       - run:
           name: Install SSH key
           command: install -Dm 644 $HOME/.ssh/id_358dbf85a58fd5d1b2e4131e3b14cf1e
@@ -50,8 +50,8 @@ workflows:
     jobs:
       - build
       - deploy:
-        requires:
-          - build
-        filters:
-          branches:
-            only: master
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
