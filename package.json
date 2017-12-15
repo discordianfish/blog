@@ -12,7 +12,7 @@
     "copy": "npm run copy:files",
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "install -Dm 600 /dev/stdin id_rsa_github && gatsby build && GIT_SSH_COMMAND=\"ssh -i id_rsa_github\" gh-pages -d public"
+    "deploy": "gatsby build && ./deploy"
   },
   "repository": {
     "type": "git",
