@@ -1,6 +1,6 @@
 ---
 title: 'Production Grade Kubernetes'
-date: Fri, 08 Dec 2017 15:08:29 +0100
+date: Fri, 15 Dec 2017 15:08:29 +0100
 tags: 
 layout: post
 ---
