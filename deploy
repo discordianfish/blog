@@ -7,6 +7,7 @@ trap "git reset --hard $REF" EXIT
 grep -v ^public .gitignore > x
 mv x .gitignore
 
+echo 5pi.de > public/CNAME
 git add public/
 git commit -m "Updating gh-pages" public
 
