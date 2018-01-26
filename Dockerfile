@@ -10,6 +10,4 @@ RUN npm install && \
   git config --global user.email "circle@5pi.de" && \
   git config --global user.name "Johannes 'fish' Ziemke"
 
-COPY . /usr/src
-
 ENTRYPOINT [ "npm" ]
