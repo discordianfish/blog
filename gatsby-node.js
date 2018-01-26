@@ -1,30 +1,68 @@
-const rucksack = require('rucksack-css');
-const lost = require('lost');
-const cssnext = require('postcss-cssnext');
-const fs = require('fs-extra');
-const path = require('path');
+const _ = require('lodash')
+const Promise = require('bluebird')
+const path = require('path')
+const { createFilePath } = require('gatsby-source-filesystem')
 
-const domain = '5pi.de';
+exports.createPages = ({ graphql, boundActionCreators }) => {
+  const { createPage } = boundActionCreators
 
-exports.modifyWebpackConfig = function (config) {
-  config.merge({
-    postcss: [
-      lost(),
-      rucksack(),
-      cssnext({
-        browsers: ['>1%', 'last 2 versions'],
-      }),
-    ],
-  });
+  return new Promise((resolve, reject) => {
+    const blogPost = path.resolve('./src/templates/blog-post.js')
+    resolve(
+      graphql(
+        `
+          {
+            allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                  }
+                }
+              }
+            }
+          }
+        `
+      ).then(result => {
+        if (result.errors) {
+          console.log(result.errors)
+          reject(result.errors)
+        }
 
-  config.loader('svg', {
-    test: /\.(svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-    loader: 'file-loader',
-  });
+        // Create blog posts pages.
+        const posts = result.data.allMarkdownRemark.edges;
 
-  return config;
-};
+        _.each(posts, (post, index) => {
+          const previous = index === posts.length - 1 ? false : posts[index + 1].node;
+          const next = index === 0 ? false : posts[index - 1].node;
 
-exports.postBuild = (pages, callback) => {
-  fs.writeFile(path.join(__dirname, '/public/CNAME'), domain + '\n')
-};
+          createPage({
+            path: post.node.fields.slug,
+            component: blogPost,
+            context: {
+              slug: post.node.fields.slug,
+              previous,
+              next,
+            },
+          })
+        })
+      })
+    )
+  })
+}
+
+exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
+  const { createNodeField } = boundActionCreators
+
+  if (node.internal.type === `MarkdownRemark`) {
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      name: `slug`,
+      node,
+      value,
+    })
+  }
+}

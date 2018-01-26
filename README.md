@@ -1,10 +1,8 @@
-# 5pi.de
-[![CircleCI](https://circleci.com/gh/discordianfish/blog.svg?style=svg)](https://circleci.com/gh/discordianfish/blog)
+# gatsby-starter-blog
+Gatsby starter for creating a blog
 
-Based on [Gatsby](https://github.com/gatsbyjs/gatsby) and [gatsby-starter-lumen](https://github.com/alxshelepenok/gatsby-starter-lumen)
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
 
-# License
-- Code and documentation is licensed under the [MIT License](LICENSE)
-- Content (pages/, public/) are under a [Creative Commons
-  Attribution-NonCommercial-NoDerivatives 4.0 International
-License.](LICENSE-CONTENT)
+## Running in development
+`gatsby develop`
