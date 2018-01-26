@@ -38,7 +38,7 @@ jobs:
       - run: *docker_load
       - run:
           name: Deploy to gh-pages
-          command: docker run -v $SSH_AUTH_SOCK:/ssh-agent
+          command: ssh-add -l && docker run -v $SSH_AUTH_SOCK:/ssh-agent
             -e SSH_AUTH_SOCK=/ssh-agent app run deploy
 
 workflows:
