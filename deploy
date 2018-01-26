@@ -1,6 +1,5 @@
 #!/bin/bash
 set -euo pipefail
-dir=$1
 
 REF=$(git rev-parse HEAD)
 trap "git reset --hard $REF" EXIT
@@ -9,7 +8,7 @@ grep -v ^public .gitignore > x
 mv x .gitignore
 
 git add public/
-git commit -m "Updating gh-pages" "$dir"
+git commit -m "Updating gh-pages" public
 
-git subtree split --prefix "$dir" -b gh-pages
+git subtree split --prefix public/ -b gh-pages
 git push -f origin gh-pages:gh-pages
