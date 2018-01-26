@@ -9,7 +9,6 @@ class Template extends React.Component {
   render() {
     const { location, children } = this.props
     const siteTitle = get(this, 'props.data.site.siteMetadata.title') || ''
-    console.log(siteTitle)
     let header
 
     let rootPath = `/`

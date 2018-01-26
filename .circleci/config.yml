@@ -36,13 +36,10 @@ jobs:
       - setup_remote_docker
       - restore_cache: *cache_restore
       - run: *docker_load
-      - add_ssh_keys:
-          fingerprints:
-            - "35:8d:bf:85:a5:8f:d5:d1:b2:e4:13:1e:3b:14:cf:1e"
       - run:
           name: Deploy to gh-pages
-          command: cat $HOME/.ssh/id_rsa_358dbf85a58fd5d1b2e4131e3b14cf1e 
-            | docker run -i app run deploy
+          command: docker run -v $SSH_AUTH_SOCK:/ssh-agent
+            -e SSH_AUTH_SOCK=/ssh-agent app run deploy
 
 workflows:
   version: 2
