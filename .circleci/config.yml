@@ -30,26 +30,15 @@ jobs:
           key: v1-{{ .Branch }}-{{ .Revision }}
           paths:
             - /caches/app.tar
-  deploy:
-    docker:
-      - image: docker:17.09.0-ce-git
-    steps:
-      - checkout
-      - setup_remote_docker
-      - restore_cache: *cache_restore
-      - run: *docker_load
       - run:
-          name: Build blog content
+          name: Deploy
           command: docker run app tar -cf - -C public/ . | ./deploy
 
 workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - build
-      - deploy:
-          requires:
-            - build
+      - build:
           filters:
             branches:
               only: master
