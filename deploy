@@ -1,15 +1,13 @@
 #!/bin/bash
 set -euo pipefail
+set -x
+REPO=${REPO:-${CIRCLE_REPOSITORY_URL:-$(git config --get remote.origin.url)}}
 
-REF=$(git rev-parse HEAD)
-trap "git reset --hard $REF" EXIT
-
-grep -v ^public .gitignore > x
-mv x .gitignore
-
-echo 5pi.de > public/CNAME
-git add public/
-git commit -m "Updating gh-pages" public
-
-git subtree split --prefix public/ -b gh-pages
+temp=$(mktemp -d)
+trap "rm -r '$temp'" EXIT
+git clone -b gh-pages "$REPO" "$temp"
+cd "$temp"
+tar -xvf -
+git add .
+git commit -m "Updating gh-pages" 
 git push -f origin gh-pages:gh-pages

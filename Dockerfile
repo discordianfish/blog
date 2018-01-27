@@ -10,4 +10,6 @@ RUN npm install && \
   git config --global user.email "circle@5pi.de" && \
   git config --global user.name "Johannes 'fish' Ziemke"
 
-ENTRYPOINT [ "npm" ]
+COPY --chown=user . /usr/src
+
+RUN npm run build
