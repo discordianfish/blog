@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -euo pipefail
 set -x
 REPO=${REPO:-${CIRCLE_REPOSITORY_URL:-$(git config --get remote.origin.url)}}
