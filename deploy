@@ -1,6 +1,5 @@
 #!/bin/sh
-set -euo pipefail
-set -x
+set -eu
 REPO=${REPO:-${CIRCLE_REPOSITORY_URL:-$(git config --get remote.origin.url)}}
 
 temp=$(mktemp -d)
@@ -9,5 +8,9 @@ git clone -b gh-pages "$REPO" "$temp"
 cd "$temp"
 tar -xvf -
 git add .
-git commit -m "Updating gh-pages" 
+
+git config --global user.email "circle@5pi.de"
+git config --global user.name "Johannes 'fish' Ziemke"
+
+git commit -m "Updating gh-pages"
 git push -f origin gh-pages:gh-pages
