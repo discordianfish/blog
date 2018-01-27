@@ -39,7 +39,7 @@ jobs:
       - run: *docker_load
       - run:
           name: Build blog content
-          command: docker run -u "$UID" -v "$PWD:/usr/src" app run build
+          command: docker run -u "$UID" -v "$PWD/project:/usr/src" app run build
       - run:
           name: Deploy to gh-pages
           command: ./deploy public
