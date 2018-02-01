@@ -1,5 +1,5 @@
 ---
-title: 'kubecfn: Cloudformation installer for reasonably secure multi-node Kubernetes Cluster'
+title: 'kubecfn: Cloudformation installer for reasonably secure multi-master Kubernetes Cluster'
 date: Wed, 01 Feb 2018 14:07:16 +0100
 tags: kubernetes
 layout: post
