@@ -11,11 +11,6 @@ layout: post
 category: Infrastructure
 description: "What does 'prod-ready' mean?"
 ---
-<a
-href="https://www.researchgate.net/304012394_fig1_Fig-1-The-seakeeping-coordinate-system"><img
-src="https://www.researchgate.net/profile/Zhaolong_Yu/publication/304012394/figure/fig1/AS:373636524462081@1466093297802/Fig-1-The-seakeeping-coordinate-system.ppm"
-alt="Fig. 1 The seakeeping coordinate system"/></a>
-
 About a year ago I blogged about how to build a [$15 Production Kubernetes
 Cluster on DigitalOcean](/2016/11/20/15-producation-grade-kubernetes-cluster/)
 and submitted it to [Hacker News](https://news.ycombinator.com/).
