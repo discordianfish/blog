@@ -1,7 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π - fish's blog]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 27 Jan 2018 16:27:24 GMT</lastBuildDate><item><title><![CDATA[Production Grade Kubernetes]]></title><description><![CDATA[a
-href=“https://www.researchgate.net/304012394 fig1 Fig-1-The-seakeeping-coordinate-system” About a year ago I blogged about how to build a…]]></description><link>https://5pi.de//2017/12/15/production-grade-kubernetes/</link><guid isPermaLink="false">https://5pi.de//2017/12/15/production-grade-kubernetes/</guid><pubDate>Fri, 15 Dec 2017 14:08:29 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;a%0Ahref=%22https://www.researchgate.net/304012394_fig1_Fig-1-The-seakeeping-coordinate-system%22&quot;&gt;a
-href=“https://www.researchgate.net/304012394&lt;em&gt;fig1&lt;/em&gt;Fig-1-The-seakeeping-coordinate-system”&lt;/a&gt;&lt;img src=&quot;https://www.researchgate.net/profile/Zhaolong_Yu/publication/304012394/figure/fig1/AS:373636524462081@1466093297802/Fig-1-The-seakeeping-coordinate-system.ppm&quot; alt=&quot;Fig. 1 The seakeeping coordinate system&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;About a year ago I blogged about how to build a &lt;a href=&quot;/2016/11/20/15-producation-grade-kubernetes-cluster/&quot;&gt;$15 Production Kubernetes
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π - fish's blog]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Feb 2018 14:42:41 GMT</lastBuildDate><item><title><![CDATA[kubecfn: Cloudformation installer for reasonably secure multi-node Kubernetes Cluster]]></title><description><![CDATA[Introduction These days I’m helping  koko  to build their Kubernetes
+infrastructure on AWS. Initially, we used kops to deploy the cluster…]]></description><link>https://5pi.de//2018/02/01/kubecfn-cloudformation-installer-for-reasonably-secure-multi-node-kubernetes-cluster/</link><guid isPermaLink="false">https://5pi.de//2018/02/01/kubecfn-cloudformation-installer-for-reasonably-secure-multi-node-kubernetes-cluster/</guid><pubDate>Thu, 01 Feb 2018 13:07:16 GMT</pubDate><content:encoded>&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;These days I’m helping &lt;a href=&quot;https://itskoko.com/&quot;&gt;koko&lt;/a&gt; to build their Kubernetes
+infrastructure on AWS. Initially, we used kops to deploy the cluster but weren’t
+very happy. I’ve researched various option and &lt;a href=&quot;/2017/12/15/production-grade-kubernetes/&quot;&gt;blogged about
+them&lt;/a&gt; earlier.&lt;/p&gt;
+&lt;p&gt;tl;dr: There aren’t that many options that are secure, highly available and
+don’t require buying into a vendor ecosystem.&lt;/p&gt;
+&lt;p&gt;kubeadm is the official vendor independent solution to installer Kubernetes.
+While it lacks automated setup of multi master clusters, &lt;a href=&quot;https://kubernetes.io/docs/setup/independent/high-availability/&quot;&gt;it’s
+possible&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To have a reliable and reproducable way to build clusters, we decided to create
+&lt;a href=&quot;https://aws.amazon.com/cloudformation/&quot;&gt;Cloudformation&lt;/a&gt; templates to fully
+automate this setup.&lt;/p&gt;
+&lt;p&gt;All this is opend sourced and available on &lt;a href=&quot;https://github.com/itskoko/kubecfn&quot;&gt;https://github.com/itskoko/kubecfn&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Architecture&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/kubecfn-2f7d38406a33c80962b9131bc20ee2bf.svg&quot; alt=&quot;kubecfn architecture diagram&quot;&gt;
+The cluster consists of multiple components required for the cluster.&lt;/p&gt;
+&lt;h3&gt;Offline key generation&lt;/h3&gt;
+&lt;p&gt;The first step to create a new cluster is &lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/Makefile#L84&quot;&gt;generating the TLS keys for etcd and
+kubeadm&lt;/a&gt;.
+These credentials get uploaded to S3 and the instances get a IAM instance
+profile with a &lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/kubernetes.yaml#L759&quot;&gt;policy allowing it to download
+them&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Controller Instances&lt;/h3&gt;
+&lt;p&gt;The controller instances are managed by an autoscaling group.&lt;/p&gt;
+&lt;p&gt;They are running etcd and the controller components like the apiserver,
+scheduler and controller manager.
+&lt;a href=&quot;https://coreos.com/ignition/docs/latest/&quot;&gt;ignition&lt;/a&gt; downloads the &lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/kubernetes.yaml#L859&quot;&gt;TLS
+keys&lt;/a&gt;
+and &lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/kubernetes.yaml#L978&quot;&gt;sets up systemd units for kubelet and
+etcd&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On initial cluster creation (&lt;code&gt;make create-cluster&lt;/code&gt;), the ClusterState flag is
+set to &lt;code&gt;new&lt;/code&gt;, which enables etcd bootstrapping. To find the other etcd peers,
+we’re using SRV record based &lt;a href=&quot;https://coreos.com/etcd/docs/latest/v2/clustering.html#dns-discovery&quot;&gt;DNS
+Discovery&lt;/a&gt;.
+This option give us one way to bootstap, as well as dynamically add and remove
+members. On the other hand, the ‘static’ and ‘etcd’ discovery can be only used
+for initial cluster configuration.&lt;/p&gt;
+&lt;p&gt;Unfortunately AWS can’t automatically add DNS records for instances in an
+autoscaling group. To solve this, we’re using a lambda to update a route53 zone
+(see next section).&lt;/p&gt;
+&lt;p&gt;Once etcd is up, &lt;code&gt;kubeadm init&lt;/code&gt; creates the manifests and keys for the
+controller components but use the pre-generated keys for the CA generated in the
+first step. This makes sure all controller keys are signed with this trusted CA.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/kubernetes.yaml#L1158&quot;&gt;An ELB&lt;/a&gt;
+in front of the apiservers provide a stable endpoint for both the workers as
+well as users of the cluster.&lt;/p&gt;
+&lt;h3&gt;Route53 Lambda&lt;/h3&gt;
+&lt;p&gt;The cluster creates it’s own Route53 zone, which needs to be a subdomain of the
+given &lt;code&gt;ParentZoneID&lt;/code&gt; parameter. Beside a record pointing to the apiserver ELB,
+this zone is updated &lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/kubernetes.yaml#L643&quot;&gt;by a
+Lambda&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Each time a controller instances get added or removed by the autoscaling group,
+the lambda gets triggered and adds/removes DNS records for etcd discovery.&lt;/p&gt;
+&lt;h3&gt;Workers&lt;/h3&gt;
+&lt;p&gt;The worker setup is straight forward. It’s also managed by an autoscaling group.
+The ignition config downloads credentials for the kubelet from S3&lt;/p&gt;
+&lt;h3&gt;Conclusion and Caveats&lt;/h3&gt;
+&lt;p&gt;kubecfn wasn’t build by a big team nor as an end in itself. We focused on making
+it easy to maintain, reliable and fail gracefully. That means there are some
+&lt;a href=&quot;https://github.com/itskoko/kubecfn/labels/automation&quot;&gt;rough edges around
+automation&lt;/a&gt;. The security
+&lt;a href=&quot;https://github.com/itskoko/kubecfn/labels/security&quot;&gt;could be improved further&lt;/a&gt;
+and I’m not very happy with the whole concept of IAM instance profiles which
+effectively grants these privileges to every process running on a host. We
+mitigate this by installing
+&lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/manifests/kube2iam.yaml&quot;&gt;kube2iam&lt;/a&gt;
+but this isn’t a robust as something like this should be. Unfortunately it’s
+current best practice and there isn’t an easy way to improve. Let me know if you
+know a better way.&lt;/p&gt;
+&lt;p&gt;There is also &lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/kubernetes.yaml#L247&quot;&gt;the nasy
+workaround&lt;/a&gt;
+of patching the kube-proxy configmap after &lt;code&gt;kubeadm init&lt;/code&gt; which requires
+upstream fixes.&lt;/p&gt;
+&lt;p&gt;That being said, thanks to CloudFormation with primitives like
+&lt;a href=&quot;/2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/&quot;&gt;WaitOnResourceSignals&lt;/a&gt;
+and features like &lt;a href=&quot;https://github.com/itskoko/kubecfn#dry-run&quot;&gt;Change Sets&lt;/a&gt;, I
+feel more comfortable operating this cluster than I was with any other installer
+I used in the past.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Production Grade Kubernetes]]></title><description><![CDATA[About a year ago I blogged about how to build a  $15 Production Kubernetes
+Cluster on DigitalOcean 
+and submitted it to  Hacker News . HN…]]></description><link>https://5pi.de//2017/12/15/production-grade-kubernetes/</link><guid isPermaLink="false">https://5pi.de//2017/12/15/production-grade-kubernetes/</guid><pubDate>Fri, 15 Dec 2017 14:08:29 GMT</pubDate><content:encoded>&lt;p&gt;About a year ago I blogged about how to build a &lt;a href=&quot;/2016/11/20/15-producation-grade-kubernetes-cluster/&quot;&gt;$15 Production Kubernetes
 Cluster on DigitalOcean&lt;/a&gt;
 and submitted it to &lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hacker News&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;HN being HN, soon after these comments trickled in:&lt;/p&gt;
