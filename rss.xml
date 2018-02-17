@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π - fish's blog]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 01 Feb 2018 14:48:30 GMT</lastBuildDate><item><title><![CDATA[kubecfn: Cloudformation installer for reasonably secure multi-master Kubernetes Cluster]]></title><description><![CDATA[Introduction These days I’m helping  koko  to build their Kubernetes
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π - fish's blog]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 17 Feb 2018 14:19:32 GMT</lastBuildDate><item><title><![CDATA[Found severe Azure Kubernetes Bug but ain't even got a lousy T-Shirt]]></title><description><![CDATA[About half a year ago at one of my last gigs, I built a Kubernetes Cluster on
+Azure. On Azure, the Kubernetes Volume Claims are commonly…]]></description><link>https://5pi.de//2018/02/17/found-severe-azure-kubernetes-bug-and-aint-even-got-a-lousy-t-shirt/</link><guid isPermaLink="false">https://5pi.de//2018/02/17/found-severe-azure-kubernetes-bug-and-aint-even-got-a-lousy-t-shirt/</guid><pubDate>Sat, 17 Feb 2018 12:19:27 GMT</pubDate><content:encoded>&lt;p&gt;About half a year ago at one of my last gigs, I built a Kubernetes Cluster on
+Azure.&lt;/p&gt;
+&lt;p&gt;On Azure, the Kubernetes Volume Claims are commonly implemented by a “Virtual
+Hard Disk” (VHD) file stored on the &lt;a href=&quot;https://azure.microsoft.com/en-us/services/storage/blobs/&quot;&gt;Azure
+Blob Storage
+Service&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The Kubernetes “cloud provider intergration” takes care of allocating and
+managing these disks.&lt;/p&gt;
+&lt;p&gt;While I was working on some issues we had with the cloud provider intergration,
+I realized that the VHDs related error messages include a full URL like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;https://abc1234.blob.core.windows.net/5678901234/example-dynamic-pvc-834987df-ffe3-12d3-9dec-feaab9e30f09.vhd&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Curious about this API semantics, I tried it download it with curl. And it
+worked.&lt;/p&gt;
+&lt;p&gt;First I though I made some mistake setting up the storage account or Kubernetes
+itself, but I quickly realized that all of the dozens of VHD urls I found in
+various github issues could be downloaded without any authentication!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Turns out, all Volume Claims that were created on Azure between 1.6.0 and 1.6.5
+were world readable.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I reported the issue by following the &lt;a href=&quot;https://kubernetes.io/security/&quot;&gt;Kubernetes Security and
+Disclosure&lt;/a&gt; guidelines. While the team was
+responsive in general and the problem fixed quickly, I wasn’t very happy with
+how the announcement was handled. It felt like it was kept under the radar and I
+never got credited, let alone qualified for a bug bounty.&lt;/p&gt;
+&lt;p&gt;Of course I’d love to get credited and get a bug bounty but I’m more
+worried about what this handling means for the next person considering to
+responsibly disclose similar issue.&lt;/p&gt;
+&lt;p&gt;Kubernetes is my bread and butter right now and I have high expectations towards
+it. I’ve contributed to several components and I have high regards for the
+maintainers of the project and the companies involved. I too had the impression
+that Microsoft changed and takes these things serious these days, so I was
+surprised how this was handled. I also was quite disappointed by not getting any
+response anymore around why this didn’t qualify for a bug bounty.&lt;/p&gt;
+&lt;p&gt;I’ll continue to disclose issues responsibly but I fully understand people who
+don’t want to jump through these hoops if they don’t even get credited for it.&lt;/p&gt;
+&lt;h2&gt;Timeline&lt;/h2&gt;
+&lt;h4&gt;2017-06-15&lt;/h4&gt;
+&lt;p&gt;Initial Report and first response with promising to send a
+follow up later that day.&lt;/p&gt;
+&lt;h4&gt;2017-06-17&lt;/h4&gt;
+&lt;p&gt;The issue was fixed in Kubernetes:
+&lt;a href=&quot;https://github.com/kubernetes/kubernetes/pull/47605&quot;&gt;https://github.com/kubernetes/kubernetes/pull/47605&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;2017-06-19&lt;/h4&gt;
+&lt;p&gt;After not hearing back, I asked again about a CVE and the plans
+to announce the issue. I’ve got a response the same day, confirming that a CVE
+will be issues and that they’re still working on identifying the affected
+customers.&lt;/p&gt;
+&lt;h4&gt;2017-07-07&lt;/h4&gt;
+&lt;p&gt;So far, no CVE was issues so I asked again. I also asked if they
+are okay with me blogging about it.&lt;/p&gt;
+&lt;p&gt;In the response I was told that CVE was requested but not yet issued. I was also
+asked to please not talk about this issue publically until they finished letting
+affected customers know.&lt;/p&gt;
+&lt;h4&gt;2017-07-13&lt;/h4&gt;
+&lt;p&gt;I’ve got an update, letting me know that the security team is in their final
+stages. They apologize for the “clearly no acceptable” time it took to process
+the issue.&lt;/p&gt;
+&lt;h4&gt;2017-07-20&lt;/h4&gt;
+&lt;p&gt;CVE-2017-1002100 was assigned to the issue.&lt;/p&gt;
+&lt;h4&gt;2017-08-02&lt;/h4&gt;
+&lt;p&gt;I’ve asked again if there will be some sort of announcement which would also
+credit me and encourage people to upgrade. I was pointed to &lt;a href=&quot;https://groups.google.com/forum/#!msg/kubernetes-security-announce/n3VBg_WJZic/-ddIqKXqAAAJ&quot;&gt;a post in
+kubernetes-security-announce&lt;/a&gt;
+which I never heard about before (it only includes three posts). After
+searching, I also found it was noted in the &lt;a href=&quot;https://groups.google.com/forum/#!topic/kubernetes-announce/WodXsASu6y0&quot;&gt;1.6.6 notes on
+kubernetes-announce&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;2017-08-03&lt;/h4&gt;
+&lt;p&gt;I’ve explained that I expected an announcement with discussion of risks and need
+for upgrade, as well as credit me for my finding. Apparently though this is all
+the announcemnts that will be done in such situation.&lt;/p&gt;
+&lt;p&gt;I’ve also ask specifically if this qualifies for some of Microsoft’s bug
+bounties.&lt;/p&gt;
+&lt;h4&gt;2017-09-19&lt;/h4&gt;
+&lt;p&gt;I’ve asked again about a bounty. Since I just launched &lt;a href=&quot;https://latency.at&quot;&gt;https://latency.at&lt;/a&gt;, some
+Azure credits would be super useful to me.&lt;/p&gt;
+&lt;p&gt;I’ve got the answer that “the MSRC folks didn’t think it matched”, but they’ll
+look into some startup credits.&lt;/p&gt;
+&lt;h4&gt;2017-09-25&lt;/h4&gt;
+&lt;p&gt;I’ve asked why it didn’t qualified for a MSRC bounty, given that there is a
+&lt;a href=&quot;https://technet.microsoft.com/en-us/dn800983&quot;&gt;Microsoft Cloud Bounty&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;2017-10-05&lt;/h4&gt;
+&lt;p&gt;Asked again.&lt;/p&gt;
+&lt;h4&gt;2018-01-19&lt;/h4&gt;
+&lt;p&gt;Asked “one last time”.&lt;/p&gt;
+&lt;h4&gt;2018-02-17&lt;/h4&gt;
+&lt;p&gt;Released this blog article&lt;/p&gt;</content:encoded></item><item><title><![CDATA[kubecfn: Cloudformation installer for reasonably secure multi-master Kubernetes Cluster]]></title><description><![CDATA[Introduction These days I’m helping  koko  to build their Kubernetes
 infrastructure on AWS. Initially, we used kops to deploy the cluster…]]></description><link>https://5pi.de//2018/02/01/kubecfn-cloudformation-installer-for-reasonably-secure-multi-master-kubernetes-cluster/</link><guid isPermaLink="false">https://5pi.de//2018/02/01/kubecfn-cloudformation-installer-for-reasonably-secure-multi-master-kubernetes-cluster/</guid><pubDate>Thu, 01 Feb 2018 13:07:16 GMT</pubDate><content:encoded>&lt;h1&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;These days I’m helping &lt;a href=&quot;https://itskoko.com/&quot;&gt;koko&lt;/a&gt; to build their Kubernetes
 infrastructure on AWS. Initially, we used kops to deploy the cluster but weren’t
