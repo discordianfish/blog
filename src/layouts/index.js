@@ -10,6 +10,7 @@ class Template extends React.Component {
     const { location, children } = this.props
     const siteTitle = get(this, 'props.data.site.siteMetadata.title') || ''
     let header
+    let maxWidth
 
     let rootPath = `/`
     if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
@@ -17,6 +18,7 @@ class Template extends React.Component {
     }
 
     if (location.pathname === rootPath) {
+      maxWidth = 36
       header = (
         <h1
           style={{
@@ -38,6 +40,7 @@ class Template extends React.Component {
         </h1>
       )
     } else {
+      maxWidth = 24
       header = (
         <h1
           style={{
@@ -62,7 +65,7 @@ class Template extends React.Component {
     return (
       <Container
         style={{
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(maxWidth),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >

@@ -10,15 +10,22 @@ class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    let index = 0
 
     return (
-      <div>
+      <div style={{textAlign: 'justify'}}>
         <Helmet title={siteTitle} />
         <Bio />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
+          index++
           return (
-            <div key={node.fields.slug}>
+            <div key={node.fields.slug} style={{
+              display: 'inline-block',
+              width: '50%',
+              verticalAlign: 'top',
+              paddingRight: index % 2 == 0 ? '0em' : rhythm(1),
+            }}>
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
@@ -55,7 +62,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date
+            date(formatString: "MMMM DD, YYYY")
             title
           }
         }
