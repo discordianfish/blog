@@ -39,11 +39,11 @@ class Template extends React.Component {
       )
     } else {
       header = (
-        <h3
+        <h1
           style={{
-            fontFamily: 'Montserrat, sans-serif',
             marginTop: 0,
             marginBottom: rhythm(-1),
+            fontSize: '400%',
           }}
         >
           <Link
@@ -56,7 +56,7 @@ class Template extends React.Component {
           >
           {siteTitle}
           </Link>
-        </h3>
+        </h1>
       )
     }
     return (

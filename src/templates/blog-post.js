@@ -20,8 +20,6 @@ class BlogPostTemplate extends React.Component {
           style={{
             ...scale(-1 / 5),
             display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
           }}
         >
           {post.frontmatter.date}
@@ -36,15 +34,13 @@ class BlogPostTemplate extends React.Component {
 
         <ul
           style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
             listStyle: 'none',
             padding: 0,
+            margin: 0,
           }}
         >
           {previous && (
-            <li>
+            <li style={{display: 'inline'}}>
               <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
@@ -52,7 +48,7 @@ class BlogPostTemplate extends React.Component {
           )}
 
           {next && (
-            <li>
+            <li style={{display: 'inline', float: 'right'}}>
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
@@ -79,7 +75,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date
+        date(formatString: "MMMM DD, YYYY")
       }
     }
   }

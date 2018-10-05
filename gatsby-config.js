@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `5π - fish's blog`,
+    title: `5π Consulting`,
     author: `Johannes 'fish' Ziemke`,
     description: 'Outside the box, no one can hear you scream.',
     siteUrl: 'https://5pi.de/',
