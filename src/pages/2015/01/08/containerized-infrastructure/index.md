@@ -1,6 +1,6 @@
 ---
 title: 'Containerize your Infrastructure'
-date: 2015-01-08 14:43:00 +0000
+date: 2015-01-08T14:43:00
 tags:
   - docker
   - containers

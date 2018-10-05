@@ -1,6 +1,6 @@
 ---
 title: 'Frontend Testing Zoo - Or, Nightwatch without Selenium'
-date: 2017-04-17 12:50:12 +0000
+date: 2017-04-17T12:50:12
 tags:
   - frontend
   - testing

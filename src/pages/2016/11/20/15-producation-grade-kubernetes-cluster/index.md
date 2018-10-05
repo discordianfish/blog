@@ -1,6 +1,6 @@
 ---
 title: '$15 Production Kubernetes Cluster on DigitalOcean'
-date: 2016-11-20 10:36:00 +0000
+date: 2016-11-20T10:36:00
 tags:
   - immutable-infrastructure
   - containers

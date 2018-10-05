@@ -1,6 +1,6 @@
 ---
 title: 'CloudFormation driven Consul in AutoScalingGroup'
-date: 2015-04-27 13:22:30 +0000
+date: 2015-04-27T13:22:30
 tags:
   - consul
   - aws

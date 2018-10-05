@@ -1,6 +1,6 @@
 ---
 title: 'Building AWS AMIs from Scratch for Immutable Infrastructures'
-date: 2015-03-13 15:42:47 +0000
+date: 2015-03-13T15:42:47
 tags:
   - immutable-infrastructure
   - AWS

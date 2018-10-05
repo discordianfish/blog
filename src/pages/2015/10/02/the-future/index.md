@@ -1,6 +1,6 @@
 ---
 title: 'The Future'
-date: 2015-10-02 10:57:53 +0000
+date: 2015-10-02T10:57:53
 tags:
   - the-future
   - future

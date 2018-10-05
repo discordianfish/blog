@@ -1,6 +1,6 @@
 ---
 title: 'Running a highly available load balancer on Docker'
-date: 2014-11-10 19:18:57 +0000
+date: 2014-11-10T19:18:57
 tags:
   - docker
   - infrastructure

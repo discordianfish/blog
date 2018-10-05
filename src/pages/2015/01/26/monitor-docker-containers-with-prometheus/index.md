@@ -1,6 +1,6 @@
 ---
 title: 'Monitor Docker Containers with Prometheus'
-date: 2015-01-26 15:15:12 +0000
+date: 2015-01-26T15:15:12
 tags:
   - docker
   - prometheus

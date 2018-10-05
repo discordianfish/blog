@@ -1,6 +1,6 @@
 ---
 title: 'Uploaded thousands of Photos to Google Photos, here are the best classification mistakes'
-date: 2015-09-02 13:38:13 +0000
+date: 2015-09-02T13:38:13
 layout: post
 ---
 I'm a lazy person who never took time to organize their photos so I got really excited about Google Photos and just finished uploading all my Photos to it. I used flickr in the past but just dumping photos there, even if I can search for EXIF tag data doesn't make much difference to storing them on a hard disk in a drawer.

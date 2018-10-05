@@ -1,6 +1,6 @@
 ---
 title: Don't manage configuration unless you have to.
-date: 2015-08-31 13:45:56 +0000
+date: 2015-08-31T13:45:56
 tags:
   - immutable-infrastructure
   - configuration-management

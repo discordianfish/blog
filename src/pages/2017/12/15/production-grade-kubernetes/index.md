@@ -1,6 +1,6 @@
 ---
 title: 'Production Grade Kubernetes'
-date: 2017-12-15T15:08:29+01:00
+date: 2017-12-15T15:08:29
 tags:
   - immutable-infrastructure
   - containers

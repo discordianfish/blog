@@ -1,6 +1,6 @@
 ---
 title: 'Using docker run --net=container:XX ... to debug network issues'
-date: 2014-11-13 23:04:22 +0000
+date: 2014-11-13T23:04:22
 tags:
   - docker
   - networking

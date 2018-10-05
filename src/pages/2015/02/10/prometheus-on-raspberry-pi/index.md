@@ -1,6 +1,6 @@
 ---
 title: 'Prometheus on Raspberry Pi'
-date: 2015-02-10 13:18:12 +0000
+date: 2015-02-10T13:18:12
 layout: post
 ---
 # Prometheus

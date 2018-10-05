@@ -6,7 +6,7 @@ tags:
   - kubernetes
   - monitoring
 layout: post
-date: 2017-11-09T00:00:00+01:00
+date: 2017-11-09T00:00:00
 ---
 
 Prometheus was designed for dynamic environments like Kubernetes. Its powerful
