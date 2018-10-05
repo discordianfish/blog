@@ -1,10 +1,6 @@
 ---
 title: "Use Prometheus Vector Matching to get Kubernetes Utilization across any Pod Label"
-tags:
-  - prometheus
-  - vector-matching
-  - kubernetes
-  - monitoring
+tags: [ "prometheus", "vector-matching", "kubernetes", "monitoring"]
 layout: post
 date: 2017-11-09T00:00:00
 ---

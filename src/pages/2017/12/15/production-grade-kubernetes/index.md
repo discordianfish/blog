@@ -1,12 +1,7 @@
 ---
 title: 'Production Grade Kubernetes'
 date: 2017-12-15T15:08:29
-tags:
-  - immutable-infrastructure
-  - containers
-  - docker
-  - infrastructure
-  - production
+tags: [ "immutable-infrastructure", "containers", "docker", "infrastructure", "production" ]
 layout: post
 category: Infrastructure
 description: "What does 'prod-ready' mean?"

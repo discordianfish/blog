@@ -1,11 +1,7 @@
 ---
 title: 'Frontend Testing Zoo - Or, Nightwatch without Selenium'
 date: 2017-04-17T12:50:12
-tags:
-  - frontend
-  - testing
-  - selenium
-  - nightwatch
+tags: [ "frontend", "testing", "selenium", "nightwatch" ]
 layout: post
 ---
 What I always find hardest to figure it when it comes to unknown systems, it’s ‘how things fit together’. These project might have great documentation, but how the ecosystem plays together is usually left as an exercise for the reader.

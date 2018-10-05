@@ -1,10 +1,7 @@
 ---
 title: 'Using docker run --net=container:XX ... to debug network issues'
 date: 2014-11-13T23:04:22
-tags:
-  - docker
-  - networking
-  - debugging
+tags: [ "docker", "networking", "debugging" ]
 layout: post
 ---
 Sharing the network namespace with a existing container is a less known feature of Docker. If you run:

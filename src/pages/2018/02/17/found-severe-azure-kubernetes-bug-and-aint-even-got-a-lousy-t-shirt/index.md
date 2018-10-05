@@ -1,7 +1,7 @@
 ---
 title: "Found severe Azure Kubernetes Bug but ain't even got a lousy T-Shirt"
 date: 2018-02-17T13:19:27
-tags: kubernetes
+tags: [ "kubernetes" ]
 layout: post
 ---
 

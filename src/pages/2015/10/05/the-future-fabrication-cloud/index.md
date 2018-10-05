@@ -1,11 +1,7 @@
 ---
 title: 'The Future: Fabrication Cloud'
 date: 2015-10-05T11:50:49
-tags:
- - the-future
- - 3d-printing
- - cloud
- - industry
+tags: [ "the-future", "3d-printing", "cloud", "industry" ]
 layout: post
 ---
 # The Cloud

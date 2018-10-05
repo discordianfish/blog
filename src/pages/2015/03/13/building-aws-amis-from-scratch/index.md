@@ -1,10 +1,7 @@
 ---
 title: 'Building AWS AMIs from Scratch for Immutable Infrastructures'
 date: 2015-03-13T15:42:47
-tags:
-  - immutable-infrastructure
-  - AWS
-  - images
+tags: [ "immutable-infrastructure", "AWS", "images" ]
 layout: post
 ---
 ![Image](Rahn_Kloster_Sanct_Gallen_nach_Lasius_700.jpg)

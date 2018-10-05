@@ -1,11 +1,7 @@
 ---
 title: 'Running a highly available load balancer on Docker'
 date: 2014-11-10T19:18:57
-tags:
-  - docker
-  - infrastructure
-  - load balancer
-  - high availability
+tags: [ "docker", "infrastructure", "load balancer", "high availability" ]
 layout: post
 ---
 For quite some time I felt like I should do a blog - again. Instead of spending time writting rants on facebook or commenting other peoples posting, I should write some blog articles!

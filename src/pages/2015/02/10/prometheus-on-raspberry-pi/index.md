@@ -1,6 +1,7 @@
 ---
 title: 'Prometheus on Raspberry Pi'
 date: 2015-02-10T13:18:12
+tags: []
 layout: post
 ---
 # Prometheus

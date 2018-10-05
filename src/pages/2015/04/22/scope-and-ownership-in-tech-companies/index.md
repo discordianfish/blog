@@ -1,10 +1,7 @@
 ---
 title: 'Scope and Ownership in Tech Companies'
 date: 2015-04-22T12:19:36
-tags:
-  - organization
-  - ownership
-  - scope
+tags: [ "organization", "ownership", "scope" ]
 layout: post
 ---
 ![ownership](acient_jobs.jpg)

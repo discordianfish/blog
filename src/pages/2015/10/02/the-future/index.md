@@ -1,9 +1,7 @@
 ---
 title: 'The Future'
 date: 2015-10-02T10:57:53
-tags:
-  - the-future
-  - future
+tags: [ "the-future", "future" ]
 layout: post
 ---
 Since I was a kid, I was fascinated with sci-fi and today I'm thrilled to live

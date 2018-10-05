@@ -1,9 +1,7 @@
 ---
 title: Don't manage configuration unless you have to.
 date: 2015-08-31T13:45:56
-tags:
-  - immutable-infrastructure
-  - configuration-management
+tags: [ "immutable-infrastructure", "configuration-management" ]
 layout: post
 ---
 <a data-flickr-embed="true" data-header="false" data-footer="false" data-context="false"  href="https://www.flickr.com/photos/tuinkabouter/1884416825/in/photolist-3Sw8tg-4pYNoQ-5kuQnX-5gVeH1-sVYLE3-a3DqaD-9gzdMP-9Uspfa-2Xkkg8-8oZ8r-5aUCED-e4npy8-bn7jhK-ipQLm-4pZj1h-4xV1jk-5kuMV6-9sUBkF-b8nM3X-7tsJDh-9hY5PC-dUvDCG-4QZswm-4io4Y8-812A6f-qprAf-5ojVcV-5wUanj-9kNyLj-5GXFGx-5YFqsj-6VJnS6-dUmEaq-99qjSa-4QZsvG-4QZsuW-4QZsu7-4QZsuo-eL5jpe-4EWyKW-CXs86-etDrFm-4M5joL-jpb3gs-5knnT4-GAgoa-6d2TiA-63t6NF-7TRs3F-51XCQG" title="Jungle"><img src="https://farm3.staticflickr.com/2037/1884416825_521e525758_o.jpg" width="1024" height="576" alt="Jungle"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

@@ -2,6 +2,7 @@
 title: "Hire me"
 path: "/hire-me"
 date: 2000-01-01T00:00:00
+tags: ["page"]
 ---
 <a title="See page for author [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3APetin_viewing_airship_platform.jpg"><img width="1024" alt="Petin viewing airship platform" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Petin_viewing_airship_platform.jpg/1024px-Petin_viewing_airship_platform.jpg"/></a>
 ## Did you know? You can hire me!

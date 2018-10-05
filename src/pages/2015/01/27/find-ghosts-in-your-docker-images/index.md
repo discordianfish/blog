@@ -1,9 +1,7 @@
 ---
 title: 'Find GHOSTs in your Docker images'
 date: 2015-01-27T17:30:17
-tags:
-  - docker
-  - security
+tags: [ "docker", "security" ]
 layout: post
 ---
 

@@ -1,11 +1,7 @@
 ---
 title: 'Containerize your Infrastructure'
 date: 2015-01-08T14:43:00
-tags:
-  - docker
-  - containers
-  - abstraction
-  - immutable-infrastructure
+tags: [ "docker", "containers", "abstraction", "immutable-infrastructure" ]
 layout: post
 ---
 ### The Hype
