@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
-import { Container } from 'react-responsive-grid'
 
-import { rhythm, scale } from '../utils/typography'
+import typography from '../utils/typography'
+let rhythm = typography.rhythm
+let scale = typography.scale
 
 class Template extends React.Component {
   render() {
@@ -63,15 +64,18 @@ class Template extends React.Component {
       )
     }
     return (
-      <Container
-        style={{
-          maxWidth: rhythm(maxWidth),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
-        {header}
-        {children()}
-      </Container>
+      <div>
+        <div
+          style={{
+            margin: '0 auto',
+            maxWidth: rhythm(maxWidth),
+            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          }}
+        >
+          {header}
+          {children}
+        </div>
+      </div>
     )
   }
 }

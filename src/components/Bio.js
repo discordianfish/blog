@@ -1,11 +1,10 @@
 import React from 'react'
 
-// Import typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
-
 import profilePic from './profile-pic.jpg'
-import { rhythm } from '../utils/typography'
+
+import typography from '../utils/typography'
+
+let rhythm = typography.rhythm
 
 import Link from 'gatsby-link'
 

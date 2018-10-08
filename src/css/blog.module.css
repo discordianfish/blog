@@ -1,0 +1,16 @@
+.excerpt {
+  position: relative;
+  overflow: hidden;
+}
+
+.readMore {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0 10px;
+  font-size: 200%;
+  background-image: linear-gradient(to bottom, transparent, white 70%);
+}

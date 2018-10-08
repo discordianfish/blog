@@ -4,13 +4,16 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 
 import Bio from '../components/Bio'
-import { rhythm, scale } from '../utils/typography'
+import typography from '../utils/typography'
+
+let rhythm = typography.rhythm
+let scale = typography.scale
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const { previous, next } = this.props.pathContext
+    const { previous, next } = this.props.pageContext
 
     return (
       <div>
