@@ -1,6 +1,7 @@
 ---
 title: 'Containerize your Infrastructure'
 date: 2015-01-08T14:43:00
+image: mainframe.jpg
 tags: [ "docker", "containers", "abstraction", "immutable-infrastructure" ]
 layout: post
 ---

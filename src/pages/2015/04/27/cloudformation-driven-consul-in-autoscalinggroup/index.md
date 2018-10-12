@@ -1,6 +1,7 @@
 ---
 title: 'CloudFormation driven Consul in AutoScalingGroup'
 date: 2015-04-27T13:22:30
+image: output_710_280.gif
 tags: [ "consul", "aws", "cloudformation" ]
 layout: post
 ---

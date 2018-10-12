@@ -1,6 +1,7 @@
 ---
 title: 'Uploaded thousands of Photos to Google Photos, here are the best classification mistakes'
 date: 2015-09-02T13:38:13
+image: Screen-Shot-2015-09-02-at-14-42-18.png
 layout: post
 tags: []
 ---

@@ -1,6 +1,7 @@
 ---
 title: Don't manage configuration unless you have to.
 date: 2015-08-31T13:45:56
+image: Airplane_vortex_edit.jpg
 tags: [ "immutable-infrastructure", "configuration-management" ]
 layout: post
 ---

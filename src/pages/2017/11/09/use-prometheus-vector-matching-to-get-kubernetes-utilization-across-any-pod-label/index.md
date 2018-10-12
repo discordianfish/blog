@@ -3,6 +3,7 @@ title: "Use Prometheus Vector Matching to get Kubernetes Utilization across any 
 tags: [ "prometheus", "vector-matching", "kubernetes", "monitoring"]
 layout: post
 date: 2017-11-09T00:00:00
+image: .*)"
 ---
 
 Prometheus was designed for dynamic environments like Kubernetes. Its powerful

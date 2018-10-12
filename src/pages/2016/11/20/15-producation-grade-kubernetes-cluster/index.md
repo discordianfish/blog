@@ -1,6 +1,7 @@
 ---
 title: '$15 Production Kubernetes Cluster on DigitalOcean'
 date: 2016-11-20T10:36:00
+image: Quatre_macarons-_October_2009.jpg
 tags: [ "immutable-infrastructure", "containers", "docker", "infrastructure", "digitalocean", "postgres", "flexvolume", "production" ]
 layout: post
 ---

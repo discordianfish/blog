@@ -1,6 +1,7 @@
 ---
 title: 'Production Grade Kubernetes'
 date: 2017-12-15T15:08:29
+image: hn-comment.png
 tags: [ "immutable-infrastructure", "containers", "docker", "infrastructure", "production" ]
 layout: post
 category: Infrastructure

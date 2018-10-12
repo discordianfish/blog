@@ -1,6 +1,7 @@
 ---
 title: 'Monitor Docker Containers with Prometheus'
 date: 2015-01-26T15:15:12
+image: container_memory_usage_bytes.png
 tags: [ "docker", "prometheus", "infrastructure", "monitoring" ]
 layout: post
 ---
