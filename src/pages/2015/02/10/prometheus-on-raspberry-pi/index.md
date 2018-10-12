@@ -3,6 +3,7 @@ title: 'Prometheus on Raspberry Pi'
 date: 2015-02-10T13:18:12
 tags: []
 layout: post
+image: rpi_gorouting.png
 ---
 # Prometheus
 [Prometheus](http://prometheus.io) is a new open-source service monitoring system and time series database written in Go.

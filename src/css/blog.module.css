@@ -14,3 +14,11 @@
   font-size: 200%;
   background-image: linear-gradient(to bottom, transparent, white 70%);
 }
+
+.preview {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  width: 50%;
+}

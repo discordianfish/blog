@@ -28,52 +28,22 @@ class BlogIndex extends React.Component {
       }
     })
     let index = 0
-
     return (
       <div style={{textAlign: 'justify'}}>
         <Helmet title={siteTitle} />
-        <h1>Case Studies</h1>
-        {cs.map(( node ) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug
-          const image = get(node, 'frontmatter.image')
-          index++
-          return (
-            <div key={node.fields.slug} style={{
-              display: 'inline-block',
-              width: '50%',
-              height: rhythm(10),
-              position: 'relative',
-              verticalAlign: 'top',
-              paddingRight: index % 2 == 0 ? '0em' : rhythm(1),
-            }}>
-              <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  {title}
-                </h3>
-                <p className={styles.excerpt} dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-              </Link>
-            </div>
-          )
-        })}
-
         <h1>Blog</h1>
         {bp.map(( node ) => {
-          const title = get(node, 'frontmatter.title') || node.fields.slug
           index++
+          const title = get(node, 'frontmatter.title') || node.fields.slug
+          const image = get(node, 'frontmatter.image') || null
+          const style = {
+            height: rhythm(10),
+            paddingRight: index % 2 == 0 ? '0em' : rhythm(1),
+          }
+          // FIXME: Get rid of ugly workaround and use media queries
+          if (window.innerWidth < 800) { style['width'] = '100%' }
           return (
-            <div key={node.fields.slug} style={{
-              display: 'inline-block',
-              width: '50%',
-              height: rhythm(10),
-              position: 'relative',
-              verticalAlign: 'top',
-              overflow: 'hidden',
-              paddingRight: index % 2 == 0 ? rhythm(1) : '0em',
-            }}>
+            <div key={node.fields.slug} className={styles.preview} style={style}>
               <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
                 <h3
                   style={{
@@ -83,6 +53,16 @@ class BlogIndex extends React.Component {
                   {title}
                 </h3>
                 <small>{node.frontmatter.date}</small>
+                {image && image.childImageSharp && <Img
+                  style={{
+                    margin: [ rhythm(1/5), rhythm(1/4), rhythm(1/4-1/5), 0].join(' '),
+                    float: 'left',
+                    height: rhythm(6),
+                    minWidth: '50%',
+                  }}
+                  fluid={image.childImageSharp.fluid}
+                  />
+                }
                 <p className={styles.excerpt} dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                 <p className={styles.readMore}>…</p>
               </Link>

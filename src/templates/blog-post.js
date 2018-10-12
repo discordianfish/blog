@@ -14,10 +14,16 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const { previous, next } = this.props.pageContext
-
+    const image = get(post, 'frontmatter.image')
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet>
+          <title>{`${post.frontmatter.title} | ${siteTitle}`}</title>
+          <meta property="og:title" content={post.frontmatter.title} />
+          <meta property="og:type" content="article" />
+          <meta property="og:url" content={location} />
+          { image && image.childImageSharp && <meta property="og:image" content={location.origin + image.childImageSharp.fixed.src} /> }
+        </Helmet>
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -79,6 +85,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        image {
+          childImageSharp {
+            fixed(width: 1200, height: 1200) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
       }
     }
   }
