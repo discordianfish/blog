@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/fish
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://5pi.de
+  * I am fish (https://keybase.io/fish) on keybase.
+  * I have a public key with fingerprint B76D 2104 35D6 1EA7 7FE2  300F B4D9 1A65 83F0 CA1C
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b7125c7f9e3af1b137cec8da62411a10a3523f81673338c98264252a7db1a3c90a",
+      "fingerprint": "b76d210435d61ea77fe2300fb4d91a6583f0ca1c",
+      "host": "keybase.io",
+      "key_id": "b4d91a6583f0ca1c",
+      "kid": "0101b7125c7f9e3af1b137cec8da62411a10a3523f81673338c98264252a7db1a3c90a",
+      "uid": "36269bf677fcb1d4d17df728bf052b00",
+      "username": "fish"
+    },
+    "merkle_root": {
+      "ctime": 1539624698,
+      "hash_meta": "235c3ede865f1c02c47c4527bede471fa9eb46e8552adc8e18af84675ae25058",
+      "seqno": 3797923
+    },
+    "revoke": {
+      "sig_ids": [
+        "b52685dca7f6414da9f7005eb928124801e3ab8d777cbfe7d088ef8d8289ee640f"
+      ]
+    },
+    "service": {
+      "hostname": "5pi.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1539624705,
+  "expire_in": 157680000,
+  "prev": "b5a2361b319be7695ddfada41d38273e4dab60d368e1d7e60c3746b63e3037e1",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMK8AnicrZNraB1FFMdv0mhMUPFDqY+K6KZaizGdx85jbwn10UiJFKEYW03kMrNz
+9t5tkrs3u5trQwxWGquiKEStEGy5GlMKRREtVKQEjRWKRuIj1keK1ooPQkFag35o
+qc6Gigh+dL4sc+Z/zvmd/84cuWxZrrmuWKv/ePLmZE3dR9N9g7nuI7N1w46OzJCT
+H3Z6YekDfQaStNAbGifvIIywFpgwXwQeUBVgjanwwZdGceJirDBSlBEaSMwFpVT6
+niTcJYwoYTRW1PeQclqdICwXIa7EYTm1ZbXghmDkUmY4BiVEAIQiFGjXeFhxJmmA
+fIV9m1iKkizDwmmVQFsY2ZjdFJbw/kP/P3MPLpWjnHBPB9yC+hob12BhAkGkDhAj
+GqFMmEBcVv1g1UGYlJyRVqcf4t4+KMRRlGbG+mmYHWNGPYvAPWmHU0mp0A+pslmE
+Mp+CAclZgH1EfFf4LiNC25grcKA80C4HySyi8SVgqQLpcsEUEIaYtAwJDJQjJ0+F
+JzxCLUEM1agXsuZJWLSWJU6+29GMcMmMr0TAXewa5QUCIQbaIxITVyJsDdPSCCF8
+HYAwSEoIpJFEegDcRYHz4EjWLK6G/lLx7B9dmJ1VwjYDlqUSR2nkR302VkrTSpLP
+HEmHKpnoIdCFC+kFHZaNvRs2owpxEkZl65BV/tssgVirA9srYQyFMFMwwSWyK+sD
+1ewmMEUox5piT4PgHjMmUEa52FBJBAU7pubIUG6NMwI48qlwueYUKKIC8D/uEWw5
+VdHWtJ6VVToYgzMy/W5PQ66uOXfxRfXZo8k1N13x91P6AxrPs4X5F44/98X7t3z2
+Sdf42dd2Dx9bPzU30Hpq3NXol9ro+Q0Dt7pmz9TuzzfX/9yy/NuXXj2a/+HqtT9u
+e2usm973xOHv9ZarNr936ED3jcWtnY82fDi2vTowM7XlmtpTVw51fLNztOerg4dv
+27j39tJPowfePPqGd2b1rnufXle7q6Frf9NsyzrzXfvi6kfimfsbd51Y++nEDavW
+zP3WdFZNyvlxfWxmRfvOWnt0sq302OUPLK4/dLqlcdO5ZzofX9aRXH/n8Q9uult3
+LF9oPrkSbZjd8ezrnS9eescl1577cnplB/76nq0t+yYfPvHy8wsL78yXrpuY+PPX
+ro2Lb/MzB3s2rZjb1r9j1Z5XZk+d/v3Jsb8Aj7592Q==
+=Ec2w
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fish
+
+==================================================================

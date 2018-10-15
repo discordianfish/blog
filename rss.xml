@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 08 Oct 2018 12:40:12 GMT</lastBuildDate><item><title><![CDATA[Found severe Azure Kubernetes Bug but ain't even got a lousy T-Shirt]]></title><description><![CDATA[About half a year ago at one of my last gigs, I built a Kubernetes Cluster on
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 15 Oct 2018 17:42:25 GMT</lastBuildDate><item><title><![CDATA[Found severe Azure Kubernetes Bug but ain't even got a lousy T-Shirt]]></title><description><![CDATA[About half a year ago at one of my last gigs, I built a Kubernetes Cluster on
 Azure. On Azure, the Kubernetes Volume Claims are commonly…]]></description><link>https://5pi.de//2018/02/17/found-severe-azure-kubernetes-bug-and-aint-even-got-a-lousy-t-shirt/</link><guid isPermaLink="false">https://5pi.de//2018/02/17/found-severe-azure-kubernetes-bug-and-aint-even-got-a-lousy-t-shirt/</guid><pubDate>Sat, 17 Feb 2018 13:19:27 GMT</pubDate><content:encoded>&lt;p&gt;About half a year ago at one of my last gigs, I built a Kubernetes Cluster on
 Azure.&lt;/p&gt;
 &lt;p&gt;On Azure, the Kubernetes Volume Claims are commonly implemented by a “Virtual
@@ -9,9 +9,7 @@ Service&lt;/a&gt;.&lt;/p&gt;
 managing these disks.&lt;/p&gt;
 &lt;p&gt;While I was working on some issues we had with the cloud provider intergration,
 I realized that the VHDs related error messages include a full URL like this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;https://abc1234.blob.core.windows.net/5678901234/example-dynamic-pvc-834987df-ffe3-12d3-9dec-feaab9e30f09.vhd&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;https://abc1234.blob.core.windows.net/5678901234/example-dynamic-pvc-834987df-ffe3-12d3-9dec-feaab9e30f09.vhd&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Curious about this API semantics, I tried it download it with curl. And it
 worked.&lt;/p&gt;
 &lt;p&gt;First I though I made some mistake setting up the storage account or Kubernetes
@@ -181,7 +179,7 @@ and submitted it to &lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hack
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 560px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 560px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -318,24 +316,20 @@ utilization in a Kubernetes cluster.&lt;/p&gt;
 &lt;h2&gt;Aggregated memory usage per label&lt;/h2&gt;
 &lt;p&gt;Kubernetes provides a &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt; metric reflecting each pods
 memory usage, e.g:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;...
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;...
 container_memory_usage_bytes{beta_kubernetes_io_arch=&amp;quot;amd64&amp;quot;,beta_kubernetes_io_fluentd_ds_ready=&amp;quot;true&amp;quot;,beta_kubernetes_io_instance_type=&amp;quot;g1-small&amp;quot;,beta_kubernetes_io_os=&amp;quot;linux&amp;quot;,cloud_google_com_gke_nodepool=&amp;quot;small-preemptible&amp;quot;,cloud_google_com_gke_preemptible=&amp;quot;true&amp;quot;,container_name=&amp;quot;POD&amp;quot;,failure_domain_beta_kubernetes_io_region=&amp;quot;us-east1&amp;quot;,failure_domain_beta_kubernetes_io_zone=&amp;quot;us-east1-c&amp;quot;,id=&amp;quot;/kubepods/burstable/pod13d4221c-c484-11e7-bff5-42010af0018b/67e5bb069ab9881ff8a55b8628ef4935b0d1ace09c18df20db059522bdfd5b7d&amp;quot;,image=&amp;quot;gcr.io/google_containers/pause-amd64:3.0&amp;quot;,instance=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,job=&amp;quot;kubernetes-cadvisor&amp;quot;,kubernetes_io_hostname=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,name=&amp;quot;k8s_POD_latency-api-971504058-jzs5h_default_13d4221c-c484-11e7-bff5-42010af0018b_0&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod_name=&amp;quot;latency-api-971504058-jzs5h&amp;quot;}	389120
 container_memory_usage_bytes{beta_kubernetes_io_arch=&amp;quot;amd64&amp;quot;,beta_kubernetes_io_fluentd_ds_ready=&amp;quot;true&amp;quot;,beta_kubernetes_io_instance_type=&amp;quot;g1-small&amp;quot;,beta_kubernetes_io_os=&amp;quot;linux&amp;quot;,cloud_google_com_gke_nodepool=&amp;quot;small-preemptible&amp;quot;,cloud_google_com_gke_preemptible=&amp;quot;true&amp;quot;,container_name=&amp;quot;POD&amp;quot;,failure_domain_beta_kubernetes_io_region=&amp;quot;us-east1&amp;quot;,failure_domain_beta_kubernetes_io_zone=&amp;quot;us-east1-c&amp;quot;,id=&amp;quot;/kubepods/burstable/pod81d0f651-c500-11e7-bff5-42010af0018b/309e05b118e618122c70ccf88538d13ca41c3b5a770d5d67882426854391c23c&amp;quot;,image=&amp;quot;gcr.io/google_containers/pause-amd64:3.0&amp;quot;,instance=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,job=&amp;quot;kubernetes-cadvisor&amp;quot;,kubernetes_io_hostname=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,name=&amp;quot;k8s_POD_latency-api-971504058-gszpw_default_81d0f651-c500-11e7-bff5-42010af0018b_0&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod_name=&amp;quot;latency-api-971504058-gszpw&amp;quot;}	372736
 container_memory_usage_bytes{beta_kubernetes_io_arch=&amp;quot;amd64&amp;quot;,beta_kubernetes_io_fluentd_ds_ready=&amp;quot;true&amp;quot;,beta_kubernetes_io_instance_type=&amp;quot;g1-small&amp;quot;,beta_kubernetes_io_os=&amp;quot;linux&amp;quot;,cloud_google_com_gke_nodepool=&amp;quot;small-preemptible&amp;quot;,cloud_google_com_gke_preemptible=&amp;quot;true&amp;quot;,container_name=&amp;quot;latency-api&amp;quot;,failure_domain_beta_kubernetes_io_region=&amp;quot;us-east1&amp;quot;,failure_domain_beta_kubernetes_io_zone=&amp;quot;us-east1-c&amp;quot;,id=&amp;quot;/kubepods/burstable/pod13d4221c-c484-11e7-bff5-42010af0018b/497e6fdf2217771cb3f52e6fef93734d023f0e7f23f92c58d22139fc18dc5f13&amp;quot;,image=&amp;quot;registry.gitlab.com/latency.at/latencyat@sha256:8ea057e064b64cc9c8459a68ef3f6d0fc26169b4f57aef193831779e1fe713d4&amp;quot;,instance=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,job=&amp;quot;kubernetes-cadvisor&amp;quot;,kubernetes_io_hostname=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,name=&amp;quot;k8s_latency-api_latency-api-971504058-jzs5h_default_13d4221c-c484-11e7-bff5-42010af0018b_1&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod_name=&amp;quot;latency-api-971504058-jzs5h&amp;quot;}	11014144
 container_memory_usage_bytes{beta_kubernetes_io_arch=&amp;quot;amd64&amp;quot;,beta_kubernetes_io_fluentd_ds_ready=&amp;quot;true&amp;quot;,beta_kubernetes_io_instance_type=&amp;quot;g1-small&amp;quot;,beta_kubernetes_io_os=&amp;quot;linux&amp;quot;,cloud_google_com_gke_nodepool=&amp;quot;small-preemptible&amp;quot;,cloud_google_com_gke_preemptible=&amp;quot;true&amp;quot;,container_name=&amp;quot;latency-api&amp;quot;,failure_domain_beta_kubernetes_io_region=&amp;quot;us-east1&amp;quot;,failure_domain_beta_kubernetes_io_zone=&amp;quot;us-east1-c&amp;quot;,id=&amp;quot;/kubepods/burstable/pod81d0f651-c500-11e7-bff5-42010af0018b/7b438a8e9df0cf1ab29d067fd36c97099f9f5e7e9257f6187c5be6bff846a62c&amp;quot;,image=&amp;quot;registry.gitlab.com/latency.at/latencyat@sha256:8ea057e064b64cc9c8459a68ef3f6d0fc26169b4f57aef193831779e1fe713d4&amp;quot;,instance=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,job=&amp;quot;kubernetes-cadvisor&amp;quot;,kubernetes_io_hostname=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,name=&amp;quot;k8s_latency-api_latency-api-971504058-gszpw_default_81d0f651-c500-11e7-bff5-42010af0018b_0&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod_name=&amp;quot;latency-api-971504058-gszpw&amp;quot;}	11448320
-...&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Unfortunately it doesn’t contain the pod labels. For that there is the
 &lt;code class=&quot;language-text&quot;&gt;kube_pod_labels&lt;/code&gt; though which includes a static timeseries with all labels and
 the pod name. This metric is provided by
 &lt;a href=&quot;https://github.com/kubernetes/kube-state-metrics&quot;&gt;kube-state-metrics&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We can use it to look up the labels for the pod from the
 timeseries (&lt;code class=&quot;language-text&quot;&gt;pod_name=&amp;quot;latency-api-971504058-jzs5h&amp;quot;&lt;/code&gt;):&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kube_pod_labels{instance=&amp;quot;10.116.0.12:8080&amp;quot;,job=&amp;quot;kubernetes-service-endpoints&amp;quot;,k8s_app=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_name=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_namespace=&amp;quot;kube-system&amp;quot;,label_app=&amp;quot;latency-api&amp;quot;,label_pod_template_hash=&amp;quot;971504058&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod=&amp;quot;latency-api-971504058-jzs5h&amp;quot;} 1
-kube_pod_labels{instance=&amp;quot;10.116.1.26:8080&amp;quot;,job=&amp;quot;kubernetes-service-endpoints&amp;quot;,k8s_app=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_name=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_namespace=&amp;quot;kube-system&amp;quot;,label_app=&amp;quot;latency-api&amp;quot;,label_pod_template_hash=&amp;quot;971504058&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod=&amp;quot;latency-api-971504058-jzs5h&amp;quot;} 1&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kube_pod_labels{instance=&amp;quot;10.116.0.12:8080&amp;quot;,job=&amp;quot;kubernetes-service-endpoints&amp;quot;,k8s_app=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_name=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_namespace=&amp;quot;kube-system&amp;quot;,label_app=&amp;quot;latency-api&amp;quot;,label_pod_template_hash=&amp;quot;971504058&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod=&amp;quot;latency-api-971504058-jzs5h&amp;quot;} 1
+kube_pod_labels{instance=&amp;quot;10.116.1.26:8080&amp;quot;,job=&amp;quot;kubernetes-service-endpoints&amp;quot;,k8s_app=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_name=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_namespace=&amp;quot;kube-system&amp;quot;,label_app=&amp;quot;latency-api&amp;quot;,label_pod_template_hash=&amp;quot;971504058&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod=&amp;quot;latency-api-971504058-jzs5h&amp;quot;} 1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Both metrics can be merged by using vector matching. We get this metric twice
 because there are two instances of kube-state-metrics running. So before we
 continue further, we aggregate both. Since they should be identical, we can use
@@ -345,18 +339,14 @@ on. We can preserve them by specifying them in the BY clause. Since the pod
 label is called &lt;code class=&quot;language-text&quot;&gt;pod&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;kube_pod_labels&lt;/code&gt; but &lt;code class=&quot;language-text&quot;&gt;pod_name&lt;/code&gt; in
 &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt;, we need to also use label_replace to rename the
 label. This gives us:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;max by (pod_name,label_app) (
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;max by (pod_name,label_app) (
   label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
-)&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Which returns something like:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;...
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;...
 {label_app=&amp;quot;latency-api&amp;quot;,pod_name=&amp;quot;latency-api-971504058-n8k6d&amp;quot;}  1
 {label_app=&amp;quot;latency-api&amp;quot;,pod_name=&amp;quot;latency-api-971504058-jzs5h&amp;quot;}  1
-...&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now we can use vector matching to join &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt; with the
 result of our expression. We use the &lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt; operator which effectivly is a no-op
 since it will multiply the memory usage by the matched timeseries value in
@@ -365,22 +355,18 @@ since it will multiply the memory usage by the matched timeseries value in
 &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt; timeseries for each pod, one for each container.
 Since we want to preserve the &lt;code class=&quot;language-text&quot;&gt;label_app&lt;/code&gt; label, we specify it as argument to &lt;code class=&quot;language-text&quot;&gt;group_left&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;This gives us:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  container_memory_usage_bytes * on (pod_name) group_left(label_app)
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  container_memory_usage_bytes * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
     label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
-  )&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+  )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;To aggregated the memory usage of all your pods, summed by a &lt;code class=&quot;language-text&quot;&gt;k8s-app&lt;/code&gt; label you
 can use the following expression:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
   container_memory_usage_bytes * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
     label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
   )
-)&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -392,7 +378,7 @@ can use the following expression:&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -420,14 +406,12 @@ can use the following expression:&lt;/p&gt;
 &lt;p&gt;Now that we know how to join the &lt;code class=&quot;language-text&quot;&gt;kube_pod_labels&lt;/code&gt; metric with cadvisor metrics,
 we can figure out usage of other resources too.&lt;/p&gt;
 &lt;h3&gt;CPU&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
   rate(container_cpu_usage_seconds_total[2m]) * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
     label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
   )
-)&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -439,7 +423,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -468,14 +452,12 @@ we can figure out usage of other resources too.&lt;/p&gt;
 &lt;a href=&quot;https://github.com/kubernetes/kubernetes/issues/55397&quot;&gt;broken&lt;/a&gt; once
 &lt;a href=&quot;https://github.com/kubernetes/kubernetes/issues/55398&quot;&gt;again&lt;/a&gt; in Kubernetes.&lt;/p&gt;
 &lt;h3&gt;Network&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
   rate(container_network_transmit_bytes_total[2m]) * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
     label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
   )
-)&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -487,7 +469,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -515,13 +497,10 @@ This happened to me again when diving into frontend testing. I figured out how t
 I’ve learned that Selenium is the godmother of modern frontend testing. It’s a framework with bindings for multiple languages. To decouple the server from the actual browsers, it invented “Selenium RC” as a protocol. That lead to the development of the WebDriver W3C standard which replaces Selenium RC is newer versions and is implemented for the most common browsers (Chrome -&gt; Chromedriver, Firefox -&gt; FirefoxDriver).&lt;/p&gt;
 &lt;h2&gt;Nightwatch without Selenium&lt;/h2&gt;
 &lt;p&gt;Apparently WebDriver is also used for talking &lt;em&gt;to&lt;/em&gt; Selenium. I think this is called ‘hub’ or something, that’s about as deep as my ‘deep dive’ gets for now. Either way, this makes the big picture look like:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Nightwatch -[webdriver]-&amp;gt; Selenium -[webdriver]-&amp;gt; Chromedriver -&amp;gt; Chrome&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Nightwatch -[webdriver]-&amp;gt; Selenium -[webdriver]-&amp;gt; Chromedriver -&amp;gt; Chrome&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Selenium comes in a server and standalone flavor, where the server apparently is only used for grid based testing where you would have a bunch of Selenium nodes running on different systems. Turns out, if you don’t need grid based testing or support for legacy browsers which don’t provide WebDriver adapter, there is little use for Selenium after all.&lt;/p&gt;
 &lt;p&gt;Fortunately you can make Nightwatch talk directly to Chromedriver. This requires start&lt;em&gt;processto be set to false and selenium&lt;/em&gt;host/_port to point the address of Chromedriver:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
   &amp;quot;output_folder&amp;quot;: false,
   &amp;quot;src_folders&amp;quot;: [&amp;quot;tests&amp;quot;],
   &amp;quot;selenium&amp;quot;: {
@@ -552,30 +531,19 @@ I’ve learned that Selenium is the godmother of modern frontend testing. It’s
       &amp;quot;launch_url&amp;quot;: &amp;quot;http://app&amp;quot;
     }
   }
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The only caveat being, you need to run Chromedriver manually. I run all this in a Docker container with a entrypoint like this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Xvfb :23 &amp;amp;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Xvfb :23 &amp;amp;
 chromedriver --port=9515 --url-base=/wd/hub &amp;amp;
 while ! curl localhost:9515; do echo -n .; sleep 1; done
-nightwatch&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+nightwatch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Chrome Headless&lt;/h2&gt;
 &lt;p&gt;Recently Chrome got native support for running headless, controlled via a remote debugging API. Apparently this could further simplify things, but I couldn’t figure out in reasonable time what exactly it would replace. I suspected it would mean that chrome natively talks webdriver, but I can’t find anything about that in the sparse documentation and this issues sound like.
 Which brings me to my initial observation: Figuring out how a thing works is hard, figuring out how things work &lt;em&gt;together&lt;/em&gt; is so much harder. Let’s all keep that in mind.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[$15 Production Kubernetes Cluster on DigitalOcean]]></title><description><![CDATA[
  Four sweets or production Kubernetes for a month Introduction As you might already know, I’m into  containers ,  static configuration  and…]]></description><link>https://5pi.de//2016/11/20/15-producation-grade-kubernetes-cluster/</link><guid isPermaLink="false">https://5pi.de//2016/11/20/15-producation-grade-kubernetes-cluster/</guid><pubDate>Sun, 20 Nov 2016 10:36:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a title=&quot;By Charlotte Marillet (originally posted to Flickr as Quatre macarons) [CC BY-SA 2.0 (http://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons&quot; href=&quot;https://commons.wikimedia.org/wiki/File%3AQuatre_macarons%2C_October_2009.jpg&quot;&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-518ec.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -598,9 +566,7 @@ Which brings me to my initial observation: Figuring out how a thing works is har
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/a&gt;
 &lt;small&gt;Four sweets or production Kubernetes for a month&lt;/small&gt;&lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;As you might already know, I’m into &lt;a href=&quot;https://5pi.de/2015/01/08/containerized-infrastructure/&quot;&gt;containers&lt;/a&gt;, &lt;a href=&quot;https://5pi.de/2015/08/31/dont-manage-config-unless-you-have-to/&quot;&gt;static configuration&lt;/a&gt; and &lt;a href=&quot;https://5pi.de/2015/04/22/scope-and-ownership-in-tech-companies/&quot;&gt;self-service infrastructures&lt;/a&gt;. Naturally, I love &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;, which I consider the most promising cluster scheduler around.&lt;/p&gt;
@@ -629,12 +595,10 @@ Mainly to keep things cheap, I choose &lt;a href=&quot;https://digitalocean.com&
 &lt;p&gt;The &lt;a href=&quot;https://github.com/5pi/infra&quot;&gt;infra repository&lt;/a&gt; contains all sources needed to build the images and deploy the stack. Beside the committed configuration in the repository, there is also some cluster specific configuration required. While some of it only affects the cluster deployment, other is included in the images. This means changing this always requires rebuilding the images.
 The configuration is kept in &lt;a href=&quot;https://github.com/5pi/infra/tree/master/config&quot;&gt;config/&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;To create a new cluster, first checkout the repo, edit &lt;code class=&quot;language-text&quot;&gt;config/env&lt;/code&gt; and run &lt;code class=&quot;language-text&quot;&gt;./mk_credentials&lt;/code&gt; to create credentials:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ git clone git@github.com:5pi/infra.git
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ git clone git@github.com:5pi/infra.git
 $ cd infra
 $ vi config/env
-$ ./mk_credentials&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+$ ./mk_credentials&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3&gt;Building Images&lt;/h3&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://asciinema.org/a/786ffzwvjdupff56ka5258ckk.js&quot; id=&quot;asciicast-786ffzwvjdupff56ka5258ckk&quot; async&gt;&lt;/script&gt;
 &lt;p&gt;&lt;tty-player autoplay controls loop src=packer-k8s-build.rec&gt;&lt;/tty-player&gt;
@@ -661,8 +625,7 @@ Once tinc is running, etcd should reach it peers. Run &lt;code class=&quot;langu
 &lt;p&gt;A cluster without services doesn’t make much sense, so I’ll also show quickly how to deploy services to the cluster and make them accessible. I’m using just a bunch of yaml files I can apply with &lt;code class=&quot;language-text&quot;&gt;kubectl apply -f&lt;/code&gt;: &lt;a href=&quot;https://github.com/5pi/services&quot;&gt;https://github.com/5pi/services&lt;/a&gt;
 They are pretty specific to my setup, so probably only useful as example. For real reusable components on top of Kubernetes have a look at &lt;a href=&quot;https://github.com/5pi/services&quot;&gt;helm&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Beside the public configuration, you need to require to setup some secrets:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;apiVersion: v1
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;apiVersion: v1
 kind: Secret
 metadata:
   name: default
@@ -673,8 +636,7 @@ data:
   pg-grafana-password: ...
   do-token: ...
   grafana-gauth-client-secret: ...
-  smtp-infra-password: ...&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+  smtp-infra-password: ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;For the passwords, just generate something, base64 encode and put them into a file and apply it&lt;/li&gt;
 &lt;li&gt;The &lt;code class=&quot;language-text&quot;&gt;do-token&lt;/code&gt; is a DigitalOcean API token required for floating IP and volume configuration&lt;/li&gt;
@@ -690,18 +652,15 @@ This will make sure the float IP is always assigned to one of the running hosts.
 &lt;p&gt;This requires the &lt;code class=&quot;language-text&quot;&gt;do-token&lt;/code&gt;.&lt;/p&gt;
 &lt;h3&gt;PostgreSQL&lt;/h3&gt;
 &lt;p&gt;PostgreSQL is used as main database powering this blog for instance. The &lt;a href=&quot;https://github.com/5pi/services/blob/master/20_postgres.yml&quot;&gt;configuration&lt;/a&gt; is straight forward but uses my custom DigitalOcean Storage flexvolume plugin. Before using it the first time, the volume needs to get created, attached, formatted and detached again. You can run the &lt;a href=&quot;https://github.com/5pi/infra/blob/master/packer/files/usr/libexec/kubernetes/kubelet-plugins/volume/exec/5pi.de~do-volume/do-volume&quot;&gt;flexvol plugin&lt;/a&gt; to do this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;do-volume create pgdata 10G my postgres volume
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;do-volume create pgdata 10G my postgres volume
 do-volume attach &amp;#39;{ &amp;quot;volume&amp;quot;: &amp;quot;pgdata&amp;quot; }&amp;#39;
-mkfs.ext3 /dev/disk/by-id/scsi-0DO_Volume_pgdata&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+mkfs.ext3 /dev/disk/by-id/scsi-0DO_Volume_pgdata&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After that, the yaml file can get applied and postgres should spin up.&lt;/p&gt;
 &lt;h3&gt;Ghost&lt;/h3&gt;
 &lt;p&gt;Next is Ghost, the blogging platform powering this and &lt;a href=&quot;https://textkrieg.de&quot;&gt;textkrieg.de&lt;/a&gt;. It uses Postgres as database and another DO volume for assets.
 Since the official Ghost image can’t be easily configured automatically and is huge, I’m using my own (&lt;a href=&quot;https://alpinelinux.org/&quot;&gt;alpine&lt;/a&gt; based) &lt;a href=&quot;https://hub.docker.com/r/fish/ghost/&quot;&gt;Docker image&lt;/a&gt;.
 Although designed as a &lt;em&gt;modern&lt;/em&gt; blogging platform, it doesn’t fit particular well into the new container/12factor world. For example, it assumes that the current working directory is writable. Since we want to run ghost as unprivileged user, we need to make the volume writable by that user. Unfortunately there is no good way to do that. People often create images that run chown as root when starting, then dropping privileges. But this can become time consuming and has possible security implications. The upcoming &lt;a href=&quot;https://github.com/kubernetes/kubernetes/pull/26926&quot;&gt;flexvolume redesign&lt;/a&gt; will fix this issue. For now we need to make the volume world-writable initially:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;do-volume create ghost-fish 1
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;do-volume create ghost-fish 1
 do-volume attach &amp;#39;{ &amp;quot;volume&amp;quot;: &amp;quot;ghost-fish&amp;quot; }&amp;#39;
 mkfs.ext4 /dev/disk/by-id/scsi-0DO_Volume_ghost-fish
 
@@ -709,16 +668,13 @@ mount /dev/disk/by-id/scsi-0DO_Volume_ghost-fish /mnt
 mkdir -m 777 /mnt/{apps,data,images} # See 5pi/infra#11
 umount /mnt
 
-do-volume detach /dev/disk/by-id/scsi-0DO_Volume_ghost-fish&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+do-volume detach /dev/disk/by-id/scsi-0DO_Volume_ghost-fish&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Here I choose simplicity over security for the time being since I’m the only operator of this cluster anyway. You might want to make a different trade off.&lt;/p&gt;
 &lt;p&gt;Now we still need to create databases and users, another thing that hasn’t been addressed by Kubernetes yet. For that we need to find the Postgres pod, then &lt;code class=&quot;language-text&quot;&gt;exec&lt;/code&gt; into it to create database and users:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kubectl exec -ti postgres-2416409090-jf8uh -- psql -U postgres
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kubectl exec -ti postgres-2416409090-jf8uh -- psql -U postgres
 create user ghost_fish with password &amp;#39;pwd-from-secrets.yml&amp;#39;;
 create database ghost_fish;
-grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now we can use the yaml file to deploy Ghost. Beside deploying the pods, we also create a &lt;a href=&quot;https://github.com/5pi/services/blob/df95f43b1db833a49b6693000787b44d9a92624d/50_ghost_fish.yml#L13&quot;&gt;Ingress to configure Traefik&lt;/a&gt;. This routes requests for &lt;code class=&quot;language-text&quot;&gt;5pi.de&lt;/code&gt; to service &lt;code class=&quot;language-text&quot;&gt;ghost-fish&lt;/code&gt; on port 80 which is defined above and maps to the Ghost deployment&lt;/p&gt;
 &lt;p&gt;To access the blog, you still need to create an CNAME DNS record matching the Ingress route and pointing to the managed &lt;code class=&quot;language-text&quot;&gt;edge.[DOMAIN]&lt;/code&gt; DNS name.&lt;/p&gt;
 &lt;h2&gt;Monitoring&lt;/h2&gt;
@@ -733,7 +689,7 @@ grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -822,7 +778,7 @@ In fact, I would be very interested in a catogorization standoff between a child
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -860,7 +816,7 @@ I’m really not sure about this one.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -888,17 +844,9 @@ I’m really not sure about this one.&lt;/p&gt;
 Let’s finish this course with a nice bowl of raw chicken.&lt;/p&gt;
 &lt;h1&gt;Dogs&lt;/h1&gt;
 &lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-5daa8.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -921,8 +869,6 @@ Let’s finish this course with a nice bowl of raw chicken.&lt;/p&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   
-  &lt;/a&gt;
-    
 To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/British_Shorthair&quot;&gt;british shorthair&lt;/a&gt; the dogs of cats.&lt;/p&gt;
 &lt;h1&gt;Birds&lt;/h1&gt;
 &lt;p&gt;
@@ -936,7 +882,7 @@ To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/Br
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -974,7 +920,7 @@ Birds. That’s definitely correct.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1022,7 +968,7 @@ Bar graph or 8-bit skylines?&lt;/p&gt;</content:encoded></item><item><title><![C
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1085,9 +1031,7 @@ This only works well if site-wide configuration is built in. Determining all thi
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;false&quot; data-footer=&quot;false&quot; data-context=&quot;false&quot;  href=&quot;https://www.flickr.com/photos/ph0t0s/96911576/in/photolist-9yGrf-rf1xpg-iV3Hti-9yGuq-9mJACS-dF5fsX-4CYijn-96MGD7-4CYinT-rcHmFs-e3mfmk-7paoHV-e3rYs3-ebixTV-e3miwv-e3mehH-ebz9br-ebz6nv-9yGn2-maubuc-4eMsoq-gascSh-j448Si-bUvoKX-7tWwN9-8oTPht-fw2NWm-34Ydj3-zMTMt-9NFVNX-4q1pdk-9eX7xW-e72dfP-eb7MBt-4xMiAY-bznrxn-ze6qt-5GtxU5-bhCNRp-fw2NjN-fvMuU4-ebEQHU-fvMxdc-e3rZzd-ebiz6V-fw2Qn7-9NEtYQ-9NGKrb-u79vMN-9NGokq&quot; title=&quot;partly random&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/36/96911576_1a57864a0b_b.jpg&quot; width=&quot;1024&quot; height=&quot;768&quot; alt=&quot;partly random&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 Isolating change to specific points in the life cycle of systems and services reduces the complexity of runtime configuration and simplifies the mental model when reasoning about the infrastructure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CloudFormation driven Consul in AutoScalingGroup]]></title><description><![CDATA[CloudFormation templates are a great way to manage AWS resources. All resources for a stack are configured in a json and CloudFormation…]]></description><link>https://5pi.de//2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</link><guid isPermaLink="false">https://5pi.de//2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</guid><pubDate>Mon, 27 Apr 2015 13:22:30 GMT</pubDate><content:encoded>&lt;p style=&quot;font-size:10px&quot;&gt;
 
-  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-9b0e7.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-  
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABm5qJWpnUP//EABkQAAIDAQAAAAAAAAAAAAAAAAABAgMSBP/aAAgBAQABBQLDTcWZH2USUrqmbgf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAwEBPwFH/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQIBAT8BpT//xAAcEAACAAcAAAAAAAAAAAAAAAAAAgEQERIhMUH/2gAIAQEABj8C1OkUYxcdP//EABwQAQACAQUAAAAAAAAAAAAAAAEAERAhMVGBsf/aAAgBAQABPyFqVDOHh5lIho7Eb9p//9oADAMBAAIAAwAAABBXL//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QUa3CD//EABYRAAMAAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxCCn//EABwQAQACAwADAAAAAAAAAAAAAAEAESExUXGBsf/aAAgBAQABPxDN4NOI6715F3kiJPjVjxmHKp0L+xyRfRP/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
       &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;dreamy consul 2&quot; title=&quot;&quot; src=&quot;/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-f8fb9.jpg&quot; srcset=&quot;/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-e8976.jpg 148w,
 /static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-63df2.jpg 295w,
@@ -1095,9 +1039,7 @@ Isolating change to specific points in the life cycle of systems and services re
 /static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-9b0e7.jpg 600w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;br&gt;
+  &lt;br&gt;
 &lt;span&gt;Jessie Eastland, &lt;a href=&quot;http://commons.wikimedia.org/wiki/File:Dreamy_Twilight.jpg&quot;&gt;&amp;#x201E;Dreamy Twilight&amp;#x201C;&lt;/a&gt;, Consul Logo added&lt;/span&gt;, &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/legalcode/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;CloudFormation templates are a great way to manage AWS resources. All resources for a stack are configured in a json and CloudFormation takes care of creating or updating your stack.
@@ -1111,15 +1053,13 @@ To automatically update the instances, you can specify a UpdatePolicy requiring 
 &lt;p&gt;Fortunately CloudFormation offers a UpdatePolicy option WaitOnResourceSignals which can be used to signal that any new consul node coming up connects sucessfully to the cluster before the any new instance gets terminated.&lt;/p&gt;
 &lt;h1&gt;UpdatePolicy&lt;/h1&gt;
 &lt;p&gt;The changes to the CloudFormation template are straight forward. In the AutoScalingGroup we add a &lt;code class=&quot;language-text&quot;&gt;UpdatePolicy&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;WaitOnResourceSignals: true&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;UpdatePolicy&amp;quot; : {
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;UpdatePolicy&amp;quot; : {
   &amp;quot;AutoScalingRollingUpdate&amp;quot; : {
     &amp;quot;MinInstancesInService&amp;quot; : 2,
     &amp;quot;PauseTime&amp;quot; : &amp;quot;PT15M&amp;quot;,
     &amp;quot;WaitOnResourceSignals&amp;quot; : true
   }
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If &lt;code class=&quot;language-text&quot;&gt;WaitOnResourceSignals&lt;/code&gt; is set,&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;AWS CloudFormation suspends the update of an Auto Scaling
@@ -1133,17 +1073,14 @@ AWS CloudFormation continues the update.&lt;/p&gt;
 &lt;p&gt;Once a new instance starts, we need to wait for consul to join the cluster and replicate. Since we need to guarantee that a new node actually joined the cluster, not some partition of it, we need something that goes through the raft log.
 When looking at the consul documentation, there are a few endpoint we could use. Unfortunately the documentation doesn’t state what the consistency guarantees of status endpoints like &lt;code class=&quot;language-text&quot;&gt;peers&lt;/code&gt; are, so &lt;a href=&quot;https://github.com/hashicorp/consul/issues/880&quot;&gt;I had to ask&lt;/a&gt;. Turns out, we can trust &lt;code class=&quot;language-text&quot;&gt;peers&lt;/code&gt;.
 With that knowing, we can simply wait for consul being ready as part of the UserData script, then signal success by using the &lt;code class=&quot;language-text&quot;&gt;cfn-signal&lt;/code&gt; tool:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;UserData&amp;quot;: { &amp;quot;Fn::Base64&amp;quot; : { &amp;quot;Fn::Join&amp;quot; : [&amp;quot;&amp;quot;, [
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;UserData&amp;quot;: { &amp;quot;Fn::Base64&amp;quot; : { &amp;quot;Fn::Join&amp;quot; : [&amp;quot;&amp;quot;, [
   &amp;quot;IP=$(ip addr show dev eth0|awk &amp;#39;/inet /{print $2}&amp;#39;|cut -d/ -f1)\n&amp;quot;,
   &amp;quot;while ! curl -s http://localhost:8500/v1/status/peers | grep -q $IP:; do echo Waiting for consul; sleep 1; done\n&amp;quot;,
   &amp;quot;cfn-signal --resource InfraScalingGroup --stack &amp;quot;, {&amp;quot;Ref&amp;quot;: &amp;quot;AWS::StackName&amp;quot;}, &amp;quot; --region &amp;quot;, {&amp;quot;Ref&amp;quot; : &amp;quot;AWS::Region&amp;quot;}, &amp;quot;\n&amp;quot;
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1&gt;AMI&lt;/h1&gt;
 &lt;p&gt;The ami runs consul on start and uses a IAM role with read-only EC2 access. Since we tagged all consul instances, this allows the init script to discover peers via the AWS API:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;URL=&amp;quot;http://169.254.169.254/latest/&amp;quot;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;URL=&amp;quot;http://169.254.169.254/latest/&amp;quot;
 ID=$(curl $URL/meta-data/instance-id)
 REGION=$(curl $URL/dynamic/instance-identity/document | \
   jq -r .region)
@@ -1154,22 +1091,17 @@ SERVERS=$(aws --region $REGION ec2 describe-instances \
   &amp;quot;Name=tag:role,Values=consul&amp;quot; \
   &amp;quot;Name=instance-state-name,Values=running&amp;quot; | \
     jq -r &amp;#39;.Reservations[].Instances[].PrivateIpAddress&amp;#39; \
-)&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;We also need to check that SERVERS include the necessary number of peers to form a cluster. Since we’re using runit which restarts failing jobs, we just fail if we found less peers than expected and wait to get restarted:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if [ $(echo &amp;quot;$SERVERS&amp;quot; | wc -l) -lt $BOOTSTRAP_EXPECT ]
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if [ $(echo &amp;quot;$SERVERS&amp;quot; | wc -l) -lt $BOOTSTRAP_EXPECT ]
 then
   echo &amp;quot;Not enough peers, expected $BOOTSTRAP_EXPECT nodes but got $SERVERS&amp;quot;
   exit 1
-fi&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Once all peers are up and running, we can start consul:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;exec /usr/bin/consul agent -data-dir /var/lib/consul \
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;exec /usr/bin/consul agent -data-dir /var/lib/consul \
   -config-dir=/etc/consul \
-  $(echo &amp;quot;$SERVERS&amp;quot; | sed &amp;#39;s/^/ -retry-join /&amp;#39; | tr -d &amp;#39;\n&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+  $(echo &amp;quot;$SERVERS&amp;quot; | sed &amp;#39;s/^/ -retry-join /&amp;#39; | tr -d &amp;#39;\n&amp;#39;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1&gt;Updating the Stack&lt;/h1&gt;
 &lt;p&gt;With all this in place you can do a fully automated rolling upgrade while keeping a quorum. Just update the stack and you should get something like this while having a fully operable cluster:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/output_710_280-e458b67bbb060e2f44d87934ff67c7cd.gif&quot; alt=&quot;Update Stack Log&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Scope and Ownership in Tech Companies]]></title><description><![CDATA[
@@ -1184,7 +1116,7 @@ My first job was a typical corporate job at a financial service provider after w
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1215,17 +1147,9 @@ My first job was a typical corporate job at a financial service provider after w
 I want to provide my thoughts on questions around Scope and Ownership but leave the implementation details to the reader. I’m happy to answer technical questions in the comments though and might blog about those implementation details eventually if interested.&lt;/p&gt;
 &lt;h1&gt;What your Company should do&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/jo-ghadban/3355654186/in/photostream/&quot;&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-db559.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1245,9 +1169,7 @@ I want to provide my thoughts on questions around Scope and Ownership but leave 
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/a&gt;
 No company does everything on their own. You don’t build your own servers, let alone CPUs and chances are high, you don’t even run servers on your own.
 All this is fine. It’s not your business to build CPUs, so you shouldn’t. Same for managing datacenters and servers. If it’s not your core business, you probably won’t ever be as good at it as someone specialized in it.&lt;/p&gt;
 &lt;p&gt;On the other hand, never outsource what makes up your company. You can’t have someone else build something crucial and tightly related to your companies overall business. If you don’t do your own Community Management, Support or PR, people will realize that your company and brand has nothing to do with your social media presence.
@@ -1268,7 +1190,7 @@ Now if you are company operating at large scale, you need to actually &lt;em&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1320,7 +1242,7 @@ Nothing is worse than having some specific form of organization without knowing 
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1357,13 +1279,10 @@ Maybe it sparks the interest in building some good tooling around that - or mayb
 &lt;h2&gt;Paravirtual&lt;/h2&gt;
 &lt;p&gt;Apparently HVM is the future, so feel free to skip this section.&lt;/p&gt;
 &lt;p&gt;Creating a PV image is simple. This creates a 10G sparse file with ext4 filesystem and a label ‘root’. &lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dd if=/dev/zero of=filesystem.img bs=1 count=0 seek=10G
-mkfs.ext4 -L root -F filesystem.img&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dd if=/dev/zero of=filesystem.img bs=1 count=0 seek=10G
+mkfs.ext4 -L root -F filesystem.img&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now you you can mount that image, install your OS (debootstrap comes handy) and create a menu.lst. You probably also want to install cloud-init to take care of your networking and fstab setup. You need to refer to the filesystem label you specified running &lt;code class=&quot;language-text&quot;&gt;mkfs.ext4 -L&lt;/code&gt;. Something like this should do it:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;default 0
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;default 0
 fallback 1
 timeout 0
 hiddenmenu
@@ -1371,12 +1290,10 @@ hiddenmenu
 title My-AMI
 root (hd0)
 kernel /boot/vmlinuz root=LABEL=root console=hvc0
-initrd /boot/initrd.gz&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+initrd /boot/initrd.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;HVM&lt;/h2&gt;
 &lt;p&gt;HVM images are a bit more tricky, since we need to create a complete disk image including partition and MBR:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dd if=/dev/zero of=disk.img bs=1 count=0 seek=$SIZE 
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dd if=/dev/zero of=disk.img bs=1 count=0 seek=$SIZE 
 fdisk filesystem.img &amp;lt;&amp;lt; EOF
 n
 p
@@ -1386,17 +1303,12 @@ p
 w
 EOF
 DEV_DISK=$(losetup -f --show disk.img)
-DEV=/dev/mapper/$(kpartx -av $DEV_DISK | cut -d&amp;#39; &amp;#39; -f3)&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+DEV=/dev/mapper/$(kpartx -av $DEV_DISK | cut -d&amp;#39; &amp;#39; -f3)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now you can mount &lt;code class=&quot;language-text&quot;&gt;$DEV&lt;/code&gt; and install your OS. Running &lt;code class=&quot;language-text&quot;&gt;update-grub&lt;/code&gt;/&lt;code class=&quot;language-text&quot;&gt;grub-mkconfig&lt;/code&gt; should detect and use the disk images UUID. On some systems it seems to require a unmount/detach and remount of the disk image, otherwise you end up with &lt;code class=&quot;language-text&quot;&gt;root=&lt;/code&gt; pointing &lt;code class=&quot;language-text&quot;&gt;/dev/loopX&lt;/code&gt;. To detach the mappings and loop device once you’re done, run:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kpartx -d $DEV_DISK
-losetup -d $DEV_DISK&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kpartx -d $DEV_DISK
+losetup -d $DEV_DISK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After that, you need to install grub to the MBR of the disk image by running:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;grub-install disk.img --root-directory $PWD/mnt&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;grub-install disk.img --root-directory $PWD/mnt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Note: Took me some time to figure out that —root-directory needs an absolute path.&lt;/em&gt;&lt;/p&gt;
 &lt;h1&gt;Bundle, Upload and register AMI&lt;/h1&gt;
 &lt;p&gt;For some reasons there is no way to bundle and upload images with the new &lt;code class=&quot;language-text&quot;&gt;aws&lt;/code&gt; cli, so we’re using the old AWS tools.
@@ -1404,9 +1316,7 @@ losetup -d $DEV_DISK&lt;/code&gt;&lt;/pre&gt;
 If you run in multiple regions, you can use &lt;code class=&quot;language-text&quot;&gt;aws ec2 copy-image&lt;/code&gt; to replicate your AMIs across regions.&lt;/p&gt;
 &lt;h1&gt;Debugging&lt;/h1&gt;
 &lt;p&gt;If you’re AMI doesn’t boot, you can get the console output by running &lt;code class=&quot;language-text&quot;&gt;aws ec2 get-console-output --instance-id ...&lt;/code&gt;. This is encoded as json but you can use the great tool &lt;code class=&quot;language-text&quot;&gt;jq&lt;/code&gt; to get just the output including all it’s ANSI colored glory like this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;aws ec2 get-console-output --instance-id ... | jq -r .Output&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;aws ec2 get-console-output --instance-id ... | jq -r .Output&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If you don’t want to wait for your ec2 instance at all, you can also just test the images locally. For HVM this is trivial. Just run &lt;code class=&quot;language-text&quot;&gt;kvm disk.img&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;qemu disk.img&lt;/code&gt;.&lt;/p&gt;
 &lt;h1&gt;Automation and Integration&lt;/h1&gt;
 &lt;p&gt;Right now I’m using a, pretty messy, Makefile to automate all this. It takes some files and a provisioner script to customize the AMIs. The general idea is to use some CI server to build fresh AMIs on every push and to just recreate your EC2 instances with the new AMIs once you want to roll out your changes.
@@ -1419,29 +1329,23 @@ I stopped running my own full blown server(s) a while ago. Nowadays I just have 
 &lt;p&gt;But I still want to monitor all this and, as showed earlier, Prometheus is the way to go. So I could now spin up another DigitalOcean instance and pay another $5/Mo, but given how cheap I am, I’d rather want to run it on my Raspberry Pi.&lt;/p&gt;
 &lt;h1&gt;Cross-Compiling Go&lt;/h1&gt;
 &lt;p&gt;First you need to build Go with support for your target OS and architecture. If you installed Go from sources, you can do this by running:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd $GOROOT/src
-GOARCH=arm ./make.bash&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd $GOROOT/src
+GOARCH=arm ./make.bash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;With pure Go, cross compilation is trivial. This example:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;package main
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;package main
 
 import &amp;quot;fmt&amp;quot;
 
 func main() {
 	fmt.Println(&amp;quot;Hello World&amp;quot;)
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;can be cross-compiling for arm with &lt;code class=&quot;language-text&quot;&gt;GOARCH=arm go build test.go&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Now things get much more complicated once you use CGO, meaning Go code calling C functions.&lt;/p&gt;
 &lt;p&gt;The Prometheus server uses the &lt;a href=&quot;https://github.com/prometheus/client_golang&quot;&gt;Prometheus Go Client Library&lt;/a&gt; to provide metrics about itself. This client library uses &lt;a href=&quot;https://github.com/prometheus/procfs&quot;&gt;prometheus/procfs&lt;/a&gt; which requires CGO to get process metrics from procfs. Cross-compiling this for Raspberry Pi is a pain. ARM != ARM, there are several variants and when I tried to cross-compiling Prometheus with CGO, it just lead to segfaults or invalid instructions. It should be possible to cross-compile it with the CGO dependency, it’s just painful and I quickly gave up.&lt;/p&gt;
 &lt;p&gt;Fortunately, we found an easy way to remove the dependency on procfs if CGO is disabled: &lt;a href=&quot;https://github.com/prometheus/client_golang/commit/93d11c8e35ffcd969fd881efe1873e715a6ef93b&quot;&gt;https://github.com/prometheus/client_golang/commit/93d11c8e35ffcd969fd881efe1873e715a6ef93b&lt;/a&gt;. This removes some useful process level metrics about prometheus itself, but it makes cross compiling prometheus is as easy as in the example above:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd $GOPATH/src/github.com/prometheus/prometheus
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd $GOPATH/src/github.com/prometheus/prometheus
 go get -u # Update your dependencies
-GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Since cross-compilation by default disables CGO, this builds a statically linked prometheus binary ready to be run on a Raspberry Pi. If you’re running a newer Pi, you can set GOARM to the version of your ARM processor. See &lt;a href=&quot;https://code.google.com/p/go-wiki/wiki/GoArm#Supported_architectures&quot;&gt;this&lt;/a&gt; for supported architectures.&lt;/p&gt;
 &lt;h1&gt;Performance&lt;/h1&gt;
 &lt;p&gt;
@@ -1455,7 +1359,7 @@ GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1491,7 +1395,7 @@ I didn’t have time to benchmark it yet, but it seems to perform much better th
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1519,8 +1423,7 @@ I didn’t have time to benchmark it yet, but it seems to perform much better th
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; There are now official images available:
 &lt;a href=&quot;https://prometheus.io/download/&quot;&gt;https://prometheus.io/download/&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Checksums&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ shasum prometheus.armv?.gz
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ shasum prometheus.armv?.gz
 db42a3f568bbab1d8a7d183b336d0b50dccc80b6  prometheus.armv5.gz
 b6fdd3a77e16359631a0daaf9c06cd93a9948932  prometheus.armv6.gz
 8d3e6580ee4ed3d10b93d60c13009156a5600193  prometheus.armv7.gz
@@ -1528,13 +1431,10 @@ b6fdd3a77e16359631a0daaf9c06cd93a9948932  prometheus.armv6.gz
 $  sha256sum prometheus.armv?.gz
 e206202bb07cc139eaabac4c51c07f0a332337eb331bd79f19294c558fb3de62  prometheus.armv5.gz
 99d864e4fee8ded6b0f9c117f839fdf0fa9d12fadfe27b98090bee04b88c48c0  prometheus.armv6.gz
-baf550448174198c57f3a28e2b86d49ba523e5b15d9d4c087267021e4785299b  prometheus.armv7.gz&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Find GHOSTs in your Docker images]]></title><description><![CDATA[A severe security vulnerability in glibc < 2.18, nicknamed  GHOST  was just reported.
+baf550448174198c57f3a28e2b86d49ba523e5b15d9d4c087267021e4785299b  prometheus.armv7.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Find GHOSTs in your Docker images]]></title><description><![CDATA[A severe security vulnerability in glibc < 2.18, nicknamed  GHOST  was just reported.
 Here is a handy one-liner (Debian/Ubuntu only though…]]></description><link>https://5pi.de//2015/01/27/find-ghosts-in-your-docker-images/</link><guid isPermaLink="false">https://5pi.de//2015/01/27/find-ghosts-in-your-docker-images/</guid><pubDate>Tue, 27 Jan 2015 17:30:17 GMT</pubDate><content:encoded>&lt;p&gt;A severe security vulnerability in glibc &amp;#x3C; 2.18, nicknamed &lt;a href=&quot;http://www.openwall.com/lists/oss-security/2015/01/27/9&quot;&gt;GHOST&lt;/a&gt; was just reported.
 Here is a handy one-liner (Debian/Ubuntu only though) to walk through all your Docker images and see if they include a glibc older than 2.18:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker images -q | while read I; do V=`docker run --rm --entrypoint apt-cache $I policy libc6 2&amp;gt;/dev/null | awk &amp;#39; /Installed/ { print $2&amp;quot;\n&amp;quot;2.18 }&amp;#39;|sort -V|head -1`; if [ -z &amp;quot;$V&amp;quot; ]; then echo &amp;quot;$I not apt based&amp;quot; &amp;amp;&amp;amp; continue; fi;  [ &amp;quot;$V&amp;quot; == &amp;quot;2.18&amp;quot; ] || echo &amp;quot;$I is vulnerable&amp;quot;; done&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Monitor Docker Containers with Prometheus]]></title><description><![CDATA[Monitoring Docker Running all your services in containers makes it possible to get in-depth resource and performance characteristics, since…]]></description><link>https://5pi.de//2015/01/26/monitor-docker-containers-with-prometheus/</link><guid isPermaLink="false">https://5pi.de//2015/01/26/monitor-docker-containers-with-prometheus/</guid><pubDate>Mon, 26 Jan 2015 15:15:12 GMT</pubDate><content:encoded>&lt;h3&gt;Monitoring Docker&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker images -q | while read I; do V=`docker run --rm --entrypoint apt-cache $I policy libc6 2&amp;gt;/dev/null | awk &amp;#39; /Installed/ { print $2&amp;quot;\n&amp;quot;2.18 }&amp;#39;|sort -V|head -1`; if [ -z &amp;quot;$V&amp;quot; ]; then echo &amp;quot;$I not apt based&amp;quot; &amp;amp;&amp;amp; continue; fi;  [ &amp;quot;$V&amp;quot; == &amp;quot;2.18&amp;quot; ] || echo &amp;quot;$I is vulnerable&amp;quot;; done&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Monitor Docker Containers with Prometheus]]></title><description><![CDATA[Monitoring Docker Running all your services in containers makes it possible to get in-depth resource and performance characteristics, since…]]></description><link>https://5pi.de//2015/01/26/monitor-docker-containers-with-prometheus/</link><guid isPermaLink="false">https://5pi.de//2015/01/26/monitor-docker-containers-with-prometheus/</guid><pubDate>Mon, 26 Jan 2015 15:15:12 GMT</pubDate><content:encoded>&lt;h3&gt;Monitoring Docker&lt;/h3&gt;
 &lt;p&gt;Running all your services in containers makes it possible to get in-depth resource and performance characteristics, since every container runs in their own cgroup and the Linux kernel provides us with all kind of useful metrics.&lt;/p&gt;
 &lt;p&gt;Although there are a few other Docker monitoring tools out there, I’ll show you why I think that SoundCloud’s &lt;a href=&quot;https://developers.soundcloud.com/blog/prometheus-monitoring-at-soundcloud&quot;&gt;newly released&lt;/a&gt; &lt;a href=&quot;https://prometheus.github.io/&quot;&gt;Prometheus&lt;/a&gt; is a perfect fit for monitoring container-based infrastructures.&lt;/p&gt;
 &lt;p&gt;Prometheus features a highly dimensional &lt;a href=&quot;http://prometheus.github.io/docs/concepts/data_model/&quot;&gt;data model&lt;/a&gt; in which a time series is identified by a metric name and a set of key-value pairs. A flexible &lt;a href=&quot;http://prometheus.github.io/docs/querying/basics/&quot;&gt;query language&lt;/a&gt; allows querying and graphing this data. It features advanced &lt;a href=&quot;http://prometheus.github.io/docs/concepts/metric_types/&quot;&gt;metric types&lt;/a&gt; like summaries, building &lt;a href=&quot;http://prometheus.github.io/docs/querying/functions/#rate()&quot;&gt;rates&lt;/a&gt; from totals over specified time spans or &lt;a href=&quot;http://prometheus.github.io/docs/querying/rules/&quot;&gt;alerting&lt;/a&gt; on any expression and has no dependencies, making it a dependable system for debugging during outages.&lt;/p&gt;
@@ -1548,13 +1448,11 @@ Here is a handy one-liner (Debian/Ubuntu only though) to walk through all your D
 &lt;p&gt;With Prometheus’s support for dimensional data, you can have global and straightforward metric names like &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt; with multiple dimensions to identify the specific instances of your service.&lt;/p&gt;
 &lt;p&gt;I’ve created a simple &lt;a href=&quot;https://github.com/docker-infra/container_exporter&quot;&gt;container-exporter&lt;/a&gt; to gather Docker Container metrics and expose them for Prometheus to consume. This exporter uses the container’s name, id and image as dimensions. Additional per-exporter dimension can be set in the &lt;code class=&quot;language-text&quot;&gt;prometheus.conf&lt;/code&gt;.
 If you use the metric name directly as a query expression, it will return all time series with their labels for this metric name:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;23f731ee29ae12fef1ef6726e2fce60e5e37342ee9e35cb47e3c7a24422f9e88&amp;quot;,instance=&amp;quot;http://1.2.3.4:9088/metrics&amp;quot;,job=&amp;quot;container-exporter&amp;quot;,name=&amp;quot;haproxy-exporter-int&amp;quot;,image=&amp;quot;prom/haproxy-exporter:latest&amp;quot;}	11468800.000000
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;23f731ee29ae12fef1ef6726e2fce60e5e37342ee9e35cb47e3c7a24422f9e88&amp;quot;,instance=&amp;quot;http://1.2.3.4:9088/metrics&amp;quot;,job=&amp;quot;container-exporter&amp;quot;,name=&amp;quot;haproxy-exporter-int&amp;quot;,image=&amp;quot;prom/haproxy-exporter:latest&amp;quot;}	11468800.000000
 container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;57690ddfd3bb954d59b2d9dcd7379b308fbe999bce057951aa3d45211c0b5f8c&amp;quot;,instance=&amp;quot;http://1.2.3.5:9088/metrics&amp;quot;,job=&amp;quot;container-exporter&amp;quot;,name=&amp;quot;haproxy-exporter&amp;quot;,image=&amp;quot;prom/haproxy-exporter:latest&amp;quot;}	16809984.000000
 container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267ebb3299af08a276e4ea6fd7bf3cb26632889d9394900adc832a302b4&amp;quot;,instance=&amp;quot;http://1.2.3.2:9088/metrics&amp;quot;,job=&amp;quot;container-exporter&amp;quot;,name=&amp;quot;node-exporter&amp;quot;,image=&amp;quot;prom/container-exporter:latest&amp;quot;}
 ...
-...&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If you run lot of containers, this looks something like this:&lt;/p&gt;
 &lt;p&gt;
   &lt;a
@@ -1567,7 +1465,7 @@ container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267e
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1605,7 +1503,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1643,7 +1541,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1669,13 +1567,10 @@ Prometheus also supports regular expressions, so instead of matching the full sc
 &lt;p&gt;If you have services in multiple zones and configure the zone name as an additional label pair, you can also keep that dimension to show the memory usage per name and zone by using an expression like &lt;code class=&quot;language-text&quot;&gt;avg(container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;}) by (name,zone)&lt;/code&gt;.&lt;/p&gt;
 &lt;h4&gt;Using Prometheus + Container-Exporter&lt;/h4&gt;
 &lt;p&gt;As you know, I like to run everything in containers, including the container-exporter and Prometheus itself. Running the &lt;a href=&quot;https://github.com/docker-infra/container_exporter&quot;&gt;container-exporter&lt;/a&gt; should be as easy as this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run -p 8080:8080 -v /sys/fs/cgroup:/cgroup \
-           -v /var/run/docker.sock:/var/run/docker.sock prom/container-exporter&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run -p 8080:8080 -v /sys/fs/cgroup:/cgroup \
+           -v /var/run/docker.sock:/var/run/docker.sock prom/container-exporter&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now you need to install Prometheus. For that refer to the &lt;a href=&quot;http://prometheus.github.io/docs/introduction/install/&quot;&gt;official documentation&lt;/a&gt;. To make Prometheus pull the metrics from the container-exporter, you need to add it as a target to the configuration. For example:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;job: {
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;job: {
   name: &amp;quot;container-exporter&amp;quot;
   scrape_interval: &amp;quot;1m&amp;quot;
   target_group: {
@@ -1691,8 +1586,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
     }
     target: &amp;quot;http://1.2.3.4:8080/metrics&amp;quot;
   }
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now rebuild your image as described in the documentation and start it. Prometheus should now poll your container-exporter every 60s.&lt;/p&gt;
 &lt;h3&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;Because of Prometheus flexibility, its performance and minimal requirements, it’s the monitoring system of my choice.
@@ -1712,7 +1606,7 @@ That’s all great but we never cared that much about containerization even thou
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 540px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 540px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1756,7 +1650,7 @@ Instead of a release every few weeks, it’s not uncommon to deploy multiple tim
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 500px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 500px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1802,21 +1696,16 @@ Containers are usually, and as implemented by Docker, based on immutable images.
 Of course, your infrastructure isn’t immutable. You most likely store and process data and with every deploy the state of your infrastructure changes as well. And you probably want some dynamic configuration to avoid a redeploy just because some backend IP changes. But by keeping possibility for change small, having clear definitions of what can and what can’t change, what is state that is supposed to change during runtime as opposed to state frozen at built time, it reduces the cognitive overhead required to understand an infrastructure at a given point in time.&lt;/p&gt;
 &lt;h3&gt;Container vs VMs&lt;/h3&gt;
 &lt;p&gt;Some might argue that all this is possible with VMs already and conceptually this is entirely true. Although in practice the overhead imposed by virtualization make it less feasible to run every little service in their own VM. And once you start making exceptions, you need to manage those exceptions, so you need to account again for mutable systems and raw applications with all their knobs.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using docker run --net=container:XX ... to debug network issues]]></title><description><![CDATA[Sharing the network namespace with a existing container is a less known feature of Docker. If you run: Your container runs in the same…]]></description><link>https://5pi.de//2014/11/13/using-docker-run-netcontainerxx-to-debug-network-issues/</link><guid isPermaLink="false">https://5pi.de//2014/11/13/using-docker-run-netcontainerxx-to-debug-network-issues/</guid><pubDate>Thu, 13 Nov 2014 23:04:22 GMT</pubDate><content:encoded>&lt;p&gt;Sharing the network namespace with a existing container is a less known feature of Docker. If you run:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run --net=container:my-existing-container ...&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run --net=container:my-existing-container ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Your container runs in the same network namespace, sharing the same network configuration as &lt;code class=&quot;language-text&quot;&gt;my-existing-container&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;This is very useful for debugging purposes: I just wanted to verify the current outgoing connections from a container in our infrastructure and realized that due to the network scoping that’s not easily possible. You can use &lt;code class=&quot;language-text&quot;&gt;ip netns exec&lt;/code&gt; but that assumes you have the namespace mounted to &lt;code class=&quot;language-text&quot;&gt;/var/run/netns&lt;/code&gt;. You can symlink things around but it’s ugly. Much nicer:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run -t -i --net=container:my-existing-container --rm ubuntu netstat -anp&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Running a highly available load balancer on Docker]]></title><description><![CDATA[For quite some time I felt like I should do a blog - again. Instead of spending time writting rants on facebook or commenting other peoples…]]></description><link>https://5pi.de//2014/11/10/running-a-highly-available-load-balancer-on-docker/</link><guid isPermaLink="false">https://5pi.de//2014/11/10/running-a-highly-available-load-balancer-on-docker/</guid><pubDate>Mon, 10 Nov 2014 19:18:57 GMT</pubDate><content:encoded>&lt;p&gt;For quite some time I felt like I should do a blog - again. Instead of spending time writting rants on facebook or commenting other peoples posting, I should write some blog articles!
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run -t -i --net=container:my-existing-container --rm ubuntu netstat -anp&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Running a highly available load balancer on Docker]]></title><description><![CDATA[For quite some time I felt like I should do a blog - again. Instead of spending time writting rants on facebook or commenting other peoples…]]></description><link>https://5pi.de//2014/11/10/running-a-highly-available-load-balancer-on-docker/</link><guid isPermaLink="false">https://5pi.de//2014/11/10/running-a-highly-available-load-balancer-on-docker/</guid><pubDate>Mon, 10 Nov 2014 19:18:57 GMT</pubDate><content:encoded>&lt;p&gt;For quite some time I felt like I should do a blog - again. Instead of spending time writting rants on facebook or commenting other peoples posting, I should write some blog articles!
 Thing is, it’s not that easy. Where to start? What should I talk about? What are you interested in reading?&lt;/p&gt;
 &lt;p&gt;Instead of diving into abstract thoughts about the universe and human kind, I’ll just present you how to run a highly available load balancer on Docker!&lt;/p&gt;
 &lt;h3&gt;Components&lt;/h3&gt;
 &lt;p&gt;For the load balancing part I’ve choosen haproxy. Since 1.5 it supports SSL termination. Since SSL is expensive, compared to running haproxy without it, we enable multiprocess support by specifying nbproc. Each request now may be handled by a different process. This is a problem for the stats endpoint: Since this endpoint exposes internal state which can’t be shared across multiple processes, you only get stats for the process which handles the current request.
 To still get metrics for all processes, you need to create a listen endpoint for each process and pin it to that process like this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;listen stats01 :8001
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;listen stats01 :8001
   stats uri /
   stats auth admin:foobar23
   bind-process 1
@@ -1833,8 +1722,7 @@ listen stats03 :8003
   stats auth admin:foobar23
   bind-process 3
   stats enable
-...&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;With all that in place we can terminate SSL and load balance across multiple hosts but we still need to make this highly available.
 There are several ways to do that. I really like ECMP routing but that requires access to the routing layer which I don’t have. Then there is IPVS which is a good fit if you need to scale to multiple load balancers but it’s also harder and more complex to setup in my opinion.
 Because of that, I decided for UCARP which is a implementation of the CARP protocol for linux. CARP is similar to VRRP but patent free and uses cryptography to make it resilient against attackes on the protocol.
@@ -1842,27 +1730,21 @@ When running, it makes sure that there is only one CARP master and executes hook
 &lt;h3&gt;Docker Image&lt;/h3&gt;
 &lt;p&gt;I wrapped that all up in a easy to use &lt;a href=&quot;https://registry.hub.docker.com/u/fish/haproxy/&quot;&gt;Docker image&lt;/a&gt;.
 To configure haproxy and nginx, you can bind-mount the config location like this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker run \
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker run \
 -v /path/to/haproxy.cfg:/haproxy/haproxy.cfg \
 -v /path/to/nginx.d:/haproxy/nginx.d/ \
 --net=host --privileged fish/haproxy  \
-10.0.1.201 foobar23 [...additional IPs]&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+10.0.1.201 foobar23 [...additional IPs]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;—net=host is required to access the real hosts interfaces. Privileged is necessary to allow the container to bind IPs. Instead of privileged mode, you probably can use —cap-add=NET_ADMIN&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This will run nginx+haproxy+ucarp and make it listen on 10.0.1.201. You can start the same on another host in the same network and ucarp will make sure only one listens on 10.0.1.201. If you kill the active container, the passive one will failover.&lt;/p&gt;
 &lt;p&gt;Since bind-mounting makes things host dependent, I prefer using the fish/haproxy image as a base image and add my deployment specific configuration in a separated Dockerfile like this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;FROM fish/haproxy
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;FROM fish/haproxy
 ADD  . /haproxy
-RUN  haproxy -c -f /haproxy/haproxy.cfg&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+RUN  haproxy -c -f /haproxy/haproxy.cfg&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;The last RUN serves as a cheap test; It will prevent the build from suceeding if the configs are malformed&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This Dockerfile overwrites haproxy.cfg and nginx.d/ in the image by using the files in the local directory.
 Just build it with:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker build -t my-lb .&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker build -t my-lb .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And run it as above. This has the downside that you need to rebuild the image on configuration changes and recreate the container to deploy it.&lt;/p&gt;
 &lt;h3&gt;Service Discovery&lt;/h3&gt;
 &lt;p&gt;If you’re using some configuration management system, you can just render the config on the host and bind-mount it. Still better than running you CM inside a container.
