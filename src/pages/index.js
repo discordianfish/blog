@@ -41,7 +41,7 @@ class BlogIndex extends React.Component {
             paddingRight: index % 2 == 0 ? '0em' : rhythm(1),
           }
           // FIXME: Get rid of ugly workaround and use media queries
-          if (window.innerWidth < 800) { style['width'] = '100%' }
+          if (typeof window !== 'undefined' && window.innerWidth < 800) { style['width'] = '100%' }
           return (
             <div key={node.fields.slug} className={styles.preview} style={style}>
               <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
