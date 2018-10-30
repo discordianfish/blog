@@ -19,7 +19,7 @@ class Template extends React.Component {
     }
 
     if (location.pathname === rootPath) {
-      maxWidth = 36
+      maxWidth = 1000
       header = (
         <h1
           style={{
@@ -41,7 +41,7 @@ class Template extends React.Component {
         </h1>
       )
     } else {
-      maxWidth = 24
+      maxWidth = 650
       header = (
         <h1
           style={{
@@ -68,7 +68,7 @@ class Template extends React.Component {
         <div
           style={{
             margin: '0 auto',
-            maxWidth: rhythm(maxWidth),
+            maxWidth: maxWidth,
             padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
