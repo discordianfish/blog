@@ -11,7 +11,6 @@ import typography from '../utils/typography'
 let rhythm = typography.rhythm
 
 import styles from '../css/blog.module.css';
-console.log("styles", styles);
 
 class BlogIndex extends React.Component {
   render() {
