@@ -21,7 +21,7 @@ class BlogPostTemplate extends React.Component {
           <title>{`${post.frontmatter.title} | ${siteTitle}`}</title>
           <meta property="og:title" content={post.frontmatter.title} />
           <meta property="og:type" content="article" />
-          <meta property="og:url" content={this.props.location} />
+          <meta property="og:url" content={this.props.location.href} />
           { image && image.childImageSharp && <meta property="og:image" content={this.props.location.origin + image.childImageSharp.fixed.src} /> }
         </Helmet>
         <h1>{post.frontmatter.title}</h1>
