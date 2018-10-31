@@ -28,8 +28,9 @@ class BlogIndex extends React.Component {
     })
     let index = 0
     return (
-      <div style={{textAlign: 'justify'}}>
+      <div className={styles.index}>
         <Helmet title={siteTitle}><html lang="en" /></Helmet>
+        <Bio />
         <h1>Blog</h1>
         {bp.map(( node ) => {
           index++
@@ -71,7 +72,6 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-        <Bio />
       </div>
     )
   }

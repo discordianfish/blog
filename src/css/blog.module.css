@@ -1,9 +1,13 @@
-.excerpt {
-  position: relative;
-  overflow: hidden;
+.index {
+  text-align: justify;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+.excerpt {
+  position: relative;
+  overflow: hidden;
 }
 
 .readMore {
