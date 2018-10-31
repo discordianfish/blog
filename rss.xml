@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 15 Oct 2018 17:42:25 GMT</lastBuildDate><item><title><![CDATA[Found severe Azure Kubernetes Bug but ain't even got a lousy T-Shirt]]></title><description><![CDATA[About half a year ago at one of my last gigs, I built a Kubernetes Cluster on
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 31 Oct 2018 13:37:12 GMT</lastBuildDate><item><title><![CDATA[Found severe Azure Kubernetes Bug but ain't even got a lousy T-Shirt]]></title><description><![CDATA[About half a year ago at one of my last gigs, I built a Kubernetes Cluster on
 Azure. On Azure, the Kubernetes Volume Claims are commonly…]]></description><link>https://5pi.de//2018/02/17/found-severe-azure-kubernetes-bug-and-aint-even-got-a-lousy-t-shirt/</link><guid isPermaLink="false">https://5pi.de//2018/02/17/found-severe-azure-kubernetes-bug-and-aint-even-got-a-lousy-t-shirt/</guid><pubDate>Sat, 17 Feb 2018 13:19:27 GMT</pubDate><content:encoded>&lt;p&gt;About half a year ago at one of my last gigs, I built a Kubernetes Cluster on
 Azure.&lt;/p&gt;
 &lt;p&gt;On Azure, the Kubernetes Volume Claims are commonly implemented by a “Virtual
@@ -171,7 +171,7 @@ and submitted it to &lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hack
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-26951.png&quot;
+    href=&quot;/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-ab913.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -190,10 +190,10 @@ and submitted it to &lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hack
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;What people call production nowadays... - pst&quot;
         title=&quot;&quot;
-        src=&quot;/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-26951.png&quot;
-        srcset=&quot;/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-b2ad5.png 148w,
-/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-2283b.png 295w,
-/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-26951.png 560w&quot;
+        src=&quot;/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-ab913.png&quot;
+        srcset=&quot;/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-9b253.png 163w,
+/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-f1fc5.png 325w,
+/static/hn-comment-acfed1c5b7512a39140c4288b9d642b6-ab913.png 560w&quot;
         sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
       /&gt;
     &lt;/span&gt;
@@ -370,7 +370,7 @@ can use the following expression:&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-0a8a9.png&quot;
+    href=&quot;/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-4c3cf.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -378,7 +378,7 @@ can use the following expression:&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -389,13 +389,12 @@ can use the following expression:&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;mem_per_app&quot;
         title=&quot;&quot;
-        src=&quot;/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-fb8a0.png&quot;
-        srcset=&quot;/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-1a291.png 148w,
-/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-2bc4a.png 295w,
-/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-fb8a0.png 590w,
-/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-526de.png 885w,
-/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-0a8a9.png 970w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-10273.png&quot;
+        srcset=&quot;/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-9b14a.png 163w,
+/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-94962.png 325w,
+/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-10273.png 650w,
+/static/mem_per_app-0f0a37acb794c49740014ce150e3ae1f-4c3cf.png 970w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -415,7 +414,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-0a8a9.png&quot;
+    href=&quot;/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-4c3cf.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -423,7 +422,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -434,13 +433,12 @@ we can figure out usage of other resources too.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;cpu_per_app&quot;
         title=&quot;&quot;
-        src=&quot;/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-fb8a0.png&quot;
-        srcset=&quot;/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-1a291.png 148w,
-/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-2bc4a.png 295w,
-/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-fb8a0.png 590w,
-/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-526de.png 885w,
-/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-0a8a9.png 970w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-10273.png&quot;
+        srcset=&quot;/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-9b14a.png 163w,
+/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-94962.png 325w,
+/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-10273.png 650w,
+/static/cpu_per_app-ee8bde4b930678ada8505a9cc8e749ba-4c3cf.png 970w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -461,7 +459,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-0a8a9.png&quot;
+    href=&quot;/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-4c3cf.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -469,7 +467,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -480,13 +478,12 @@ we can figure out usage of other resources too.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;net_per_app&quot;
         title=&quot;&quot;
-        src=&quot;/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-fb8a0.png&quot;
-        srcset=&quot;/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-1a291.png 148w,
-/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-2bc4a.png 295w,
-/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-fb8a0.png 590w,
-/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-526de.png 885w,
-/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-0a8a9.png 970w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-10273.png&quot;
+        srcset=&quot;/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-9b14a.png 163w,
+/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-94962.png 325w,
+/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-10273.png 650w,
+/static/net_per_app-9cdc5336080b286047c358a645a9a8ed-4c3cf.png 970w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -543,7 +540,7 @@ Which brings me to my initial observation: Figuring out how a thing works is har
  Four sweets or production Kubernetes for a month Introduction As you might already know, I’m into  containers ,  static configuration  and…]]></description><link>https://5pi.de//2016/11/20/15-producation-grade-kubernetes-cluster/</link><guid isPermaLink="false">https://5pi.de//2016/11/20/15-producation-grade-kubernetes-cluster/</guid><pubDate>Sun, 20 Nov 2016 10:36:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a title=&quot;By Charlotte Marillet (originally posted to Flickr as Quatre macarons) [CC BY-SA 2.0 (http://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons&quot; href=&quot;https://commons.wikimedia.org/wiki/File%3AQuatre_macarons%2C_October_2009.jpg&quot;&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -554,15 +551,15 @@ Which brings me to my initial observation: Figuring out how a thing works is har
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Four tiny Macarones - or one month Kubernetes cluster&quot;
         title=&quot;&quot;
-        src=&quot;/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-f8fb9.jpg&quot;
-        srcset=&quot;/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-e8976.jpg 148w,
-/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-63df2.jpg 295w,
-/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-f8fb9.jpg 590w,
-/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-85e3d.jpg 885w,
-/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-d1924.jpg 1180w,
-/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-9452e.jpg 1770w,
-/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-518ec.jpg 2268w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-b80fa.jpg&quot;
+        srcset=&quot;/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-cf410.jpg 163w,
+/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-62f2a.jpg 325w,
+/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-b80fa.jpg 650w,
+/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-08cb4.jpg 975w,
+/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-f2bf9.jpg 1300w,
+/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-fd4ba.jpg 1950w,
+/static/Quatre_macarons-_October_2009-db5a9488a10ec170588bdbaab13f615a-db2cb.jpg 2268w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -681,7 +678,7 @@ grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-7f419.png&quot;
+    href=&quot;/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-ed217.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -689,7 +686,7 @@ grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -700,14 +697,14 @@ grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Grafana&quot;
         title=&quot;&quot;
-        src=&quot;/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-fb8a0.png&quot;
-        srcset=&quot;/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-1a291.png 148w,
-/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-2bc4a.png 295w,
-/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-fb8a0.png 590w,
-/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-526de.png 885w,
-/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-fa2eb.png 1180w,
-/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-7f419.png 1584w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-10273.png&quot;
+        srcset=&quot;/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-9b14a.png 163w,
+/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-94962.png 325w,
+/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-10273.png 650w,
+/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-2fc6f.png 975w,
+/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-a8a2c.png 1300w,
+/static/grafana-kube-a6e84b03bb42b9933c5e83d8b5943a97-ed217.png 1584w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -770,7 +767,7 @@ In fact, I would be very interested in a catogorization standoff between a child
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-f69b5.png&quot;
+    href=&quot;/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-0ad14.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -778,7 +775,7 @@ In fact, I would be very interested in a catogorization standoff between a child
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -789,14 +786,14 @@ In fact, I would be very interested in a catogorization standoff between a child
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 42 18&quot;
         title=&quot;&quot;
-        src=&quot;/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-fb8a0.png&quot;
-        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-1a291.png 148w,
-/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-2bc4a.png 295w,
-/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-fb8a0.png 590w,
-/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-526de.png 885w,
-/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-fa2eb.png 1180w,
-/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-f69b5.png 1508w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-10273.png&quot;
+        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-9b14a.png 163w,
+/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-94962.png 325w,
+/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-10273.png 650w,
+/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-2fc6f.png 975w,
+/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-a8a2c.png 1300w,
+/static/Screen-Shot-2015-09-02-at-14-42-18-36bddfe74c91b79319b26a9fd726c4a5-0ad14.png 1508w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -808,7 +805,7 @@ I’m really not sure about this one.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-474b7.png&quot;
+    href=&quot;/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-e0dfd.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -816,7 +813,7 @@ I’m really not sure about this one.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -827,14 +824,14 @@ I’m really not sure about this one.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 44 38&quot;
         title=&quot;&quot;
-        src=&quot;/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-fb8a0.png&quot;
-        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-1a291.png 148w,
-/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-2bc4a.png 295w,
-/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-fb8a0.png 590w,
-/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-526de.png 885w,
-/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-fa2eb.png 1180w,
-/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-474b7.png 1526w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-10273.png&quot;
+        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-9b14a.png 163w,
+/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-94962.png 325w,
+/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-10273.png 650w,
+/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-2fc6f.png 975w,
+/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-a8a2c.png 1300w,
+/static/Screen-Shot-2015-09-02-at-14-44-38-305de6716396787bfbf295278dda2def-e0dfd.png 1526w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -846,7 +843,7 @@ Let’s finish this course with a nice bowl of raw chicken.&lt;/p&gt;
 &lt;p&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -857,14 +854,14 @@ Let’s finish this course with a nice bowl of raw chicken.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 40 14&quot;
         title=&quot;&quot;
-        src=&quot;/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-fb8a0.png&quot;
-        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-1a291.png 148w,
-/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-2bc4a.png 295w,
-/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-fb8a0.png 590w,
-/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-526de.png 885w,
-/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-fa2eb.png 1180w,
-/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-5daa8.png 1538w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-10273.png&quot;
+        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-9b14a.png 163w,
+/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-94962.png 325w,
+/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-10273.png 650w,
+/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-2fc6f.png 975w,
+/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-a8a2c.png 1300w,
+/static/Screen-Shot-2015-09-02-at-14-40-14-b6300e467befbb18c0a227ecbbd91c04-3a948.png 1538w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -874,7 +871,7 @@ To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/Br
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-585a2.png&quot;
+    href=&quot;/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-5f6d9.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -882,7 +879,7 @@ To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/Br
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -893,14 +890,14 @@ To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/Br
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 39 47&quot;
         title=&quot;&quot;
-        src=&quot;/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-fb8a0.png&quot;
-        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-1a291.png 148w,
-/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-2bc4a.png 295w,
-/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-fb8a0.png 590w,
-/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-526de.png 885w,
-/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-fa2eb.png 1180w,
-/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-585a2.png 1506w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-10273.png&quot;
+        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-9b14a.png 163w,
+/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-94962.png 325w,
+/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-10273.png 650w,
+/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-2fc6f.png 975w,
+/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-a8a2c.png 1300w,
+/static/Screen-Shot-2015-09-02-at-14-39-47-76ffd3846a9708abec735e4b77acd861-5f6d9.png 1506w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -912,7 +909,7 @@ Birds. That’s definitely correct.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-5daa8.png&quot;
+    href=&quot;/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-3a948.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -920,7 +917,7 @@ Birds. That’s definitely correct.&lt;/p&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -931,14 +928,14 @@ Birds. That’s definitely correct.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 49 11&quot;
         title=&quot;&quot;
-        src=&quot;/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-fb8a0.png&quot;
-        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-1a291.png 148w,
-/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-2bc4a.png 295w,
-/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-fb8a0.png 590w,
-/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-526de.png 885w,
-/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-fa2eb.png 1180w,
-/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-5daa8.png 1538w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-10273.png&quot;
+        srcset=&quot;/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-9b14a.png 163w,
+/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-94962.png 325w,
+/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-10273.png 650w,
+/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-2fc6f.png 975w,
+/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-a8a2c.png 1300w,
+/static/Screen-Shot-2015-09-02-at-14-49-11-f9f2873c3d2aea66273e2893b6cf2f89-3a948.png 1538w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -960,7 +957,7 @@ Bar graph or 8-bit skylines?&lt;/p&gt;</content:encoded></item><item><title><![C
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-733ee.jpg&quot;
+    href=&quot;/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-2d18d.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -968,7 +965,7 @@ Bar graph or 8-bit skylines?&lt;/p&gt;</content:encoded></item><item><title><![C
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -979,15 +976,15 @@ Bar graph or 8-bit skylines?&lt;/p&gt;</content:encoded></item><item><title><![C
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;vortex&quot;
         title=&quot;&quot;
-        src=&quot;/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-f8fb9.jpg&quot;
-        srcset=&quot;/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-e8976.jpg 148w,
-/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-63df2.jpg 295w,
-/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-f8fb9.jpg 590w,
-/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-85e3d.jpg 885w,
-/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-d1924.jpg 1180w,
-/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-9452e.jpg 1770w,
-/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-733ee.jpg 2976w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-b80fa.jpg&quot;
+        srcset=&quot;/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-cf410.jpg 163w,
+/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-62f2a.jpg 325w,
+/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-b80fa.jpg 650w,
+/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-08cb4.jpg 975w,
+/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-f2bf9.jpg 1300w,
+/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-fd4ba.jpg 1950w,
+/static/Airplane_vortex_edit-29dd07b878f06e9e5cece16d0d7a2b39-2d18d.jpg 2976w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1031,12 +1028,11 @@ This only works well if site-wide configuration is built in. Determining all thi
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;false&quot; data-footer=&quot;false&quot; data-context=&quot;false&quot;  href=&quot;https://www.flickr.com/photos/ph0t0s/96911576/in/photolist-9yGrf-rf1xpg-iV3Hti-9yGuq-9mJACS-dF5fsX-4CYijn-96MGD7-4CYinT-rcHmFs-e3mfmk-7paoHV-e3rYs3-ebixTV-e3miwv-e3mehH-ebz9br-ebz6nv-9yGn2-maubuc-4eMsoq-gascSh-j448Si-bUvoKX-7tWwN9-8oTPht-fw2NWm-34Ydj3-zMTMt-9NFVNX-4q1pdk-9eX7xW-e72dfP-eb7MBt-4xMiAY-bznrxn-ze6qt-5GtxU5-bhCNRp-fw2NjN-fvMuU4-ebEQHU-fvMxdc-e3rZzd-ebiz6V-fw2Qn7-9NEtYQ-9NGKrb-u79vMN-9NGokq&quot; title=&quot;partly random&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/36/96911576_1a57864a0b_b.jpg&quot; width=&quot;1024&quot; height=&quot;768&quot; alt=&quot;partly random&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 Isolating change to specific points in the life cycle of systems and services reduces the complexity of runtime configuration and simplifies the mental model when reasoning about the infrastructure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CloudFormation driven Consul in AutoScalingGroup]]></title><description><![CDATA[CloudFormation templates are a great way to manage AWS resources. All resources for a stack are configured in a json and CloudFormation…]]></description><link>https://5pi.de//2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</link><guid isPermaLink="false">https://5pi.de//2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</guid><pubDate>Mon, 27 Apr 2015 13:22:30 GMT</pubDate><content:encoded>&lt;p style=&quot;font-size:10px&quot;&gt;
 
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 600px; margin-left: auto; margin-right: auto;&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABm5qJWpnUP//EABkQAAIDAQAAAAAAAAAAAAAAAAABAgMSBP/aAAgBAQABBQLDTcWZH2USUrqmbgf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAwEBPwFH/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQIBAT8BpT//xAAcEAACAAcAAAAAAAAAAAAAAAAAAgEQERIhMUH/2gAIAQEABj8C1OkUYxcdP//EABwQAQACAQUAAAAAAAAAAAAAAAEAERAhMVGBsf/aAAgBAQABPyFqVDOHh5lIho7Eb9p//9oADAMBAAIAAwAAABBXL//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QUa3CD//EABYRAAMAAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxCCn//EABwQAQACAwADAAAAAAAAAAAAAAEAESExUXGBsf/aAAgBAQABPxDN4NOI6715F3kiJPjVjxmHKp0L+xyRfRP/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
-      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;dreamy consul 2&quot; title=&quot;&quot; src=&quot;/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-f8fb9.jpg&quot; srcset=&quot;/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-e8976.jpg 148w,
-/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-63df2.jpg 295w,
-/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-f8fb9.jpg 590w,
-/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-9b0e7.jpg 600w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;dreamy consul 2&quot; title=&quot;&quot; src=&quot;/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-d5b79.jpg&quot; srcset=&quot;/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-ad465.jpg 163w,
+/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-d6b1c.jpg 325w,
+/static/dreamy_consul-2-09a85130490779b28e2855643e68eb19-d5b79.jpg 600w&quot; sizes=&quot;(max-width: 600px) 100vw, 600px&quot;&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   &lt;br&gt;
@@ -1108,7 +1104,7 @@ fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 My first job was a typical corporate job at a financial service provider after which I worked at large hosting company before joining…]]></description><link>https://5pi.de//2015/04/22/scope-and-ownership-in-tech-companies/</link><guid isPermaLink="false">https://5pi.de//2015/04/22/scope-and-ownership-in-tech-companies/</guid><pubDate>Wed, 22 Apr 2015 12:19:36 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-b73cf.jpg&quot;
+    href=&quot;/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-4ae5a.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1116,7 +1112,7 @@ My first job was a typical corporate job at a financial service provider after w
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1127,14 +1123,14 @@ My first job was a typical corporate job at a financial service provider after w
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;ownership&quot;
         title=&quot;&quot;
-        src=&quot;/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-f8fb9.jpg&quot;
-        srcset=&quot;/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-e8976.jpg 148w,
-/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-63df2.jpg 295w,
-/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-f8fb9.jpg 590w,
-/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-85e3d.jpg 885w,
-/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-d1924.jpg 1180w,
-/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-b73cf.jpg 1338w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-b80fa.jpg&quot;
+        srcset=&quot;/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-cf410.jpg 163w,
+/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-62f2a.jpg 325w,
+/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-b80fa.jpg 650w,
+/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-08cb4.jpg 975w,
+/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-f2bf9.jpg 1300w,
+/static/acient_jobs-c3811564b5efa34e1c0c89eb4d18fbe8-4ae5a.jpg 1338w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1149,7 +1145,7 @@ I want to provide my thoughts on questions around Scope and Ownership but leave 
 &lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/jo-ghadban/3355654186/in/photostream/&quot;&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 640px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1160,12 +1156,11 @@ I want to provide my thoughts on questions around Scope and Ownership but leave 
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Scope of Company&quot;
         title=&quot;&quot;
-        src=&quot;/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-f8fb9.jpg&quot;
-        srcset=&quot;/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-e8976.jpg 148w,
-/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-63df2.jpg 295w,
-/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-f8fb9.jpg 590w,
-/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-db559.jpg 640w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-24ccb.jpg&quot;
+        srcset=&quot;/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-4b7b7.jpg 163w,
+/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-94112.jpg 325w,
+/static/3355654186_6751a40056_z-63cb55515393f4a5fa21cf6acc6f6d5d-24ccb.jpg 640w&quot;
+        sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1182,7 +1177,7 @@ Now if you are company operating at large scale, you need to actually &lt;em&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/samurai-ce4c6510a30130413060085014fcb3b3-a6aba.jpg&quot;
+    href=&quot;/static/samurai-ce4c6510a30130413060085014fcb3b3-09aec.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1190,7 +1185,7 @@ Now if you are company operating at large scale, you need to actually &lt;em&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1201,12 +1196,12 @@ Now if you are company operating at large scale, you need to actually &lt;em&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Team&quot;
         title=&quot;&quot;
-        src=&quot;/static/samurai-ce4c6510a30130413060085014fcb3b3-f8fb9.jpg&quot;
-        srcset=&quot;/static/samurai-ce4c6510a30130413060085014fcb3b3-e8976.jpg 148w,
-/static/samurai-ce4c6510a30130413060085014fcb3b3-63df2.jpg 295w,
-/static/samurai-ce4c6510a30130413060085014fcb3b3-f8fb9.jpg 590w,
-/static/samurai-ce4c6510a30130413060085014fcb3b3-a6aba.jpg 733w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/samurai-ce4c6510a30130413060085014fcb3b3-b80fa.jpg&quot;
+        srcset=&quot;/static/samurai-ce4c6510a30130413060085014fcb3b3-cf410.jpg 163w,
+/static/samurai-ce4c6510a30130413060085014fcb3b3-62f2a.jpg 325w,
+/static/samurai-ce4c6510a30130413060085014fcb3b3-b80fa.jpg 650w,
+/static/samurai-ce4c6510a30130413060085014fcb3b3-09aec.jpg 733w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1234,7 +1229,7 @@ Those scale issues are similar across services but nothing you can easily abstra
 Nothing is worse than having some specific form of organization without knowing why.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building AWS AMIs from Scratch for Immutable Infrastructures]]></title><description><![CDATA[Why? I’m a big fan of what some might call “immutable infrastructures” which, to me, boils down to manging complexity by isolating change to…]]></description><link>https://5pi.de//2015/03/13/building-aws-amis-from-scratch/</link><guid isPermaLink="false">https://5pi.de//2015/03/13/building-aws-amis-from-scratch/</guid><pubDate>Fri, 13 Mar 2015 15:42:47 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-49927.jpg&quot;
+    href=&quot;/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-ebf7e.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1242,7 +1237,7 @@ Nothing is worse than having some specific form of organization without knowing 
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1253,12 +1248,12 @@ Nothing is worse than having some specific form of organization without knowing 
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Image&quot;
         title=&quot;&quot;
-        src=&quot;/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-f8fb9.jpg&quot;
-        srcset=&quot;/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-e8976.jpg 148w,
-/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-63df2.jpg 295w,
-/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-f8fb9.jpg 590w,
-/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-49927.jpg 700w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-b80fa.jpg&quot;
+        srcset=&quot;/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-cf410.jpg 163w,
+/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-62f2a.jpg 325w,
+/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-b80fa.jpg 650w,
+/static/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700-7183da7353128252eb634f7ebc882360-ebf7e.jpg 700w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1351,7 +1346,7 @@ GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-346ce.png&quot;
+    href=&quot;/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-a35e7.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1359,7 +1354,7 @@ GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1370,13 +1365,13 @@ GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;goroutines&quot;
         title=&quot;&quot;
-        src=&quot;/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-fb8a0.png&quot;
-        srcset=&quot;/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-1a291.png 148w,
-/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-2bc4a.png 295w,
-/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-fb8a0.png 590w,
-/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-526de.png 885w,
-/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-346ce.png 1015w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-10273.png&quot;
+        srcset=&quot;/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-9b14a.png 163w,
+/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-94962.png 325w,
+/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-10273.png 650w,
+/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-2fc6f.png 975w,
+/static/rpi_gorouting-0c0309899e4000452ea789b5324129b0-a35e7.png 1015w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1387,7 +1382,7 @@ I didn’t have time to benchmark it yet, but it seems to perform much better th
 
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-7492f.png&quot;
+    href=&quot;/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-4b4fd.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1395,7 +1390,7 @@ I didn’t have time to benchmark it yet, but it seems to perform much better th
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1406,13 +1401,13 @@ I didn’t have time to benchmark it yet, but it seems to perform much better th
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;goroutines&quot;
         title=&quot;&quot;
-        src=&quot;/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-fb8a0.png&quot;
-        srcset=&quot;/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-1a291.png 148w,
-/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-2bc4a.png 295w,
-/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-fb8a0.png 590w,
-/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-526de.png 885w,
-/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-7492f.png 1003w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-10273.png&quot;
+        srcset=&quot;/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-9b14a.png 163w,
+/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-94962.png 325w,
+/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-10273.png 650w,
+/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-2fc6f.png 975w,
+/static/rpi_all-1-41ee3e1033ec4be8cbd8b134b87fc946-4b4fd.png 1003w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1457,7 +1452,7 @@ container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267e
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-fd026.png&quot;
+    href=&quot;/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-84f37.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1465,7 +1460,7 @@ container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267e
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1476,12 +1471,12 @@ container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267e
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;container_memory_usage_bytes.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-fb8a0.png&quot;
-        srcset=&quot;/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-1a291.png 148w,
-/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-2bc4a.png 295w,
-/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-fb8a0.png 590w,
-/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-fd026.png 790w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-10273.png&quot;
+        srcset=&quot;/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-9b14a.png 163w,
+/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-94962.png 325w,
+/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-10273.png 650w,
+/static/container_memory_usage_bytes-065a19374aba5620f406a9361ff35444-84f37.png 790w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1495,7 +1490,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-8dc3d.png&quot;
+    href=&quot;/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-34d27.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1503,7 +1498,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1514,12 +1509,12 @@ Prometheus also supports regular expressions, so instead of matching the full sc
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;container_memory_usage_bytes_consul.png&quot;
         title=&quot;&quot;
-        src=&quot;/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-fb8a0.png&quot;
-        srcset=&quot;/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-1a291.png 148w,
-/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-2bc4a.png 295w,
-/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-fb8a0.png 590w,
-/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-8dc3d.png 851w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-10273.png&quot;
+        srcset=&quot;/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-9b14a.png 163w,
+/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-94962.png 325w,
+/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-10273.png 650w,
+/static/container_memory_usage_bytes_consul-2a7a760e3618b0ac5e2f4d9ba57082c5-34d27.png 851w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1533,7 +1528,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-e00a9.png&quot;
+    href=&quot;/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-3f14e.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1541,7 +1536,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
   
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
@@ -1552,12 +1547,12 @@ Prometheus also supports regular expressions, so instead of matching the full sc
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;container_memory_usage_bytes_consul_by_name&quot;
         title=&quot;&quot;
-        src=&quot;/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-fb8a0.png&quot;
-        srcset=&quot;/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-1a291.png 148w,
-/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-2bc4a.png 295w,
-/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-fb8a0.png 590w,
-/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-e00a9.png 847w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        src=&quot;/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-10273.png&quot;
+        srcset=&quot;/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-9b14a.png 163w,
+/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-94962.png 325w,
+/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-10273.png 650w,
+/static/container_memory_usage_bytes_consul_by_name-1-b0d3d92bda3203b73787ae1285ca75bc-3f14e.png 847w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -1598,7 +1593,7 @@ That’s all great but we never cared that much about containerization even thou
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/mainframe-771312892d96c881b4ae67cf16d6b28c-ec5fe.jpg&quot;
+    href=&quot;/static/mainframe-771312892d96c881b4ae67cf16d6b28c-54de2.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1617,10 +1612,10 @@ That’s all great but we never cared that much about containerization even thou
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Grumpy Ops&quot;
         title=&quot;&quot;
-        src=&quot;/static/mainframe-771312892d96c881b4ae67cf16d6b28c-ec5fe.jpg&quot;
-        srcset=&quot;/static/mainframe-771312892d96c881b4ae67cf16d6b28c-59252.jpg 148w,
-/static/mainframe-771312892d96c881b4ae67cf16d6b28c-20821.jpg 295w,
-/static/mainframe-771312892d96c881b4ae67cf16d6b28c-ec5fe.jpg 540w&quot;
+        src=&quot;/static/mainframe-771312892d96c881b4ae67cf16d6b28c-54de2.jpg&quot;
+        srcset=&quot;/static/mainframe-771312892d96c881b4ae67cf16d6b28c-ed035.jpg 163w,
+/static/mainframe-771312892d96c881b4ae67cf16d6b28c-e9e26.jpg 325w,
+/static/mainframe-771312892d96c881b4ae67cf16d6b28c-54de2.jpg 540w&quot;
         sizes=&quot;(max-width: 540px) 100vw, 540px&quot;
       /&gt;
     &lt;/span&gt;
@@ -1642,7 +1637,7 @@ Instead of a release every few weeks, it’s not uncommon to deploy multiple tim
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-74bd4.png&quot;
+    href=&quot;/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-28469.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1661,10 +1656,10 @@ Instead of a release every few weeks, it’s not uncommon to deploy multiple tim
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Automate all the things&quot;
         title=&quot;&quot;
-        src=&quot;/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-74bd4.png&quot;
-        srcset=&quot;/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-309d6.png 148w,
-/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-fe30e.png 295w,
-/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-74bd4.png 500w&quot;
+        src=&quot;/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-28469.png&quot;
+        srcset=&quot;/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-df76f.png 163w,
+/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-e80a0.png 325w,
+/static/automate-7971ab1879abb9b42b152dd5b66ef7bf-28469.png 500w&quot;
         sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
       /&gt;
     &lt;/span&gt;
