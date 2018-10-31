@@ -30,7 +30,7 @@ class BlogIndex extends React.Component {
     let index = 0
     return (
       <div style={{textAlign: 'justify'}}>
-        <Helmet title={siteTitle} />
+        <Helmet title={siteTitle}><html lang="en" /></Helmet>
         <h1>Blog</h1>
         {bp.map(( node ) => {
           index++
@@ -42,7 +42,7 @@ class BlogIndex extends React.Component {
           }
           let content;
           if (image && image.childImageSharp) {
-            content = <p>
+            content = <div>
               <Img style={{
                 margin: [ rhythm(1/5), rhythm(1/4), rhythm(1/4-1/5), 0].join(' '),
                 float: 'left',
@@ -50,7 +50,7 @@ class BlogIndex extends React.Component {
                 minWidth: '50%',
               }} fluid={image.childImageSharp.fluid} />
               <span dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </p>
+            </div>
           } else {
             content = <span dangerouslySetInnerHTML={{ __html: node.excerpt }} />
           }
@@ -66,7 +66,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </h3>
                 <small>{node.frontmatter.date}</small>
-                <p className={styles.excerpt}>{content}</p>
+                <div className={styles.excerpt}>{content}</div>
                 <p className={styles.readMore}>…</p>
               </Link>
             </div>

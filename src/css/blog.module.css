@@ -1,6 +1,9 @@
 .excerpt {
   position: relative;
   overflow: hidden;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 .readMore {
