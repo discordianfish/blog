@@ -6,6 +6,12 @@ FairyGates.overrideThemeStyles = () => ({
   'a': {
     color: '#333',
   },
+  'a:hover': {
+    color: '#f0f',
+  },
+  'h3': {
+    color: 'inherit',
+  }
 })
 
 const typography = new Typography(FairyGates)

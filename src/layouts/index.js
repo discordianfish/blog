@@ -32,7 +32,6 @@ class Template extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'inherit',
             }}
             to={'/'}
           >
@@ -54,7 +53,6 @@ class Template extends React.Component {
             style={{
               boxShadow: 'none',
               textDecoration: 'none',
-              color: 'inherit',
             }}
             to={'/'}
           >

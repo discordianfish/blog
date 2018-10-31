@@ -37,7 +37,7 @@ class BlogIndex extends React.Component {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           const image = get(node, 'frontmatter.image') || null
           const style = {
-            height: rhythm(12),
+            height: rhythm(13),
             paddingRight: index % 2 == 0 ? '0em' : rhythm(1),
           }
           let content;
@@ -46,7 +46,7 @@ class BlogIndex extends React.Component {
               <Img style={{
                 margin: [ rhythm(1/5), rhythm(1/4), rhythm(1/4-1/5), 0].join(' '),
                 float: 'left',
-                height: rhythm(5.5),
+                height: rhythm(4.5),
                 minWidth: '50%',
               }} fluid={image.childImageSharp.fluid} />
               <span dangerouslySetInnerHTML={{ __html: node.excerpt }} />
