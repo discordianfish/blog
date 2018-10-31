@@ -37,10 +37,24 @@ class BlogIndex extends React.Component {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           const image = get(node, 'frontmatter.image') || null
           const style = {
-            height: rhythm(10),
+            height: rhythm(12),
             paddingRight: index % 2 == 0 ? '0em' : rhythm(1),
           }
-          // FIXME: Get rid of ugly workaround and use media queries
+          let content;
+          if (image && image.childImageSharp) {
+            content = <p>
+              <Img style={{
+                margin: [ rhythm(1/5), rhythm(1/4), rhythm(1/4-1/5), 0].join(' '),
+                float: 'left',
+                height: rhythm(5.5),
+                minWidth: '50%',
+              }} fluid={image.childImageSharp.fluid} />
+              <span dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+            </p>
+          } else {
+            content = <span dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+          }
+
           return (
             <div key={node.fields.slug} className={styles.preview} style={style}>
               <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
@@ -52,17 +66,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </h3>
                 <small>{node.frontmatter.date}</small>
-                {image && image.childImageSharp && <Img
-                  style={{
-                    margin: [ rhythm(1/5), rhythm(1/4), rhythm(1/4-1/5), 0].join(' '),
-                    float: 'left',
-                    height: rhythm(6),
-                    minWidth: '50%',
-                  }}
-                  fluid={image.childImageSharp.fluid}
-                  />
-                }
-                <p className={styles.excerpt} dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                <p className={styles.excerpt}>{content}</p>
                 <p className={styles.readMore}>…</p>
               </Link>
             </div>
@@ -90,7 +94,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 280)
+          excerpt(pruneLength: 350)
           fields {
             slug
           }
