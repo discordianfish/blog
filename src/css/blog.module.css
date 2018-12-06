@@ -29,6 +29,27 @@
   overflow: hidden;
 }
 
+/* FIXME: Why is span.gatsby-resp-image-wrapper not working?? */
+
+.page blockquote {
+  min-height: 5em;
+}
+
+.page blockquote span {
+  float: left;
+  margin-right: 1em !important;
+  width: 5em !important;
+  border-radius: 50% !important;
+}
+
+.page blockquote img {
+  border-radius: 50% !important;
+}
+
+.page blockquote footer {
+  margin-top: 1em;
+}
+
 @media (min-width: 800px) {
   .preview {
     width: 50%;

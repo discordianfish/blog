@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 
 import typography from '../utils/typography'
+import styles from '../css/blog.module.css';
+
 let rhythm = typography.rhythm
 let scale = typography.scale
 
@@ -64,6 +66,7 @@ class Template extends React.Component {
     return (
       <div>
         <div
+          className={styles.page}
           style={{
             margin: '0 auto',
             maxWidth: maxWidth,
