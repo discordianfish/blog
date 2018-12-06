@@ -23,7 +23,7 @@ class BlogIndex extends React.Component {
       const tags = get(node, 'frontmatter.tags')
       if (tags && tags.includes("case-study")) {
         cs.push(node)
-      } else {
+      } else if (!tags || !tags.includes("hidden")) {
         bp.push(node)
       }
     })
