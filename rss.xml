@@ -1,4 +1,310 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 31 Oct 2018 13:58:38 GMT</lastBuildDate><item><title><![CDATA[fluentd for data warehousing with athena]]></title><description><![CDATA[Or how I replaced AWS Firehose by fluentd instances and saved >80% EC2 traffic
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 06 Dec 2018 17:41:17 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[
+From legacy infrastructure to over 100 million content moderation decisions per
+day.
+
+Building an agile cloud native infrastructure for a high velocity AI based
+content moderation startup.
+
+]]></description><link>https://5pi.de//case-studies/koko/</link><guid isPermaLink="false">https://5pi.de//case-studies/koko/</guid><content:encoded>&lt;p&gt;From legacy infrastructure to over 100 million content moderation decisions per
+day.&lt;/p&gt;
+&lt;p&gt;Building an agile cloud native infrastructure for a high velocity AI based
+content moderation startup.&lt;/p&gt;
+&lt;!--end--&gt;
+&lt;blockquote class=&quot;testimonial&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/4ec7be89f6c38590c69feb48b398454f/7a4df/kareem.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 99.89165763813651%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUEA//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAZXbNrJgNV4IoP/EABwQAAICAgMAAAAAAAAAAAAAAAEDAhIABBARMf/aAAgBAQABBQJHVtlYHAlQsZaGD0pjmxARZ//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB0QAAAGAwEAAAAAAAAAAAAAAAABAhARIRIiMXH/2gAIAQEABj8C2GSeNIOSVJsn1qof/8QAHBAAAgMBAAMAAAAAAAAAAAAAAREAITEQQVFx/9oACAEBAAE/IfleooGW3mSvQYNQaVS4jCAa0Yr5QwOpVaENCf/aAAwDAQACAAMAAAAQk88A/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHRABAAIDAAMBAAAAAAAAAAAAAQARITFREHGBof/aAAgBAQABPxAsFm+kVrcFho54wVXQTpNicjzi5KpY+Vj3HcqIpgbE4xdqKj+JXJTKxWgc6n//2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Kareem Kouddous&quot; title=&quot;&quot; src=&quot;/static/4ec7be89f6c38590c69feb48b398454f/b80fa/kareem.jpg&quot; srcset=&quot;/static/4ec7be89f6c38590c69feb48b398454f/cf410/kareem.jpg 163w,
+/static/4ec7be89f6c38590c69feb48b398454f/62f2a/kareem.jpg 325w,
+/static/4ec7be89f6c38590c69feb48b398454f/b80fa/kareem.jpg 650w,
+/static/4ec7be89f6c38590c69feb48b398454f/7a4df/kareem.jpg 923w&quot; sizes=&quot;(max-width: 650px) 100vw, 650px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+  &lt;code&gt;Working with Johannes enabled us to dramatically accelerate product
+development by having the rest of the engineering team focus 100% on feature
+development, deploying many times a day despite supporting a very high
+throughput application.
+  &lt;/code&gt;
+  &lt;footer&gt;&lt;cite&gt;Kareem Kouddous, CTO at Koko AI&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;About Koko&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://koko.ai&quot;&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 600px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 14.666666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAPUlEQVQI12NgwA14gFgBynYAYksom5GBRADToAXEqUAcDMQlQBwDxK5AzMRAJuADYjWoIR5ArAnEMoQ0AQCklgOnayAMsQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Logo&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1bc80e2cb128767187e1830cdeb8d580/e9f3b/logo-wide.png&quot;
+        srcset=&quot;/static/1bc80e2cb128767187e1830cdeb8d580/47931/logo-wide.png 163w,
+/static/1bc80e2cb128767187e1830cdeb8d580/de8a5/logo-wide.png 325w,
+/static/1bc80e2cb128767187e1830cdeb8d580/e9f3b/logo-wide.png 600w&quot;
+        sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Internet can be a scary place. Koko keeps your community safe by using AI to
+identify bad actors and damaging content. Koko detects issues in real time and
+notifies your moderation system.&lt;/p&gt;
+&lt;p&gt;Koko is already used by several top online communities to support over 100
+million moderation decisions per day.&lt;/p&gt;
+&lt;h2&gt;Rancher to Kubernetes migration&lt;/h2&gt;
+&lt;p&gt;When Koko contacted me, their infrastructure was running on an old version of
+&lt;a href=&quot;https://rancher.com/&quot;&gt;Rancher&lt;/a&gt; which should be replaced by a Kubernetes
+cluster. I’ve migrated all deployment manifests to Kubernetes manifests and
+wrote scripts for &lt;a href=&quot;https://circleci.com/&quot;&gt;CircleCI&lt;/a&gt; to continuously deploy code
+changes to the cluster. New branches get deployed to their own namespace with
+own ingresses to allow developers to worker independently while also allowing
+cross team and code base feature work.&lt;/p&gt;
+&lt;p&gt;To cleanup existing branches, I’ve developed
+&lt;a href=&quot;https://github.com/itskoko/k8s-ci-purger&quot;&gt;k8s-ci-purger&lt;/a&gt; which cleans up
+Kubernetes resources on branch deletion.&lt;/p&gt;
+&lt;p&gt;Since self-service is paramount, Koko needed a safe and reliable way for
+developers to use internal services. This was solved by using
+&lt;a href=&quot;https://github.com/bitly/oauth2_proxy&quot;&gt;oauth2_proxy&lt;/a&gt; to authenticate against
+GitHub. Additional changes to support Websockets for Jupyter Notebooks were
+added.&lt;/p&gt;
+&lt;h2&gt;kubecfn - Cloudformation Kubernetes Installer&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/kubecfn-2f7d38406a33c80962b9131bc20ee2bf.svg&quot; alt=&quot;kubecfn architecture diagram&quot;&gt;
+Initially, Koko used &lt;a href=&quot;https://github.com/kubernetes/kops&quot;&gt;kops&lt;/a&gt; to deploy the
+Kubernetes cluster. Customizing Kubernetes component configuration often
+required upstream changes in a rapidly evolving code base. That didn’t only
+slowed us down but also caused reliability issues due the dependency on unstable
+versions. After investigating alternatives, which I also &lt;a href=&quot;https://5pi.de/2017/12/15/production-grade-kubernetes/&quot;&gt;blogged
+about&lt;/a&gt;, I proposed to
+create a &lt;a href=&quot;https://aws.amazon.com/cloudformation/&quot;&gt;Cloudformation&lt;/a&gt; based
+Kubernetes Installer around
+&lt;a href=&quot;https://kubernetes.io/docs/setup/independent/&quot;&gt;kubeadm&lt;/a&gt;. The safety
+first-design gave us the confidence required to quickly iterate by ensuring safe
+rollouts of version and configuration changes.
+The project was made open source and can be &lt;a href=&quot;https://github.com/itskoko/kubecfn&quot;&gt;found
+here&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Argo Machine Learning Pipeline&lt;/h2&gt;
+&lt;p&gt;The next thing to solve was how to run machine learning pipelines on the new
+cluster. There are several options but &lt;a href=&quot;https://github.com/argoproj/argo&quot;&gt;Argo&lt;/a&gt;
+seemed like the best fit. Being a generic workflow engine it extends the
+existing Kubernetes API allowing developers to use the same API and declarative
+manifests to run the pipelines.&lt;/p&gt;
+&lt;p&gt;The custom built Kubernetes installer made it easy to add another GPU-enabled worker
+instance group that automatically gets scaled up when a Argo pipeline requires
+GPU instances and back to zero after the jobs finished.&lt;/p&gt;
+&lt;h2&gt;Autoscaling&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/11142449492391c031ce5b468b20afc4/628b1/autoscaling.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 47.71863117870723%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAABtUlEQVQozy1Su47VMBDNl8BN4syM345fyU1yc1l2kZBAFFQUUFFRUFDzF0jbgYSEREfHB+4EVjqyxvM8PuMmpuzHGOJxWh8EYNdC30L7dOg7TD4ZY4111nmtjTZWKuPD6FyQSjdKW0DZtkKRdW4Ugtxnoz7I/CnVrzl88RDIaK+N6/qBK431nA9AvRiaUuYQUt+DfWv9R4+bvPm+b/dz/RVv/+71d8RJznlNuXIOZ87ziqhSKt7HxodklO+8CO/H+cVC7+h6v+3f1vjDXv8s6acbMqZQw5hObc80az0PQDGVGEvDZLglwxiXYh2Qhpcw3AG9InyD8rUUEtuTAJA+RCLNDxQC205wr4bvTINBqElqBIWtwk7BSYoneNhwRCUZpayU5jGZNLdo2DLOEqlhkMAAyZ5/kkhmgaSUPgr4+hjiEw7nUexTcMlrZ7U1JBUvgANcYoNDZsJ+x+vRrDM34oGkDqbGO0Bq4jKlbY7rlPclb+d8OVCua7kuLExdy7zXaSvn58t0qfOlnp9N01aXm5mHNWEcWXQ/Fq15gRrpPwzbvQAWKYYx8C8as9b2mMzvl4c6rPEDFnxu/b1mv5wAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Autoscaling Dashboard&quot;
+        title=&quot;&quot;
+        src=&quot;/static/11142449492391c031ce5b468b20afc4/10273/autoscaling.png&quot;
+        srcset=&quot;/static/11142449492391c031ce5b468b20afc4/9b14a/autoscaling.png 163w,
+/static/11142449492391c031ce5b468b20afc4/94962/autoscaling.png 325w,
+/static/11142449492391c031ce5b468b20afc4/10273/autoscaling.png 650w,
+/static/11142449492391c031ce5b468b20afc4/2fc6f/autoscaling.png 975w,
+/static/11142449492391c031ce5b468b20afc4/628b1/autoscaling.png 1052w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+As in most infrastructures, Koko’s traffic pattern is diurnal with much higher
+traffic during the (US) day than the night. Due to the nature of the service, it
+fluctuates even more with short peaks and troughs when customers batch process
+workloads. While Kubernetes provides simple CPU based autoscaling out the box,
+this wasn’t sufficient to scale up quickly enough while preventing it from scale
+down too early when a customer briefly stops sending requests.&lt;/p&gt;
+&lt;p&gt;To solve that, I’ve introduced the &lt;a href=&quot;https://prometheus.io/&quot;&gt;Prometheus Monitoring
+System&lt;/a&gt; and used
+the
+&lt;a href=&quot;https://github.com/DirectXMan12/k8s-prometheus-adapter&quot;&gt;k8s-prometheus-adapter&lt;/a&gt;
+to provide the metrics as Kubernetes Custom Metrics. This allowed me to create
+scaling rules for rapid scaling up while preventing underprovisioning by looking
+at past traffic patterns.&lt;/p&gt;
+&lt;h2&gt;Observability&lt;/h2&gt;
+&lt;p&gt;Koko used &lt;a href=&quot;https://www.datadoghq.com/&quot;&gt;Datadog&lt;/a&gt; for monitoring and, once it was
+available, logging too. Since we weren’t very happy with the service and
+struggled to integrate custom metrics as well as metrics provided by
+infrastructure services, we decided to move all our monitoring to Prometheus.
+I’ve introduced &lt;a href=&quot;https://grafana.org/&quot;&gt;Grafana&lt;/a&gt; with statically provisioned and
+CI deployed dashboards for system and infrastructure metrics, while also
+allowing developers to create their own dashboards ad-hoc, allowing for a
+self-service monitoring experience. I’ve built
+&lt;a href=&quot;https://github.com/itskoko/prometheus-renderer&quot;&gt;prometheus-renderer&lt;/a&gt; to render
+alerting expressions to provide graph previews in our slack alerts.&lt;/p&gt;
+&lt;p&gt;Since no logging services provided structured logging at a reasonable price,
+I’ve integrated the &lt;a href=&quot;https://aws.amazon.com/elasticsearch-service/&quot;&gt;AWS Elasticsearch
+Service&lt;/a&gt; with
+&lt;a href=&quot;https://fluentbit.io/&quot;&gt;fluent-bit&lt;/a&gt; which allowed us to browse, filter and graph
+logs as well as integrate them into Grafana dashboards.&lt;/p&gt;
+&lt;h2&gt;Stream processing&lt;/h2&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 69.140625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACi0lEQVQoz01T207bQBD1l7RpbO96r76s74ljOyZOAk1CwqWCBooAVTSFiDxA6QX1M/oTfehDn/p1nRBUVRqNZmZndo/nHGuO41EqwHw/iKIkDGOlAko4o4IQTtaBhFPGZBDEUZRK6UJxU9EgMUzLRMQwLF3HTcNCTGJmG4g0DYwQwZiCBzNNy/ivAl5zbCfzRVvwSAhBeKbUfKd8O+qEXDqEwryFKYZWRIjFIP6XQqC1g+Biu3Oyk8/76eV2dj0r7g7LxbS4mpT9VDWamBFGMAWj1nPwbBbTelm8mvc/nQ5WR/X96eD+pH97XK+O68fzwTALmjoGeOYT5g1y0yTrdAM7UN5unY22WpO6PellY7C6M6k7s0Eee45uWlI4nNtC2JxvAocze7NFTQrbVaHrBo6jXBULqRARFpEmZvAsZxz277lKeUr5IUxCG2cSIKxfhivR0/We6zPKTQQ7N+HAMBCQAd26gU0T6zpCmAIQeJ8yu6Ej6IRhp2GShmG9bOIXTfzKANosQoWFGUKUExpJDgGMubYdO9xhLFJelYScME3a7sfd8vawt5xWV6NyuTdQNgiA554shNgOvJudOGIUPqFIguu9ajEtVwfVl7f1rBtrvvJ/nL/+vZj8XMz+3Ex/LXY9zqrI//qmujuoPs+H389Gy1HeaKI0VJcHvbNZ93RWne9vjbcSDeQ5H+fXh9X7/e7yqPpwUBCLFGn0eDn+djF6eDd8OBsuj/ugFiEdLiSHDdu247qE8jXsThJ220nZiqpOWrZTjC0h5KYCvpvFsQ8SxmGUtFp54IdJ3ErTbK1t+B86edVqF8CH4waeimDVvh9mRaU8HypAXlMHVaM0bnWrHjCXZXlRdIHzv04jtAKsLOvoAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Stream Processing Dashboard&quot;
+        title=&quot;&quot;
+        src=&quot;/static/87a6eb80f7df852d72c949c282e58488/10273/streamprocessing.png&quot;
+        srcset=&quot;/static/87a6eb80f7df852d72c949c282e58488/9b14a/streamprocessing.png 163w,
+/static/87a6eb80f7df852d72c949c282e58488/94962/streamprocessing.png 325w,
+/static/87a6eb80f7df852d72c949c282e58488/10273/streamprocessing.png 650w,
+/static/87a6eb80f7df852d72c949c282e58488/2fc6f/streamprocessing.png 975w,
+/static/87a6eb80f7df852d72c949c282e58488/92289/streamprocessing.png 1024w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+When Koko’s API receives content to classify, it needs to archive to S3 them for
+running machine learning on it. Initially &lt;a href=&quot;https://aws.amazon.com/kinesis/data-firehose/&quot;&gt;AWS Kinesis
+Firehose&lt;/a&gt; was being used for
+that. That allowed buffering and batching the data, even though further
+processing to shard the data was necessary. Since it also doesn’t support &lt;a href=&quot;https://docs.aws.amazon.com/vpc/latest/userguide/vpc-endpoints.html&quot;&gt;VPC
+Endpoints&lt;/a&gt;
+Koko incurred high traffic costs.&lt;/p&gt;
+&lt;p&gt;I’ve proposed and implemented a custom solution by using
+&lt;a href=&quot;https://www.fluentd.org/&quot;&gt;fluentd&lt;/a&gt; and Kubernetes statefulsets to replace
+Kinesis Firehose. This reduced Koko’s EC2 traffic costs by 80%. You can read
+more about the details in &lt;a href=&quot;/2018/10/31/fluentd-for-data-warehousing-with-athena/&quot;&gt;this blog article&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Koko’s ability to rapidly and reliably build new features helped it to attract
+some of the largest social networks.&lt;/p&gt;
+&lt;p&gt;I’m proud to have built the infrastructure that allowed Koko to be confident in
+change and deliver it fast.&lt;/p&gt;
+&lt;p&gt;Do you want to accelerate your product development by building upon or migrating
+to modern cloud native infrastructure? &lt;a href=&quot;/hire-me&quot;&gt;Let me know!&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Styla: Content Experience Engine]]></title><description><![CDATA[
+Advising a content commerce startup on Docker migration, AWS deployment and
+DevOps strategy. Debugging a ELB/ECS based pilot deployment.
+
+Implementation of and migration to lambda based machine learning pipeline.
+
+]]></description><link>https://5pi.de//case-studies/styla/</link><guid isPermaLink="false">https://5pi.de//case-studies/styla/</guid><content:encoded>&lt;p&gt;Advising a content commerce startup on Docker migration, AWS deployment and
+DevOps strategy. Debugging a ELB/ECS based pilot deployment.&lt;/p&gt;
+&lt;p&gt;Implementation of and migration to lambda based machine learning pipeline.&lt;/p&gt;
+&lt;!--end--&gt;
+&lt;blockquote class=&quot;testimonial&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/e7943/alex.jpeg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 268px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho5yaFMDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJU+cQib4k7SXlNidhKp7qYC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEDBAIDAAAAAAAAAAAAAAEAAhEQITEyAxITQXH/2gAIAQEABj8CmJOAF15Q2+Ip8uhA1ptEH0vI2xKDnZX/xAAbEAACAwEBAQAAAAAAAAAAAAABEQAhURBhcf/aAAgBAQABPyGqsH0GDDoW84K0NkgLlA/nGYocBAWSk1F4Nk//2gAMAwEAAgADAAAAEDzPwP/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxADTCf/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QV2M//8QAHhABAQACAgIDAAAAAAAAAAAAAREAITFhEIFRcbH/2gAIAQEAAT8Q3JNBqnHrCGYa3XKr++OTQg7MgeSktdYN+8XLMQGgI6e/eTd6g188YZwoMwz/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Alexander Kong&quot; title=&quot;&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/e7943/alex.jpeg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/306d4/alex.jpeg 163w,
+/static/6fa4911f9f1160805ce38ae20d7a3b1e/e7943/alex.jpeg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+  &lt;code&gt;
+    We worked with Johannes on two projects and greatly benefited from his knowledge and experience.
+  &lt;/code&gt;
+  &lt;footer&gt;&lt;cite&gt;Alexander Kong, CTO at Styla.com&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;About Styla&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/styla-40c7d3d40842ccd99311f9b8157b07be.svg&quot; alt=&quot;Logo&quot;&gt;
+&lt;a href=&quot;https://www.styla.com/&quot;&gt;Styla&lt;/a&gt; offers a Content Experience Engine that
+automatically designs your content and makes it shoppable, inspiring your
+customers to buy more.&lt;/p&gt;
+&lt;p&gt;Styla’s automation technology designs your content in real-time and enhances the
+user experience on every device.&lt;/p&gt;
+&lt;h2&gt;Docker migration and AWS DevOps strategy consulting&lt;/h2&gt;
+&lt;p&gt;Before they contacted me, Styla’s stack consisted of Ansible managed AWS EC2
+instances with their applications directly deployed to the machine ad-hoc.&lt;/p&gt;
+&lt;p&gt;When expanding their product to more markets, Styla contracted me for a day to
+discuss their challenges and advise them on further and more robust automation,
+with the goal of having all the infrastructure as code.&lt;/p&gt;
+&lt;p&gt;Styla already experimented with Docker and wanted to deploy on &lt;a href=&quot;https://aws.amazon.com/ecs/&quot;&gt;AWS
+ECS&lt;/a&gt; but had severe issues with a python based data
+dashboard. The application, running behind an AWS ELB, became unresponsive about
+every minute. My investigations showed that their application used blocking IO
+and was single threaded. Since the AWS ELB health checks didn’t close the
+connection, the application didn’t respond to request until it timed out.
+Running the application as workers under a pre-forking HTTP server solved this
+problem.&lt;/p&gt;
+&lt;p&gt;After discussing the goals and specifics of the infrastructure, I recommended
+using Cloudformation for the deployment of the ECS cluster and other
+infrastructure. This allows to keep all stack configuration in simple JSON/YAML
+documents that can be used to rollout changes to the infrastructure in a
+controlled fashion. To keep the existing workflows, the template can be executed
+by Ansible.&lt;/p&gt;
+&lt;p&gt;Over the course of the next months, Styla implemented the recommended
+infrastructure which is powering the platform ever since.&lt;/p&gt;
+&lt;blockquote class=&quot;float-right&quot;&gt;
+  
+  &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/e7943/alex.jpeg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+  
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block;  max-width: 268px; margin-left: auto; margin-right: auto;&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho5yaFMDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJU+cQib4k7SXlNidhKp7qYC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEDBAIDAAAAAAAAAAAAAAEAAhEQITEyAxITQXH/2gAIAQEABj8CmJOAF15Q2+Ip8uhA1ptEH0vI2xKDnZX/xAAbEAACAwEBAQAAAAAAAAAAAAABEQAhURBhcf/aAAgBAQABPyGqsH0GDDoW84K0NkgLlA/nGYocBAWSk1F4Nk//2gAMAwEAAgADAAAAEDzPwP/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxADTCf/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QV2M//8QAHhABAQACAgIDAAAAAAAAAAAAAREAITFhEIFRcbH/2gAIAQEAAT8Q3JNBqnHrCGYa3XKr++OTQg7MgeSktdYN+8XLMQGgI6e/eTd6g188YZwoMwz/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;
+      &lt;img class=&quot;gatsby-resp-image-image&quot; style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot; alt=&quot;Alexander Kong&quot; title=&quot;&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/e7943/alex.jpeg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/306d4/alex.jpeg 163w,
+/static/6fa4911f9f1160805ce38ae20d7a3b1e/e7943/alex.jpeg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot;&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+  &lt;code&gt;
+    We were impressed how Johannes gathered insights into our application on a system level and quickly solved our application issue.
+  &lt;/code&gt;
+  &lt;footer&gt;&lt;cite&gt;Alexander Kong, CTO at Styla.com&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Machine Learning Stack&lt;/h2&gt;
+&lt;p&gt;As a data driven platform, there is a strong need for a reliable machine
+learning pipeline.&lt;/p&gt;
+&lt;p&gt;After Styla successfully adopted the discussed infrastructure changes, revamping
+the machine learning pipeline was the next project I was involved with.&lt;/p&gt;
+&lt;p&gt;The first step in the pipeline is structuring the data. To minimize ongoing
+operational costs, we decided to use &lt;a href=&quot;https://aws.amazon.com/lambda&quot;&gt;AWS Lambda&lt;/a&gt;
+to automatically run Styla’s structuring code when new data gets written to a S3
+bucket. This code uploads the results to a new bucket which triggers another
+Lambda to load the structured data into various data stores.&lt;/p&gt;
+&lt;p&gt;Beside the Lambda based pipeline, the stack consist of a Spark cluster for
+further processing and data stores that can be queries from Styla’s backend services.&lt;/p&gt;
+&lt;p&gt;I configured and deployed the stack as Cloudformation templates wrapped in
+Ansible roles, consistent with Styla’s general deployment workflow.&lt;/p&gt;
+&lt;p&gt;Especially when it comes to data warehousing and analysis, security is of utmost
+importance. Therefor the stack follows the security best practices by using
+individual IAM roles for each Lambda and data store with tightly locked down
+policies that grant only the necessary permissions.&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Whether you need consulting, troubleshooting or hands-on help with building your
+infrastructure, &lt;a href=&quot;/hire-me&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[fluentd for data warehousing with athena]]></title><description><![CDATA[Or how I replaced AWS Firehose by fluentd instances and saved >80% EC2 traffic
 costs. Using AWS Kinesis Firehose koko  is one of my current…]]></description><link>https://5pi.de//2018/10/31/fluentd-for-data-warehousing-with-athena/</link><guid isPermaLink="false">https://5pi.de//2018/10/31/fluentd-for-data-warehousing-with-athena/</guid><pubDate>Wed, 31 Oct 2018 14:11:28 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
