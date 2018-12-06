@@ -31,7 +31,7 @@ class Bio extends React.Component {
         />
         <p>
           By <strong>Johannes Ziemke</strong>.{' '}<br />
-          <strong><Link to="/hire-me">Hire me</Link></strong>.
+          <strong><Link to="/hire-me">Hire me</Link></strong>.<br />
         </p>
         <span style={{marginLeft: 'auto'}}>
           <a href="https://twitter.com/discordianfish">
@@ -39,7 +39,8 @@ class Bio extends React.Component {
           </a><br />
           <a href="https://github.com/discordianfish">
             <i className="icon-github-circled" />
-          </a>
+          </a><br />
+          <Link to="/impressum">Impressum</Link>
         </span>
       </div>
     )
