@@ -12,4 +12,4 @@ RUN npm install && \
 
 COPY --chown=user . /usr/src
 
-RUN npm run build
+RUN npm run lint && npm run build
