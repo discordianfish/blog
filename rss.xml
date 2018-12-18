@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 10 Dec 2018 15:30:24 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[Impressum Angaben gemäß § 5 TMG: Johannes Ziemke  Mittenwalder Str. 24  10961 Berlin, Germany E-Mail:  inquiry+impressum@5pi.de Umsatzsteuer…]]></description><link>https://5pi.de//impressum/</link><guid isPermaLink="false">https://5pi.de//impressum/</guid><content:encoded>&lt;h1&gt;Impressum&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 18 Dec 2018 16:47:15 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[Impressum Angaben gemäß § 5 TMG: Johannes Ziemke  Mittenwalder Str. 24  10961 Berlin, Germany E-Mail:  inquiry+impressum@5pi.de Umsatzsteuer…]]></description><link>https://5pi.de//impressum/</link><guid isPermaLink="false">https://5pi.de//impressum/</guid><content:encoded>&lt;h1 id=&quot;impressum&quot;&gt;&lt;a href=&quot;#impressum&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Impressum&lt;/h1&gt;
 &lt;p&gt;Angaben gemäß § 5 TMG:&lt;/p&gt;
 &lt;p&gt;Johannes Ziemke &lt;br&gt;
 Mittenwalder Str. 24 &lt;br&gt;
@@ -37,7 +37,7 @@ throughput application.
   &lt;/code&gt;
   &lt;footer&gt;&lt;cite&gt;Kareem Kouddous, CTO at Koko AI&lt;/cite&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;About Koko&lt;/h2&gt;
+&lt;h2 id=&quot;about-koko&quot;&gt;&lt;a href=&quot;#about-koko&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;About Koko&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://koko.ai&quot;&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
@@ -66,7 +66,7 @@ identify bad actors and damaging content. Koko detects issues in real time and
 notifies your moderation system.&lt;/p&gt;
 &lt;p&gt;Koko is already used by several top online communities to support over 100
 million moderation decisions per day.&lt;/p&gt;
-&lt;h2&gt;Rancher to Kubernetes migration&lt;/h2&gt;
+&lt;h2 id=&quot;rancher-to-kubernetes-migration&quot;&gt;&lt;a href=&quot;#rancher-to-kubernetes-migration&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Rancher to Kubernetes migration&lt;/h2&gt;
 &lt;p&gt;When Koko contacted me, their infrastructure was running on an old version of
 &lt;a href=&quot;https://rancher.com/&quot;&gt;Rancher&lt;/a&gt; which should be replaced by a Kubernetes
 cluster. I’ve migrated all deployment manifests to Kubernetes manifests and
@@ -82,7 +82,7 @@ developers to use internal services. This was solved by using
 &lt;a href=&quot;https://github.com/bitly/oauth2_proxy&quot;&gt;oauth2_proxy&lt;/a&gt; to authenticate against
 GitHub. Additional changes to support Websockets for Jupyter Notebooks were
 added.&lt;/p&gt;
-&lt;h2&gt;kubecfn - Cloudformation Kubernetes Installer&lt;/h2&gt;
+&lt;h2 id=&quot;kubecfn---cloudformation-kubernetes-installer&quot;&gt;&lt;a href=&quot;#kubecfn---cloudformation-kubernetes-installer&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;kubecfn - Cloudformation Kubernetes Installer&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/kubecfn-2f7d38406a33c80962b9131bc20ee2bf.svg&quot; alt=&quot;kubecfn architecture diagram&quot;&gt;
 Initially, Koko used &lt;a href=&quot;https://github.com/kubernetes/kops&quot;&gt;kops&lt;/a&gt; to deploy the
 Kubernetes cluster. Customizing Kubernetes component configuration often
@@ -97,7 +97,7 @@ first-design gave us the confidence required to quickly iterate by ensuring safe
 rollouts of version and configuration changes.
 The project was made open source and can be &lt;a href=&quot;https://github.com/itskoko/kubecfn&quot;&gt;found
 here&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Argo Machine Learning Pipeline&lt;/h2&gt;
+&lt;h2 id=&quot;argo-machine-learning-pipeline&quot;&gt;&lt;a href=&quot;#argo-machine-learning-pipeline&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Argo Machine Learning Pipeline&lt;/h2&gt;
 &lt;p&gt;The next thing to solve was how to run machine learning pipelines on the new
 cluster. There are several options but &lt;a href=&quot;https://github.com/argoproj/argo&quot;&gt;Argo&lt;/a&gt;
 seemed like the best fit. Being a generic workflow engine it extends the
@@ -106,7 +106,7 @@ manifests to run the pipelines.&lt;/p&gt;
 &lt;p&gt;The custom built Kubernetes installer made it easy to add another GPU-enabled worker
 instance group that automatically gets scaled up when a Argo pipeline requires
 GPU instances and back to zero after the jobs finished.&lt;/p&gt;
-&lt;h2&gt;Autoscaling&lt;/h2&gt;
+&lt;h2 id=&quot;autoscaling&quot;&gt;&lt;a href=&quot;#autoscaling&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Autoscaling&lt;/h2&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -155,7 +155,7 @@ the
 to provide the metrics as Kubernetes Custom Metrics. This allowed me to create
 scaling rules for rapid scaling up while preventing underprovisioning by looking
 at past traffic patterns.&lt;/p&gt;
-&lt;h2&gt;Observability&lt;/h2&gt;
+&lt;h2 id=&quot;observability&quot;&gt;&lt;a href=&quot;#observability&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Observability&lt;/h2&gt;
 &lt;p&gt;Koko used &lt;a href=&quot;https://www.datadoghq.com/&quot;&gt;Datadog&lt;/a&gt; for monitoring and, once it was
 available, logging too. Since we weren’t very happy with the service and
 struggled to integrate custom metrics as well as metrics provided by
@@ -171,7 +171,7 @@ I’ve integrated the &lt;a href=&quot;https://aws.amazon.com/elasticsearch-serv
 Service&lt;/a&gt; with
 &lt;a href=&quot;https://fluentbit.io/&quot;&gt;fluent-bit&lt;/a&gt; which allowed us to browse, filter and graph
 logs as well as integrate them into Grafana dashboards.&lt;/p&gt;
-&lt;h2&gt;Stream processing&lt;/h2&gt;
+&lt;h2 id=&quot;stream-processing&quot;&gt;&lt;a href=&quot;#stream-processing&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Stream processing&lt;/h2&gt;
 &lt;p&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
@@ -208,7 +208,7 @@ Koko incurred high traffic costs.&lt;/p&gt;
 &lt;a href=&quot;https://www.fluentd.org/&quot;&gt;fluentd&lt;/a&gt; and Kubernetes statefulsets to replace
 Kinesis Firehose. This reduced Koko’s EC2 traffic costs by 80%. You can read
 more about the details in &lt;a href=&quot;/2018/10/31/fluentd-for-data-warehousing-with-athena/&quot;&gt;this blog article&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Koko’s ability to rapidly and reliably build new features helped it to attract
 some of the largest social networks.&lt;/p&gt;
 &lt;p&gt;I’m proud to have built the infrastructure that allowed Koko to be confident in
@@ -242,14 +242,14 @@ DevOps strategy. Debugging a ELB/ECS based pilot deployment.&lt;/p&gt;
   &lt;/code&gt;
   &lt;footer&gt;&lt;cite&gt;Alexander Kong, CTO at Styla.com&lt;/cite&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;About Styla&lt;/h2&gt;
+&lt;h2 id=&quot;about-styla&quot;&gt;&lt;a href=&quot;#about-styla&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;About Styla&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/styla-40c7d3d40842ccd99311f9b8157b07be.svg&quot; alt=&quot;Logo&quot;&gt;
 &lt;a href=&quot;https://www.styla.com/&quot;&gt;Styla&lt;/a&gt; offers a Content Experience Engine that
 automatically designs your content and makes it shoppable, inspiring your
 customers to buy more.&lt;/p&gt;
 &lt;p&gt;Styla’s automation technology designs your content in real-time and enhances the
 user experience on every device.&lt;/p&gt;
-&lt;h2&gt;Docker migration and AWS DevOps strategy consulting&lt;/h2&gt;
+&lt;h2 id=&quot;docker-migration-and-aws-devops-strategy-consulting&quot;&gt;&lt;a href=&quot;#docker-migration-and-aws-devops-strategy-consulting&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Docker migration and AWS DevOps strategy consulting&lt;/h2&gt;
 &lt;p&gt;Before they contacted me, Styla’s stack consisted of Ansible managed AWS EC2
 instances with their applications directly deployed to the machine ad-hoc.&lt;/p&gt;
 &lt;p&gt;When expanding their product to more markets, Styla contracted me for a day to
@@ -289,7 +289,7 @@ infrastructure which is powering the platform ever since.&lt;/p&gt;
   &lt;/code&gt;
   &lt;footer&gt;&lt;cite&gt;Alexander Kong, CTO at Styla.com&lt;/cite&gt;&lt;/footer&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;Machine Learning Stack&lt;/h2&gt;
+&lt;h2 id=&quot;machine-learning-stack&quot;&gt;&lt;a href=&quot;#machine-learning-stack&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Machine Learning Stack&lt;/h2&gt;
 &lt;p&gt;As a data driven platform, there is a strong need for a reliable machine
 learning pipeline.&lt;/p&gt;
 &lt;p&gt;After Styla successfully adopted the discussed infrastructure changes, revamping
@@ -307,10 +307,213 @@ Ansible roles, consistent with Styla’s general deployment workflow.&lt;/p&gt;
 importance. Therefor the stack follows the security best practices by using
 individual IAM roles for each Lambda and data store with tightly locked down
 policies that grant only the necessary permissions.&lt;/p&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Whether you need consulting, troubleshooting or hands-on help with building your
-infrastructure, &lt;a href=&quot;/hire-me&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Run Prometheus Blackbox Exporter as Lambda]]></title><description><![CDATA[Introduction When providing any service to a global customer base, you are probably
-interested in measuring the performance and availability…]]></description><link>https://5pi.de//2018/12/10/prometheus-blackbox-exporter-lambda/</link><guid isPermaLink="false">https://5pi.de//2018/12/10/prometheus-blackbox-exporter-lambda/</guid><pubDate>Mon, 10 Dec 2018 14:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Introduction&lt;/h1&gt;
+infrastructure, &lt;a href=&quot;/hire-me&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why Kubernetes at small scale?]]></title><description><![CDATA[Google Scale Wannabes 
+I’ve frequently hear people say something like this: The number of people who adopt complicated stuff like Kubernetes…]]></description><link>https://5pi.de//2018/12/18/why-kubernetes-at-small-scale/</link><guid isPermaLink="false">https://5pi.de//2018/12/18/why-kubernetes-at-small-scale/</guid><pubDate>Tue, 18 Dec 2018 17:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;google-scale-wannabes&quot;&gt;&lt;a href=&quot;#google-scale-wannabes&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Google Scale Wannabes&lt;/h2&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/634d60838678047c8b9f6f323a3a9be1/9c00e/wannabe.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 650px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 33.900000000000006%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABzElEQVQoz0WR7UtTcRTH77/Rf9F/YG+CkAgq9qKYLzJ6UUOpYSEWa1k0hfIhx6QszIYPueUSjFB28aEXW3iXA20lkjG1NZrObXfebe7+7qfb3dID5/wO53zOi9/3K3VOlWgf1+h4q5HMCEBgUAtD6Fb/P4UQ9Q50o8rQ2iSFslpjLV4gyV+r1qBYNiFRh3/tYKS2OYpi3BzWDnOaILlrUKwccjfSS05osLONKNb20r8ST+o8mc7zKgqZ8AL77juk2p2o82GqSTf7URv6ahNbqZT1k/tBDac/S8eyj83ACOm2VrK3Hejp30jftjTGh1/g7Apxtv8A5dp15rwPmQnOkWo5R+bTKbpdgyyPNeB7/oiBmQKRWIIzbTKn+y+zZGvky00n+akJxN4uUutwgavujzi8PxhcKjH7oItYw0kSzXbiPi8b8kU+PzvBvJlNjk5ckyqe93nO35Kx91xA6fOw2nyFPy99GNk9pHS2wo3Hi7gHwihr63yYXmDW1kLiXcjS5Ofmd0a9lwi86cX1NMi91xvYu+PYXQq+vh4WVxJE/BOoK8qxhlChrB2gFjXLWVNmDo8toazXX9O/IbmEJ6Qix3NEY+v4x4KMBEJH7F8Rm9MLcOmaHgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Google - Wannabe&quot;
+        title=&quot;&quot;
+        src=&quot;/static/634d60838678047c8b9f6f323a3a9be1/10273/wannabe.png&quot;
+        srcset=&quot;/static/634d60838678047c8b9f6f323a3a9be1/9b14a/wannabe.png 163w,
+/static/634d60838678047c8b9f6f323a3a9be1/94962/wannabe.png 325w,
+/static/634d60838678047c8b9f6f323a3a9be1/10273/wannabe.png 650w,
+/static/634d60838678047c8b9f6f323a3a9be1/2fc6f/wannabe.png 975w,
+/static/634d60838678047c8b9f6f323a3a9be1/9c00e/wannabe.png 1000w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    
+I’ve frequently hear people say something like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The number of people who adopt complicated stuff like Kubernetes for what is
+essentially a couple of web servers and a database is too high. They’re Google
+wannabies that thinks in Google’s scale but forget that it is utterly
+unnecessary in their case.&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;reacharavindh, &lt;a href=&quot;https://news.ycombinator.com/item?id=18128235&quot;&gt;https://news.ycombinator.com/item?id=18128235&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;They have a point. Kubernetes is touted as container orchestration system. You
+request resources for your container and it will automatically figure out where
+to run it. This is important once you have more than a handful of systems to
+ensure good utilization without having a human to play tetris shuffling your
+applications around. It’s API and &lt;a href=&quot;https://kubernetes.io/docs/reference/access-authn-authz/rbac/&quot;&gt;Role-based access
+control&lt;/a&gt; allows
+you to support many developer without a Ops person or team becoming the
+bottleneck.&lt;/p&gt;
+&lt;p&gt;These things are certainly more important at Google’s scale than in a small
+shop. You might have just 4 VMs, an application and a reverse proxy. A typical
+small web startup, maybe 2-3 developer. At that scale it wouldn’t be a problem
+to manually update the operating system, figure out where to run your
+application and move it around when needed.&lt;/p&gt;
+&lt;p&gt;That’s why people think introducing a complex system like Kubernetes can’t be
+possible worth it. I believe they miss something: Kubernetes is not only a
+cluster scheduler, it’s also an opinionated infrastructure framework.&lt;/p&gt;
+&lt;h2 id=&quot;kubernetes-love&quot;&gt;&lt;a href=&quot;#kubernetes-love&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Kubernetes love&lt;/h2&gt;
+&lt;p&gt;Let’s get this out the way first: I love Kubernetes and these days I make most
+of my money helping companies to build their infrastructure around Kubernetes.
+Not primarily because it’s hyped and lot of people want help migrating to it but
+because it’s my tool of choice after building infrastructure for a decade
+without it:
+I’ve built infrastructure in pre-config management enterprise environments, used
+chef to built infrastructure serving millions of
+users and dabbled in Ansible and Salt.&lt;/p&gt;
+&lt;p&gt;I concluded that robust abstractions are the key to manage large and complex
+infrastructure. Making your &lt;a href=&quot;https://5pi.de/2015/03/13/building-aws-amis-from-scratch/&quot;&gt;(virtual) machines
+immutable&lt;/a&gt; limits
+change to your machines to the build time of your images. Running your
+application in
+&lt;a href=&quot;https://5pi.de/2015/01/08/containerized-infrastructure/&quot;&gt;containers&lt;/a&gt; does the
+same for your application. For configuration, you can &lt;a href=&quot;https://5pi.de/2015/08/31/dont-manage-config-unless-you-have-to/&quot;&gt;bake
+in&lt;/a&gt; site
+specific config at build time to reduce what you need to worry about at runtime.&lt;/p&gt;
+&lt;p&gt;These patterns are largely deployment agnostic. While immutable machine images
+are common on cloud providers, it’s reasonable to do the same when provisioning
+bare metal. Application images are made popular by Docker, but people used
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Chroot&quot;&gt;chroot&lt;/a&gt; based deployment long before that
+to achieve similar goals.&lt;/p&gt;
+&lt;p&gt;But Kubernetes is a opinionated, vendor agnostic framework based on all the
+concepts I learned to help with managing infrastructure.&lt;/p&gt;
+&lt;h2 id=&quot;snowflake-infrastructure&quot;&gt;&lt;a href=&quot;#snowflake-infrastructure&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Snowflake Infrastructure&lt;/h2&gt;
+&lt;p&gt;Let’s stay with the small web shop example for a moment:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2x reverse proxies, terminating TLS and sending requests to..&lt;/li&gt;
+&lt;li&gt;2x webservers which connect to..&lt;/li&gt;
+&lt;li&gt;1x database&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the sake of the argument, let say the database is a managed service. If it’s
+not, even more reason to use Kubernetes. Let say you’re on AWS, but that doesn’t
+really matter either.&lt;/p&gt;
+&lt;h3 id=&quot;provisioning&quot;&gt;&lt;a href=&quot;#provisioning&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Provisioning&lt;/h3&gt;
+&lt;p&gt;Without Kubernetes, you could click yourself two VMs and an ALB or ELB. Next you
+configure your TLS certificates, either by purchasing them or using AWS
+Certificate Manager to create one automatically.
+Or use Cloudformation to manage this if you want infrastructure-as-code. Now you
+can give your VMs well-known DNS names and use rsync to deploy to it. Or do you
+appreciate Docker’s isolation? Then build, push, pull and run your images. Maybe
+write a shell script for that.&lt;/p&gt;
+&lt;p&gt;Now copy your database secrets there somehow. You probably want to monitor this
+with the tool of your choice.  Where to deploy it? Maybe create a new VM. Make
+sure it can reach the systems by allowing whatever protocol it uses. Hardcode
+the well-known VM names into your monitoring. Or maybe use the AWS API to
+automatically update this. You could write a small shell script for that. You
+might also consider using configuration management at this time. Maybe you come
+up with good roles/cookbooks/scripts to configure monitoring, after deciding how
+to lay out your deployment. Maybe you create systemd unit, maybe you deploy
+runit..&lt;/p&gt;
+&lt;h3 id=&quot;access-on-offboarding&quot;&gt;&lt;a href=&quot;#access-on-offboarding&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Access, On-/Offboarding&lt;/h3&gt;
+&lt;p&gt;Maybe you’re the move-fast-break-things kind of person and
+grant each developer full access, so they can work on their own. At this point
+you probably already need an informal ‘process’ like: “Ping people in #infra
+slack channel before deploying so we know what is going on.”.&lt;/p&gt;
+&lt;p&gt;Maybe you’re more paranoid and you decide there is one person which full access
+acting as gatekeeper. But since you’re paranoid, you worry about the &lt;a href=&quot;https://en.wikipedia.org/wiki/Bus_factor&quot;&gt;bus
+factor&lt;/a&gt;. You still need some sort of
+process to make sure changes aren’t conflicting.&lt;/p&gt;
+&lt;p&gt;Now an engineer leaves the company. You need to rotate all secrets. You need to
+make sure you remember all the secrets that are used. At this point you have
+written thousand lines of configuration management scripts that manages among
+others all application secrets, managed database secrets, TLS keys. Or you have
+up-to-date documentation. Or you don’t and you need to think hard about all
+places you might have configured secrets.&lt;/p&gt;
+&lt;p&gt;A new engineer needs onboarding. Maybe he is a senior engineer who did DevOps at
+many places. If you have good, up-to-date documentation you might be able to
+figure out how to contribute and deploy. With configuration management, he might
+take a few days to understand how things are be done from that. Without any of
+these, he’ll just pair with other engineers and eventually figure out how things
+are done. He needs to be careful to understand all the decisions implied by how
+things are setup or risks driving development in the opposite direction.&lt;/p&gt;
+&lt;h3 id=&quot;no-problem-at-small-scale&quot;&gt;&lt;a href=&quot;#no-problem-at-small-scale&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;No Problem at small scale&lt;/h3&gt;
+&lt;p&gt;You’ll probably find a good way to make this work. New employees are onboarded
+quickly, everyone can work distraction free without stepping on each other toes.
+It’s just a small team after all, especially if you’re sitting all in one office
+this isn’t too hard.&lt;/p&gt;
+&lt;p&gt;But given all the decisions you had to make, you certainly end up with a
+cloud provider specific &lt;em&gt;snowflake infrastructure&lt;/em&gt;. Even in this small problem
+space, there is probably not a single company out there with exactly your setup.&lt;/p&gt;
+&lt;h2 id=&quot;kubernetes-infrastructure&quot;&gt;&lt;a href=&quot;#kubernetes-infrastructure&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Kubernetes Infrastructure&lt;/h2&gt;
+&lt;p&gt;Kubernetes is an opinionated framework. Every resource in your infrastructure is
+abstracted as a &lt;a href=&quot;https://kubernetes.io/docs/concepts/#kubernetes-objects&quot;&gt;Kubernetes
+Object&lt;/a&gt;. Deployable
+workloads on a single system are Pods. ReplicaSets are workloads that should be
+replicated across systems. Deployments are versioned, replicated workloads.
+Services provide Endpoints which is how you connect to the Pods in your cluster.&lt;/p&gt;
+&lt;p&gt;All these are complex, layered but powerful abstractions. They are powerful
+because from the infrastructure management perspective they cover all aspects of
+all possible resources in your cluster. If an abstraction doesn’t provide the
+behaviour needed for your resources, you can define &lt;a href=&quot;https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/&quot;&gt;Custom
+Resources&lt;/a&gt;
+and deploy/write an &lt;a href=&quot;https://coreos.com/operators/&quot;&gt;Operator&lt;/a&gt; for this.&lt;/p&gt;
+&lt;h3 id=&quot;now-how-does-this-help-with-the-concerns-a-small-shop-has&quot;&gt;&lt;a href=&quot;#now-how-does-this-help-with-the-concerns-a-small-shop-has&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Now how does this help with the concerns a small shop has?&lt;/h3&gt;
+&lt;p&gt;Kubernetes is workload agnostic, so it allows you to deploy whatever you want on
+it. That means all Kubernetes cluster is all you need. You don’t need to setup
+VMs, ALB/EBS or any other infrastructure beside the Kubernetes cluster itself.
+There is no need to run anything outside of Kubernetes. And most cloud providers
+these days provide the cluster management to you for free.&lt;/p&gt;
+&lt;p&gt;The biggest advantage though is that it’s not a &lt;em&gt;snowflake infrastructure&lt;/em&gt;
+anymore:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For everything in your infrastructure, you have a (ideally) version controlled
+manifest&lt;/li&gt;
+&lt;li&gt;Ingress objects are used to configure what can be reached under which names&lt;/li&gt;
+&lt;li&gt;The TLS certificate is referred to explicitly and easy to find&lt;/li&gt;
+&lt;li&gt;A deployment is always an image with a version/tag.&lt;/li&gt;
+&lt;li&gt;The API tells you what is running and what is suppose to be running&lt;/li&gt;
+&lt;li&gt;It also allows you to configure your monitoring automatically&lt;/li&gt;
+&lt;li&gt;You allow developers to update their application without granting them access
+to secrets&lt;/li&gt;
+&lt;li&gt;You have access to plenty of operators should you want to operate your own
+database or want to automate and abstract message queue management&lt;/li&gt;
+&lt;li&gt;Migrating to other cloud providers or bare metal is much easier&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A new hire who is familiar with Kubernetes will understand what deployments you
+have, how much resources they need, how they access other systems and how
+requests are routed. They know how to deploy changes and how to debug their
+application.&lt;/p&gt;
+&lt;p&gt;Since Kubernetes resources are configured entirely by YAML manifests, all
+configuration management need you might have boils down to manifest generation.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;With Kubernetes we can build solution to infrastructure management problems that
+work for everyone without having to resort to &lt;a href=&quot;/2015/08/31/dont-manage-config-unless-you-have-to#issues-with-chef&quot;&gt;weak abstractions that regular
+infrastructure-as-code solutions
+have&lt;/a&gt;.
+There is no such thing as free lunch but these are ramp-up costs. The patterns
+you applied to solve a problem once, can be applied to all future problems. And
+this goes both ways: Engineers familiar with Kubernetes will benefit from that
+in all Kubernetes infrastructures. Companies that adopt Kubernetes will be able
+to hire people who know how their infrastructure work before you even started
+onboarding.&lt;/p&gt;
+&lt;p&gt;So should &lt;em&gt;you&lt;/em&gt; run on Kubernetes? It still depends. Maybe you want to do
+something more serverless. Then have a look at
+&lt;a href=&quot;https://www.heroku.com/&quot;&gt;Heroku&lt;/a&gt; or &lt;a href=&quot;https://cloud.google.com/appengine/&quot;&gt;Google App
+Engine&lt;/a&gt;. If your service is mostly a backendless
+web project, check out &lt;a href=&quot;https://www.netlify.com/&quot;&gt;netlify&lt;/a&gt; and use &lt;a href=&quot;https://aws.amazon.com/lambda/&quot;&gt;AWS
+Lambda&lt;/a&gt; for the necessary logic.&lt;/p&gt;
+&lt;p&gt;But if you need to build, deploy, update, configure and monitor applications
+running on servers spend time understanding what it really takes to get you
+where you want and whether it’s really less work than adopting Kubernetes.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Run Prometheus Blackbox Exporter as Lambda]]></title><description><![CDATA[Introduction When providing any service to a global customer base, you are probably
+interested in measuring the performance and availability…]]></description><link>https://5pi.de//2018/12/10/prometheus-blackbox-exporter-lambda/</link><guid isPermaLink="false">https://5pi.de//2018/12/10/prometheus-blackbox-exporter-lambda/</guid><pubDate>Mon, 10 Dec 2018 14:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;introduction&quot;&gt;&lt;a href=&quot;#introduction&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -360,7 +563,7 @@ different regions and glue some authenticating reverse proxy to it.&lt;/p&gt;
 server&lt;em&gt;less&lt;/em&gt;?&lt;/p&gt;
 &lt;p&gt;Introducing
 &lt;a href=&quot;https://github.com/discordianfish/blackbox-exporter-lambda&quot;&gt;blackbox-exporter-lambda&lt;/a&gt;!&lt;/p&gt;
-&lt;h1&gt;How does it work?&lt;/h1&gt;
+&lt;h1 id=&quot;how-does-it-work&quot;&gt;&lt;a href=&quot;#how-does-it-work&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;How does it work?&lt;/h1&gt;
 &lt;p&gt;When working on latency.at, &lt;a href=&quot;https://github.com/prometheus/blackbox_exporter/pull/214&quot;&gt;I’ve
 refactored&lt;/a&gt; the
 blackbox-exporter to make it possible to use it’s probers and config as packages
@@ -372,8 +575,8 @@ templates&lt;/a&gt; to create the Lambda and
 expose it via the &lt;a href=&quot;https://aws.amazon.com/api-gateway/&quot;&gt;Amazon API Gateway&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For authorization, we require an authorization header to match the &lt;code class=&quot;language-text&quot;&gt;AUTH_TOKEN&lt;/code&gt;
 environment variable.&lt;/p&gt;
-&lt;h1&gt;Deployment&lt;/h1&gt;
-&lt;h2&gt;Bootstrapping&lt;/h2&gt;
+&lt;h1 id=&quot;deployment&quot;&gt;&lt;a href=&quot;#deployment&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Deployment&lt;/h1&gt;
+&lt;h2 id=&quot;bootstrapping&quot;&gt;&lt;a href=&quot;#bootstrapping&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Bootstrapping&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/new-297788a4dcf5dd03aa9a6fe753bb8619.gif&quot; alt=&quot;new&quot;&gt;
 Download or checkout the
 &lt;a href=&quot;https://github.com/discordianfish/blackbox-exporter-lambda&quot;&gt;blackbox-exporter-lambda&lt;/a&gt; and change to the directory:&lt;/p&gt;
@@ -385,7 +588,7 @@ prefix for reach region you deploy this to.&lt;/p&gt;
 &lt;p&gt;This won’t include the lambda since
 we first need to upload the code.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;make new&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Upload Code&lt;/h2&gt;
+&lt;h2 id=&quot;upload-code&quot;&gt;&lt;a href=&quot;#upload-code&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Upload Code&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/upload-update-8be4627e4a0e08ef00807514abbad070.gif&quot; alt=&quot;new&quot;&gt;
 Now upload the code. This uses the aws cli to get your Account ID. You can also
 set this using the &lt;code class=&quot;language-text&quot;&gt;ACCOUNT_ID&lt;/code&gt; environment variable.&lt;/p&gt;
@@ -395,7 +598,7 @@ set this using the &lt;code class=&quot;language-text&quot;&gt;ACCOUNT_ID&lt;/co
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;AUTH_TOKEN&lt;/code&gt; specifies which auth token to require when handling requests. You
 can make Prometheus use this token by configuring &lt;code class=&quot;language-text&quot;&gt;bearer_token&lt;/code&gt; in the &lt;a href=&quot;https://prometheus.io/docs/prometheus/latest/configuration/configuration/#scrape_config&quot;&gt;scrape
 config&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Test Lambda&lt;/h2&gt;
+&lt;h2 id=&quot;test-lambda&quot;&gt;&lt;a href=&quot;#test-lambda&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Test Lambda&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/test-d490d740700a92ddf861d23bbe7b84e3.gif&quot; alt=&quot;test&quot;&gt;
 Now we can run &lt;code class=&quot;language-text&quot;&gt;make endpoint&lt;/code&gt; to get the URL to invoke the blackbox-exporter
 and use curl for testing this. You use the &lt;code class=&quot;language-text&quot;&gt;config&lt;/code&gt; parameter for
@@ -408,12 +611,12 @@ for more details.&lt;/p&gt;
   --data-urlencode &amp;#39;target=https://www.google.com&amp;#39; \
   --data-urlencode &amp;#39;config={&amp;quot;preferred_ip_protocol&amp;quot;: &amp;quot;ip4&amp;quot;}&amp;#39; \
   $(make endpoint)/http&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Updates&lt;/h2&gt;
+&lt;h2 id=&quot;updates&quot;&gt;&lt;a href=&quot;#updates&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Updates&lt;/h2&gt;
 &lt;p&gt;To change the &lt;code class=&quot;language-text&quot;&gt;AUTH_TOKEN&lt;/code&gt; or roll out any other Cloudformation change, you can
 run &lt;code class=&quot;language-text&quot;&gt;AUTH_TOKEN=xx make update&lt;/code&gt; again.&lt;/p&gt;
 &lt;p&gt;When changing the lambda code itself, run &lt;code class=&quot;language-text&quot;&gt;make upload&lt;/code&gt; to upload it to the code
 bucket and run &lt;code class=&quot;language-text&quot;&gt;make bump&lt;/code&gt; to notify Lambda that the code base changed.&lt;/p&gt;
-&lt;h2&gt;Prometheus Configuration&lt;/h2&gt;
+&lt;h2 id=&quot;prometheus-configuration&quot;&gt;&lt;a href=&quot;#prometheus-configuration&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Prometheus Configuration&lt;/h2&gt;
 &lt;p&gt;The configuration is similar to the one used for the regular blackbox-exporter.
 It also uses relabling to configure multiple targets easily:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- job_name: &amp;#39;blackbox-exporter-lambda-us-central-1&amp;#39;
@@ -510,7 +713,7 @@ costs. Using AWS Kinesis Firehose koko  is one of my current…]]></description>
     &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Or how I replaced AWS Firehose by fluentd instances and saved &gt;80% EC2 traffic
 costs.&lt;/em&gt;&lt;/p&gt;
-&lt;h1&gt;Using AWS Kinesis Firehose&lt;/h1&gt;
+&lt;h1 id=&quot;using-aws-kinesis-firehose&quot;&gt;&lt;a href=&quot;#using-aws-kinesis-firehose&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Using AWS Kinesis Firehose&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.koko.ai/&quot;&gt;koko&lt;/a&gt; is one of my current clients. They are running on
 the &lt;a href=&quot;/2018/02/01/kubecfn-cloudformation-installer-for-reasonably-secure-multi-master-kubernetes-cluster/&quot;&gt;Kubernetes
 infrastructure I
@@ -536,7 +739,7 @@ avoid running a complex, distributed system like this. Fortunately, since
 all messages shipped are independent of each other and get deduplicated in
 Athena anyway, we shouldn’t need expensive coordination. So what alternatives do
 we have?&lt;/p&gt;
-&lt;h1&gt;Warehousing with Fluentd&lt;/h1&gt;
+&lt;h1 id=&quot;warehousing-with-fluentd&quot;&gt;&lt;a href=&quot;#warehousing-with-fluentd&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Warehousing with Fluentd&lt;/h1&gt;
 &lt;p&gt;Having introduced &lt;a href=&quot;https://www.fluentd.org/&quot;&gt;fluentd&lt;/a&gt; for shipping logs
 recently, I realized it might check all the boxes.&lt;/p&gt;
 &lt;p&gt;Most people probably use &lt;a href=&quot;https://www.fluentd.org/&quot;&gt;fluentd&lt;/a&gt; for shipping logs.
@@ -545,7 +748,7 @@ it reads the local container logs and ships them to a central logging service,
 like &lt;a href=&quot;https://www.elastic.co/products/elasticsearch&quot;&gt;Elasticsearch&lt;/a&gt;. Then you’d
 use something like &lt;a href=&quot;https://www.elastic.co/products/kibana&quot;&gt;Kibana&lt;/a&gt;. That
 completes the so called &lt;em&gt;EFK Stack&lt;/em&gt;.&lt;/p&gt;
-&lt;h2&gt;Configuration&lt;/h2&gt;
+&lt;h2 id=&quot;configuration&quot;&gt;&lt;a href=&quot;#configuration&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Configuration&lt;/h2&gt;
 &lt;p&gt;Fluentd allows use to define a source for receiving messages from the
 application. Each message contains a shard key that’s used as path prefix on S3.
 Fluentd allows parsing this with a custom regexp:&lt;/p&gt;
@@ -592,7 +795,7 @@ the destination path as prefix when flushing the buffer to S3.&lt;/p&gt;
 without requiring any coordination between the instances. Since the messages are
 independent of each other and their order is irrelevant, this is all we need to
 process them in parallel.&lt;/p&gt;
-&lt;h2&gt;Monitoring&lt;/h2&gt;
+&lt;h2 id=&quot;monitoring&quot;&gt;&lt;a href=&quot;#monitoring&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Monitoring&lt;/h2&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -633,7 +836,7 @@ process them in parallel.&lt;/p&gt;
 plugin provides metrics about the throughput and output buffer length which can
 be used to alert on. The dashboard above also shows cAdvisor and kubelet metrics
 for the fluent pods to monitor disk, CPU and network usage.&lt;/p&gt;
-&lt;h2&gt;Deployment&lt;/h2&gt;
+&lt;h2 id=&quot;deployment&quot;&gt;&lt;a href=&quot;#deployment&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Deployment&lt;/h2&gt;
 &lt;p&gt;We deploy this on Kubernetes with a &lt;a href=&quot;https://kubernetes.io/docs/concepts/storage/persistent-volumes/&quot;&gt;Persistent
 Volume&lt;/a&gt; for
 each instance to persist the buffer even if a pod crashes or gets recreated.&lt;/p&gt;
@@ -646,7 +849,7 @@ for this.&lt;/p&gt;
 which routes request in round robin. This means one message for a batch might
 end up on a different instance than the next message, which fortunately is no
 problem even without a complex, coordinated system like kafka.&lt;/p&gt;
-&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;It took us just two days to implement and rollout this change and it’s been
 working well for several weeks now without requiring any maintenance so far. It
 simplified the setup, removed the dependency on Firehose and cut over 80% of the
@@ -688,58 +891,58 @@ surprised how this was handled. I also was quite disappointed by not getting any
 response anymore around why this didn’t qualify for a bug bounty.&lt;/p&gt;
 &lt;p&gt;I’ll continue to disclose issues responsibly but I fully understand people who
 don’t want to jump through these hoops if they don’t even get credited for it.&lt;/p&gt;
-&lt;h2&gt;Timeline&lt;/h2&gt;
-&lt;h4&gt;2017-06-15&lt;/h4&gt;
+&lt;h2 id=&quot;timeline&quot;&gt;&lt;a href=&quot;#timeline&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Timeline&lt;/h2&gt;
+&lt;h4 id=&quot;2017-06-15&quot;&gt;&lt;a href=&quot;#2017-06-15&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-06-15&lt;/h4&gt;
 &lt;p&gt;Initial Report and first response with promising to send a
 follow up later that day.&lt;/p&gt;
-&lt;h4&gt;2017-06-17&lt;/h4&gt;
+&lt;h4 id=&quot;2017-06-17&quot;&gt;&lt;a href=&quot;#2017-06-17&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-06-17&lt;/h4&gt;
 &lt;p&gt;The issue was fixed in Kubernetes:
 &lt;a href=&quot;https://github.com/kubernetes/kubernetes/pull/47605&quot;&gt;https://github.com/kubernetes/kubernetes/pull/47605&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;2017-06-19&lt;/h4&gt;
+&lt;h4 id=&quot;2017-06-19&quot;&gt;&lt;a href=&quot;#2017-06-19&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-06-19&lt;/h4&gt;
 &lt;p&gt;After not hearing back, I asked again about a CVE and the plans
 to announce the issue. I’ve got a response the same day, confirming that a CVE
 will be issues and that they’re still working on identifying the affected
 customers.&lt;/p&gt;
-&lt;h4&gt;2017-07-07&lt;/h4&gt;
+&lt;h4 id=&quot;2017-07-07&quot;&gt;&lt;a href=&quot;#2017-07-07&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-07-07&lt;/h4&gt;
 &lt;p&gt;So far, no CVE was issues so I asked again. I also asked if they
 are okay with me blogging about it.&lt;/p&gt;
 &lt;p&gt;In the response I was told that CVE was requested but not yet issued. I was also
 asked to please not talk about this issue publically until they finished letting
 affected customers know.&lt;/p&gt;
-&lt;h4&gt;2017-07-13&lt;/h4&gt;
+&lt;h4 id=&quot;2017-07-13&quot;&gt;&lt;a href=&quot;#2017-07-13&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-07-13&lt;/h4&gt;
 &lt;p&gt;I’ve got an update, letting me know that the security team is in their final
 stages. They apologize for the “clearly no acceptable” time it took to process
 the issue.&lt;/p&gt;
-&lt;h4&gt;2017-07-20&lt;/h4&gt;
+&lt;h4 id=&quot;2017-07-20&quot;&gt;&lt;a href=&quot;#2017-07-20&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-07-20&lt;/h4&gt;
 &lt;p&gt;CVE-2017-1002100 was assigned to the issue.&lt;/p&gt;
-&lt;h4&gt;2017-08-02&lt;/h4&gt;
+&lt;h4 id=&quot;2017-08-02&quot;&gt;&lt;a href=&quot;#2017-08-02&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-08-02&lt;/h4&gt;
 &lt;p&gt;I’ve asked again if there will be some sort of announcement which would also
 credit me and encourage people to upgrade. I was pointed to &lt;a href=&quot;https://groups.google.com/forum/#!msg/kubernetes-security-announce/n3VBg_WJZic/-ddIqKXqAAAJ&quot;&gt;a post in
 kubernetes-security-announce&lt;/a&gt;
 which I never heard about before (it only includes three posts). After
 searching, I also found it was noted in the &lt;a href=&quot;https://groups.google.com/forum/#!topic/kubernetes-announce/WodXsASu6y0&quot;&gt;1.6.6 notes on
 kubernetes-announce&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;2017-08-03&lt;/h4&gt;
+&lt;h4 id=&quot;2017-08-03&quot;&gt;&lt;a href=&quot;#2017-08-03&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-08-03&lt;/h4&gt;
 &lt;p&gt;I’ve explained that I expected an announcement with discussion of risks and need
 for upgrade, as well as credit me for my finding. Apparently though this is all
 the announcemnts that will be done in such situation.&lt;/p&gt;
 &lt;p&gt;I’ve also ask specifically if this qualifies for some of Microsoft’s bug
 bounties.&lt;/p&gt;
-&lt;h4&gt;2017-09-19&lt;/h4&gt;
+&lt;h4 id=&quot;2017-09-19&quot;&gt;&lt;a href=&quot;#2017-09-19&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-09-19&lt;/h4&gt;
 &lt;p&gt;I’ve asked again about a bounty. Since I just launched &lt;a href=&quot;https://latency.at&quot;&gt;https://latency.at&lt;/a&gt;, some
 Azure credits would be super useful to me.&lt;/p&gt;
 &lt;p&gt;I’ve got the answer that “the MSRC folks didn’t think it matched”, but they’ll
 look into some startup credits.&lt;/p&gt;
-&lt;h4&gt;2017-09-25&lt;/h4&gt;
+&lt;h4 id=&quot;2017-09-25&quot;&gt;&lt;a href=&quot;#2017-09-25&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-09-25&lt;/h4&gt;
 &lt;p&gt;I’ve asked why it didn’t qualified for a MSRC bounty, given that there is a
 &lt;a href=&quot;https://technet.microsoft.com/en-us/dn800983&quot;&gt;Microsoft Cloud Bounty&lt;/a&gt;.&lt;/p&gt;
-&lt;h4&gt;2017-10-05&lt;/h4&gt;
+&lt;h4 id=&quot;2017-10-05&quot;&gt;&lt;a href=&quot;#2017-10-05&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2017-10-05&lt;/h4&gt;
 &lt;p&gt;Asked again.&lt;/p&gt;
-&lt;h4&gt;2018-01-19&lt;/h4&gt;
+&lt;h4 id=&quot;2018-01-19&quot;&gt;&lt;a href=&quot;#2018-01-19&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2018-01-19&lt;/h4&gt;
 &lt;p&gt;Asked “one last time”.&lt;/p&gt;
-&lt;h4&gt;2018-02-17&lt;/h4&gt;
+&lt;h4 id=&quot;2018-02-17&quot;&gt;&lt;a href=&quot;#2018-02-17&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;2018-02-17&lt;/h4&gt;
 &lt;p&gt;Released this blog article&lt;/p&gt;</content:encoded></item><item><title><![CDATA[kubecfn: Cloudformation installer for reasonably secure multi-master Kubernetes Cluster]]></title><description><![CDATA[Introduction These days I’m helping  koko  to build their Kubernetes
-infrastructure on AWS. Initially, we used kops to deploy the cluster…]]></description><link>https://5pi.de//2018/02/01/kubecfn-cloudformation-installer-for-reasonably-secure-multi-master-kubernetes-cluster/</link><guid isPermaLink="false">https://5pi.de//2018/02/01/kubecfn-cloudformation-installer-for-reasonably-secure-multi-master-kubernetes-cluster/</guid><pubDate>Thu, 01 Feb 2018 14:07:16 GMT</pubDate><content:encoded>&lt;h1&gt;Introduction&lt;/h1&gt;
+infrastructure on AWS. Initially, we used kops to deploy the cluster…]]></description><link>https://5pi.de//2018/02/01/kubecfn-cloudformation-installer-for-reasonably-secure-multi-master-kubernetes-cluster/</link><guid isPermaLink="false">https://5pi.de//2018/02/01/kubecfn-cloudformation-installer-for-reasonably-secure-multi-master-kubernetes-cluster/</guid><pubDate>Thu, 01 Feb 2018 14:07:16 GMT</pubDate><content:encoded>&lt;h1 id=&quot;introduction&quot;&gt;&lt;a href=&quot;#introduction&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;These days I’m helping &lt;a href=&quot;https://itskoko.com/&quot;&gt;koko&lt;/a&gt; to build their Kubernetes
 infrastructure on AWS. Initially, we used kops to deploy the cluster but weren’t
 very happy. I’ve researched various option and &lt;a href=&quot;/2017/12/15/production-grade-kubernetes/&quot;&gt;blogged about
@@ -753,16 +956,16 @@ possible&lt;/a&gt;.&lt;/p&gt;
 &lt;a href=&quot;https://aws.amazon.com/cloudformation/&quot;&gt;Cloudformation&lt;/a&gt; templates to fully
 automate this setup.&lt;/p&gt;
 &lt;p&gt;All this is opend sourced and available on &lt;a href=&quot;https://github.com/itskoko/kubecfn&quot;&gt;https://github.com/itskoko/kubecfn&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Architecture&lt;/h2&gt;
+&lt;h2 id=&quot;architecture&quot;&gt;&lt;a href=&quot;#architecture&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Architecture&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/kubecfn-2f7d38406a33c80962b9131bc20ee2bf.svg&quot; alt=&quot;kubecfn architecture diagram&quot;&gt;
 The cluster consists of multiple components required for the cluster.&lt;/p&gt;
-&lt;h3&gt;Offline key generation&lt;/h3&gt;
+&lt;h3 id=&quot;offline-key-generation&quot;&gt;&lt;a href=&quot;#offline-key-generation&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Offline key generation&lt;/h3&gt;
 &lt;p&gt;The first step to create a new cluster is &lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/Makefile#L84&quot;&gt;generating the TLS keys for etcd and
 kubeadm&lt;/a&gt;.
 These credentials get uploaded to S3 and the instances get a IAM instance
 profile with a &lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/kubernetes.yaml#L759&quot;&gt;policy allowing it to download
 them&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Controller Instances&lt;/h3&gt;
+&lt;h3 id=&quot;controller-instances&quot;&gt;&lt;a href=&quot;#controller-instances&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Controller Instances&lt;/h3&gt;
 &lt;p&gt;The controller instances are managed by an autoscaling group.&lt;/p&gt;
 &lt;p&gt;They are running etcd and the controller components like the apiserver,
 scheduler and controller manager.
@@ -786,17 +989,17 @@ first step. This makes sure all controller keys are signed with this trusted CA.
 &lt;p&gt;&lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/kubernetes.yaml#L1158&quot;&gt;An ELB&lt;/a&gt;
 in front of the apiservers provide a stable endpoint for both the workers as
 well as users of the cluster.&lt;/p&gt;
-&lt;h3&gt;Route53 Lambda&lt;/h3&gt;
+&lt;h3 id=&quot;route53-lambda&quot;&gt;&lt;a href=&quot;#route53-lambda&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Route53 Lambda&lt;/h3&gt;
 &lt;p&gt;The cluster creates it’s own Route53 zone, which needs to be a subdomain of the
 given &lt;code class=&quot;language-text&quot;&gt;ParentZoneID&lt;/code&gt; parameter. Beside a record pointing to the apiserver ELB,
 this zone is updated &lt;a href=&quot;https://github.com/itskoko/kubecfn/blob/e3cf1d21db72ca5467ac6f43abc02c5871fd444a/kubernetes.yaml#L643&quot;&gt;by a
 Lambda&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Each time a controller instances get added or removed by the autoscaling group,
 the lambda gets triggered and adds/removes DNS records for etcd discovery.&lt;/p&gt;
-&lt;h3&gt;Workers&lt;/h3&gt;
+&lt;h3 id=&quot;workers&quot;&gt;&lt;a href=&quot;#workers&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Workers&lt;/h3&gt;
 &lt;p&gt;The worker setup is straight forward. It’s also managed by an autoscaling group.
 The ignition config downloads credentials for the kubelet from S3&lt;/p&gt;
-&lt;h3&gt;Conclusion and Caveats&lt;/h3&gt;
+&lt;h3 id=&quot;conclusion-and-caveats&quot;&gt;&lt;a href=&quot;#conclusion-and-caveats&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Conclusion and Caveats&lt;/h3&gt;
 &lt;p&gt;kubecfn wasn’t build by a big team nor as an end in itself. We focused on making
 it easy to maintain, reliable and fail gracefully. That means there are some
 &lt;a href=&quot;https://github.com/itskoko/kubecfn/labels/automation&quot;&gt;rough edges around
@@ -881,7 +1084,7 @@ grade”:&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/kubernetes-incubator/kubespray&quot;&gt;https://github.com/kubernetes-incubator/kubespray&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/&quot;&gt;https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Highly available?&lt;/h3&gt;
+&lt;h3 id=&quot;highly-available&quot;&gt;&lt;a href=&quot;#highly-available&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Highly available?&lt;/h3&gt;
 &lt;p&gt;In my book, having a highly available cluster is a strict requirement for
 production deployments. You might have specialized use case where this isn’t
 necessary but if you run realtime, business critical applications this is a
@@ -897,7 +1100,7 @@ promising.&lt;/p&gt;
 &lt;p&gt;The same limitation applies to projects built upon kubeadm, like
 &lt;a href=&quot;https://github.com/kris-nova/kubicorn&quot;&gt;kubicorn&lt;/a&gt; and the &lt;a href=&quot;https://github.com/aws-quickstart/quickstart-heptio&quot;&gt;hepio cloudformation
 templates&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Secure?&lt;/h3&gt;
+&lt;h3 id=&quot;secure&quot;&gt;&lt;a href=&quot;#secure&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Secure?&lt;/h3&gt;
 &lt;p&gt;A Kubernetes cluster can be “(in)secure” on multiple layers. First etcd should
 require peers and client certificates to be signed by a trusted CA. Next the
 apiserver needs to verify that the certificate of the etcd endpoint it connects
@@ -923,14 +1126,14 @@ networking, it even requires etcd to be writable from all nodes without
 authentication. Other options like kubespray don’t support full TLS either. Not
 even the tectonic-installer, which in general looks very promising, supports TLS
 out the box by default.&lt;/p&gt;
-&lt;h3&gt;(Self-)Sufficiency?&lt;/h3&gt;
+&lt;h3 id=&quot;self-sufficiency&quot;&gt;&lt;a href=&quot;#self-sufficiency&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;(Self-)Sufficiency?&lt;/h3&gt;
 &lt;p&gt;The most common Kubernetes setups are not self-sufficient but depend often on
 multiple external Docker registries and components during runtime. Since usually
 these are referred to by mutable tags, there is also no way to guarantee that
 nobody changes a dependency without you noticing.
 Unfortunately this is something rarely discussed and there isn’t any
 light-weight tooling I came across helping with this.&lt;/p&gt;
-&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;I can’t claim I looked into every Kubernetes installer project and ignored
 complex “enterprise” stacks like &lt;a href=&quot;http://www.projectatomic.io&quot;&gt;Red Hat’s Atomic&lt;/a&gt;
 or &lt;a href=&quot;https://jujucharms.com/canonical-kubernetes/&quot;&gt;Canonical Kubernetes Juju&lt;/a&gt; but
@@ -968,7 +1171,7 @@ being one of the more advanced topics.&lt;/p&gt;
 Documentation&lt;/a&gt;
 has already covered but walk you through some useful queries to get resource
 utilization in a Kubernetes cluster.&lt;/p&gt;
-&lt;h2&gt;Aggregated memory usage per label&lt;/h2&gt;
+&lt;h2 id=&quot;aggregated-memory-usage-per-label&quot;&gt;&lt;a href=&quot;#aggregated-memory-usage-per-label&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Aggregated memory usage per label&lt;/h2&gt;
 &lt;p&gt;Kubernetes provides a &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt; metric reflecting each pods
 memory usage, e.g:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;...
@@ -1056,10 +1259,10 @@ can use the following expression:&lt;/p&gt;
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;h2&gt;CPU and IO usage per label&lt;/h2&gt;
+&lt;h2 id=&quot;cpu-and-io-usage-per-label&quot;&gt;&lt;a href=&quot;#cpu-and-io-usage-per-label&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;CPU and IO usage per label&lt;/h2&gt;
 &lt;p&gt;Now that we know how to join the &lt;code class=&quot;language-text&quot;&gt;kube_pod_labels&lt;/code&gt; metric with cadvisor metrics,
 we can figure out usage of other resources too.&lt;/p&gt;
-&lt;h3&gt;CPU&lt;/h3&gt;
+&lt;h3 id=&quot;cpu&quot;&gt;&lt;a href=&quot;#cpu&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;CPU&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
   rate(container_cpu_usage_seconds_total[2m]) * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
@@ -1100,11 +1303,11 @@ we can figure out usage of other resources too.&lt;/p&gt;
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;h3&gt;Disk IO&lt;/h3&gt;
+&lt;h3 id=&quot;disk-io&quot;&gt;&lt;a href=&quot;#disk-io&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Disk IO&lt;/h3&gt;
 &lt;p&gt;I wanted to show you some disk IO stats too. Unfortunately these are
 &lt;a href=&quot;https://github.com/kubernetes/kubernetes/issues/55397&quot;&gt;broken&lt;/a&gt; once
 &lt;a href=&quot;https://github.com/kubernetes/kubernetes/issues/55398&quot;&gt;again&lt;/a&gt; in Kubernetes.&lt;/p&gt;
-&lt;h3&gt;Network&lt;/h3&gt;
+&lt;h3 id=&quot;network&quot;&gt;&lt;a href=&quot;#network&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Network&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
   rate(container_network_transmit_bytes_total[2m]) * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
@@ -1147,7 +1350,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
     &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Frontend Testing Zoo - Or, Nightwatch without Selenium]]></title><description><![CDATA[What I always find hardest to figure it when it comes to unknown systems, it’s ‘how things fit together’. These project might have great…]]></description><link>https://5pi.de//2017/04/17/selenium-webdriver-chromedriver-nightwatch-chrome-headless/</link><guid isPermaLink="false">https://5pi.de//2017/04/17/selenium-webdriver-chromedriver-nightwatch-chrome-headless/</guid><pubDate>Mon, 17 Apr 2017 12:50:12 GMT</pubDate><content:encoded>&lt;p&gt;What I always find hardest to figure it when it comes to unknown systems, it’s ‘how things fit together’. These project might have great documentation, but how the ecosystem plays together is usually left as an exercise for the reader.
 This happened to me again when diving into frontend testing. I figured out how to get nightwatch+selenium-standalone+chromedriver+chrome working somehow, without fully understanding each part in the puzzle. I went with Nightwatch because I like the syntax and it seems one of the obvious options nowadays. That works until I updated some dependencies and broke everything again. So I took some time to figure out how these things fit together and what is really needed for me tests.
 I’ve learned that Selenium is the godmother of modern frontend testing. It’s a framework with bindings for multiple languages. To decouple the server from the actual browsers, it invented “Selenium RC” as a protocol. That lead to the development of the WebDriver W3C standard which replaces Selenium RC is newer versions and is implemented for the most common browsers (Chrome -&gt; Chromedriver, Firefox -&gt; FirefoxDriver).&lt;/p&gt;
-&lt;h2&gt;Nightwatch without Selenium&lt;/h2&gt;
+&lt;h2 id=&quot;nightwatch-without-selenium&quot;&gt;&lt;a href=&quot;#nightwatch-without-selenium&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Nightwatch without Selenium&lt;/h2&gt;
 &lt;p&gt;Apparently WebDriver is also used for talking &lt;em&gt;to&lt;/em&gt; Selenium. I think this is called ‘hub’ or something, that’s about as deep as my ‘deep dive’ gets for now. Either way, this makes the big picture look like:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Nightwatch -[webdriver]-&amp;gt; Selenium -[webdriver]-&amp;gt; Chromedriver -&amp;gt; Chrome&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Selenium comes in a server and standalone flavor, where the server apparently is only used for grid based testing where you would have a bunch of Selenium nodes running on different systems. Turns out, if you don’t need grid based testing or support for legacy browsers which don’t provide WebDriver adapter, there is little use for Selenium after all.&lt;/p&gt;
@@ -1189,7 +1392,7 @@ I’ve learned that Selenium is the godmother of modern frontend testing. It’s
 chromedriver --port=9515 --url-base=/wd/hub &amp;amp;
 while ! curl localhost:9515; do echo -n .; sleep 1; done
 nightwatch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Chrome Headless&lt;/h2&gt;
+&lt;h2 id=&quot;chrome-headless&quot;&gt;&lt;a href=&quot;#chrome-headless&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Chrome Headless&lt;/h2&gt;
 &lt;p&gt;Recently Chrome got native support for running headless, controlled via a remote debugging API. Apparently this could further simplify things, but I couldn’t figure out in reasonable time what exactly it would replace. I suspected it would mean that chrome natively talks webdriver, but I can’t find anything about that in the sparse documentation and this issues sound like.
 Which brings me to my initial observation: Figuring out how a thing works is hard, figuring out how things work &lt;em&gt;together&lt;/em&gt; is so much harder. Let’s all keep that in mind.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[$15 Production Kubernetes Cluster on DigitalOcean]]></title><description><![CDATA[
  Four sweets or production Kubernetes for a month Introduction As you might already know, I’m into  containers ,  static configuration  and…]]></description><link>https://5pi.de//2016/11/20/15-producation-grade-kubernetes-cluster/</link><guid isPermaLink="false">https://5pi.de//2016/11/20/15-producation-grade-kubernetes-cluster/</guid><pubDate>Sun, 20 Nov 2016 10:36:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a title=&quot;By Charlotte Marillet (originally posted to Flickr as Quatre macarons) [CC BY-SA 2.0 (http://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons&quot; href=&quot;https://commons.wikimedia.org/wiki/File%3AQuatre_macarons%2C_October_2009.jpg&quot;&gt;
@@ -1220,14 +1423,14 @@ Which brings me to my initial observation: Figuring out how a thing works is har
   &lt;/span&gt;
   &lt;/a&gt;
 &lt;small&gt;Four sweets or production Kubernetes for a month&lt;/small&gt;&lt;/p&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;&lt;a href=&quot;#introduction&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;As you might already know, I’m into &lt;a href=&quot;https://5pi.de/2015/01/08/containerized-infrastructure/&quot;&gt;containers&lt;/a&gt;, &lt;a href=&quot;https://5pi.de/2015/08/31/dont-manage-config-unless-you-have-to/&quot;&gt;static configuration&lt;/a&gt; and &lt;a href=&quot;https://5pi.de/2015/04/22/scope-and-ownership-in-tech-companies/&quot;&gt;self-service infrastructures&lt;/a&gt;. Naturally, I love &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;, which I consider the most promising cluster scheduler around.&lt;/p&gt;
 &lt;p&gt;In fact, the biggest reason to use containers is that they make it possible for something like Kubernetes to &lt;em&gt;operate your cluster&lt;/em&gt;. Cluster scheduler like Kubernetes, Mesos or Swarm take care of deploying and moving your applications around without requiring an Operator to allocate resources and redeploy services manually.&lt;/p&gt;
 &lt;p&gt;Cluster schedulers are here to stay. They will become as ubiquitous as version control and getting experience with it is something I can encourage everyone in the DevOps world to do. Especially if your job is mainly &lt;em&gt;operating&lt;/em&gt;. Chances are, your job gets automated.&lt;/p&gt;
 &lt;p&gt;Getting Kubernetes up &lt;em&gt;somehow&lt;/em&gt; is easy. There are tons of scripts for doing that. But those setups are intended as temporary test environments. Setting up a production environment is much harder and unfortunately not very well documented.&lt;/p&gt;
 &lt;p&gt;Reading this you will realize that there are things you might not want to do this way in production and I agree. So I’m sorry if the title is a bit click-baity. The reason I’m still calling this ‘production’ is because this setup is highly available, TLS authenticated and has a way going forward which doesn’t require you to start from scratch like most Containers/Kubernetes getting started guides.&lt;/p&gt;
 &lt;p&gt;You can find all code mentioned here: &lt;a href=&quot;https://github.com/5pi&quot;&gt;https://github.com/5pi&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Overview&lt;/h3&gt;
+&lt;h3 id=&quot;overview&quot;&gt;&lt;a href=&quot;#overview&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Overview&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/5pi-Infra-020fc8ece35a34a40c4d951f78df9481.svg&quot; alt=&quot;Infrastructure Diagram&quot;&gt;
 Mainly to keep things cheap, I choose &lt;a href=&quot;https://digitalocean.com&quot;&gt;DigitalOcean&lt;/a&gt; and use the smallest $5/month instances. For a highly available cluster, we need at least three hosts.&lt;/p&gt;
 &lt;p&gt;Kubernetes doesn’t schedule containers directly, it schedules &lt;a href=&quot;http://kubernetes.io/docs/user-guide/pods/&quot;&gt;Pods&lt;/a&gt; which again can consist of multiple containers sharing the same storage volumes and IPs. The pods running on different hosts need to communicate with each other. There are several options to do this, like using overlay networks, routing IP ranges to each server on you routers or co-locating the servers on the same ethernet segment.&lt;/p&gt;
@@ -1241,8 +1444,8 @@ Mainly to keep things cheap, I choose &lt;a href=&quot;https://digitalocean.com&
 &lt;li&gt;edge.[domain] points to edge float IP; Used to reach LB directly&lt;/li&gt;
 &lt;li&gt;*.edge.[domain] also points to edge float IP; Used for virtual hosts on LB&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Kubernetes Deployment&lt;/h2&gt;
-&lt;h3&gt;Configuration&lt;/h3&gt;
+&lt;h2 id=&quot;kubernetes-deployment&quot;&gt;&lt;a href=&quot;#kubernetes-deployment&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Kubernetes Deployment&lt;/h2&gt;
+&lt;h3 id=&quot;configuration&quot;&gt;&lt;a href=&quot;#configuration&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Configuration&lt;/h3&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://asciinema.org/a/dgfb2mik71by4tkt5urd9lasj.js&quot; id=&quot;asciicast-dgfb2mik71by4tkt5urd9lasj&quot; async&gt;&lt;/script&gt;
 &lt;p&gt;The &lt;a href=&quot;https://github.com/5pi/infra&quot;&gt;infra repository&lt;/a&gt; contains all sources needed to build the images and deploy the stack. Beside the committed configuration in the repository, there is also some cluster specific configuration required. While some of it only affects the cluster deployment, other is included in the images. This means changing this always requires rebuilding the images.
 The configuration is kept in &lt;a href=&quot;https://github.com/5pi/infra/tree/master/config&quot;&gt;config/&lt;/a&gt;.&lt;/p&gt;
@@ -1251,12 +1454,12 @@ The configuration is kept in &lt;a href=&quot;https://github.com/5pi/infra/tree/
 $ cd infra
 $ vi config/env
 $ ./mk_credentials&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Building Images&lt;/h3&gt;
+&lt;h3 id=&quot;building-images&quot;&gt;&lt;a href=&quot;#building-images&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Building Images&lt;/h3&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://asciinema.org/a/786ffzwvjdupff56ka5258ckk.js&quot; id=&quot;asciicast-786ffzwvjdupff56ka5258ckk&quot; async&gt;&lt;/script&gt;
 &lt;p&gt;&lt;tty-player autoplay controls loop src=packer-k8s-build.rec&gt;&lt;/tty-player&gt;
 I’m using &lt;a href=&quot;https://www.packer.io&quot;&gt;packer&lt;/a&gt; to build machine images. Since all our hosts are controller+worker nodes, we only have one image. This image includes tinc, etcd, kubernetes and the &lt;a href=&quot;https://prometheus.io&quot;&gt;Prometheus&lt;/a&gt; node-exporter for monitoring. Beside installing general configuration files and services, the &lt;a href=&quot;https://github.com/5pi/infra/blob/e8ccca5de9a5d7759c40355c860d3ed13e349fc7/packer/base.json#L22&quot;&gt;packer config&lt;/a&gt; also refers the cluster specific configuration. This means for each cluster you need to build custom images. It does &lt;strong&gt;not&lt;/strong&gt; include host specific configuration like a host’s TLS keys, or configuration that simply isn’t available before deployment, like a host’s IP address. This need to be configured at deployment.&lt;/p&gt;
 &lt;p&gt;As described in the &lt;a href=&quot;https://github.com/5pi/infra#deploying-a-new-stack&quot;&gt;README&lt;/a&gt;, to build the images run &lt;code class=&quot;language-text&quot;&gt;make -C packer&lt;/code&gt; after you created the configuration and credentials.&lt;/p&gt;
-&lt;h3&gt;Deploying Stack&lt;/h3&gt;
+&lt;h3 id=&quot;deploying-stack&quot;&gt;&lt;a href=&quot;#deploying-stack&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Deploying Stack&lt;/h3&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://asciinema.org/a/1hpbxy5pcvmidxxuu1u6w39vr.js&quot; id=&quot;asciicast-1hpbxy5pcvmidxxuu1u6w39vr&quot; async&gt;&lt;/script&gt;
 &lt;p&gt;Deployment is configured in &lt;a href=&quot;https://github.com/5pi/infra/tf&quot;&gt;tf/&lt;/a&gt; and uses &lt;a href=&quot;https://www.terraform.io&quot;&gt;terraform&lt;/a&gt;. It spins up hosts with the specified image and allows the provided ssh key to connect. It also creates the DNS records required for tinc to connect to peers and external users to access services on the cluster.&lt;/p&gt;
 &lt;p&gt;Since we didn’t want to include all necessary configuration and credentials in the image for flexibility and security, we need to upload the remaining configuration, like TLS keys, after spinning up the host. To set general configuration, &lt;code class=&quot;language-text&quot;&gt;/etc/environment.tf&lt;/code&gt; is created and can be sourced by scripts in the image to get deploy-time configuration.&lt;/p&gt;
@@ -1268,12 +1471,12 @@ I’m using &lt;a href=&quot;https://www.packer.io&quot;&gt;packer&lt;/a&gt; to 
 &lt;p&gt;That’s it! After a few minutes, the cluster should be up and running.&lt;/p&gt;
 &lt;p&gt;If you created a new domain for your cluster, it may take some time until the cluster is formed. If you run &lt;code class=&quot;language-text&quot;&gt;journalctl -fu tinc@default&lt;/code&gt; to watch the tinc log you should see that the DNS records are not resolvable yet. This should fix itself after a few minutes.
 Once tinc is running, etcd should reach it peers. Run &lt;code class=&quot;language-text&quot;&gt;journalctl -fu etcd&lt;/code&gt; to see the etcd log.&lt;/p&gt;
-&lt;h3&gt;Rolling Upgrades&lt;/h3&gt;
+&lt;h3 id=&quot;rolling-upgrades&quot;&gt;&lt;a href=&quot;#rolling-upgrades&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Rolling Upgrades&lt;/h3&gt;
 &lt;p&gt;Another thing most getting started guides are missing is upgrades. Most likely because they are often very environment specific and, well, hard. Which is also why while upgrades &lt;em&gt;should&lt;/em&gt; work, this is the most brittle part of it and one of the reason I hesitated to call it “Production Grade”. But heck, if Docker 1.0 was &lt;em&gt;production ready&lt;/em&gt; this here is as well.&lt;/p&gt;
 &lt;p&gt;Since all pod volumes get stored on DO block storage, we consider the systems immutable. To upgrade the cluster, all instances get replaced while Kubernetes makes sure to reschedule services and maintain their availability. The tricky part is to orchestrate this with terraform which does &lt;a href=&quot;https://github.com/hashicorp/terraform/issues/2896&quot;&gt;not really support this&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Because of that we need a &lt;a href=&quot;https://github.com/5pi/infra/blob/master/tf/upgrade&quot;&gt;wrapper script&lt;/a&gt;. This script stops etcd on the first old server, which will cause it to remove itself from the cluster. Then it executes terraform and sets &lt;code class=&quot;language-text&quot;&gt;-target&lt;/code&gt; for each server individually. Unless &lt;code class=&quot;language-text&quot;&gt;cluster_state=new&lt;/code&gt; is given, the new instance’s provisioning script will block until etcd joined the existing cluster and the cluster is healthy. Only after that, the script continues with the next instance.&lt;/p&gt;
 &lt;p&gt;Removing an instance from the cluster before replacing it is required. Otherwise the replacement instance can’t join the cluster. This means, if an instance ever dies, you need to manually remove it from the cluster with &lt;code class=&quot;language-text&quot;&gt;etcd member remove&lt;/code&gt;.&lt;/p&gt;
-&lt;h2&gt;Deployment on Kubernetes&lt;/h2&gt;
+&lt;h2 id=&quot;deployment-on-kubernetes&quot;&gt;&lt;a href=&quot;#deployment-on-kubernetes&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Deployment on Kubernetes&lt;/h2&gt;
 &lt;p&gt;A cluster without services doesn’t make much sense, so I’ll also show quickly how to deploy services to the cluster and make them accessible. I’m using just a bunch of yaml files I can apply with &lt;code class=&quot;language-text&quot;&gt;kubectl apply -f&lt;/code&gt;: &lt;a href=&quot;https://github.com/5pi/services&quot;&gt;https://github.com/5pi/services&lt;/a&gt;
 They are pretty specific to my setup, so probably only useful as example. For real reusable components on top of Kubernetes have a look at &lt;a href=&quot;https://github.com/5pi/services&quot;&gt;helm&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Beside the public configuration, you need to require to setup some secrets:&lt;/p&gt;
@@ -1295,20 +1498,20 @@ data:
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;grafana-gauth-client-secret&lt;/code&gt; is a Google OAuth client secret for Google Auth based Grafana authentication&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;smtp-infra-password&lt;/code&gt; is the password for a Google Mail I use to send Prometheus alerts&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;SkyDNS&lt;/h3&gt;
+&lt;h3 id=&quot;skydns&quot;&gt;&lt;a href=&quot;#skydns&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;SkyDNS&lt;/h3&gt;
 &lt;p&gt;This is a core service providing DNS resolution for pods. I’m using an &lt;a href=&quot;https://github.com/5pi/services/blob/master/01_skydns-rc.yml&quot;&gt;adapted copy&lt;/a&gt; of the &lt;a href=&quot;https://github.com/kubernetes/kubernetes/blob/master/cluster/addons/dns/skydns-rc.yaml.in&quot;&gt;upstream config&lt;/a&gt;.&lt;/p&gt;
-&lt;h3&gt;Traffic Tier&lt;/h3&gt;
+&lt;h3 id=&quot;traffic-tier&quot;&gt;&lt;a href=&quot;#traffic-tier&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Traffic Tier&lt;/h3&gt;
 &lt;p&gt;I’m using &lt;a href=&quot;https://github.com/containous/traefik&quot;&gt;traefik&lt;/a&gt; as reverse proxy / load balancer. It depends on a &lt;code class=&quot;language-text&quot;&gt;traefik-config&lt;/code&gt; ConfigMap where I specific TLS keys etc. It runs three replica and assumes a three node cluster, so we run one instance per host. The vhost configuration is part of the application yaml files.&lt;/p&gt;
 &lt;p&gt;To have a stable entrypoint into our infrastructure while the host’s IPs change on every rolling upgrade, terraform deployed a floating IP. To assign this IP to any available traefik instance, I’ve created a simple &lt;a href=&quot;https://github.com/5pi/img-do-float-ip&quot;&gt;container image&lt;/a&gt; and this &lt;a href=&quot;https://github.com/5pi/services/blob/master/01_float_ip.yml&quot;&gt;yaml spec&lt;/a&gt; (The IP needs to get changed when using this spec).
 This will make sure the float IP is always assigned to one of the running hosts.&lt;/p&gt;
 &lt;p&gt;This requires the &lt;code class=&quot;language-text&quot;&gt;do-token&lt;/code&gt;.&lt;/p&gt;
-&lt;h3&gt;PostgreSQL&lt;/h3&gt;
+&lt;h3 id=&quot;postgresql&quot;&gt;&lt;a href=&quot;#postgresql&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;PostgreSQL&lt;/h3&gt;
 &lt;p&gt;PostgreSQL is used as main database powering this blog for instance. The &lt;a href=&quot;https://github.com/5pi/services/blob/master/20_postgres.yml&quot;&gt;configuration&lt;/a&gt; is straight forward but uses my custom DigitalOcean Storage flexvolume plugin. Before using it the first time, the volume needs to get created, attached, formatted and detached again. You can run the &lt;a href=&quot;https://github.com/5pi/infra/blob/master/packer/files/usr/libexec/kubernetes/kubelet-plugins/volume/exec/5pi.de~do-volume/do-volume&quot;&gt;flexvol plugin&lt;/a&gt; to do this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;do-volume create pgdata 10G my postgres volume
 do-volume attach &amp;#39;{ &amp;quot;volume&amp;quot;: &amp;quot;pgdata&amp;quot; }&amp;#39;
 mkfs.ext3 /dev/disk/by-id/scsi-0DO_Volume_pgdata&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After that, the yaml file can get applied and postgres should spin up.&lt;/p&gt;
-&lt;h3&gt;Ghost&lt;/h3&gt;
+&lt;h3 id=&quot;ghost&quot;&gt;&lt;a href=&quot;#ghost&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Ghost&lt;/h3&gt;
 &lt;p&gt;Next is Ghost, the blogging platform powering this and &lt;a href=&quot;https://textkrieg.de&quot;&gt;textkrieg.de&lt;/a&gt;. It uses Postgres as database and another DO volume for assets.
 Since the official Ghost image can’t be easily configured automatically and is huge, I’m using my own (&lt;a href=&quot;https://alpinelinux.org/&quot;&gt;alpine&lt;/a&gt; based) &lt;a href=&quot;https://hub.docker.com/r/fish/ghost/&quot;&gt;Docker image&lt;/a&gt;.
 Although designed as a &lt;em&gt;modern&lt;/em&gt; blogging platform, it doesn’t fit particular well into the new container/12factor world. For example, it assumes that the current working directory is writable. Since we want to run ghost as unprivileged user, we need to make the volume writable by that user. Unfortunately there is no good way to do that. People often create images that run chown as root when starting, then dropping privileges. But this can become time consuming and has possible security implications. The upcoming &lt;a href=&quot;https://github.com/kubernetes/kubernetes/pull/26926&quot;&gt;flexvolume redesign&lt;/a&gt; will fix this issue. For now we need to make the volume world-writable initially:&lt;/p&gt;
@@ -1329,7 +1532,7 @@ create database ghost_fish;
 grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now we can use the yaml file to deploy Ghost. Beside deploying the pods, we also create a &lt;a href=&quot;https://github.com/5pi/services/blob/df95f43b1db833a49b6693000787b44d9a92624d/50_ghost_fish.yml#L13&quot;&gt;Ingress to configure Traefik&lt;/a&gt;. This routes requests for &lt;code class=&quot;language-text&quot;&gt;5pi.de&lt;/code&gt; to service &lt;code class=&quot;language-text&quot;&gt;ghost-fish&lt;/code&gt; on port 80 which is defined above and maps to the Ghost deployment&lt;/p&gt;
 &lt;p&gt;To access the blog, you still need to create an CNAME DNS record matching the Ingress route and pointing to the managed &lt;code class=&quot;language-text&quot;&gt;edge.[DOMAIN]&lt;/code&gt; DNS name.&lt;/p&gt;
-&lt;h2&gt;Monitoring&lt;/h2&gt;
+&lt;h2 id=&quot;monitoring&quot;&gt;&lt;a href=&quot;#monitoring&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Monitoring&lt;/h2&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1372,29 +1575,29 @@ To send out alerts, two instances of the HA Alertmanager are deployed.
 The alerts are quite trigger happy, which is fine in such small cluster. In a bigger cluster you need to adjust those to limit noise. In the end you’re not interested even if whole nodes crash as long as Kubernetes can reschedule the pods. In my tiny cluster I would be surprised if a node crashes, so I alert on this for now.&lt;/p&gt;
 &lt;p&gt;I’m also using Grafana to show metrics on dashboards. Grafana is configured to use Google OAuth authentication against my Google Apps account. This allows Grafana to be available on the public internet and allow everyone in my Google Apps Org to access it.&lt;/p&gt;
 &lt;p&gt;Here is where the wildcard DNS domain comes in handy. Instead of having to add new DNS record for each new service like Grafana, we just access it via the wildcard domain: A request to &lt;code class=&quot;language-text&quot;&gt;anything.edge.[DOMAIN]&lt;/code&gt; ends up at the floating IP and is accepted by a traefik instance. So the only thing we need to configure is the host in the &lt;a href=&quot;https://github.com/5pi/services/blob/df95f43b1db833a49b6693000787b44d9a92624d/grafana.yml#L19&quot;&gt;Ingress definition&lt;/a&gt;.&lt;/p&gt;
-&lt;h1&gt;Retrospective and Future&lt;/h1&gt;
+&lt;h1 id=&quot;retrospective-and-future&quot;&gt;&lt;a href=&quot;#retrospective-and-future&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Retrospective and Future&lt;/h1&gt;
 &lt;p&gt;I’ve started all this a few month ago already with the goal of building a small cluster from scratch. I didn’t want to use tons of bash scripts not running on a specific cloud. Back then there was &lt;a href=&quot;https://github.com/kubernetes/kops&quot;&gt;kops&lt;/a&gt;, which I would recommend to look at first if you’re deploying to AWS.&lt;/p&gt;
 &lt;p&gt;Now there is also kubeadm which looks like a promising way to setup a cluster and I might change my deployment to use it instead. I’ll also consider using CoreOS and cloud-config to configure the Kubernetes components, as well as looking deeper into systemd units to coordinate stopping of services and draining of hosts.&lt;/p&gt;
 &lt;p&gt;If you’re looking for reusable components on top of Kubernetes, there is &lt;a href=&quot;https://github.com/kubernetes/helm&quot;&gt;Helm&lt;/a&gt; which might be a better option than just keeping the services yaml files around. You might be also interested in CoreOS’s &lt;a href=&quot;https://coreos.com/blog/introducing-operators.html&quot;&gt;Operator&lt;/a&gt; to fully automate Prometheus operations.&lt;/p&gt;
 &lt;p&gt;The most important next thing on my TODO list is proper tests though. I want a full integration test which spins up a new cluster, deploys services to it, runs blackbox tests, runs an rolling upgrade and tests that during and after that the cluster services are available.&lt;/p&gt;
 &lt;p&gt;Pull requests to make this more generic and fix issues are welcome, but I won’t accept larger changes until I got the tests going.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4&gt;Update&lt;/h4&gt;
+&lt;h4 id=&quot;update&quot;&gt;&lt;a href=&quot;#update&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Update&lt;/h4&gt;
 &lt;p&gt;Feel free to discuss and comment on &lt;a href=&quot;https://news.ycombinator.com/item?id=13006296&quot;&gt;Hacker News&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Future: Fabrication Cloud]]></title><description><![CDATA[The Cloud 
-Given the ubiquity of “The Cloud” even in mainstream media, you might expect the readers of this blog know what it means. From my…]]></description><link>https://5pi.de//2015/10/05/the-future-fabrication-cloud/</link><guid isPermaLink="false">https://5pi.de//2015/10/05/the-future-fabrication-cloud/</guid><pubDate>Mon, 05 Oct 2015 11:50:49 GMT</pubDate><content:encoded>&lt;h1&gt;The Cloud&lt;/h1&gt;
+Given the ubiquity of “The Cloud” even in mainstream media, you might expect the readers of this blog know what it means. From my…]]></description><link>https://5pi.de//2015/10/05/the-future-fabrication-cloud/</link><guid isPermaLink="false">https://5pi.de//2015/10/05/the-future-fabrication-cloud/</guid><pubDate>Mon, 05 Oct 2015 11:50:49 GMT</pubDate><content:encoded>&lt;h1 id=&quot;the-cloud&quot;&gt;&lt;a href=&quot;#the-cloud&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;The Cloud&lt;/h1&gt;
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/horiavarlan/4777129318&quot; title=&quot;Single white cloud on a clear blue sky&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4079/4777129318_934309e7af_b.jpg&quot; width=&quot;1024&quot; height=&quot;616&quot; alt=&quot;Single white cloud on a clear blue sky&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 Given the ubiquity of “The Cloud” even in mainstream media, you might expect the readers of this blog know what it means. From my experience, that isn’t true. Too many consider it a meaningless buzzword, synonym for the Internet or the act of outsourcing handling of precious personal data. It has to do with outsourcing, the Internet and definitely is used as a buzzword but yet, the Cloud is a incredible concept. Indeed, it’s more a concept than anything technical. It’s the idea of abstracting all the nasty details and turning computing resources into a utility without any ramp-up costs.&lt;/p&gt;
 &lt;p&gt;Before the Cloud, if you needed compute resources, you needed to build your own datacenter, figure out cooling, order racks and servers, build them together, figure out power supply, buy network gears, contract with a carrier. To make sure you can still operate, do that twice so if one datacenter explodes, you still enough resources available. To make sure you can serve customers world-wide with low latency, do this all over the world.
 Cost for all that can runs in the millions and requires large teams to operate it.&lt;/p&gt;
 &lt;p&gt;Granted, even before the Cloud, there were alternatives. Colocation centers, where you get all the basic DC setup and just need to take care of servers. Or even just rent out servers. Still, you take care of ordering them, setting them up, configuring network equipment (or have the provider do that) and provisioning of those resources usually takes days. With the Cloud, if you need to run software somewhere, store data somewhere, you can do simply that in the cloud. Depending on the level of abstraction you need, you can run a container in the Cloud, use virtual machines you can customize as you want or have a provider like Heroku run your code directly. Since you share resources with other customers in a Cloud, there is no need for dedicated provisioning which leads to a very scalable cost model: If you don’t require much resources, you almost pay nothing. You can get virtual machines for $5/month. A highly available stack in various regions to reach your customers with low latency is possible for ~$150/month.&lt;/p&gt;
 &lt;p&gt;The Cloud is an abstraction, hiding away the physical world so you can focus on your virtual product. It makes writing a web service (almost) as easy as writing an app.&lt;/p&gt;
-&lt;h1&gt;Fabrication Cloud&lt;/h1&gt;
+&lt;h1 id=&quot;fabrication-cloud&quot;&gt;&lt;a href=&quot;#fabrication-cloud&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Fabrication Cloud&lt;/h1&gt;
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/kakissel/6165114664/&quot; title=&quot;3D Printer at the Fab Lab&quot;&gt;&lt;img src=&quot;https://farm7.staticflickr.com/6165/6165114664_5fab6e38ff_b.jpg&quot; width=&quot;1024&quot; height=&quot;678&quot; alt=&quot;3D Printer at the Fab Lab&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 I believe that in the future we’ll see the same abstraction for other, physical resources and it will be huge.&lt;/p&gt;
 &lt;p&gt;One thing that comes to mind are factories. Imaging we would share factories and everyone can build whatever they have in mind via well defined interfaces without any ramp-up costs. It will not only kill some established companies, it will end “industry” as we know it. There won’t be warehouses of goods and mass products. Not because all consumers start building their own products but because above the abstraction everything is just software, every company will be a software company and software can adapt to customer needs.&lt;/p&gt;
 &lt;p&gt;There are already a few companies providing some form of API around production of physical goods. Custom printed merch like T-Shirts and ball pens, cereal mix and custom chocolate bars. But you can’t fabricate your own inventions beyond a custom design.&lt;/p&gt;
 &lt;p&gt;We need to come up with something more generic to build physical things from digital data. The first thing which comes to mind is 3D printing. I would argue it’s doing for Fabrication Clouds what virtualization was doing for the compute Cloud: It’s not necessary the only way to do it, but it makes things easier.&lt;/p&gt;
-&lt;h1&gt;How to get there&lt;/h1&gt;
+&lt;h1 id=&quot;how-to-get-there&quot;&gt;&lt;a href=&quot;#how-to-get-there&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;How to get there&lt;/h1&gt;
 &lt;p&gt;And there are already a few 3D printing services like &lt;a href=&quot;http://www.shapeways.com&quot;&gt;http://www.shapeways.com&lt;/a&gt; and &lt;a href=&quot;https://i.materialise.com&quot;&gt;https://i.materialise.com&lt;/a&gt; and what they are doing is amazing. Yet, 3D printers are far from being universal machines. They have some tight restrictions. You can’t (yet) 3D print your cereal mix with them.&lt;/p&gt;
 &lt;p&gt;So what will happen next? There won’t be a universal factory able to build everything anytime soon, but if you don’t need to dedicate a factory to a specific product, you can share those resources.
 Most electronic companies already build products based on the specification of their customers. The problem are still huge ramp-up costs, lack of continuous automation and well defined APIs. 3D printing can reduce those costs for small product batch series where advancements in robotics will make assembly flexible enough so mass production isn’t necessarily more efficient.&lt;/p&gt;
@@ -1418,7 +1621,7 @@ themself inspired by those.&lt;/p&gt;</content:encoded></item><item><title><![CD
 Google uses a &lt;a href=&quot;https://medium.com/backchannel/how-google-s-new-photos-app-can-tell-cats-from-dogs-ffd651dfcd80&quot;&gt;neural network&lt;/a&gt; which is trained by millions of photos on the web to identify objects in pictures.&lt;/p&gt;
 &lt;p&gt;This works very well and when thinking about it’s mistakes, the uncanny feeling just amplifies: They are mistakes, they aren’t bugs. It’s not faulty, it’s just a little unexperienced - almost like a child.
 In fact, I would be very interested in a catogorization standoff between a child and Google.&lt;/p&gt;
-&lt;h1&gt;Concerts&lt;/h1&gt;
+&lt;h1 id=&quot;concerts&quot;&gt;&lt;a href=&quot;#concerts&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Concerts&lt;/h1&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1456,7 +1659,7 @@ In fact, I would be very interested in a catogorization standoff between a child
   &lt;/a&gt;
     
 I’m really not sure about this one.&lt;/p&gt;
-&lt;h1&gt;Dessert&lt;/h1&gt;
+&lt;h1 id=&quot;dessert&quot;&gt;&lt;a href=&quot;#dessert&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Dessert&lt;/h1&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1494,7 +1697,7 @@ I’m really not sure about this one.&lt;/p&gt;
   &lt;/a&gt;
     
 Let’s finish this course with a nice bowl of raw chicken.&lt;/p&gt;
-&lt;h1&gt;Dogs&lt;/h1&gt;
+&lt;h1 id=&quot;dogs&quot;&gt;&lt;a href=&quot;#dogs&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Dogs&lt;/h1&gt;
 &lt;p&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
@@ -1522,7 +1725,7 @@ Let’s finish this course with a nice bowl of raw chicken.&lt;/p&gt;
   &lt;/span&gt;
   
 To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/British_Shorthair&quot;&gt;british shorthair&lt;/a&gt; the dogs of cats.&lt;/p&gt;
-&lt;h1&gt;Birds&lt;/h1&gt;
+&lt;h1 id=&quot;birds&quot;&gt;&lt;a href=&quot;#birds&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Birds&lt;/h1&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1560,7 +1763,7 @@ To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/Br
   &lt;/a&gt;
     
 Birds. That’s definitely correct.&lt;/p&gt;
-&lt;h1&gt;Skylines&lt;/h1&gt;
+&lt;h1 id=&quot;skylines&quot;&gt;&lt;a href=&quot;#skylines&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Skylines&lt;/h1&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1603,12 +1806,12 @@ Bar graph or 8-bit skylines?&lt;/p&gt;</content:encoded></item><item><title><![C
 &lt;p&gt;Then, at SoundCloud, I used modern configuration management for the first time. SoundCloud heavily invested into Chef which was, at some point, used to drive almost every aspect of the infrastructure. A new service? Add a cookbook.&lt;/p&gt;
 &lt;p&gt;Compared to a world without any proper infrastructure automation this obviously was a great step in the right direction but it was a growing pile of technical debt and constant source of bikeshedding around how to actually use it.&lt;/p&gt;
 &lt;p&gt;Maybe you don’t have those problems. Maybe you have strict guidelines on how to use your configuration management or some chief architect to tame the chaos but I argue that lot of larger companies with agile and independent teams run into similar problems. If you disagree, please leave a comment.&lt;/p&gt;
-&lt;h3&gt;Issues with Chef&lt;/h3&gt;
+&lt;h3 id=&quot;issues-with-chef&quot;&gt;&lt;a href=&quot;#issues-with-chef&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Issues with Chef&lt;/h3&gt;
 &lt;p&gt;There are several categories of problems with this setup. Some are organizational nature, like the way it was ab(used) to drive the complete infrastructure. There are also very specific issues with chef, like its internal complexity both from a operational perspective as well as from its complex interface. Things like 15 unintuitive precedence levels for node attributes to its multistep execution flow and leaky cookbook abstractions it’s often frustrating to use and accumulates a lot of technical debt due to it being hard to test and refactor without potentially breaking your infrastructure.&lt;/p&gt;
-&lt;h3&gt;Alternatives - or the lack thereof&lt;/h3&gt;
+&lt;h3 id=&quot;alternatives---or-the-lack-thereof&quot;&gt;&lt;a href=&quot;#alternatives---or-the-lack-thereof&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Alternatives - or the lack thereof&lt;/h3&gt;
 &lt;p&gt;That being said, there isn’t an obvious better alternative. In the meanwhile I used ansible and salt which have their very own problems. Even though they try to be less complex than chef, they heavily depend on template driven metaprogramming and struggle with proper code reuse and testability similar to chef.&lt;/p&gt;
 &lt;p&gt;Over the years I came to the conclusion that configuration management in it’s current form as used in reality has some fundamental design issues.&lt;/p&gt;
-&lt;h3&gt;Design challenges&lt;/h3&gt;
+&lt;h3 id=&quot;design-challenges&quot;&gt;&lt;a href=&quot;#design-challenges&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Design challenges&lt;/h3&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1652,13 +1855,13 @@ But since there is no unified interface to configure applications, how to achiev
 Configuration management systems try to solve this by abstracting a “thing” in a system and give it a clear interface with some idempotent functions to move it into a given state like &lt;code class=&quot;language-text&quot;&gt;installed&lt;/code&gt;. Whether it’s called chef cookbook, salt state or (the most misleading name) ansible role.
 If the “thing” is your web application, this might work very well but in reality you often have to configure third party applications that have subtle dependencies on specifics of other “things”. Or you have low level system configuration which affects and depends on other things installed. At this point, the abstractions usually break and you often end up introducing site specific changes to what is suppose to be reusable, generic components.&lt;/p&gt;
 &lt;p&gt;The lack of a generic system configuration interface that can be used to configure every aspect of a system, imposes a lot of complexity on the configuration management.&lt;/p&gt;
-&lt;h3&gt;Split configuration based on life cycle&lt;/h3&gt;
+&lt;h3 id=&quot;split-configuration-based-on-life-cycle&quot;&gt;&lt;a href=&quot;#split-configuration-based-on-life-cycle&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Split configuration based on life cycle&lt;/h3&gt;
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;false&quot; data-footer=&quot;false&quot; data-context=&quot;false&quot;  href=&quot;https://www.flickr.com/photos/chloeophelia/6633874815/in/photolist-b7dkRZ-j6g2XM-9hrBqG-aTDRwD-99nLPX-tm1pU-bn3u8p-qHs14o-qCjhgq-4HCs5T-r9mjBJ-9MyabW-q4629m-oCKk2V-7zyviy-7HivZw-8Wzh3Y-k2UGmz-iuChmC-dKHA-qe133d-itoizS-83TM-oHsMP1-bstTCp-iY9u4G-jdRX2T-5SY4oB-7wmEBq-Cv7Z2-t2Hab-7ofMcb-99Eqbu-r5sCGR-93jB3F-qyomNx-riyS2i-dNMQsp-91DhgW-4ahpVw-qHSWG3-keBc61-5SJkro-qixdjy-dSyxEq-8nmzni-4aKkPV-f2gfQ-q96Qs1-iyGqwU&quot; title=&quot;frozen in time&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7142/6633874815_5d4ecf8b71_b.jpg&quot; width=&quot;1024&quot; height=&quot;684&quot; alt=&quot;frozen in time&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;p&gt;As long as there is configuration, there is configuration management. You will always have some form of desired state you want your infrastructure to be in. The question is not if but how to manage configuration. Since with configuration that changes rarely less things can go wrong, I believe the best way is so identify different configuration life cycles, find the right solution to manage this kind of configuration while compromising dynamically for correctness.&lt;/p&gt;
-&lt;h4&gt;Build/install time configuration&lt;/h4&gt;
+&lt;h4 id=&quot;buildinstall-time-configuration&quot;&gt;&lt;a href=&quot;#buildinstall-time-configuration&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Build/install time configuration&lt;/h4&gt;
 &lt;p&gt;If the lifetime of a single host or container image is lower than the lifetime of a configuration option, it often makes sense to move this configuration to install/build time. Since no change can happen during the life cycle of the host or container it’s easier to reason about the infrastructure since change to this set of configuration can be ruled out as reason for a given observation.&lt;/p&gt;
 &lt;p&gt;Moving configuration to install time might mean making your bare metal installer preseed some configuration or building a static OS image for your cloud provider. The point is to bake in this configuration and just rebuild when changes are necessary.&lt;/p&gt;
-&lt;h5&gt;Examples&lt;/h5&gt;
+&lt;h5 id=&quot;examples&quot;&gt;&lt;a href=&quot;#examples&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Examples&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;Operating system release&lt;/li&gt;
 &lt;li&gt;Partition schema&lt;/li&gt;
@@ -1670,16 +1873,16 @@ If the “thing” is your web application, this might work very well but in rea
 &lt;p&gt;What in reality gets hardcoded is a case by case decision and depends on a lot of factors. On a bare metal infrastructure where all services are deployed straight to the host, there will be a lot of configuration that is site-wide and environment agnostic but simply is changed that often that reinstallation of the whole host isn’t feasible.&lt;/p&gt;
 &lt;p&gt;But in a containerized infrastructure you have host image and container image life cycles. There is little host configuration, so usually it all can be hardcoded. Even if reinstalling the host takes 20 minutes, if it only happens every few weeks and is fully automated, it’s probably fine.
 Building the container images in a continuous deployment pipeline might just take a minute from a change until the changes are deployed, so here again it’s feasible to bake in all suitable configuration.&lt;/p&gt;
-&lt;h4&gt;Start time configuration&lt;/h4&gt;
+&lt;h4 id=&quot;start-time-configuration&quot;&gt;&lt;a href=&quot;#start-time-configuration&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Start time configuration&lt;/h4&gt;
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;false&quot; data-footer=&quot;false&quot; data-context=&quot;false&quot;  href=&quot;https://www.flickr.com/photos/storm-crypt/326228715/in/photolist-uQ1r2-t62c-jjzxu-pzhfMZ-7pBiCr-gKqR8Z-cqHKJS-hZsSz-522oaS-b3uw2-bXcpyw-5zdLNo-6wvjpw-nv1KL3-3aNjwL-cpBpTC-dbcLKt-4o3Qkk-9pyoHg-6dvJoB-hzvCsP-4o7SHY-aCL42j-4tGWBK-4wxATP-bX13ov-8MgTTH-cZKwvf-iKDCAd-jRyyK1-nb69S1-kvg2qy-kvdS8F-kveev8-kvdGta-kvdFzg-kvdxKi-kve2eV-bpcAmi-rbVVC-4gi4N-4rA5gu-aazkxv-o2XySp-dxnLQi-2oa9re-eC2cX3-8JA67v-8KYUaA-8JA6aB&quot; title=&quot;Sorting Facility&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/135/326228715_dea4917fda_b.jpg&quot; width=&quot;1024&quot; height=&quot;768&quot; alt=&quot;Sorting Facility&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;p&gt;Especially environment specific configuration like credentials should be passed to the services by whatever deploys your application.
 Even though a lot people still deploy their applications with configuration management instead of cluster schedulers, I’m convinced that will change in the next few years. Whether you’re using &lt;a href=&quot;https://mesosphere.github.io/marathon/&quot;&gt;Mesos/Marathon&lt;/a&gt;, &lt;a href=&quot;http://kubernetes.io/&quot;&gt;kubernetes&lt;/a&gt; or &lt;a href=&quot;http://eurosys2013.tudos.org/wp-content/uploads/2013/paper/Schwarzkopf.pdf&quot;&gt;Omega&lt;/a&gt; the high level concepts are similar: You define your application and the scheduler decides based on the available resources where to run it.
 Whether services are deployed by config management systems or the cluster scheduler, since it’s starting services, it’s the right place to pass configuration to your service. Instead of writing configuration files, &lt;a href=&quot;http://12factor.net/config&quot;&gt;12factor style configuration&lt;/a&gt; is usually better suited.&lt;/p&gt;
-&lt;h4&gt;Runtime configuration&lt;/h4&gt;
+&lt;h4 id=&quot;runtime-configuration&quot;&gt;&lt;a href=&quot;#runtime-configuration&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Runtime configuration&lt;/h4&gt;
 &lt;p&gt;Instead of configuring your systems on a regular interval with some configuration management daemon, it’s often a better pattern to have the application or a wrapper around it determine the configuration on runtime.
 Instead of making configuration management orchestrate various services or instances, it’s more robust and arguably less cognitively challenging to consider the service as it’s own independent entity.
 This only works well if site-wide configuration is built in. Determining all this on runtime leads to similar complexity as we have with full blown configuration management today.&lt;/p&gt;
-&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;false&quot; data-footer=&quot;false&quot; data-context=&quot;false&quot;  href=&quot;https://www.flickr.com/photos/ph0t0s/96911576/in/photolist-9yGrf-rf1xpg-iV3Hti-9yGuq-9mJACS-dF5fsX-4CYijn-96MGD7-4CYinT-rcHmFs-e3mfmk-7paoHV-e3rYs3-ebixTV-e3miwv-e3mehH-ebz9br-ebz6nv-9yGn2-maubuc-4eMsoq-gascSh-j448Si-bUvoKX-7tWwN9-8oTPht-fw2NWm-34Ydj3-zMTMt-9NFVNX-4q1pdk-9eX7xW-e72dfP-eb7MBt-4xMiAY-bznrxn-ze6qt-5GtxU5-bhCNRp-fw2NjN-fvMuU4-ebEQHU-fvMxdc-e3rZzd-ebiz6V-fw2Qn7-9NEtYQ-9NGKrb-u79vMN-9NGokq&quot; title=&quot;partly random&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/36/96911576_1a57864a0b_b.jpg&quot; width=&quot;1024&quot; height=&quot;768&quot; alt=&quot;partly random&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 Isolating change to specific points in the life cycle of systems and services reduces the complexity of runtime configuration and simplifies the mental model when reasoning about the infrastructure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CloudFormation driven Consul in AutoScalingGroup]]></title><description><![CDATA[CloudFormation templates are a great way to manage AWS resources. All resources for a stack are configured in a json and CloudFormation…]]></description><link>https://5pi.de//2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</link><guid isPermaLink="false">https://5pi.de//2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</guid><pubDate>Mon, 27 Apr 2015 13:22:30 GMT</pubDate><content:encoded>&lt;p style=&quot;font-size:10px&quot;&gt;
 
@@ -1696,13 +1899,13 @@ Isolating change to specific points in the life cycle of systems and services re
 &lt;p&gt;CloudFormation templates are a great way to manage AWS resources. All resources for a stack are configured in a json and CloudFormation takes care of creating or updating your stack.
 Consul is a distributed, consistent data store for Service Discovery and configuration which also features health checks and supports for distributed locks.
 Consul deployed and updated via CloudFormation provides a nice foundation for any kind of modern infrastructure.&lt;/p&gt;
-&lt;h1&gt;AutoScalingGroup&lt;/h1&gt;
+&lt;h1 id=&quot;autoscalinggroup&quot;&gt;&lt;a href=&quot;#autoscalinggroup&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;AutoScalingGroup&lt;/h1&gt;
 &lt;p&gt;If you specify instances in your stack directly by using the &lt;code class=&quot;language-text&quot;&gt;AWS::EC2::Instance&lt;/code&gt; resource, updating anything that requires recreation of the instance will bring up a new instance and terminate the old one. If you need more control over the recreation, the instances need to be managed via a AutoScalingGroup.&lt;/p&gt;
 &lt;p&gt;By default, updating a AutoScalingGroup won’t affect the instances. You need to manually terminate them and let AutoScale spin up a new instance.
 To automatically update the instances, you can specify a UpdatePolicy requiring at least n instances in service while doing a rolling upgrade.&lt;/p&gt;
 &lt;p&gt;In the case of consul this isn’t enough. Without checking that a new consul node actually came up and connected successfully to the cluster we might lose to quorum and the cluster becomes stale.&lt;/p&gt;
 &lt;p&gt;Fortunately CloudFormation offers a UpdatePolicy option WaitOnResourceSignals which can be used to signal that any new consul node coming up connects sucessfully to the cluster before the any new instance gets terminated.&lt;/p&gt;
-&lt;h1&gt;UpdatePolicy&lt;/h1&gt;
+&lt;h1 id=&quot;updatepolicy&quot;&gt;&lt;a href=&quot;#updatepolicy&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;UpdatePolicy&lt;/h1&gt;
 &lt;p&gt;The changes to the CloudFormation template are straight forward. In the AutoScalingGroup we add a &lt;code class=&quot;language-text&quot;&gt;UpdatePolicy&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;WaitOnResourceSignals: true&lt;/code&gt; like this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;UpdatePolicy&amp;quot; : {
   &amp;quot;AutoScalingRollingUpdate&amp;quot; : {
@@ -1720,7 +1923,7 @@ each new instance within the specified pause time before
 AWS CloudFormation continues the update.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Now we simply need to make sure any new instance sends a success signal after it came up and consul connected successfully to the cluster.&lt;/p&gt;
-&lt;h1&gt;Send success signal&lt;/h1&gt;
+&lt;h1 id=&quot;send-success-signal&quot;&gt;&lt;a href=&quot;#send-success-signal&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Send success signal&lt;/h1&gt;
 &lt;p&gt;Once a new instance starts, we need to wait for consul to join the cluster and replicate. Since we need to guarantee that a new node actually joined the cluster, not some partition of it, we need something that goes through the raft log.
 When looking at the consul documentation, there are a few endpoint we could use. Unfortunately the documentation doesn’t state what the consistency guarantees of status endpoints like &lt;code class=&quot;language-text&quot;&gt;peers&lt;/code&gt; are, so &lt;a href=&quot;https://github.com/hashicorp/consul/issues/880&quot;&gt;I had to ask&lt;/a&gt;. Turns out, we can trust &lt;code class=&quot;language-text&quot;&gt;peers&lt;/code&gt;.
 With that knowing, we can simply wait for consul being ready as part of the UserData script, then signal success by using the &lt;code class=&quot;language-text&quot;&gt;cfn-signal&lt;/code&gt; tool:&lt;/p&gt;
@@ -1729,7 +1932,7 @@ With that knowing, we can simply wait for consul being ready as part of the User
   &amp;quot;while ! curl -s http://localhost:8500/v1/status/peers | grep -q $IP:; do echo Waiting for consul; sleep 1; done\n&amp;quot;,
   &amp;quot;cfn-signal --resource InfraScalingGroup --stack &amp;quot;, {&amp;quot;Ref&amp;quot;: &amp;quot;AWS::StackName&amp;quot;}, &amp;quot; --region &amp;quot;, {&amp;quot;Ref&amp;quot; : &amp;quot;AWS::Region&amp;quot;}, &amp;quot;\n&amp;quot;
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;AMI&lt;/h1&gt;
+&lt;h1 id=&quot;ami&quot;&gt;&lt;a href=&quot;#ami&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;AMI&lt;/h1&gt;
 &lt;p&gt;The ami runs consul on start and uses a IAM role with read-only EC2 access. Since we tagged all consul instances, this allows the init script to discover peers via the AWS API:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;URL=&amp;quot;http://169.254.169.254/latest/&amp;quot;
 ID=$(curl $URL/meta-data/instance-id)
@@ -1753,7 +1956,7 @@ fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;exec /usr/bin/consul agent -data-dir /var/lib/consul \
   -config-dir=/etc/consul \
   $(echo &amp;quot;$SERVERS&amp;quot; | sed &amp;#39;s/^/ -retry-join /&amp;#39; | tr -d &amp;#39;\n&amp;#39;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Updating the Stack&lt;/h1&gt;
+&lt;h1 id=&quot;updating-the-stack&quot;&gt;&lt;a href=&quot;#updating-the-stack&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Updating the Stack&lt;/h1&gt;
 &lt;p&gt;With all this in place you can do a fully automated rolling upgrade while keeping a quorum. Just update the stack and you should get something like this while having a fully operable cluster:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/output_710_280-e458b67bbb060e2f44d87934ff67c7cd.gif&quot; alt=&quot;Update Stack Log&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Scope and Ownership in Tech Companies]]></title><description><![CDATA[
 My first job was a typical corporate job at a financial service provider after which I worked at large hosting company before joining…]]></description><link>https://5pi.de//2015/04/22/scope-and-ownership-in-tech-companies/</link><guid isPermaLink="false">https://5pi.de//2015/04/22/scope-and-ownership-in-tech-companies/</guid><pubDate>Wed, 22 Apr 2015 12:19:36 GMT</pubDate><content:encoded>&lt;p&gt;
@@ -1796,7 +1999,7 @@ My first job was a typical corporate job at a financial service provider after w
 &lt;p&gt;Although I never was a manager, I was always interested in the company as a whole, how my work shapes it and how the environment impacts my work and how other companies are organized.&lt;/p&gt;
 &lt;p&gt;On thing that strikes me most is that not only that we lot of companies can’t agree on &lt;em&gt;who should do what&lt;/em&gt; but that lot of companies don’t even think about this carefully and don’t realize that this affects everything else. They strives for a Microservice architecture without even knowing why and name their Ops team “DevOps” because that’s what people do.
 I want to provide my thoughts on questions around Scope and Ownership but leave the implementation details to the reader. I’m happy to answer technical questions in the comments though and might blog about those implementation details eventually if interested.&lt;/p&gt;
-&lt;h1&gt;What your Company should do&lt;/h1&gt;
+&lt;h1 id=&quot;what-your-company-should-do&quot;&gt;&lt;a href=&quot;#what-your-company-should-do&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;What your Company should do&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/jo-ghadban/3355654186/in/photostream/&quot;&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
@@ -1828,7 +2031,7 @@ Outsourcing this is like outsourcing your face.&lt;/p&gt;
 &lt;p&gt;Software is also usually the interface with your customers and you don’t want something you don’t &lt;em&gt;own&lt;/em&gt; between you and your customers. Not only that you don’t understand and can’t control, but all feedback loops are much wider. You listen to your customers, explain your ideas to some agency, they explain it to their developers and after some time you get a result. For every problem with that piece of software, you need to go through the whole loop again. Every competitor doing this in-house will move &lt;em&gt;much&lt;/em&gt; faster due to their short feedback loops. You see a problem, you fix it.&lt;/p&gt;
 &lt;p&gt;Even internally, think about what makes up your company and how much of the internal infrastructure and software you want to own. If you are a small web shop, you’re good to &lt;em&gt;use&lt;/em&gt; existing frameworks and services. You can usually expect them to work for your use cases. If not, you need to fill tickets and wait for someone to fix them.
 Now if you are company operating at large scale, you need to actually &lt;em&gt;own&lt;/em&gt; those services since you will run into issues nobody else ran into. In our open source world, this doesn’t necessary mean to write your own software but have people to &lt;em&gt;own&lt;/em&gt; those components, people able to understand their internals and able to fix bugs without any vendor supporting them. You see a problem you fix it.&lt;/p&gt;
-&lt;h1&gt;What your teams should do&lt;/h1&gt;
+&lt;h1 id=&quot;what-your-teams-should-do&quot;&gt;&lt;a href=&quot;#what-your-teams-should-do&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;What your teams should do&lt;/h1&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1866,20 +2069,20 @@ Now if you are company operating at large scale, you need to actually &lt;em&gt;
 No matter how you build teams or how you call them, I believe they should be as independent from each other as possible while providing benefits to all other teams where possible.
 As too many cooks spoil the broth, having many engineers working on the same code base usually isn’t working. You run into all kind of problems, from merge conflicts to bikeshedding and unclear escalation paths.&lt;/p&gt;
 &lt;p&gt;The probably best way to avoid this is by splitting your monolithic application into (micro)services. Each teams develops their service independently. Since services depend on each other, you need to make your APIs backward compatible or introduce some kind of versioning.&lt;/p&gt;
-&lt;h2&gt;You build it, you run it&lt;/h2&gt;
+&lt;h2 id=&quot;you-build-it-you-run-it&quot;&gt;&lt;a href=&quot;#you-build-it-you-run-it&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;You build it, you run it&lt;/h2&gt;
 &lt;p&gt;Each team does not only develop their own service, they also deploy, operate and monitor it. You will never fully understand how an application behaves if you don’t run it on your own. With the right monitoring in place, it’s usually not that hard to isolate in which service’s domain a problem occurred. This guarantees short feedback loops and sets the right incentives to balance features and work on technical debt.
 This also implies that there is &lt;em&gt;no ops team&lt;/em&gt;. Ops isn’t a team, it’s a role, something everyone should be doing.&lt;/p&gt;
-&lt;h2&gt;Self-service&lt;/h2&gt;
+&lt;h2 id=&quot;self-service&quot;&gt;&lt;a href=&quot;#self-service&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Self-service&lt;/h2&gt;
 &lt;p&gt;The teams being able to own each aspect of their service requires a self-service infrastructure.
 It depends on how similar the requirements of different teams are and how much operational experience they have.
 If you’re running on AWS, you might just give every team their own login and ability to spin up machines and resources as they need. But this requires quite some operational experience to make this secure and reliable and there will be lot of pieces that every team needs to re-invent.
 Therefore, the self-service platform should address all needs that are similar across all your services and support. It might look like Heroku or Elastic Beanstalk but might be more opinionated and specific to your company.
 Those infrastructure services are the same as user facing services. Some team builds and operates them, it’s simply a service for which customers are other engineers within your company.
 This isn’t Ops and it’s not DevOps either, although due to the nature of the service it might involve more systems knowledge than frontend development.&lt;/p&gt;
-&lt;h2&gt;Scaling beyond that&lt;/h2&gt;
+&lt;h2 id=&quot;scaling-beyond-that&quot;&gt;&lt;a href=&quot;#scaling-beyond-that&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Scaling beyond that&lt;/h2&gt;
 &lt;p&gt;At large scale funny things happen and in a large company, you want people specialized in those problem. If you have less than, let say, 200 engineers, you probably don’t.
 Those scale issues are similar across services but nothing you can easily abstract away. To solve those problems, you need to look at the big picture. The problem domain is different which is why companies like Google and facebook introduced a new role. Whether you call it &lt;em&gt;Site Reliability Engineering&lt;/em&gt; or just &lt;em&gt;Production Engineering&lt;/em&gt;, please don’t call it Ops and don’t use it synonymous with. It’s not about &lt;em&gt;operating&lt;/em&gt; anything.&lt;/p&gt;
-&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Conclusion&lt;/h1&gt;
 &lt;p&gt;Some things proposed here might not be trivial to implement. It’s hard to hire people with operational and development skills and a Microservice architecture opens up a whole new class of problems in the realm of distributed systems, but in the end most successfully companies seem to arrive at similar conclusions. If you disagree and choose a completely different approach, that’s fine as long as you do it deliberately.
 Nothing is worse than having some specific form of organization without knowing why.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building AWS AMIs from Scratch for Immutable Infrastructures]]></title><description><![CDATA[Why? I’m a big fan of what some might call “immutable infrastructures” which, to me, boils down to manging complexity by isolating change to…]]></description><link>https://5pi.de//2015/03/13/building-aws-amis-from-scratch/</link><guid isPermaLink="false">https://5pi.de//2015/03/13/building-aws-amis-from-scratch/</guid><pubDate>Fri, 13 Mar 2015 15:42:47 GMT</pubDate><content:encoded>&lt;p&gt;
   &lt;a
@@ -1915,7 +2118,7 @@ Nothing is worse than having some specific form of organization without knowing 
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;h1&gt;Why?&lt;/h1&gt;
+&lt;h1 id=&quot;why&quot;&gt;&lt;a href=&quot;#why&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Why?&lt;/h1&gt;
 &lt;p&gt;I’m a big fan of what some might call “immutable infrastructures” which, to me, boils down to manging complexity by isolating change to specific points in the life cycle of your services.
 In practice this might mean you build your application image once and just recreate it if you need to update it.
 Or you install your complete server once and just recreate it if you need to update it. Where this is harder on bare metal, AWS is a nice platform for this kind of immutable servers since it supports creating and running pre-built Amazon Machine Images.&lt;/p&gt;
@@ -1923,10 +2126,10 @@ Or you install your complete server once and just recreate it if you need to upd
 &lt;p&gt;The first option seems to be the most common case. There are several tools like &lt;a href=&quot;https://www.packer.io/&quot;&gt;packer&lt;/a&gt; or Netflix’ &lt;a href=&quot;https://github.com/Netflix/aminator&quot;&gt;aminator&lt;/a&gt; but since it requires to actually boot a existing AMIs, it has a few downsides. For once it requires a existing AMI which might include things you don’t need but I’m more worried about the fact that it requires to actually boot a machine. This breaks the clean separation of build- and runtime and might mess up your build artefacts. Think logfiles, dhcp/cloud-init configuration and so on. Sure, you can clean up those things but I prefer avoiding it in the first place by never entering the runtime before actual deployment.
 Unfortunately, there isn’t very good tooling nor documentation around that, so I thought I share my findings with you.
 Maybe it sparks the interest in building some good tooling around that - or maybe I get to it at some point.&lt;/p&gt;
-&lt;h1&gt;Building the image&lt;/h1&gt;
+&lt;h1 id=&quot;building-the-image&quot;&gt;&lt;a href=&quot;#building-the-image&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Building the image&lt;/h1&gt;
 &lt;p&gt;There are &lt;a href=&quot;http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/virtualization_types.html&quot;&gt;PV and HVM instances&lt;/a&gt; where from a AMI building perspective the biggest difference is that PV AMIs consist of a &lt;em&gt;filesystem&lt;/em&gt; image and a AKI (Amazon “kernel” image) reference. That kernel isn’t really a kernel but in fact pv-grub, a modified grub which, depending on the AKI, assumes a grub config in &lt;code class=&quot;language-text&quot;&gt;(hd0)/boot/grub/menu.lst&lt;/code&gt; to chainload the specified kernel.&lt;/p&gt;
 &lt;p&gt;A HVM image on the other hand is a &lt;em&gt;disk&lt;/em&gt; image with a MBR that gets executed on boot.&lt;/p&gt;
-&lt;h2&gt;Paravirtual&lt;/h2&gt;
+&lt;h2 id=&quot;paravirtual&quot;&gt;&lt;a href=&quot;#paravirtual&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Paravirtual&lt;/h2&gt;
 &lt;p&gt;Apparently HVM is the future, so feel free to skip this section.&lt;/p&gt;
 &lt;p&gt;Creating a PV image is simple. This creates a 10G sparse file with ext4 filesystem and a label ‘root’. &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dd if=/dev/zero of=filesystem.img bs=1 count=0 seek=10G
@@ -1941,7 +2144,7 @@ title My-AMI
 root (hd0)
 kernel /boot/vmlinuz root=LABEL=root console=hvc0
 initrd /boot/initrd.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;HVM&lt;/h2&gt;
+&lt;h2 id=&quot;hvm&quot;&gt;&lt;a href=&quot;#hvm&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;HVM&lt;/h2&gt;
 &lt;p&gt;HVM images are a bit more tricky, since we need to create a complete disk image including partition and MBR:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dd if=/dev/zero of=disk.img bs=1 count=0 seek=$SIZE 
 fdisk filesystem.img &amp;lt;&amp;lt; EOF
@@ -1960,24 +2163,24 @@ losetup -d $DEV_DISK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After that, you need to install grub to the MBR of the disk image by running:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;grub-install disk.img --root-directory $PWD/mnt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Note: Took me some time to figure out that —root-directory needs an absolute path.&lt;/em&gt;&lt;/p&gt;
-&lt;h1&gt;Bundle, Upload and register AMI&lt;/h1&gt;
+&lt;h1 id=&quot;bundle-upload-and-register-ami&quot;&gt;&lt;a href=&quot;#bundle-upload-and-register-ami&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Bundle, Upload and register AMI&lt;/h1&gt;
 &lt;p&gt;For some reasons there is no way to bundle and upload images with the new &lt;code class=&quot;language-text&quot;&gt;aws&lt;/code&gt; cli, so we’re using the old AWS tools.
 &lt;code class=&quot;language-text&quot;&gt;ec2-bundle-image&lt;/code&gt; will turn the disk or filesystem images into bundles ready to be uploaded to S3 by &lt;code class=&quot;language-text&quot;&gt;ec2-upload-bundle&lt;/code&gt;. Now you just need to register your AMI with &lt;code class=&quot;language-text&quot;&gt;aws ec2 register-image&lt;/code&gt; and make sure &lt;code class=&quot;language-text&quot;&gt;--virtualization-type&lt;/code&gt; matches the kind of image you built.
 If you run in multiple regions, you can use &lt;code class=&quot;language-text&quot;&gt;aws ec2 copy-image&lt;/code&gt; to replicate your AMIs across regions.&lt;/p&gt;
-&lt;h1&gt;Debugging&lt;/h1&gt;
+&lt;h1 id=&quot;debugging&quot;&gt;&lt;a href=&quot;#debugging&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Debugging&lt;/h1&gt;
 &lt;p&gt;If you’re AMI doesn’t boot, you can get the console output by running &lt;code class=&quot;language-text&quot;&gt;aws ec2 get-console-output --instance-id ...&lt;/code&gt;. This is encoded as json but you can use the great tool &lt;code class=&quot;language-text&quot;&gt;jq&lt;/code&gt; to get just the output including all it’s ANSI colored glory like this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;aws ec2 get-console-output --instance-id ... | jq -r .Output&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If you don’t want to wait for your ec2 instance at all, you can also just test the images locally. For HVM this is trivial. Just run &lt;code class=&quot;language-text&quot;&gt;kvm disk.img&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;qemu disk.img&lt;/code&gt;.&lt;/p&gt;
-&lt;h1&gt;Automation and Integration&lt;/h1&gt;
+&lt;h1 id=&quot;automation-and-integration&quot;&gt;&lt;a href=&quot;#automation-and-integration&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Automation and Integration&lt;/h1&gt;
 &lt;p&gt;Right now I’m using a, pretty messy, Makefile to automate all this. It takes some files and a provisioner script to customize the AMIs. The general idea is to use some CI server to build fresh AMIs on every push and to just recreate your EC2 instances with the new AMIs once you want to roll out your changes.
-It would be great to have proper tooling for all this. Packer looks promising, just misses a way to build from scratch.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Prometheus on Raspberry Pi]]></title><description><![CDATA[Prometheus Prometheus  is a new open-source service monitoring system and time series database written in Go. Check out the  announcement…]]></description><link>https://5pi.de//2015/02/10/prometheus-on-raspberry-pi/</link><guid isPermaLink="false">https://5pi.de//2015/02/10/prometheus-on-raspberry-pi/</guid><pubDate>Tue, 10 Feb 2015 13:18:12 GMT</pubDate><content:encoded>&lt;h1&gt;Prometheus&lt;/h1&gt;
+It would be great to have proper tooling for all this. Packer looks promising, just misses a way to build from scratch.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Prometheus on Raspberry Pi]]></title><description><![CDATA[Prometheus Prometheus  is a new open-source service monitoring system and time series database written in Go. Check out the  announcement…]]></description><link>https://5pi.de//2015/02/10/prometheus-on-raspberry-pi/</link><guid isPermaLink="false">https://5pi.de//2015/02/10/prometheus-on-raspberry-pi/</guid><pubDate>Tue, 10 Feb 2015 13:18:12 GMT</pubDate><content:encoded>&lt;h1 id=&quot;prometheus&quot;&gt;&lt;a href=&quot;#prometheus&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Prometheus&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;http://prometheus.io&quot;&gt;Prometheus&lt;/a&gt; is a new open-source service monitoring system and time series database written in Go.&lt;/p&gt;
 &lt;p&gt;Check out the &lt;a href=&quot;https://developers.soundcloud.com/blog/prometheus-monitoring-at-soundcloud&quot;&gt;announcement&lt;/a&gt; and my article about &lt;a href=&quot;/2015/01/26/monitor-docker-containers-with-prometheus&quot;&gt;monitoring Docker Containers with Prometheus&lt;/a&gt; if you don’t know what I’m talking about.&lt;/p&gt;
-&lt;h1&gt;My Stack&lt;/h1&gt;
+&lt;h1 id=&quot;my-stack&quot;&gt;&lt;a href=&quot;#my-stack&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;My Stack&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Raspberry_Pi_Photo.jpg/800px-Raspberry_Pi_Photo.jpg&quot; alt=&quot;RaspberryPi&quot;&gt;
 I stopped running my own full blown server(s) a while ago. Nowadays I just have a old Raspberry Pi at home and two tiny DigitalOcean instances to host this blog and for general R&amp;#x26;D stuff.&lt;/p&gt;
 &lt;p&gt;But I still want to monitor all this and, as showed earlier, Prometheus is the way to go. So I could now spin up another DigitalOcean instance and pay another $5/Mo, but given how cheap I am, I’d rather want to run it on my Raspberry Pi.&lt;/p&gt;
-&lt;h1&gt;Cross-Compiling Go&lt;/h1&gt;
+&lt;h1 id=&quot;cross-compiling-go&quot;&gt;&lt;a href=&quot;#cross-compiling-go&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Cross-Compiling Go&lt;/h1&gt;
 &lt;p&gt;First you need to build Go with support for your target OS and architecture. If you installed Go from sources, you can do this by running:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd $GOROOT/src
 GOARCH=arm ./make.bash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -1997,7 +2200,7 @@ func main() {
 go get -u # Update your dependencies
 GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Since cross-compilation by default disables CGO, this builds a statically linked prometheus binary ready to be run on a Raspberry Pi. If you’re running a newer Pi, you can set GOARM to the version of your ARM processor. See &lt;a href=&quot;https://code.google.com/p/go-wiki/wiki/GoArm#Supported_architectures&quot;&gt;this&lt;/a&gt; for supported architectures.&lt;/p&gt;
-&lt;h1&gt;Performance&lt;/h1&gt;
+&lt;h1 id=&quot;performance&quot;&gt;&lt;a href=&quot;#performance&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Performance&lt;/h1&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2069,10 +2272,10 @@ I didn’t have time to benchmark it yet, but it seems to perform much better th
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;h1&gt;Downloads&lt;/h1&gt;
+&lt;h1 id=&quot;downloads&quot;&gt;&lt;a href=&quot;#downloads&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Downloads&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; There are now official images available:
 &lt;a href=&quot;https://prometheus.io/download/&quot;&gt;https://prometheus.io/download/&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Checksums&lt;/h3&gt;
+&lt;h3 id=&quot;checksums&quot;&gt;&lt;a href=&quot;#checksums&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Checksums&lt;/h3&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ shasum prometheus.armv?.gz
 db42a3f568bbab1d8a7d183b336d0b50dccc80b6  prometheus.armv5.gz
 b6fdd3a77e16359631a0daaf9c06cd93a9948932  prometheus.armv6.gz
@@ -2084,17 +2287,17 @@ e206202bb07cc139eaabac4c51c07f0a332337eb331bd79f19294c558fb3de62  prometheus.arm
 baf550448174198c57f3a28e2b86d49ba523e5b15d9d4c087267021e4785299b  prometheus.armv7.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Find GHOSTs in your Docker images]]></title><description><![CDATA[A severe security vulnerability in glibc < 2.18, nicknamed  GHOST  was just reported.
 Here is a handy one-liner (Debian/Ubuntu only though…]]></description><link>https://5pi.de//2015/01/27/find-ghosts-in-your-docker-images/</link><guid isPermaLink="false">https://5pi.de//2015/01/27/find-ghosts-in-your-docker-images/</guid><pubDate>Tue, 27 Jan 2015 17:30:17 GMT</pubDate><content:encoded>&lt;p&gt;A severe security vulnerability in glibc &amp;#x3C; 2.18, nicknamed &lt;a href=&quot;http://www.openwall.com/lists/oss-security/2015/01/27/9&quot;&gt;GHOST&lt;/a&gt; was just reported.
 Here is a handy one-liner (Debian/Ubuntu only though) to walk through all your Docker images and see if they include a glibc older than 2.18:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker images -q | while read I; do V=`docker run --rm --entrypoint apt-cache $I policy libc6 2&amp;gt;/dev/null | awk &amp;#39; /Installed/ { print $2&amp;quot;\n&amp;quot;2.18 }&amp;#39;|sort -V|head -1`; if [ -z &amp;quot;$V&amp;quot; ]; then echo &amp;quot;$I not apt based&amp;quot; &amp;amp;&amp;amp; continue; fi;  [ &amp;quot;$V&amp;quot; == &amp;quot;2.18&amp;quot; ] || echo &amp;quot;$I is vulnerable&amp;quot;; done&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Monitor Docker Containers with Prometheus]]></title><description><![CDATA[Monitoring Docker Running all your services in containers makes it possible to get in-depth resource and performance characteristics, since…]]></description><link>https://5pi.de//2015/01/26/monitor-docker-containers-with-prometheus/</link><guid isPermaLink="false">https://5pi.de//2015/01/26/monitor-docker-containers-with-prometheus/</guid><pubDate>Mon, 26 Jan 2015 15:15:12 GMT</pubDate><content:encoded>&lt;h3&gt;Monitoring Docker&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker images -q | while read I; do V=`docker run --rm --entrypoint apt-cache $I policy libc6 2&amp;gt;/dev/null | awk &amp;#39; /Installed/ { print $2&amp;quot;\n&amp;quot;2.18 }&amp;#39;|sort -V|head -1`; if [ -z &amp;quot;$V&amp;quot; ]; then echo &amp;quot;$I not apt based&amp;quot; &amp;amp;&amp;amp; continue; fi;  [ &amp;quot;$V&amp;quot; == &amp;quot;2.18&amp;quot; ] || echo &amp;quot;$I is vulnerable&amp;quot;; done&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Monitor Docker Containers with Prometheus]]></title><description><![CDATA[Monitoring Docker Running all your services in containers makes it possible to get in-depth resource and performance characteristics, since…]]></description><link>https://5pi.de//2015/01/26/monitor-docker-containers-with-prometheus/</link><guid isPermaLink="false">https://5pi.de//2015/01/26/monitor-docker-containers-with-prometheus/</guid><pubDate>Mon, 26 Jan 2015 15:15:12 GMT</pubDate><content:encoded>&lt;h3 id=&quot;monitoring-docker&quot;&gt;&lt;a href=&quot;#monitoring-docker&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Monitoring Docker&lt;/h3&gt;
 &lt;p&gt;Running all your services in containers makes it possible to get in-depth resource and performance characteristics, since every container runs in their own cgroup and the Linux kernel provides us with all kind of useful metrics.&lt;/p&gt;
 &lt;p&gt;Although there are a few other Docker monitoring tools out there, I’ll show you why I think that SoundCloud’s &lt;a href=&quot;https://developers.soundcloud.com/blog/prometheus-monitoring-at-soundcloud&quot;&gt;newly released&lt;/a&gt; &lt;a href=&quot;https://prometheus.github.io/&quot;&gt;Prometheus&lt;/a&gt; is a perfect fit for monitoring container-based infrastructures.&lt;/p&gt;
 &lt;p&gt;Prometheus features a highly dimensional &lt;a href=&quot;http://prometheus.github.io/docs/concepts/data_model/&quot;&gt;data model&lt;/a&gt; in which a time series is identified by a metric name and a set of key-value pairs. A flexible &lt;a href=&quot;http://prometheus.github.io/docs/querying/basics/&quot;&gt;query language&lt;/a&gt; allows querying and graphing this data. It features advanced &lt;a href=&quot;http://prometheus.github.io/docs/concepts/metric_types/&quot;&gt;metric types&lt;/a&gt; like summaries, building &lt;a href=&quot;http://prometheus.github.io/docs/querying/functions/#rate()&quot;&gt;rates&lt;/a&gt; from totals over specified time spans or &lt;a href=&quot;http://prometheus.github.io/docs/querying/rules/&quot;&gt;alerting&lt;/a&gt; on any expression and has no dependencies, making it a dependable system for debugging during outages.&lt;/p&gt;
 &lt;p&gt;I will focus on why especially the data model and query language makes it such a good fit in a containerized, dynamic infrastructure where you think in clusters of services instead of single instances and servers as cattle instead of pets.&lt;/p&gt;
-&lt;h3&gt;Classic Approach&lt;/h3&gt;
+&lt;h3 id=&quot;classic-approach&quot;&gt;&lt;a href=&quot;#classic-approach&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Classic Approach&lt;/h3&gt;
 &lt;p&gt;Let’s say you want to monitor the memory usage of your containers. Without support for dimensional data, such a metric for the container named &lt;code class=&quot;language-text&quot;&gt;webapp123&lt;/code&gt; might be called &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes_webapp123&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;But what if you want to show the memory usage of all your &lt;code class=&quot;language-text&quot;&gt;webapp123&lt;/code&gt; containers? More advanced monitoring solutions like &lt;a href=&quot;https://github.com/graphite-project&quot;&gt;graphite&lt;/a&gt; support that. It features a hierarchic, tree-like data model in which such metric might be called &lt;code class=&quot;language-text&quot;&gt;container.memory_usage_bytes.webapp123&lt;/code&gt;. Now you can use wildcards like &lt;code class=&quot;language-text&quot;&gt;container.memory_usage_bytes.webapp*&lt;/code&gt; to graph the memory usage of all your ‘webapp’ containers. Graphite also supports functions like &lt;code class=&quot;language-text&quot;&gt;sum()&lt;/code&gt; to aggregate the memory usage of your application across all your machines by using an expression like &lt;code class=&quot;language-text&quot;&gt;sum(container.memory_usage_bytes.webapp*)&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;That’s all great and very useful, but limited. What if you don’t want to aggregate all containers with a given name but with a given image? Or you want to compare the deployments to your canary with those on your prod machines?&lt;/p&gt;
 &lt;p&gt;It’s possible to come up with a hierarchy for each use case, but not one to support them all. And reality shows, you often don’t know in advance which questions you need to answer once things go dark and you start investigating.&lt;/p&gt;
-&lt;h3&gt;Prometheus&lt;/h3&gt;
+&lt;h3 id=&quot;prometheus&quot;&gt;&lt;a href=&quot;#prometheus&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Prometheus&lt;/h3&gt;
 &lt;p&gt;With Prometheus’s support for dimensional data, you can have global and straightforward metric names like &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt; with multiple dimensions to identify the specific instances of your service.&lt;/p&gt;
 &lt;p&gt;I’ve created a simple &lt;a href=&quot;https://github.com/docker-infra/container_exporter&quot;&gt;container-exporter&lt;/a&gt; to gather Docker Container metrics and expose them for Prometheus to consume. This exporter uses the container’s name, id and image as dimensions. Additional per-exporter dimension can be set in the &lt;code class=&quot;language-text&quot;&gt;prometheus.conf&lt;/code&gt;.
 If you use the metric name directly as a query expression, it will return all time series with their labels for this metric name:&lt;/p&gt;
@@ -2139,7 +2342,7 @@ container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267e
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;To help you make sense of this data, you can filter and/or aggregate these metrics&lt;/p&gt;
-&lt;h4&gt;Slice &amp;#x26; Dice&lt;/h4&gt;
+&lt;h4 id=&quot;slice--dice&quot;&gt;&lt;a href=&quot;#slice--dice&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Slice &amp;#x26; Dice&lt;/h4&gt;
 &lt;p&gt;With Prometheus’s query language, you can slice and dice data by any dimension you want. If you’re interested in all containers with a given name, you can use an expression like &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{name=&amp;quot;consul-server&amp;quot;}&lt;/code&gt;, which would show only the time series for which &lt;code class=&quot;language-text&quot;&gt;name == &amp;quot;consul-server&amp;quot;&lt;/code&gt;.
 Prometheus also supports regular expressions, so instead of matching the full script you can do &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;}&lt;/code&gt;, which would show something like this:&lt;/p&gt;
 &lt;p&gt;
@@ -2177,7 +2380,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;You can use any other dimension for filtering as well, so you can get metrics about all containers on a given host, in a given environment or zone.&lt;/p&gt;
-&lt;h4&gt;Aggregation&lt;/h4&gt;
+&lt;h4 id=&quot;aggregation&quot;&gt;&lt;a href=&quot;#aggregation&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Aggregation&lt;/h4&gt;
 &lt;p&gt;Similar to Graphite, Prometheus supports aggregation functions but due to its dimensions this gets even more powerful. Summing up the memory usage of all your “consul-*” works as expected with &lt;code class=&quot;language-text&quot;&gt;sum(container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;})&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Now let’s say you want to see the difference in average memory usage between your ‘consul’ and ‘consul-server’ containers. This is achieved by providing the dimensions to keep in the aggregated result like this &lt;code class=&quot;language-text&quot;&gt;avg(container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;}) by (name)&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;
@@ -2215,7 +2418,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
   &lt;/a&gt;
     &lt;/p&gt;
 &lt;p&gt;If you have services in multiple zones and configure the zone name as an additional label pair, you can also keep that dimension to show the memory usage per name and zone by using an expression like &lt;code class=&quot;language-text&quot;&gt;avg(container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;}) by (name,zone)&lt;/code&gt;.&lt;/p&gt;
-&lt;h4&gt;Using Prometheus + Container-Exporter&lt;/h4&gt;
+&lt;h4 id=&quot;using-prometheus--container-exporter&quot;&gt;&lt;a href=&quot;#using-prometheus--container-exporter&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Using Prometheus + Container-Exporter&lt;/h4&gt;
 &lt;p&gt;As you know, I like to run everything in containers, including the container-exporter and Prometheus itself. Running the &lt;a href=&quot;https://github.com/docker-infra/container_exporter&quot;&gt;container-exporter&lt;/a&gt; should be as easy as this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run -p 8080:8080 -v /sys/fs/cgroup:/cgroup \
            -v /var/run/docker.sock:/var/run/docker.sock prom/container-exporter&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -2238,10 +2441,10 @@ Prometheus also supports regular expressions, so instead of matching the full sc
   }
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now rebuild your image as described in the documentation and start it. Prometheus should now poll your container-exporter every 60s.&lt;/p&gt;
-&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;Because of Prometheus flexibility, its performance and minimal requirements, it’s the monitoring system of my choice.
 This is why I introduced Prometheus beginning last year at Docker where we use it as our primary monitoring system.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Containerize your Infrastructure]]></title><description><![CDATA[The Hype Everyone is talking about containers.
-Containers are a great way to bundle your application with all dependencies and isolate it…]]></description><link>https://5pi.de//2015/01/08/containerized-infrastructure/</link><guid isPermaLink="false">https://5pi.de//2015/01/08/containerized-infrastructure/</guid><pubDate>Thu, 08 Jan 2015 14:43:00 GMT</pubDate><content:encoded>&lt;h3&gt;The Hype&lt;/h3&gt;
+Containers are a great way to bundle your application with all dependencies and isolate it…]]></description><link>https://5pi.de//2015/01/08/containerized-infrastructure/</link><guid isPermaLink="false">https://5pi.de//2015/01/08/containerized-infrastructure/</guid><pubDate>Thu, 08 Jan 2015 14:43:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;the-hype&quot;&gt;&lt;a href=&quot;#the-hype&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;The Hype&lt;/h3&gt;
 &lt;p&gt;Everyone is talking about containers.
 Containers are a great way to bundle your application with all dependencies and isolate it from other applications running on the same host.
 That’s all great but we never cared that much about containerization even though it exists for quite some time: chroot() was born 1979 and IBM had tech similar to containers on S/370 over 40 years ago.&lt;/p&gt;
@@ -2280,14 +2483,14 @@ That’s all great but we never cared that much about containerization even thou
     &lt;/p&gt;
 &lt;p&gt;So why all the hype right now? It’s not like we just started with all that.
 There are various use cases for containers but here I’ll focus on use them as building blocks in modern IT infrastructures.&lt;/p&gt;
-&lt;h3&gt;Infrastructure evolution&lt;/h3&gt;
+&lt;h3 id=&quot;infrastructure-evolution&quot;&gt;&lt;a href=&quot;#infrastructure-evolution&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Infrastructure evolution&lt;/h3&gt;
 &lt;p&gt;If we look back 10 or maybe 15 years, things looked very differently.
 It’s not particular news that software eats the world and every company today is, at least partially, an IT company. But back in the 90s, IT was still something for rather specialized companies. Finance, Insurance, Government, Health care. Basically companies juggling lots of numbers.&lt;/p&gt;
 &lt;p&gt;Big and monolithic software and services designed by a waterfall model. Release cycles in the terms of months and large Ops departments managing them. All scaled mostly vertically by just buying bigger boxes.
 Things happened really slow back in the days. Despite the fact that there are still lot of companies stuck back then, even in traditionally more conservative businesses like finance you see &lt;a href=&quot;https://www.youtube.com/watch?v=6FPXbQ2WpAM&quot;&gt;a radical shift towards agile development methodologies&lt;/a&gt;. Why this is a crucial move and I don’t belive any company will survive without being “agile” is probably a topic for another blog article.&lt;/p&gt;
 &lt;p&gt;Fact is, today things are different. To be agile means to be fast, to be able to adapt to a changing environment quickly. The result is a infrastructure optimized for change. Instead of having monolithic application where every change needs to be coordinated with every stakeholder, such infrastructures consist of dozens of loosely coupled (micro)services with independent teams iterating on them, scaled horizontally across hybrid infrastructures with some workload on bare metal, other on cloud instances.
 Instead of a release every few weeks, it’s not uncommon to deploy multiple times a day fully automated by CI/CD pipelines.&lt;/p&gt;
-&lt;h3&gt;Challenges&lt;/h3&gt;
+&lt;h3 id=&quot;challenges&quot;&gt;&lt;a href=&quot;#challenges&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Challenges&lt;/h3&gt;
 &lt;p&gt;Now we have more services, more changes, more systems and arguably less time to market. Fact is, it’s incredibly hard to really understand such infrastructure. Just think about what it means to manage a single service. To deploy it, monitor it, update it.  Now multiply by a few dozens. The millions of knobs and billions of permutations. Nobody can manage that.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
@@ -2328,23 +2531,23 @@ Historically, you had some (shell) scripts to manage things in a imperative way.
 As oppose to the imperative approach, the idea here is declarative. You describe the desired state of your infrastructure and have some logic in place to actual tune all those knobs. Running you config management tool &lt;em&gt;converges&lt;/em&gt; your infrastructure towards the desired state. In theory, no matter what state your system is in right now, the configuration management system will converge the system to the desired state eventually.&lt;/p&gt;
 &lt;p&gt;A big advantage over the imperative approach. But in reality, there are just too many knobs and unexpected side effects for this to be very reliable.
 In the end, state convergence helps with managing change in your infrastructure but it doesn’t make the infrastructure itself simpler. You still first need to understand all the dependencies and interactions between your knobs. You need to somehow reduce the complexity, the number of knobs.&lt;/p&gt;
-&lt;h3&gt;Managing Complexity&lt;/h3&gt;
+&lt;h3 id=&quot;managing-complexity&quot;&gt;&lt;a href=&quot;#managing-complexity&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Managing Complexity&lt;/h3&gt;
 &lt;p&gt;The most important aspect of managing any kind of system is to understand it. To understand how various components influence each other, which parts are healthy and which not and ultimately understand the effects of every possible change to your infrastructure.
 Containers help to manage complexity.&lt;/p&gt;
-&lt;h4&gt;Abstraction&lt;/h4&gt;
+&lt;h4 id=&quot;abstraction&quot;&gt;&lt;a href=&quot;#abstraction&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Abstraction&lt;/h4&gt;
 &lt;p&gt;Every time the cognitive overhead imposed by a system growing in complexity reaches a certain threshold, people start to &lt;em&gt;abstract&lt;/em&gt; things.
 It probably started in human communication. We don’t have to be biologists to talk about cats. We don’t need to understand every intrinsic &lt;em&gt;implementation detail&lt;/em&gt;. Same for classes or modules in programming languages. And the same is true for containers: They are an abstraction around a specific application, abstracting all its implementation details and provide a generic interface shared by all other applications. All the knobs are still there, but you hide those you don’t care about.&lt;/p&gt;
 &lt;p&gt;Given the common interface among all your applications, all your systems are doing is running containers. Your DB servers? Running containers. Your application servers? Running containers. Which means instead of having a bunch of servers for different use cases, you only have servers running containers. This allows for systems like cluster schedulers to abstract away the servers and just present a block of resources to run containers on.&lt;/p&gt;
 &lt;p&gt;You might argue that the complexity isn’t gone, it’s just hidden and that’s true. But the same is true for abstractions in linguistics. Stereotypes are abstractions as well and they often do not accurately reflect reality. Just take Gender as an example. It’s important to keep in mind that &lt;a href=&quot;http://www.joelonsoftware.com/articles/LeakyAbstractions.html&quot;&gt;all abstractions are leaky&lt;/a&gt; and you still need to understand the implementation details or layers below. But you don’t need to think about them all the time.&lt;/p&gt;
-&lt;h4&gt;Ownership&lt;/h4&gt;
+&lt;h4 id=&quot;ownership&quot;&gt;&lt;a href=&quot;#ownership&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Ownership&lt;/h4&gt;
 &lt;p&gt;Especially if a company grows fast, bottlenecks arise. If your company started with five friends sitting around a desk and bouncing ideas back and forth, everything is fine. Every problem is apparent and can be solved quickly by whoever has the necessary time and skills.
 Once you grow larger, this isn’t possible anymore. Suddenly you need to send mails to request resources from other teams or even pull out the &lt;em&gt;global write lock&lt;/em&gt; sledgehammer called “meeting” to coordinate change.
 Containers can help by enforcing a clean separation of concern between the teams providing resources by operating systems to run containers and the teams running containers on them. If your develpment team needs to deploy a new application, it’s just another container. They don’t care where it runs. If the infrastructure team needs to provide more resources, they just provide a new system to run containers on.&lt;/p&gt;
-&lt;h4&gt;Immutability&lt;/h4&gt;
+&lt;h4 id=&quot;immutability&quot;&gt;&lt;a href=&quot;#immutability&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Immutability&lt;/h4&gt;
 &lt;p&gt;The great thing about computers is their versatility. It’s a general purpose device which can be programmed to solve specific tasks. You can install various software on your server, remove it again, change configuration files, set OS settings. You can change the &lt;em&gt;state&lt;/em&gt; of your machine whenever you want. Remember, this is how configuration management handles change in your infrastructure. Mutating the current state until you get to your desired state. The complexity arises from the fact that every state mutation leads to a new initial condition for all further operations in your system. Configuration management tries to account for all this, but in reality you often end up in states where your assumptions don’t apply anymore and you need to manually intervene.
 Containers are usually, and as implemented by Docker, based on immutable images. Build- and runtime are clearly separated. Once built, your application, all its dependencies and even parts of your configuration are baked into your images. Even though &lt;a href=&quot;https://github.com/docker/docker/issues/7923&quot;&gt;Docker doesn’t enforce it yet&lt;/a&gt;, conceptually by default the container doesn’t change. From deployment to removal, it stays the same and there won’t be a new initial condition which need to be considered for further operations on the system.
 Of course, your infrastructure isn’t immutable. You most likely store and process data and with every deploy the state of your infrastructure changes as well. And you probably want some dynamic configuration to avoid a redeploy just because some backend IP changes. But by keeping possibility for change small, having clear definitions of what can and what can’t change, what is state that is supposed to change during runtime as opposed to state frozen at built time, it reduces the cognitive overhead required to understand an infrastructure at a given point in time.&lt;/p&gt;
-&lt;h3&gt;Container vs VMs&lt;/h3&gt;
+&lt;h3 id=&quot;container-vs-vms&quot;&gt;&lt;a href=&quot;#container-vs-vms&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Container vs VMs&lt;/h3&gt;
 &lt;p&gt;Some might argue that all this is possible with VMs already and conceptually this is entirely true. Although in practice the overhead imposed by virtualization make it less feasible to run every little service in their own VM. And once you start making exceptions, you need to manage those exceptions, so you need to account again for mutable systems and raw applications with all their knobs.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Using docker run --net=container:XX ... to debug network issues]]></title><description><![CDATA[Sharing the network namespace with a existing container is a less known feature of Docker. If you run: Your container runs in the same…]]></description><link>https://5pi.de//2014/11/13/using-docker-run-netcontainerxx-to-debug-network-issues/</link><guid isPermaLink="false">https://5pi.de//2014/11/13/using-docker-run-netcontainerxx-to-debug-network-issues/</guid><pubDate>Thu, 13 Nov 2014 23:04:22 GMT</pubDate><content:encoded>&lt;p&gt;Sharing the network namespace with a existing container is a less known feature of Docker. If you run:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run --net=container:my-existing-container ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Your container runs in the same network namespace, sharing the same network configuration as &lt;code class=&quot;language-text&quot;&gt;my-existing-container&lt;/code&gt;.&lt;/p&gt;
@@ -2352,7 +2555,7 @@ Of course, your infrastructure isn’t immutable. You most likely store and proc
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run -t -i --net=container:my-existing-container --rm ubuntu netstat -anp&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Running a highly available load balancer on Docker]]></title><description><![CDATA[For quite some time I felt like I should do a blog - again. Instead of spending time writting rants on facebook or commenting other peoples…]]></description><link>https://5pi.de//2014/11/10/running-a-highly-available-load-balancer-on-docker/</link><guid isPermaLink="false">https://5pi.de//2014/11/10/running-a-highly-available-load-balancer-on-docker/</guid><pubDate>Mon, 10 Nov 2014 19:18:57 GMT</pubDate><content:encoded>&lt;p&gt;For quite some time I felt like I should do a blog - again. Instead of spending time writting rants on facebook or commenting other peoples posting, I should write some blog articles!
 Thing is, it’s not that easy. Where to start? What should I talk about? What are you interested in reading?&lt;/p&gt;
 &lt;p&gt;Instead of diving into abstract thoughts about the universe and human kind, I’ll just present you how to run a highly available load balancer on Docker!&lt;/p&gt;
-&lt;h3&gt;Components&lt;/h3&gt;
+&lt;h3 id=&quot;components&quot;&gt;&lt;a href=&quot;#components&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Components&lt;/h3&gt;
 &lt;p&gt;For the load balancing part I’ve choosen haproxy. Since 1.5 it supports SSL termination. Since SSL is expensive, compared to running haproxy without it, we enable multiprocess support by specifying nbproc. Each request now may be handled by a different process. This is a problem for the stats endpoint: Since this endpoint exposes internal state which can’t be shared across multiple processes, you only get stats for the process which handles the current request.
 To still get metrics for all processes, you need to create a listen endpoint for each process and pin it to that process like this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;listen stats01 :8001
@@ -2377,7 +2580,7 @@ listen stats03 :8003
 There are several ways to do that. I really like ECMP routing but that requires access to the routing layer which I don’t have. Then there is IPVS which is a good fit if you need to scale to multiple load balancers but it’s also harder and more complex to setup in my opinion.
 Because of that, I decided for UCARP which is a implementation of the CARP protocol for linux. CARP is similar to VRRP but patent free and uses cryptography to make it resilient against attackes on the protocol.
 When running, it makes sure that there is only one CARP master and executes hooks to add or remove IP adresses.&lt;/p&gt;
-&lt;h3&gt;Docker Image&lt;/h3&gt;
+&lt;h3 id=&quot;docker-image&quot;&gt;&lt;a href=&quot;#docker-image&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Docker Image&lt;/h3&gt;
 &lt;p&gt;I wrapped that all up in a easy to use &lt;a href=&quot;https://registry.hub.docker.com/u/fish/haproxy/&quot;&gt;Docker image&lt;/a&gt;.
 To configure haproxy and nginx, you can bind-mount the config location like this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker run \
@@ -2396,15 +2599,15 @@ RUN  haproxy -c -f /haproxy/haproxy.cfg&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 Just build it with:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ docker build -t my-lb .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And run it as above. This has the downside that you need to rebuild the image on configuration changes and recreate the container to deploy it.&lt;/p&gt;
-&lt;h3&gt;Service Discovery&lt;/h3&gt;
+&lt;h3 id=&quot;service-discovery&quot;&gt;&lt;a href=&quot;#service-discovery&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Service Discovery&lt;/h3&gt;
 &lt;p&gt;If you’re using some configuration management system, you can just render the config on the host and bind-mount it. Still better than running you CM inside a container.
 A much better solution is to use some kind of service registry for discovery of your backends. I haven’t found time for that yet, but I would suggest looking into &lt;a href=&quot;http://consul.io&quot;&gt;consul&lt;/a&gt;, &lt;a href=&quot;https://github.com/progrium/registrator&quot;&gt;registrator&lt;/a&gt; and &lt;a href=&quot;https://github.com/kelseyhightower/confd&quot;&gt;confd&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hire me]]></title><description><![CDATA[Did you know? You can hire me! I grew infrastructures from a handful engineers and thousands of users to platforms with hundreds of millions…]]></description><link>https://5pi.de//hire-me/</link><guid isPermaLink="false">https://5pi.de//hire-me/</guid><pubDate>Sat, 01 Jan 2000 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a title=&quot;See page for author [Public domain], via Wikimedia Commons&quot; href=&quot;https://commons.wikimedia.org/wiki/File%3APetin_viewing_airship_platform.jpg&quot;&gt;&lt;img width=&quot;1024&quot; alt=&quot;Petin viewing airship platform&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Petin_viewing_airship_platform.jpg/1024px-Petin_viewing_airship_platform.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Did you know? You can hire me!&lt;/h2&gt;
+&lt;h2 id=&quot;did-you-know-you-can-hire-me&quot;&gt;&lt;a href=&quot;#did-you-know-you-can-hire-me&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Did you know? You can hire me!&lt;/h2&gt;
 &lt;p&gt;I grew infrastructures from a handful engineers and thousands of users to platforms with hundreds of millions of users and dozens of teams, each with dozens of engineers. This taught me valuable lessons about building, operating and scaling infrastructure.&lt;/p&gt;
 &lt;p&gt;While one size does not fit all, doing things right the first time will not only save time refactoring. A good infrastructure is a resilient foundation for your service that supports the agility you need early on without much ramp up costs. A bad infrastructure not only requires manual operation but also slows down every single engineer, preventing them from being confident in changes, which leads to accumulation of technical debt and can end in a grid lock across engineering.&lt;/p&gt;
 &lt;p&gt;I’ve seen them all. The good, the bad and the outright ugly. Enterprise and startup. And I’ve built, fixed and deployed technology like &lt;a href=&quot;/tag/docker/&quot;&gt;Docker&lt;/a&gt;, &lt;a href=&quot;/2016/11/20/15-producation-grade-kubernetes-cluster/&quot;&gt;Kubernetes&lt;/a&gt; and &lt;a href=&quot;/2015/01/26/monitor-docker-containers-with-prometheus/&quot;&gt;Prometheus&lt;/a&gt; to address those issues. I know &lt;a href=&quot;/2015/04/22/scope-and-ownership-in-tech-companies/&quot;&gt;what to buy and what to build&lt;/a&gt; and patterns to &lt;a href=&quot;http://5pi.de/2015/08/31/dont-manage-config-unless-you-have-to/&quot;&gt;manage complexity&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Now I want to help you with your infrastructure!&lt;/p&gt;
-&lt;h2&gt;Inquiry&lt;/h2&gt;
+&lt;h2 id=&quot;inquiry&quot;&gt;&lt;a href=&quot;#inquiry&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;/a&gt;Inquiry&lt;/h2&gt;
 &lt;p&gt;Building something new and want to avoid the common and not-so-common pitfalls?
 Your developers can’t iterate quickly, you miss deadlines and need help figuring out how to fix that?
 Do you need help with your Kubernetes cluster, Prometheus monitoring or bare metal infrastructure automation?&lt;/p&gt;
