@@ -2,7 +2,6 @@
 title: "Styla: Content Experience Engine"
 tags: [ "case-study" ]
 image: styla.png
-date: 2017
 index: 99
 ---
 
