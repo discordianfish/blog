@@ -3,6 +3,7 @@ title: 'Running Kubernetes on OpenWrt'
 date: 2019-05-10
 tags: [ kubernetes, k8s, k3s, openwrt, embedded, home ]
 layout: post
+image: homeinfra.jpg
 ---
 
 # Why..
