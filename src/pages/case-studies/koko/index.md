@@ -3,6 +3,7 @@ title: "Koko: AI-Powered Community Moderation"
 tags: [ "case-study" ]
 image: logo.webp
 index: 10
+date: 2018
 ---
 
 From legacy infrastructure to over 100 million content moderation decisions per
