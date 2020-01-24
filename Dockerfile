@@ -1,9 +1,13 @@
-FROM node:8.1
+FROM node:13.7.0-stretch-slim
 
 COPY package.json /usr/src/
 WORKDIR /usr/src
-RUN useradd -m user && chown -R user:user . && \
-  ssh-keyscan -t rsa github.com > /etc/ssh/ssh_known_hosts
+RUN adduser --disabled-password --gecos "" user && \
+  chown -R user:user . && \
+  apt-get -qy update && \
+  apt-get -qy install git libgl1 libxi6 # 🙄
+
+COPY ssh_known_hosts /etc/ssh/ssh_known_hosts
 
 USER user
 RUN npm install && \
