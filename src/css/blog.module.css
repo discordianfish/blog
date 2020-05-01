@@ -31,6 +31,13 @@
 
 /* FIXME: Why is span.gatsby-resp-image-wrapper not working?? */
 
+.page aside {
+  text-align: right;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
 .page blockquote {
   min-height: 5em;
 }
