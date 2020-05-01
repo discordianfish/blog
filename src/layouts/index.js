@@ -42,7 +42,7 @@ class Template extends React.Component {
         </h1>
       )
     } else {
-      maxWidth = 650
+      maxWidth = 800
       header = (
         <h1
           style={{
