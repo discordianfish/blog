@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 01 May 2020 13:39:47 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 09 Jun 2020 09:44:59 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
 day. Building an agile cloud native infrastructure for a high velocity AI based
 content moderation startup.]]></description><link>https://5pi.de/case-studies/koko/</link><guid isPermaLink="false">https://5pi.de/case-studies/koko/</guid><content:encoded>&lt;p&gt;From legacy infrastructure to over 100 million content moderation decisions per
 day.&lt;/p&gt;
@@ -6,7 +6,7 @@ day.&lt;/p&gt;
 content moderation startup.&lt;/p&gt;
 &lt;!--end--&gt;
 &lt;blockquote class=&quot;testimonial&quot;&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 643px;&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 643px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/edae78162912c3d499b8203214ecc783/e3f06/kareem.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 94.47852760736197%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUEBv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAa2DbKK6AI5JwHZDH//EAB4QAAIBAwUAAAAAAAAAAAAAAAIDAQAEERITIjEy/9oACAEBAAEFAnloWo5FlXI5Wnm6rjyuI3B6/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAx/9oACAEDAQE/AREIv//EABYRAAMAAAAAAAAAAAAAAAAAAAEQMf/aAAgBAgEBPwE1Gr//xAAcEAABAwUAAAAAAAAAAAAAAAABABEhAhAgIlL/2gAIAQEABj8ChDZwbPzKpEY//8QAHBABAQACAgMAAAAAAAAAAAAAAREAMRAhQVFh/9oACAEBAAE/IXoorLm2xk4p+ej3hNS3184TZesAYTGpXP/aAAwDAQACAAMAAAAQp8B8/8QAFxEBAAMAAAAAAAAAAAAAAAAAEQABEP/aAAgBAwEBPxAJ2uf/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPxBQP//EABsQAQACAwEBAAAAAAAAAAAAAAERIQAxURBB/9oACAEBAAE/EFsRzxOFCQFKd1O/DtND46Mqo0u4WjwwEQGB3eOYJZkq4xWJe5//2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Kareem Kouddous&quot; title=&quot;Kareem Kouddous&quot; src=&quot;/static/edae78162912c3d499b8203214ecc783/e3f06/kareem.jpg&quot; srcset=&quot;/static/edae78162912c3d499b8203214ecc783/d2f63/kareem.jpg 163w,
@@ -24,7 +24,7 @@ throughput application.
 &lt;h2 id=&quot;about-koko&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#about-koko&quot; aria-label=&quot;about koko permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;About Koko&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://koko.ai&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 600px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
@@ -91,7 +91,7 @@ GPU instances and back to zero after the jobs finished.&lt;/p&gt;
 &lt;h2 id=&quot;autoscaling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#autoscaling&quot; aria-label=&quot;autoscaling permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Autoscaling&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -152,7 +152,7 @@ logs as well as integrate them into Grafana dashboards.&lt;/p&gt;
 &lt;h2 id=&quot;stream-processing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#stream-processing&quot; aria-label=&quot;stream processing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Stream processing&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
@@ -196,7 +196,7 @@ DevOps strategy. Debugging a ELB/ECS based pilot deployment.&lt;/p&gt;
 &lt;p&gt;Implementation of and migration to lambda based machine learning pipeline.&lt;/p&gt;
 &lt;!--end--&gt;
 &lt;blockquote class=&quot;testimonial&quot;&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 268px;&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 268px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho5yaFMDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJU+cQib4k7SXlNidhKp7qYC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEDBAIDAAAAAAAAAAAAAAEAAhEQITEyAxITQXH/2gAIAQEABj8CmJOAF15Q2+Ip8uhA1ptEH0vI2xKDnZX/xAAbEAACAwEBAQAAAAAAAAAAAAABEQAhURBhcf/aAAgBAQABPyGqsH0GDDoW84K0NkgLlA/nGYocBAWSk1F4Nk//2gAMAwEAAgADAAAAEDzPwP/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxADTCf/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QV2M//8QAHhABAQACAgIDAAAAAAAAAAAAAREAITFhEIFRcbH/2gAIAQEAAT8Q3JNBqnHrCGYa3XKr++OTQg7MgeSktdYN+8XLMQGgI6e/eTd6g188YZwoMwz/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;Alexander Kong&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
@@ -238,7 +238,7 @@ by Ansible.&lt;/p&gt;
 &lt;p&gt;Over the course of the next months, Styla implemented the recommended
 infrastructure which is powering the platform ever since.&lt;/p&gt;
 &lt;blockquote class=&quot;float-right&quot;&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 268px;&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 268px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho5yaFMDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJU+cQib4k7SXlNidhKp7qYC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEDBAIDAAAAAAAAAAAAAAEAAhEQITEyAxITQXH/2gAIAQEABj8CmJOAF15Q2+Ip8uhA1ptEH0vI2xKDnZX/xAAbEAACAwEBAQAAAAAAAAAAAAABEQAhURBhcf/aAAgBAQABPyGqsH0GDDoW84K0NkgLlA/nGYocBAWSk1F4Nk//2gAMAwEAAgADAAAAEDzPwP/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxADTCf/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QV2M//8QAHhABAQACAgIDAAAAAAAAAAAAAREAITFhEIFRcbH/2gAIAQEAAT8Q3JNBqnHrCGYa3XKr++OTQg7MgeSktdYN+8XLMQGgI6e/eTd6g188YZwoMwz/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;Alexander Kong&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
@@ -274,7 +274,7 @@ infrastructure, &lt;a href=&quot;/hire-me&quot;&gt;let me know&lt;/a&gt;.&lt;/p&
 scale, Kubernetes is
 more an infrastructure framework than just a container scheduler…]]></description><link>https://5pi.de/2020/05/01/kubernetes-native-ci-with-argo/</link><guid isPermaLink="false">https://5pi.de/2020/05/01/kubernetes-native-ci-with-argo/</guid><pubDate>Fri, 01 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 458px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 458px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -404,7 +404,7 @@ repository.&lt;/p&gt;
 &lt;h2 id=&quot;building-docker-images-with-kaniko&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#building-docker-images-with-kaniko&quot; aria-label=&quot;building docker images with kaniko permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Building Docker images with Kaniko&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -603,7 +603,7 @@ multiple variants of an project based on multiple base images, to support GPU
 and non-GPU deployments:
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -662,7 +662,7 @@ CI setup is still being used.&lt;/small&gt;&lt;/p&gt;
 Me, better with clean software than clean hardware As you might know, I’m living in Berlin, Germany. Maybe you also know that our…]]></description><link>https://5pi.de/2019/05/10/k8s-on-openwrt/</link><guid isPermaLink="false">https://5pi.de/2019/05/10/k8s-on-openwrt/</guid><pubDate>Fri, 10 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;why&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why&quot; aria-label=&quot;why permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Why..&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -850,7 +850,7 @@ interface definition for the cni0 interface:&lt;/p&gt;
 &lt;h1 id=&quot;summary&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#summary&quot; aria-label=&quot;summary permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Summary&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -900,7 +900,7 @@ to stop using HTTP event at home. Thanks to &lt;a href=&quot;https://letsencrypt
 I’ve frequently hear people say something like this: The number of people who adopt complicated stuff like Kubernetes…]]></description><link>https://5pi.de/2018/12/18/why-kubernetes-at-small-scale/</link><guid isPermaLink="false">https://5pi.de/2018/12/18/why-kubernetes-at-small-scale/</guid><pubDate>Tue, 18 Dec 2018 17:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;google-scale-wannabes&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#google-scale-wannabes&quot; aria-label=&quot;google scale wannabes permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Google Scale Wannabes&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1099,7 +1099,7 @@ where you want and whether it’s really less work than adopting Kubernetes.&lt;
 interested in measuring the performance and…]]></description><link>https://5pi.de/2018/12/10/prometheus-blackbox-exporter-lambda/</link><guid isPermaLink="false">https://5pi.de/2018/12/10/prometheus-blackbox-exporter-lambda/</guid><pubDate>Mon, 10 Dec 2018 14:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;introduction&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#introduction&quot; aria-label=&quot;introduction permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1222,7 +1222,7 @@ replacement and &lt;code class=&quot;language-text&quot;&gt;metrics_path&lt;/cod
 &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;probe_http_duration_seconds{instance=&amp;quot;https://5pi.de&amp;quot;,job=&amp;quot;blackbox-exporter-lambda-us-central-1&amp;quot;}&lt;/code&gt;&lt;/strong&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 603px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 603px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1251,7 +1251,7 @@ replacement and &lt;code class=&quot;language-text&quot;&gt;metrics_path&lt;/cod
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[fluentd for data warehousing with athena]]></title><description><![CDATA[Or how I replaced AWS Firehose by fluentd instances and saved >80% EC2 traffic
 costs. Using AWS Kinesis Firehose koko is one of my current…]]></description><link>https://5pi.de/2018/10/31/fluentd-for-data-warehousing-with-athena/</link><guid isPermaLink="false">https://5pi.de/2018/10/31/fluentd-for-data-warehousing-with-athena/</guid><pubDate>Wed, 31 Oct 2018 14:11:28 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1368,7 +1368,7 @@ process them in parallel.&lt;/p&gt;
 &lt;h2 id=&quot;monitoring&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#monitoring&quot; aria-label=&quot;monitoring permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Monitoring&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1600,7 +1600,7 @@ and submitted it to &lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hack
 &lt;p&gt;HN being HN, soon after these comments trickled in:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 560px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 560px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1795,7 +1795,7 @@ can use the following expression:&lt;/p&gt;
 )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1835,7 +1835,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
 )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1876,7 +1876,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
 )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -1952,7 +1952,7 @@ nightwatch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Recently Chrome got native support for running headless, controlled via a remote debugging API. Apparently this could further simplify things, but I couldn’t figure out in reasonable time what exactly it would replace. I suspected it would mean that chrome natively talks webdriver, but I can’t find anything about that in the sparse documentation and this issues sound like.
 Which brings me to my initial observation: Figuring out how a thing works is hard, figuring out how things work &lt;em&gt;together&lt;/em&gt; is so much harder. Let’s all keep that in mind.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[$15 Production Kubernetes Cluster on DigitalOcean]]></title><description><![CDATA[Four sweets or production Kubernetes for a month Introduction As you might already know, I’m into containers, static configuration and self…]]></description><link>https://5pi.de/2016/11/20/15-producation-grade-kubernetes-cluster/</link><guid isPermaLink="false">https://5pi.de/2016/11/20/15-producation-grade-kubernetes-cluster/</guid><pubDate>Sun, 20 Nov 2016 10:36:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a title=&quot;By Charlotte Marillet (originally posted to Flickr as Quatre macarons) [CC BY-SA 2.0 (http://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons&quot; href=&quot;https://commons.wikimedia.org/wiki/File%3AQuatre_macarons%2C_October_2009.jpg&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
@@ -2087,7 +2087,7 @@ grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&
 &lt;h2 id=&quot;monitoring&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#monitoring&quot; aria-label=&quot;monitoring permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Monitoring&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2172,7 +2172,7 @@ In fact, I would be very interested in a catogorization standoff between a child
 &lt;h1 id=&quot;concerts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#concerts&quot; aria-label=&quot;concerts permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Concerts&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2206,7 +2206,7 @@ I’m really not sure about this one.&lt;/p&gt;
 &lt;h1 id=&quot;dessert&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dessert&quot; aria-label=&quot;dessert permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Dessert&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2240,7 +2240,7 @@ Let’s finish this course with a nice bowl of raw chicken.&lt;/p&gt;
 &lt;h1 id=&quot;dogs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dogs&quot; aria-label=&quot;dogs permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Dogs&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
@@ -2266,7 +2266,7 @@ To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/Br
 &lt;h1 id=&quot;birds&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#birds&quot; aria-label=&quot;birds permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Birds&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2300,7 +2300,7 @@ Birds. That’s definitely correct.&lt;/p&gt;
 &lt;h1 id=&quot;skylines&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#skylines&quot; aria-label=&quot;skylines permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Skylines&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2344,7 +2344,7 @@ Bar graph or 8-bit skylines?&lt;/p&gt;</content:encoded></item><item><title><![C
 &lt;h3 id=&quot;design-challenges&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#design-challenges&quot; aria-label=&quot;design challenges permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Design challenges&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2410,7 +2410,7 @@ This only works well if site-wide configuration is built in. Determining all thi
 &lt;h3 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;false&quot; data-footer=&quot;false&quot; data-context=&quot;false&quot;  href=&quot;https://www.flickr.com/photos/ph0t0s/96911576/in/photolist-9yGrf-rf1xpg-iV3Hti-9yGuq-9mJACS-dF5fsX-4CYijn-96MGD7-4CYinT-rcHmFs-e3mfmk-7paoHV-e3rYs3-ebixTV-e3miwv-e3mehH-ebz9br-ebz6nv-9yGn2-maubuc-4eMsoq-gascSh-j448Si-bUvoKX-7tWwN9-8oTPht-fw2NWm-34Ydj3-zMTMt-9NFVNX-4q1pdk-9eX7xW-e72dfP-eb7MBt-4xMiAY-bznrxn-ze6qt-5GtxU5-bhCNRp-fw2NjN-fvMuU4-ebEQHU-fvMxdc-e3rZzd-ebiz6V-fw2Qn7-9NEtYQ-9NGKrb-u79vMN-9NGokq&quot; title=&quot;partly random&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/36/96911576_1a57864a0b_b.jpg&quot; width=&quot;1024&quot; height=&quot;768&quot; alt=&quot;partly random&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 Isolating change to specific points in the life cycle of systems and services reduces the complexity of runtime configuration and simplifies the mental model when reasoning about the infrastructure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CloudFormation driven Consul in AutoScalingGroup]]></title><description><![CDATA[CloudFormation templates are a great way to manage AWS resources. All resources for a stack are configured in a json and CloudFormation…]]></description><link>https://5pi.de/2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</link><guid isPermaLink="false">https://5pi.de/2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</guid><pubDate>Mon, 27 Apr 2015 13:22:30 GMT</pubDate><content:encoded>&lt;p style=&quot;font-size:10px&quot;&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 600px;&quot;&gt;
+&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABm5qJ2pHUP//EABkQAAIDAQAAAAAAAAAAAAAAAAABAgMSBP/aAAgBAQABBQLDTcWZH2USUrqjcD//xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAwEBPwFH/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQIBAT8BpT//xAAcEAACAAcAAAAAAAAAAAAAAAAAAgEQERIhMUH/2gAIAQEABj8C1OkVYxcdP//EABsQAQACAgMAAAAAAAAAAAAAAAEAERBRobHR/9oACAEBAAE/IWhsM08OKkRL2Eb/ADP/2gAMAwEAAgADAAAAEGcv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPxBRrcIP/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAECAQE/EIKf/8QAHhABAAMAAQUBAAAAAAAAAAAAAQARITFBUWFxgbH/2gAIAQEAAT8Qvew4cqOG8naLvSJvCuh62EuPqjf7GpL/ABP/2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
   &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;dreamy consul 2&quot; title=&quot;dreamy consul 2&quot; src=&quot;/static/09a85130490779b28e2855643e68eb19/b4294/dreamy_consul-2.jpg&quot; srcset=&quot;/static/09a85130490779b28e2855643e68eb19/d2f63/dreamy_consul-2.jpg 163w,
 /static/09a85130490779b28e2855643e68eb19/c989d/dreamy_consul-2.jpg 325w,
@@ -2482,7 +2482,7 @@ fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;With all this in place you can do a fully automated rolling upgrade while keeping a quorum. Just update the stack and you should get something like this while having a fully operable cluster:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/e458b67bbb060e2f44d87934ff67c7cd/output_710_280.gif&quot; alt=&quot;Update Stack Log&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Scope and Ownership in Tech Companies]]></title><description><![CDATA[My first job was a typical corporate job at a financial service provider after which I worked at large hosting company before joining…]]></description><link>https://5pi.de/2015/04/22/scope-and-ownership-in-tech-companies/</link><guid isPermaLink="false">https://5pi.de/2015/04/22/scope-and-ownership-in-tech-companies/</guid><pubDate>Wed, 22 Apr 2015 12:19:36 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2519,7 +2519,7 @@ I want to provide my thoughts on questions around Scope and Ownership but leave 
 &lt;h1 id=&quot;what-your-company-should-do&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-your-company-should-do&quot; aria-label=&quot;what your company should do permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;What your Company should do&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.flickr.com/photos/jo-ghadban/3355654186/in/photostream/&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 640px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
@@ -2549,7 +2549,7 @@ Now if you are company operating at large scale, you need to actually &lt;em&gt;
 &lt;h1 id=&quot;what-your-teams-should-do&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#what-your-teams-should-do&quot; aria-label=&quot;what your teams should do permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;What your teams should do&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2597,7 +2597,7 @@ Those scale issues are similar across services but nothing you can easily abstra
 &lt;p&gt;Some things proposed here might not be trivial to implement. It’s hard to hire people with operational and development skills and a Microservice architecture opens up a whole new class of problems in the realm of distributed systems, but in the end most successfully companies seem to arrive at similar conclusions. If you disagree and choose a completely different approach, that’s fine as long as you do it deliberately.
 Nothing is worse than having some specific form of organization without knowing why.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building AWS AMIs from Scratch for Immutable Infrastructures]]></title><description><![CDATA[Why? I’m a big fan of what some might call “immutable infrastructures” which, to me, boils down to manging complexity by isolating change to…]]></description><link>https://5pi.de/2015/03/13/building-aws-amis-from-scratch/</link><guid isPermaLink="false">https://5pi.de/2015/03/13/building-aws-amis-from-scratch/</guid><pubDate>Fri, 13 Mar 2015 15:42:47 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2710,7 +2710,7 @@ GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1 id=&quot;performance&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#performance&quot; aria-label=&quot;performance permalink&quot; class=&quot;anchor before&quot;&gt;&lt;/a&gt;Performance&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2742,7 +2742,7 @@ GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 I didn’t have time to benchmark it yet, but it seems to perform much better than I expected. Right now, it only scrapes itself, giving us ~250 time series. After running it for a few hours it already collected 137806 samples. Graphing a simple time series like &lt;code class=&quot;language-text&quot;&gt;process_goroutines&lt;/code&gt; for the past hour takes between 150-170ms. The probably most expensive operation you can do (and definitely shouldn’t do on a production system) is graphing &lt;em&gt;all&lt;/em&gt; time series by executing &lt;code class=&quot;language-text&quot;&gt;{job=~&amp;quot;.*&amp;quot;}&lt;/code&gt; this returns in about 30s on the Raspberry Pi.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2808,7 +2808,7 @@ container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267e
 &lt;p&gt;If you run lot of containers, this looks something like this:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2842,7 +2842,7 @@ container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267e
 Prometheus also supports regular expressions, so instead of matching the full script you can do &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;}&lt;/code&gt;, which would show something like this:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2876,7 +2876,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
 &lt;p&gt;Now let’s say you want to see the difference in average memory usage between your ‘consul’ and ‘consul-server’ containers. This is achieved by providing the dimensions to keep in the aggregated result like this &lt;code class=&quot;language-text&quot;&gt;avg(container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;}) by (name)&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 650px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2937,7 +2937,7 @@ Containers are a great way to bundle your application with all dependencies and 
 That’s all great but we never cared that much about containerization even though it exists for quite some time: chroot() was born 1979 and IBM had tech similar to containers on S/370 over 40 years ago.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 540px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 540px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
@@ -2977,7 +2977,7 @@ Instead of a release every few weeks, it’s not uncommon to deploy multiple tim
 &lt;p&gt;Now we have more services, more changes, more systems and arguably less time to market. Fact is, it’s incredibly hard to really understand such infrastructure. Just think about what it means to manage a single service. To deploy it, monitor it, update it.  Now multiply by a few dozens. The millions of knobs and billions of permutations. Nobody can manage that.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 500px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
