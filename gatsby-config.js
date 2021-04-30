@@ -36,9 +36,6 @@ module.exports = {
           'gatsby-remark-smartypants',
           {
             resolve: 'gatsby-remark-autolink-headers',
-            options: {
-              icon: ''
-            }
           },
         ],
       },
