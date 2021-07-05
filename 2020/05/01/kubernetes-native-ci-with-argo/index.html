@@ -48,7 +48,7 @@
         }
       }
     })
-  </script><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">Kubernetes Native CI With Argo | 5π Consulting</title><meta data-react-helmet="true" property="og:title" content="Kubernetes Native CI With Argo"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:url"/><meta data-react-helmet="true" property="og:image" content="undefined/static/a099ca3512e83579d67b0aa9ede5261a/1caf2/argo.png"/><link href="//fonts.googleapis.com/css?family=Work+Sans:600|Quattrocento+Sans:400,400i,700" rel="stylesheet" type="text/css"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/webpack-runtime-dde1c8599c64a094174a.js"/><link as="script" rel="preload" href="/framework-dbb498007a7447f28d8e.js"/><link as="script" rel="preload" href="/app-732ec0ba4b242003bc50.js"/><link as="script" rel="preload" href="/styles-407fe62976dc5310c43e.js"/><link as="script" rel="preload" href="/cd7d5f864fc9e15ed8adef086269b0aeff617554-6d6db992a632e1ad1789.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js"/><link as="fetch" rel="preload" href="/page-data/2020/05/01/kubernetes-native-ci-with-argo/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><div class="blog-module--page--2Lg64" style="margin:0 auto;max-width:800px;padding:2.175rem 1.0875rem"><h1 style="margin-top:0;margin-bottom:-1.45rem;font-size:400%"><a style="box-shadow:none;text-decoration:none" href="/">5π Consulting</a></h1><div><h1>Kubernetes Native CI With Argo</h1><p style="font-size:0.87055rem;line-height:1.45rem;display:block">May 01, 2020</p><div><p><span
+  </script><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">Kubernetes Native CI With Argo | 5π Consulting</title><meta data-react-helmet="true" property="og:title" content="Kubernetes Native CI With Argo"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:url"/><meta data-react-helmet="true" property="og:image" content="undefined/static/a099ca3512e83579d67b0aa9ede5261a/1caf2/argo.png"/><link href="//fonts.googleapis.com/css?family=Work+Sans:600|Quattrocento+Sans:400,400i,700" rel="stylesheet" type="text/css"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/webpack-runtime-dde1c8599c64a094174a.js"/><link as="script" rel="preload" href="/framework-dbb498007a7447f28d8e.js"/><link as="script" rel="preload" href="/app-16ca08a80b5cf1451e03.js"/><link as="script" rel="preload" href="/styles-407fe62976dc5310c43e.js"/><link as="script" rel="preload" href="/cd7d5f864fc9e15ed8adef086269b0aeff617554-6d6db992a632e1ad1789.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js"/><link as="fetch" rel="preload" href="/page-data/2020/05/01/kubernetes-native-ci-with-argo/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><div class="blog-module--page--2Lg64" style="margin:0 auto;max-width:800px;padding:2.175rem 1.0875rem"><h1 style="margin-top:0;margin-bottom:-1.45rem;font-size:400%"><a style="box-shadow:none;text-decoration:none" href="/">5π Consulting</a></h1><div><h1>Kubernetes Native CI With Argo</h1><p style="font-size:0.87055rem;line-height:1.45rem;display:block">May 01, 2020</p><div><p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 458px; "
     >
@@ -112,11 +112,11 @@ spec:
         path: /src
         git:
           repo: https://github.com/argoproj/argo.git
-          revision: &quot;v2.1.1&quot;
+          revision: "v2.1.1"
     container:
       image: golang:1.10
       command: [sh, -c]
-      args: [&quot;git status &amp;&amp; ls &amp;&amp; cat VERSION&quot;]
+      args: ["git status &amp;&amp; ls &amp;&amp; cat VERSION"]
       workingDir: /src</code></pre></div>
 <h2 id="k8s-webhook-handler" style="position:relative;"><a href="#k8s-webhook-handler" aria-label="k8s webhook handler permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>k8s-webhook-handler</h2>
 <p>Creating a workflow to build a code repository is straight forward. But how to
@@ -161,11 +161,11 @@ spec:
           - name: source
             path: /src
             git:
-              repo: &quot;{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}&quot;
-              revision: &quot;{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
+              repo: "{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}"
+              revision: "{{workflow.annotations.k8s-webhook-handler.io/revision}}"
       container:
         image: golang:1.14
-        command: [&quot;go&quot;, &quot;install&quot;, &quot;./...&quot; ]
+        command: ["go", "install", "./..." ]
         workingDir: /src
       outputs:
         artifacts:
@@ -244,18 +244,18 @@ spec:
           - name: source
             path: /src
             git:
-              repo: &quot;{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}&quot;
-              revision: &quot;{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
+              repo: "{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}"
+              revision: "{{workflow.annotations.k8s-webhook-handler.io/revision}}"
       container:
         image: gcr.io/kaniko-project/executor
         args:
-          - &quot;--context=/src&quot;
-          - &quot;--destination=xxx.dkr.ecr.us-east-1.amazonaws.com/k8s-webhook-handler:{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
+          - "--context=/src"
+          - "--destination=xxx.dkr.ecr.us-east-1.amazonaws.com/k8s-webhook-handler:{{workflow.annotations.k8s-webhook-handler.io/revision}}"
         volumeMounts:
           - name: docker-config
             mountPath: /kaniko/.docker/</code></pre></div>
 <p>Since we’re using ECR, the docker-config volume just contains <code class="language-text">config.json</code> with
-the content <code class="language-text">{ &quot;credsStore&quot;: &quot;ecr-login&quot; }</code> to make kaniko use the <code class="language-text">ecr-login</code>
+the content <code class="language-text">{ "credsStore": "ecr-login" }</code> to make kaniko use the <code class="language-text">ecr-login</code>
 credential helper. See the <a href="https://github.com/GoogleContainerTools/kaniko#pushing-to-different-registries">kaniko
 docs</a>
 for more details. To grant the pod IAM permissions to do that, we’re using
@@ -277,7 +277,7 @@ spec:
   arguments:
     parameters:
       - name: image
-        value: &quot;xxx.dkr.ecr.us-east-1.amazonaws.com/k8s-webhook-handler:{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
+        value: "xxx.dkr.ecr.us-east-1.amazonaws.com/k8s-webhook-handler:{{workflow.annotations.k8s-webhook-handler.io/revision}}"
   volumes:
     - name: docker-config
       configMap:
@@ -300,20 +300,20 @@ spec:
           - name: source
             path: /src
             git:
-              repo: &quot;{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}&quot;
-              revision: &quot;{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
+              repo: "{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}"
+              revision: "{{workflow.annotations.k8s-webhook-handler.io/revision}}"
       container:
         image: gcr.io/kaniko-project/executor
         args:
-          - &quot;--context=/src&quot;
-          - &quot;--destination={{workflow.parameters.image}}&quot;
+          - "--context=/src"
+          - "--destination={{workflow.parameters.image}}"
         volumeMounts:
           - name: docker-config
             mountPath: /kaniko/.docker/
     - name: deploy
       container:
         image: bitnami/kubectl:1.17.4
-        args: [&quot;kubectl&quot;, &quot;set&quot;, &quot;image&quot;, &quot;deployment/k8s-webhook-handler&quot;, &quot;k8s-webhook-handler={{workflow.parameters.image}}&quot;]</code></pre></div>
+        args: ["kubectl", "set", "image", "deployment/k8s-webhook-handler", "k8s-webhook-handler={{workflow.parameters.image}}"]</code></pre></div>
 <p>This workflow defines a DAG in the <code class="language-text">ci</code> template with two tasks where deploy
 depends on build, so it runs after that. To allow the workflow to change
 resources in Kubernetes, we specify <code class="language-text">serviceAccountName: ci-workflow</code>. Follow
@@ -346,10 +346,10 @@ workflow:</p>
         tasks:
           - name: push
             template: push
-            when: &quot;&#39;{{workflow.annotations.k8s-webhook-handler.io/event_type}}&#39; == &#39;push&#39;&quot;
+            when: "'{{workflow.annotations.k8s-webhook-handler.io/event_type}}' == 'push'"
           - name: delete
             template: delete
-            when: &quot;&#39;{{workflow.annotations.k8s-webhook-handler.io/event_type}}&#39; == &#39;delete&#39;&quot;
+            when: "'{{workflow.annotations.k8s-webhook-handler.io/event_type}}' == 'delete'"
     - name: push
       dag:
         tasks:
@@ -361,7 +361,7 @@ workflow:</p>
     - name: delete
       container:
         image: custom-ci-tools-image
-        command: [ &quot;delete-namespace-for-ref&quot;, &quot;{{workflow.annotations.k8s-webhook-handler.io/ref}}&quot;]
+        command: [ "delete-namespace-for-ref", "{{workflow.annotations.k8s-webhook-handler.io/ref}}"]
 ...</code></pre></div>
 <h2 id="advanced-builds-github-checks-slack-notifications-and-more" style="position:relative;"><a href="#advanced-builds-github-checks-slack-notifications-and-more" aria-label="advanced builds github checks slack notifications and more permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Advanced builds, GitHub checks, Slack notifications and more</h2>
 <p>The generic nature of the Argo workflow allows it to handle pretty much any build
@@ -450,4 +450,4 @@ CI setup is still being used.</small></p>
       
       
       
-      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2020/05/01/kubernetes-native-ci-with-argo/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-57fa76c8ad53bd44c5a1.js"],"app":["/app-732ec0ba4b242003bc50.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"],"component---src-pages-index-js":["/component---src-pages-index-js-08cc5436be56986bd662.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js"]};/*]]>*/</script><script src="/polyfill-57fa76c8ad53bd44c5a1.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js" async=""></script><script src="/cd7d5f864fc9e15ed8adef086269b0aeff617554-6d6db992a632e1ad1789.js" async=""></script><script src="/styles-407fe62976dc5310c43e.js" async=""></script><script src="/app-732ec0ba4b242003bc50.js" async=""></script><script src="/framework-dbb498007a7447f28d8e.js" async=""></script><script src="/webpack-runtime-dde1c8599c64a094174a.js" async=""></script></body></html>
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2020/05/01/kubernetes-native-ci-with-argo/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-57fa76c8ad53bd44c5a1.js"],"app":["/app-16ca08a80b5cf1451e03.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"],"component---src-pages-index-js":["/component---src-pages-index-js-08cc5436be56986bd662.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js"]};/*]]>*/</script><script src="/polyfill-57fa76c8ad53bd44c5a1.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js" async=""></script><script src="/cd7d5f864fc9e15ed8adef086269b0aeff617554-6d6db992a632e1ad1789.js" async=""></script><script src="/styles-407fe62976dc5310c43e.js" async=""></script><script src="/app-16ca08a80b5cf1451e03.js" async=""></script><script src="/framework-dbb498007a7447f28d8e.js" async=""></script><script src="/webpack-runtime-dde1c8599c64a094174a.js" async=""></script></body></html>

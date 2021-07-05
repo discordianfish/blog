@@ -48,7 +48,7 @@
         }
       }
     })
-  </script><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">fluentd for data warehousing with athena | 5π Consulting</title><meta data-react-helmet="true" property="og:title" content="fluentd for data warehousing with athena"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:url"/><meta data-react-helmet="true" property="og:image" content="undefined/static/d8a7d70f8cee9fbbacce4fcac00fb6cc/ebdd7/firehose.jpg"/><link href="//fonts.googleapis.com/css?family=Work+Sans:600|Quattrocento+Sans:400,400i,700" rel="stylesheet" type="text/css"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/webpack-runtime-dde1c8599c64a094174a.js"/><link as="script" rel="preload" href="/framework-dbb498007a7447f28d8e.js"/><link as="script" rel="preload" href="/app-732ec0ba4b242003bc50.js"/><link as="script" rel="preload" href="/styles-407fe62976dc5310c43e.js"/><link as="script" rel="preload" href="/cd7d5f864fc9e15ed8adef086269b0aeff617554-6d6db992a632e1ad1789.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js"/><link as="fetch" rel="preload" href="/page-data/2018/10/31/fluentd-for-data-warehousing-with-athena/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><div class="blog-module--page--2Lg64" style="margin:0 auto;max-width:800px;padding:2.175rem 1.0875rem"><h1 style="margin-top:0;margin-bottom:-1.45rem;font-size:400%"><a style="box-shadow:none;text-decoration:none" href="/">5π Consulting</a></h1><div><h1>fluentd for data warehousing with athena</h1><p style="font-size:0.87055rem;line-height:1.45rem;display:block">October 31, 2018</p><div><p><span
+  </script><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">fluentd for data warehousing with athena | 5π Consulting</title><meta data-react-helmet="true" property="og:title" content="fluentd for data warehousing with athena"/><meta data-react-helmet="true" property="og:type" content="article"/><meta data-react-helmet="true" property="og:url"/><meta data-react-helmet="true" property="og:image" content="undefined/static/d8a7d70f8cee9fbbacce4fcac00fb6cc/ebdd7/firehose.jpg"/><link href="//fonts.googleapis.com/css?family=Work+Sans:600|Quattrocento+Sans:400,400i,700" rel="stylesheet" type="text/css"/><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link as="script" rel="preload" href="/webpack-runtime-dde1c8599c64a094174a.js"/><link as="script" rel="preload" href="/framework-dbb498007a7447f28d8e.js"/><link as="script" rel="preload" href="/app-16ca08a80b5cf1451e03.js"/><link as="script" rel="preload" href="/styles-407fe62976dc5310c43e.js"/><link as="script" rel="preload" href="/cd7d5f864fc9e15ed8adef086269b0aeff617554-6d6db992a632e1ad1789.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js"/><link as="fetch" rel="preload" href="/page-data/2018/10/31/fluentd-for-data-warehousing-with-athena/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div><div class="blog-module--page--2Lg64" style="margin:0 auto;max-width:800px;padding:2.175rem 1.0875rem"><h1 style="margin-top:0;margin-bottom:-1.45rem;font-size:400%"><a style="box-shadow:none;text-decoration:none" href="/">5π Consulting</a></h1><div><h1>fluentd for data warehousing with athena</h1><p style="font-size:0.87055rem;line-height:1.45rem;display:block">October 31, 2018</p><div><p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; "
     >
@@ -121,42 +121,42 @@ completes the so called <em>EFK Stack</em>.</p>
 <p>Fluentd allows use to define a source for receiving messages from the
 application. Each message contains a shard key that’s used as path prefix on S3.
 Fluentd allows parsing this with a custom regexp:</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;source&gt;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;source>
   @type http
   port 8888
   bind 0.0.0.0
   body_size_limit 32m
   keepalive_timeout 10s
-  &lt;parse&gt;
+  &lt;parse>
     @type regexp
-    expression /^(?&lt;path&gt;[^\s]+) (?&lt;content&gt;.+)$/m
-  &lt;/parse&gt;
-&lt;/source&gt;</code></pre></div>
+    expression /^(?&lt;path>[^\s]+) (?&lt;content>.+)$/m
+  &lt;/parse>
+&lt;/source></code></pre></div>
 <p>Now we can use the s3 output to send the messages to s3.
 Since we need to batch up the files, we use a <em>file buffer</em>. This buffers the
 messages to a local directory until either the <code class="language-text">chunk_limit_size</code> or the
 <code class="language-text">timekey</code> is reached, after which the file gets uploaded to s3.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;match **&gt;
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;match **>
   @type s3
 
   s3_bucket the-output-bucket
   s3_region us-east-1
 
   path ${path}
-  s3_object_key_format &quot;%{path}/#{Socket.gethostname}_%{time_slice}_%{index}.%{file_extension}&quot;
+  s3_object_key_format "%{path}/#{Socket.gethostname}_%{time_slice}_%{index}.%{file_extension}"
 
   store_as gzip_command
-  &lt;buffer path,time&gt;
+  &lt;buffer path,time>
     @type file
     timekey 3600
     chunk_limit_size 25MB
-  &lt;/buffer&gt;
-  &lt;format&gt;
+  &lt;/buffer>
+  &lt;format>
     @type single_value
     message_key content
-  &lt;/format&gt;
-&lt;/match&gt;</code></pre></div>
-<p>The <code class="language-text">path</code> and <code class="language-text">time</code> arguments to <code class="language-text">&lt;buffer path,time&gt;</code> groups the chunks by
+  &lt;/format>
+&lt;/match></code></pre></div>
+<p>The <code class="language-text">path</code> and <code class="language-text">time</code> arguments to <code class="language-text">&lt;buffer path,time></code> groups the chunks by
 time and path. This allows us to set <code class="language-text">s3_object_key_format</code> to add <code class="language-text">path</code> to
 the destination path as prefix when flushing the buffer to S3.</p>
 <p>We also add the hostname to the destination path by using
@@ -237,4 +237,4 @@ complex managed by a 3rd party.</p></div><hr style="margin-bottom:1.45rem"/><div
       
       
       
-      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2018/10/31/fluentd-for-data-warehousing-with-athena/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-57fa76c8ad53bd44c5a1.js"],"app":["/app-732ec0ba4b242003bc50.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"],"component---src-pages-index-js":["/component---src-pages-index-js-08cc5436be56986bd662.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js"]};/*]]>*/</script><script src="/polyfill-57fa76c8ad53bd44c5a1.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js" async=""></script><script src="/cd7d5f864fc9e15ed8adef086269b0aeff617554-6d6db992a632e1ad1789.js" async=""></script><script src="/styles-407fe62976dc5310c43e.js" async=""></script><script src="/app-732ec0ba4b242003bc50.js" async=""></script><script src="/framework-dbb498007a7447f28d8e.js" async=""></script><script src="/webpack-runtime-dde1c8599c64a094174a.js" async=""></script></body></html>
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/2018/10/31/fluentd-for-data-warehousing-with-athena/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-57fa76c8ad53bd44c5a1.js"],"app":["/app-16ca08a80b5cf1451e03.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"],"component---src-pages-index-js":["/component---src-pages-index-js-08cc5436be56986bd662.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js"]};/*]]>*/</script><script src="/polyfill-57fa76c8ad53bd44c5a1.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-09a1e6e8a6394f658106.js" async=""></script><script src="/cd7d5f864fc9e15ed8adef086269b0aeff617554-6d6db992a632e1ad1789.js" async=""></script><script src="/styles-407fe62976dc5310c43e.js" async=""></script><script src="/app-16ca08a80b5cf1451e03.js" async=""></script><script src="/framework-dbb498007a7447f28d8e.js" async=""></script><script src="/webpack-runtime-dde1c8599c64a094174a.js" async=""></script></body></html>

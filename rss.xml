@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 08 Jun 2021 08:35:11 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 05 Jul 2021 16:22:41 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
 day. Building an agile cloud native infrastructure for a high velocity AI based
 content moderation startup.]]></description><link>https://5pi.de/case-studies/koko/</link><guid isPermaLink="false">https://5pi.de/case-studies/koko/</guid><content:encoded>&lt;p&gt;From legacy infrastructure to over 100 million content moderation decisions per
 day.&lt;/p&gt;
@@ -452,11 +452,11 @@ spec:
         path: /src
         git:
           repo: https://github.com/argoproj/argo.git
-          revision: &amp;quot;v2.1.1&amp;quot;
+          revision: &quot;v2.1.1&quot;
     container:
       image: golang:1.10
       command: [sh, -c]
-      args: [&amp;quot;git status &amp;amp;&amp;amp; ls &amp;amp;&amp;amp; cat VERSION&amp;quot;]
+      args: [&quot;git status &amp;amp;&amp;amp; ls &amp;amp;&amp;amp; cat VERSION&quot;]
       workingDir: /src&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;k8s-webhook-handler&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#k8s-webhook-handler&quot; aria-label=&quot;k8s webhook handler permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;k8s-webhook-handler&lt;/h2&gt;
 &lt;p&gt;Creating a workflow to build a code repository is straight forward. But how to
@@ -501,11 +501,11 @@ spec:
           - name: source
             path: /src
             git:
-              repo: &amp;quot;{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}&amp;quot;
-              revision: &amp;quot;{{workflow.annotations.k8s-webhook-handler.io/revision}}&amp;quot;
+              repo: &quot;{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}&quot;
+              revision: &quot;{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
       container:
         image: golang:1.14
-        command: [&amp;quot;go&amp;quot;, &amp;quot;install&amp;quot;, &amp;quot;./...&amp;quot; ]
+        command: [&quot;go&quot;, &quot;install&quot;, &quot;./...&quot; ]
         workingDir: /src
       outputs:
         artifacts:
@@ -584,18 +584,18 @@ spec:
           - name: source
             path: /src
             git:
-              repo: &amp;quot;{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}&amp;quot;
-              revision: &amp;quot;{{workflow.annotations.k8s-webhook-handler.io/revision}}&amp;quot;
+              repo: &quot;{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}&quot;
+              revision: &quot;{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
       container:
         image: gcr.io/kaniko-project/executor
         args:
-          - &amp;quot;--context=/src&amp;quot;
-          - &amp;quot;--destination=xxx.dkr.ecr.us-east-1.amazonaws.com/k8s-webhook-handler:{{workflow.annotations.k8s-webhook-handler.io/revision}}&amp;quot;
+          - &quot;--context=/src&quot;
+          - &quot;--destination=xxx.dkr.ecr.us-east-1.amazonaws.com/k8s-webhook-handler:{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
         volumeMounts:
           - name: docker-config
             mountPath: /kaniko/.docker/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Since we’re using ECR, the docker-config volume just contains &lt;code class=&quot;language-text&quot;&gt;config.json&lt;/code&gt; with
-the content &lt;code class=&quot;language-text&quot;&gt;{ &amp;quot;credsStore&amp;quot;: &amp;quot;ecr-login&amp;quot; }&lt;/code&gt; to make kaniko use the &lt;code class=&quot;language-text&quot;&gt;ecr-login&lt;/code&gt;
+the content &lt;code class=&quot;language-text&quot;&gt;{ &quot;credsStore&quot;: &quot;ecr-login&quot; }&lt;/code&gt; to make kaniko use the &lt;code class=&quot;language-text&quot;&gt;ecr-login&lt;/code&gt;
 credential helper. See the &lt;a href=&quot;https://github.com/GoogleContainerTools/kaniko#pushing-to-different-registries&quot;&gt;kaniko
 docs&lt;/a&gt;
 for more details. To grant the pod IAM permissions to do that, we’re using
@@ -617,7 +617,7 @@ spec:
   arguments:
     parameters:
       - name: image
-        value: &amp;quot;xxx.dkr.ecr.us-east-1.amazonaws.com/k8s-webhook-handler:{{workflow.annotations.k8s-webhook-handler.io/revision}}&amp;quot;
+        value: &quot;xxx.dkr.ecr.us-east-1.amazonaws.com/k8s-webhook-handler:{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
   volumes:
     - name: docker-config
       configMap:
@@ -640,20 +640,20 @@ spec:
           - name: source
             path: /src
             git:
-              repo: &amp;quot;{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}&amp;quot;
-              revision: &amp;quot;{{workflow.annotations.k8s-webhook-handler.io/revision}}&amp;quot;
+              repo: &quot;{{workflow.annotations.k8s-webhook-handler.io/repo_ssh}}&quot;
+              revision: &quot;{{workflow.annotations.k8s-webhook-handler.io/revision}}&quot;
       container:
         image: gcr.io/kaniko-project/executor
         args:
-          - &amp;quot;--context=/src&amp;quot;
-          - &amp;quot;--destination={{workflow.parameters.image}}&amp;quot;
+          - &quot;--context=/src&quot;
+          - &quot;--destination={{workflow.parameters.image}}&quot;
         volumeMounts:
           - name: docker-config
             mountPath: /kaniko/.docker/
     - name: deploy
       container:
         image: bitnami/kubectl:1.17.4
-        args: [&amp;quot;kubectl&amp;quot;, &amp;quot;set&amp;quot;, &amp;quot;image&amp;quot;, &amp;quot;deployment/k8s-webhook-handler&amp;quot;, &amp;quot;k8s-webhook-handler={{workflow.parameters.image}}&amp;quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+        args: [&quot;kubectl&quot;, &quot;set&quot;, &quot;image&quot;, &quot;deployment/k8s-webhook-handler&quot;, &quot;k8s-webhook-handler={{workflow.parameters.image}}&quot;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This workflow defines a DAG in the &lt;code class=&quot;language-text&quot;&gt;ci&lt;/code&gt; template with two tasks where deploy
 depends on build, so it runs after that. To allow the workflow to change
 resources in Kubernetes, we specify &lt;code class=&quot;language-text&quot;&gt;serviceAccountName: ci-workflow&lt;/code&gt;. Follow
@@ -686,10 +686,10 @@ workflow:&lt;/p&gt;
         tasks:
           - name: push
             template: push
-            when: &amp;quot;&amp;#39;{{workflow.annotations.k8s-webhook-handler.io/event_type}}&amp;#39; == &amp;#39;push&amp;#39;&amp;quot;
+            when: &quot;&apos;{{workflow.annotations.k8s-webhook-handler.io/event_type}}&apos; == &apos;push&apos;&quot;
           - name: delete
             template: delete
-            when: &amp;quot;&amp;#39;{{workflow.annotations.k8s-webhook-handler.io/event_type}}&amp;#39; == &amp;#39;delete&amp;#39;&amp;quot;
+            when: &quot;&apos;{{workflow.annotations.k8s-webhook-handler.io/event_type}}&apos; == &apos;delete&apos;&quot;
     - name: push
       dag:
         tasks:
@@ -701,7 +701,7 @@ workflow:&lt;/p&gt;
     - name: delete
       container:
         image: custom-ci-tools-image
-        command: [ &amp;quot;delete-namespace-for-ref&amp;quot;, &amp;quot;{{workflow.annotations.k8s-webhook-handler.io/ref}}&amp;quot;]
+        command: [ &quot;delete-namespace-for-ref&quot;, &quot;{{workflow.annotations.k8s-webhook-handler.io/ref}}&quot;]
 ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;advanced-builds-github-checks-slack-notifications-and-more&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#advanced-builds-github-checks-slack-notifications-and-more&quot; aria-label=&quot;advanced builds github checks slack notifications and more permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Advanced builds, GitHub checks, Slack notifications and more&lt;/h2&gt;
 &lt;p&gt;The generic nature of the Argo workflow allows it to handle pretty much any build
@@ -952,17 +952,17 @@ want to build it yourself.&lt;/p&gt;
 allow traffic from and to the pod network. In my case I’ve created a new
 interface definition for the cni0 interface:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;/etc/config/network&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;config interface &amp;#39;k8s&amp;#39;
-	option proto &amp;#39;none&amp;#39;
-	option ifname &amp;#39;cni0&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;config interface &apos;k8s&apos;
+	option proto &apos;none&apos;
+	option ifname &apos;cni0&apos;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And a zone which allows input/output/forward traffic:
 &lt;strong&gt;/etc/config/firewall&lt;/strong&gt;:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;config zone
-	option name &amp;#39;k8s&amp;#39;
-	option input &amp;#39;ACCEPT&amp;#39;
-	option output &amp;#39;ACCEPT&amp;#39;
-	option forward &amp;#39;ACCEPT&amp;#39;
-	option network &amp;#39;k8s&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+	option name &apos;k8s&apos;
+	option input &apos;ACCEPT&apos;
+	option output &apos;ACCEPT&apos;
+	option forward &apos;ACCEPT&apos;
+	option network &apos;k8s&apos;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1 id=&quot;summary&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#summary&quot; aria-label=&quot;summary permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Summary&lt;/h1&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -1302,9 +1302,9 @@ parameters. See the &lt;a href=&quot;https://github.com/prometheus/blackbox_expo
 documentation&lt;/a&gt;
 for more details.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;curl -L -G \
-  -H &amp;#39;Authorization: Bearer foobar23&amp;#39; \
-  --data-urlencode &amp;#39;target=https://www.google.com&amp;#39; \
-  --data-urlencode &amp;#39;config={&amp;quot;preferred_ip_protocol&amp;quot;: &amp;quot;ip4&amp;quot;}&amp;#39; \
+  -H &apos;Authorization: Bearer foobar23&apos; \
+  --data-urlencode &apos;target=https://www.google.com&apos; \
+  --data-urlencode &apos;config={&quot;preferred_ip_protocol&quot;: &quot;ip4&quot;}&apos; \
   $(make endpoint)/http&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&quot;updates&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#updates&quot; aria-label=&quot;updates permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Updates&lt;/h2&gt;
 &lt;p&gt;To change the &lt;code class=&quot;language-text&quot;&gt;AUTH_TOKEN&lt;/code&gt; or roll out any other Cloudformation change, you can
@@ -1314,7 +1314,7 @@ bucket and run &lt;code class=&quot;language-text&quot;&gt;make bump&lt;/code&gt
 &lt;h2 id=&quot;prometheus-configuration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#prometheus-configuration&quot; aria-label=&quot;prometheus configuration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Prometheus Configuration&lt;/h2&gt;
 &lt;p&gt;The configuration is similar to the one used for the regular blackbox-exporter.
 It also uses relabling to configure multiple targets easily:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- job_name: &amp;#39;blackbox-exporter-lambda-us-central-1&amp;#39;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;- job_name: &apos;blackbox-exporter-lambda-us-central-1&apos;
   metrics_path: /probe/http
   bearer_token: foobar23
   scheme: https
@@ -1335,7 +1335,7 @@ It also uses relabling to configure multiple targets easily:&lt;/p&gt;
       replacement: 5v5jaus0zj.execute-api.eu-central-1.amazonaws.com&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Use your token for &lt;code class=&quot;language-text&quot;&gt;bearer_token&lt;/code&gt; and the output of &lt;code class=&quot;language-text&quot;&gt;make endpoint&lt;/code&gt; for the &lt;code class=&quot;language-text&quot;&gt;__address__&lt;/code&gt;
 replacement and &lt;code class=&quot;language-text&quot;&gt;metrics_path&lt;/code&gt;. This should get you something like this:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;probe_http_duration_seconds{instance=&amp;quot;https://5pi.de&amp;quot;,job=&amp;quot;blackbox-exporter-lambda-us-central-1&amp;quot;}&lt;/code&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-text&quot;&gt;probe_http_duration_seconds{instance=&quot;https://5pi.de&quot;,job=&quot;blackbox-exporter-lambda-us-central-1&quot;}&lt;/code&gt;&lt;/strong&gt;
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 603px; &quot;
@@ -1438,42 +1438,42 @@ completes the so called &lt;em&gt;EFK Stack&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Fluentd allows use to define a source for receiving messages from the
 application. Each message contains a shard key that’s used as path prefix on S3.
 Fluentd allows parsing this with a custom regexp:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;source&amp;gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;source&gt;
   @type http
   port 8888
   bind 0.0.0.0
   body_size_limit 32m
   keepalive_timeout 10s
-  &amp;lt;parse&amp;gt;
+  &amp;lt;parse&gt;
     @type regexp
-    expression /^(?&amp;lt;path&amp;gt;[^\s]+) (?&amp;lt;content&amp;gt;.+)$/m
-  &amp;lt;/parse&amp;gt;
-&amp;lt;/source&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    expression /^(?&amp;lt;path&gt;[^\s]+) (?&amp;lt;content&gt;.+)$/m
+  &amp;lt;/parse&gt;
+&amp;lt;/source&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now we can use the s3 output to send the messages to s3.
 Since we need to batch up the files, we use a &lt;em&gt;file buffer&lt;/em&gt;. This buffers the
 messages to a local directory until either the &lt;code class=&quot;language-text&quot;&gt;chunk_limit_size&lt;/code&gt; or the
 &lt;code class=&quot;language-text&quot;&gt;timekey&lt;/code&gt; is reached, after which the file gets uploaded to s3.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;match **&amp;gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;match **&gt;
   @type s3
 
   s3_bucket the-output-bucket
   s3_region us-east-1
 
   path ${path}
-  s3_object_key_format &amp;quot;%{path}/#{Socket.gethostname}_%{time_slice}_%{index}.%{file_extension}&amp;quot;
+  s3_object_key_format &quot;%{path}/#{Socket.gethostname}_%{time_slice}_%{index}.%{file_extension}&quot;
 
   store_as gzip_command
-  &amp;lt;buffer path,time&amp;gt;
+  &amp;lt;buffer path,time&gt;
     @type file
     timekey 3600
     chunk_limit_size 25MB
-  &amp;lt;/buffer&amp;gt;
-  &amp;lt;format&amp;gt;
+  &amp;lt;/buffer&gt;
+  &amp;lt;format&gt;
     @type single_value
     message_key content
-  &amp;lt;/format&amp;gt;
-&amp;lt;/match&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;path&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;time&lt;/code&gt; arguments to &lt;code class=&quot;language-text&quot;&gt;&amp;lt;buffer path,time&amp;gt;&lt;/code&gt; groups the chunks by
+  &amp;lt;/format&gt;
+&amp;lt;/match&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;path&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;time&lt;/code&gt; arguments to &lt;code class=&quot;language-text&quot;&gt;&amp;lt;buffer path,time&gt;&lt;/code&gt; groups the chunks by
 time and path. This allows us to set &lt;code class=&quot;language-text&quot;&gt;s3_object_key_format&lt;/code&gt; to add &lt;code class=&quot;language-text&quot;&gt;path&lt;/code&gt; to
 the destination path as prefix when flushing the buffer to S3.&lt;/p&gt;
 &lt;p&gt;We also add the hostname to the destination path by using
@@ -1859,19 +1859,19 @@ utilization in a Kubernetes cluster.&lt;/p&gt;
 &lt;p&gt;Kubernetes provides a &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt; metric reflecting each pods
 memory usage, e.g:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;...
-container_memory_usage_bytes{beta_kubernetes_io_arch=&amp;quot;amd64&amp;quot;,beta_kubernetes_io_fluentd_ds_ready=&amp;quot;true&amp;quot;,beta_kubernetes_io_instance_type=&amp;quot;g1-small&amp;quot;,beta_kubernetes_io_os=&amp;quot;linux&amp;quot;,cloud_google_com_gke_nodepool=&amp;quot;small-preemptible&amp;quot;,cloud_google_com_gke_preemptible=&amp;quot;true&amp;quot;,container_name=&amp;quot;POD&amp;quot;,failure_domain_beta_kubernetes_io_region=&amp;quot;us-east1&amp;quot;,failure_domain_beta_kubernetes_io_zone=&amp;quot;us-east1-c&amp;quot;,id=&amp;quot;/kubepods/burstable/pod13d4221c-c484-11e7-bff5-42010af0018b/67e5bb069ab9881ff8a55b8628ef4935b0d1ace09c18df20db059522bdfd5b7d&amp;quot;,image=&amp;quot;gcr.io/google_containers/pause-amd64:3.0&amp;quot;,instance=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,job=&amp;quot;kubernetes-cadvisor&amp;quot;,kubernetes_io_hostname=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,name=&amp;quot;k8s_POD_latency-api-971504058-jzs5h_default_13d4221c-c484-11e7-bff5-42010af0018b_0&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod_name=&amp;quot;latency-api-971504058-jzs5h&amp;quot;}	389120
-container_memory_usage_bytes{beta_kubernetes_io_arch=&amp;quot;amd64&amp;quot;,beta_kubernetes_io_fluentd_ds_ready=&amp;quot;true&amp;quot;,beta_kubernetes_io_instance_type=&amp;quot;g1-small&amp;quot;,beta_kubernetes_io_os=&amp;quot;linux&amp;quot;,cloud_google_com_gke_nodepool=&amp;quot;small-preemptible&amp;quot;,cloud_google_com_gke_preemptible=&amp;quot;true&amp;quot;,container_name=&amp;quot;POD&amp;quot;,failure_domain_beta_kubernetes_io_region=&amp;quot;us-east1&amp;quot;,failure_domain_beta_kubernetes_io_zone=&amp;quot;us-east1-c&amp;quot;,id=&amp;quot;/kubepods/burstable/pod81d0f651-c500-11e7-bff5-42010af0018b/309e05b118e618122c70ccf88538d13ca41c3b5a770d5d67882426854391c23c&amp;quot;,image=&amp;quot;gcr.io/google_containers/pause-amd64:3.0&amp;quot;,instance=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,job=&amp;quot;kubernetes-cadvisor&amp;quot;,kubernetes_io_hostname=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,name=&amp;quot;k8s_POD_latency-api-971504058-gszpw_default_81d0f651-c500-11e7-bff5-42010af0018b_0&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod_name=&amp;quot;latency-api-971504058-gszpw&amp;quot;}	372736
-container_memory_usage_bytes{beta_kubernetes_io_arch=&amp;quot;amd64&amp;quot;,beta_kubernetes_io_fluentd_ds_ready=&amp;quot;true&amp;quot;,beta_kubernetes_io_instance_type=&amp;quot;g1-small&amp;quot;,beta_kubernetes_io_os=&amp;quot;linux&amp;quot;,cloud_google_com_gke_nodepool=&amp;quot;small-preemptible&amp;quot;,cloud_google_com_gke_preemptible=&amp;quot;true&amp;quot;,container_name=&amp;quot;latency-api&amp;quot;,failure_domain_beta_kubernetes_io_region=&amp;quot;us-east1&amp;quot;,failure_domain_beta_kubernetes_io_zone=&amp;quot;us-east1-c&amp;quot;,id=&amp;quot;/kubepods/burstable/pod13d4221c-c484-11e7-bff5-42010af0018b/497e6fdf2217771cb3f52e6fef93734d023f0e7f23f92c58d22139fc18dc5f13&amp;quot;,image=&amp;quot;registry.gitlab.com/latency.at/latencyat@sha256:8ea057e064b64cc9c8459a68ef3f6d0fc26169b4f57aef193831779e1fe713d4&amp;quot;,instance=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,job=&amp;quot;kubernetes-cadvisor&amp;quot;,kubernetes_io_hostname=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,name=&amp;quot;k8s_latency-api_latency-api-971504058-jzs5h_default_13d4221c-c484-11e7-bff5-42010af0018b_1&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod_name=&amp;quot;latency-api-971504058-jzs5h&amp;quot;}	11014144
-container_memory_usage_bytes{beta_kubernetes_io_arch=&amp;quot;amd64&amp;quot;,beta_kubernetes_io_fluentd_ds_ready=&amp;quot;true&amp;quot;,beta_kubernetes_io_instance_type=&amp;quot;g1-small&amp;quot;,beta_kubernetes_io_os=&amp;quot;linux&amp;quot;,cloud_google_com_gke_nodepool=&amp;quot;small-preemptible&amp;quot;,cloud_google_com_gke_preemptible=&amp;quot;true&amp;quot;,container_name=&amp;quot;latency-api&amp;quot;,failure_domain_beta_kubernetes_io_region=&amp;quot;us-east1&amp;quot;,failure_domain_beta_kubernetes_io_zone=&amp;quot;us-east1-c&amp;quot;,id=&amp;quot;/kubepods/burstable/pod81d0f651-c500-11e7-bff5-42010af0018b/7b438a8e9df0cf1ab29d067fd36c97099f9f5e7e9257f6187c5be6bff846a62c&amp;quot;,image=&amp;quot;registry.gitlab.com/latency.at/latencyat@sha256:8ea057e064b64cc9c8459a68ef3f6d0fc26169b4f57aef193831779e1fe713d4&amp;quot;,instance=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,job=&amp;quot;kubernetes-cadvisor&amp;quot;,kubernetes_io_hostname=&amp;quot;gke-latency-at-small-preemptible-0c981b61-9489&amp;quot;,name=&amp;quot;k8s_latency-api_latency-api-971504058-gszpw_default_81d0f651-c500-11e7-bff5-42010af0018b_0&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod_name=&amp;quot;latency-api-971504058-gszpw&amp;quot;}	11448320
+container_memory_usage_bytes{beta_kubernetes_io_arch=&quot;amd64&quot;,beta_kubernetes_io_fluentd_ds_ready=&quot;true&quot;,beta_kubernetes_io_instance_type=&quot;g1-small&quot;,beta_kubernetes_io_os=&quot;linux&quot;,cloud_google_com_gke_nodepool=&quot;small-preemptible&quot;,cloud_google_com_gke_preemptible=&quot;true&quot;,container_name=&quot;POD&quot;,failure_domain_beta_kubernetes_io_region=&quot;us-east1&quot;,failure_domain_beta_kubernetes_io_zone=&quot;us-east1-c&quot;,id=&quot;/kubepods/burstable/pod13d4221c-c484-11e7-bff5-42010af0018b/67e5bb069ab9881ff8a55b8628ef4935b0d1ace09c18df20db059522bdfd5b7d&quot;,image=&quot;gcr.io/google_containers/pause-amd64:3.0&quot;,instance=&quot;gke-latency-at-small-preemptible-0c981b61-9489&quot;,job=&quot;kubernetes-cadvisor&quot;,kubernetes_io_hostname=&quot;gke-latency-at-small-preemptible-0c981b61-9489&quot;,name=&quot;k8s_POD_latency-api-971504058-jzs5h_default_13d4221c-c484-11e7-bff5-42010af0018b_0&quot;,namespace=&quot;default&quot;,pod_name=&quot;latency-api-971504058-jzs5h&quot;}	389120
+container_memory_usage_bytes{beta_kubernetes_io_arch=&quot;amd64&quot;,beta_kubernetes_io_fluentd_ds_ready=&quot;true&quot;,beta_kubernetes_io_instance_type=&quot;g1-small&quot;,beta_kubernetes_io_os=&quot;linux&quot;,cloud_google_com_gke_nodepool=&quot;small-preemptible&quot;,cloud_google_com_gke_preemptible=&quot;true&quot;,container_name=&quot;POD&quot;,failure_domain_beta_kubernetes_io_region=&quot;us-east1&quot;,failure_domain_beta_kubernetes_io_zone=&quot;us-east1-c&quot;,id=&quot;/kubepods/burstable/pod81d0f651-c500-11e7-bff5-42010af0018b/309e05b118e618122c70ccf88538d13ca41c3b5a770d5d67882426854391c23c&quot;,image=&quot;gcr.io/google_containers/pause-amd64:3.0&quot;,instance=&quot;gke-latency-at-small-preemptible-0c981b61-9489&quot;,job=&quot;kubernetes-cadvisor&quot;,kubernetes_io_hostname=&quot;gke-latency-at-small-preemptible-0c981b61-9489&quot;,name=&quot;k8s_POD_latency-api-971504058-gszpw_default_81d0f651-c500-11e7-bff5-42010af0018b_0&quot;,namespace=&quot;default&quot;,pod_name=&quot;latency-api-971504058-gszpw&quot;}	372736
+container_memory_usage_bytes{beta_kubernetes_io_arch=&quot;amd64&quot;,beta_kubernetes_io_fluentd_ds_ready=&quot;true&quot;,beta_kubernetes_io_instance_type=&quot;g1-small&quot;,beta_kubernetes_io_os=&quot;linux&quot;,cloud_google_com_gke_nodepool=&quot;small-preemptible&quot;,cloud_google_com_gke_preemptible=&quot;true&quot;,container_name=&quot;latency-api&quot;,failure_domain_beta_kubernetes_io_region=&quot;us-east1&quot;,failure_domain_beta_kubernetes_io_zone=&quot;us-east1-c&quot;,id=&quot;/kubepods/burstable/pod13d4221c-c484-11e7-bff5-42010af0018b/497e6fdf2217771cb3f52e6fef93734d023f0e7f23f92c58d22139fc18dc5f13&quot;,image=&quot;registry.gitlab.com/latency.at/latencyat@sha256:8ea057e064b64cc9c8459a68ef3f6d0fc26169b4f57aef193831779e1fe713d4&quot;,instance=&quot;gke-latency-at-small-preemptible-0c981b61-9489&quot;,job=&quot;kubernetes-cadvisor&quot;,kubernetes_io_hostname=&quot;gke-latency-at-small-preemptible-0c981b61-9489&quot;,name=&quot;k8s_latency-api_latency-api-971504058-jzs5h_default_13d4221c-c484-11e7-bff5-42010af0018b_1&quot;,namespace=&quot;default&quot;,pod_name=&quot;latency-api-971504058-jzs5h&quot;}	11014144
+container_memory_usage_bytes{beta_kubernetes_io_arch=&quot;amd64&quot;,beta_kubernetes_io_fluentd_ds_ready=&quot;true&quot;,beta_kubernetes_io_instance_type=&quot;g1-small&quot;,beta_kubernetes_io_os=&quot;linux&quot;,cloud_google_com_gke_nodepool=&quot;small-preemptible&quot;,cloud_google_com_gke_preemptible=&quot;true&quot;,container_name=&quot;latency-api&quot;,failure_domain_beta_kubernetes_io_region=&quot;us-east1&quot;,failure_domain_beta_kubernetes_io_zone=&quot;us-east1-c&quot;,id=&quot;/kubepods/burstable/pod81d0f651-c500-11e7-bff5-42010af0018b/7b438a8e9df0cf1ab29d067fd36c97099f9f5e7e9257f6187c5be6bff846a62c&quot;,image=&quot;registry.gitlab.com/latency.at/latencyat@sha256:8ea057e064b64cc9c8459a68ef3f6d0fc26169b4f57aef193831779e1fe713d4&quot;,instance=&quot;gke-latency-at-small-preemptible-0c981b61-9489&quot;,job=&quot;kubernetes-cadvisor&quot;,kubernetes_io_hostname=&quot;gke-latency-at-small-preemptible-0c981b61-9489&quot;,name=&quot;k8s_latency-api_latency-api-971504058-gszpw_default_81d0f651-c500-11e7-bff5-42010af0018b_0&quot;,namespace=&quot;default&quot;,pod_name=&quot;latency-api-971504058-gszpw&quot;}	11448320
 ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Unfortunately it doesn’t contain the pod labels. For that there is the
 &lt;code class=&quot;language-text&quot;&gt;kube_pod_labels&lt;/code&gt; though which includes a static timeseries with all labels and
 the pod name. This metric is provided by
 &lt;a href=&quot;https://github.com/kubernetes/kube-state-metrics&quot;&gt;kube-state-metrics&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We can use it to look up the labels for the pod from the
-timeseries (&lt;code class=&quot;language-text&quot;&gt;pod_name=&amp;quot;latency-api-971504058-jzs5h&amp;quot;&lt;/code&gt;):&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kube_pod_labels{instance=&amp;quot;10.116.0.12:8080&amp;quot;,job=&amp;quot;kubernetes-service-endpoints&amp;quot;,k8s_app=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_name=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_namespace=&amp;quot;kube-system&amp;quot;,label_app=&amp;quot;latency-api&amp;quot;,label_pod_template_hash=&amp;quot;971504058&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod=&amp;quot;latency-api-971504058-jzs5h&amp;quot;} 1
-kube_pod_labels{instance=&amp;quot;10.116.1.26:8080&amp;quot;,job=&amp;quot;kubernetes-service-endpoints&amp;quot;,k8s_app=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_name=&amp;quot;kube-state-metrics&amp;quot;,kubernetes_namespace=&amp;quot;kube-system&amp;quot;,label_app=&amp;quot;latency-api&amp;quot;,label_pod_template_hash=&amp;quot;971504058&amp;quot;,namespace=&amp;quot;default&amp;quot;,pod=&amp;quot;latency-api-971504058-jzs5h&amp;quot;} 1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+timeseries (&lt;code class=&quot;language-text&quot;&gt;pod_name=&quot;latency-api-971504058-jzs5h&quot;&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kube_pod_labels{instance=&quot;10.116.0.12:8080&quot;,job=&quot;kubernetes-service-endpoints&quot;,k8s_app=&quot;kube-state-metrics&quot;,kubernetes_name=&quot;kube-state-metrics&quot;,kubernetes_namespace=&quot;kube-system&quot;,label_app=&quot;latency-api&quot;,label_pod_template_hash=&quot;971504058&quot;,namespace=&quot;default&quot;,pod=&quot;latency-api-971504058-jzs5h&quot;} 1
+kube_pod_labels{instance=&quot;10.116.1.26:8080&quot;,job=&quot;kubernetes-service-endpoints&quot;,k8s_app=&quot;kube-state-metrics&quot;,kubernetes_name=&quot;kube-state-metrics&quot;,kubernetes_namespace=&quot;kube-system&quot;,label_app=&quot;latency-api&quot;,label_pod_template_hash=&quot;971504058&quot;,namespace=&quot;default&quot;,pod=&quot;latency-api-971504058-jzs5h&quot;} 1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Both metrics can be merged by using vector matching. We get this metric twice
 because there are two instances of kube-state-metrics running. So before we
 continue further, we aggregate both. Since they should be identical, we can use
@@ -1882,12 +1882,12 @@ label is called &lt;code class=&quot;language-text&quot;&gt;pod&lt;/code&gt; in 
 &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt;, we need to also use label_replace to rename the
 label. This gives us:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;max by (pod_name,label_app) (
-  label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
+  label_replace(kube_pod_labels{label_app!=&quot;&quot;},&quot;pod_name&quot;,&quot;$1&quot;,&quot;pod&quot;,&quot;(.*)&quot;)
 )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Which returns something like:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;...
-{label_app=&amp;quot;latency-api&amp;quot;,pod_name=&amp;quot;latency-api-971504058-n8k6d&amp;quot;}  1
-{label_app=&amp;quot;latency-api&amp;quot;,pod_name=&amp;quot;latency-api-971504058-jzs5h&amp;quot;}  1
+{label_app=&quot;latency-api&quot;,pod_name=&quot;latency-api-971504058-n8k6d&quot;}  1
+{label_app=&quot;latency-api&quot;,pod_name=&quot;latency-api-971504058-jzs5h&quot;}  1
 ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now we can use vector matching to join &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt; with the
 result of our expression. We use the &lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt; operator which effectivly is a no-op
@@ -1899,14 +1899,14 @@ Since we want to preserve the &lt;code class=&quot;language-text&quot;&gt;label_
 &lt;p&gt;This gives us:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  container_memory_usage_bytes * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
-    label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
+    label_replace(kube_pod_labels{label_app!=&quot;&quot;},&quot;pod_name&quot;,&quot;$1&quot;,&quot;pod&quot;,&quot;(.*)&quot;)
   )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;To aggregated the memory usage of all your pods, summed by a &lt;code class=&quot;language-text&quot;&gt;k8s-app&lt;/code&gt; label you
 can use the following expression:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
   container_memory_usage_bytes * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
-    label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
+    label_replace(kube_pod_labels{label_app!=&quot;&quot;},&quot;pod_name&quot;,&quot;$1&quot;,&quot;pod&quot;,&quot;(.*)&quot;)
   )
 )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
@@ -1946,7 +1946,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
   rate(container_cpu_usage_seconds_total[2m]) * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
-    label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
+    label_replace(kube_pod_labels{label_app!=&quot;&quot;},&quot;pod_name&quot;,&quot;$1&quot;,&quot;pod&quot;,&quot;(.*)&quot;)
   )
 )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
@@ -1987,7 +1987,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;sum by (label_app,namespace) (
   rate(container_network_transmit_bytes_total[2m]) * on (pod_name) group_left(label_app)
   max by (pod_name,label_app) (
-    label_replace(kube_pod_labels{label_app!=&amp;quot;&amp;quot;},&amp;quot;pod_name&amp;quot;,&amp;quot;$1&amp;quot;,&amp;quot;pod&amp;quot;,&amp;quot;(.*)&amp;quot;)
+    label_replace(kube_pod_labels{label_app!=&quot;&quot;},&quot;pod_name&quot;,&quot;$1&quot;,&quot;pod&quot;,&quot;(.*)&quot;)
   )
 )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
@@ -2024,38 +2024,38 @@ This happened to me again when diving into frontend testing. I figured out how t
 I’ve learned that Selenium is the godmother of modern frontend testing. It’s a framework with bindings for multiple languages. To decouple the server from the actual browsers, it invented “Selenium RC” as a protocol. That lead to the development of the WebDriver W3C standard which replaces Selenium RC is newer versions and is implemented for the most common browsers (Chrome -&gt; Chromedriver, Firefox -&gt; FirefoxDriver).&lt;/p&gt;
 &lt;h2 id=&quot;nightwatch-without-selenium&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#nightwatch-without-selenium&quot; aria-label=&quot;nightwatch without selenium permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Nightwatch without Selenium&lt;/h2&gt;
 &lt;p&gt;Apparently WebDriver is also used for talking &lt;em&gt;to&lt;/em&gt; Selenium. I think this is called ‘hub’ or something, that’s about as deep as my ‘deep dive’ gets for now. Either way, this makes the big picture look like:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Nightwatch -[webdriver]-&amp;gt; Selenium -[webdriver]-&amp;gt; Chromedriver -&amp;gt; Chrome&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Nightwatch -[webdriver]-&gt; Selenium -[webdriver]-&gt; Chromedriver -&gt; Chrome&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Selenium comes in a server and standalone flavor, where the server apparently is only used for grid based testing where you would have a bunch of Selenium nodes running on different systems. Turns out, if you don’t need grid based testing or support for legacy browsers which don’t provide WebDriver adapter, there is little use for Selenium after all.&lt;/p&gt;
 &lt;p&gt;Fortunately you can make Nightwatch talk directly to Chromedriver. This requires start&lt;em&gt;processto be set to false and selenium&lt;/em&gt;host/_port to point the address of Chromedriver:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
-  &amp;quot;output_folder&amp;quot;: false,
-  &amp;quot;src_folders&amp;quot;: [&amp;quot;tests&amp;quot;],
-  &amp;quot;selenium&amp;quot;: {
-    &amp;quot;start_process&amp;quot;: false
+  &quot;output_folder&quot;: false,
+  &quot;src_folders&quot;: [&quot;tests&quot;],
+  &quot;selenium&quot;: {
+    &quot;start_process&quot;: false
   },
-  &amp;quot;test_settings&amp;quot;: {
-    &amp;quot;default&amp;quot;: {
-      &amp;quot;selenium_host&amp;quot;: &amp;quot;127.0.0.1&amp;quot;,
-      &amp;quot;selenium_port&amp;quot;: &amp;quot;9515&amp;quot;,
-      &amp;quot;screenshots&amp;quot;: {
-        &amp;quot;enabled&amp;quot;: true,
-        &amp;quot;on_failure&amp;quot;: true,
-        &amp;quot;on_error&amp;quot; : true,
-        &amp;quot;path&amp;quot;: &amp;quot;results/screenshots&amp;quot;
+  &quot;test_settings&quot;: {
+    &quot;default&quot;: {
+      &quot;selenium_host&quot;: &quot;127.0.0.1&quot;,
+      &quot;selenium_port&quot;: &quot;9515&quot;,
+      &quot;screenshots&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;on_failure&quot;: true,
+        &quot;on_error&quot; : true,
+        &quot;path&quot;: &quot;results/screenshots&quot;
       },
-      &amp;quot;desiredCapabilities&amp;quot;: {
-        &amp;quot;browserName&amp;quot;: &amp;quot;chrome&amp;quot;,
-        &amp;quot;javascriptEnabled&amp;quot; : true,
-        &amp;quot;acceptSslCerts&amp;quot; : true,
-        &amp;quot;chromeOptions&amp;quot; : {
-          &amp;quot;args&amp;quot;: [
-            &amp;quot;--no-sandbox&amp;quot;,
-            &amp;quot;start-fullscreen&amp;quot;,
-            &amp;quot;window-size=1280,800&amp;quot;
+      &quot;desiredCapabilities&quot;: {
+        &quot;browserName&quot;: &quot;chrome&quot;,
+        &quot;javascriptEnabled&quot; : true,
+        &quot;acceptSslCerts&quot; : true,
+        &quot;chromeOptions&quot; : {
+          &quot;args&quot;: [
+            &quot;--no-sandbox&quot;,
+            &quot;start-fullscreen&quot;,
+            &quot;window-size=1280,800&quot;
           ]
         }
       },
-      &amp;quot;launch_url&amp;quot;: &amp;quot;http://app&amp;quot;
+      &quot;launch_url&quot;: &quot;http://app&quot;
     }
   }
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -2134,7 +2134,7 @@ I’m using &lt;a href=&quot;https://www.packer.io&quot;&gt;packer&lt;/a&gt; to 
 &lt;p&gt;To deploy a new cluster, you first probably want to change &lt;code class=&quot;language-text&quot;&gt;tf/id_rsa.pub&lt;/code&gt; to include your SSH public key. You need to run ssh-agent and the key needs to be added to it’s keyring with &lt;code class=&quot;language-text&quot;&gt;ssh-add&lt;/code&gt;. The key may not exist on DigitalOcean already. You can run &lt;code class=&quot;language-text&quot;&gt;ssh-keygen -f id_rsa &amp;amp;&amp;amp; ssh-add id_rsa&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;tf/&lt;/code&gt; to create a new keypair.&lt;/p&gt;
 &lt;p&gt;You also need to create the domain you specified in &lt;code class=&quot;language-text&quot;&gt;config/env&lt;/code&gt; in DigitalOcean before proceeding. For whatever reason DO requires you to attach the records to some droplet. It doesn’t really matter which one.&lt;/p&gt;
 &lt;p&gt;To spin up the configured cluster with the built image, run:&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;./terraform apply -var cluster_state=new -var &amp;#39;image=&amp;quot;image-id-from-last-step&amp;quot;&amp;#39;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;./terraform apply -var cluster_state=new -var &apos;image=&quot;image-id-from-last-step&quot;&apos;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;Be careful to quote the image parameter properly like described here). &lt;code class=&quot;language-text&quot;&gt;cluster_state&lt;/code&gt; is required to make etcd not wait for consensus before spinning up the next instance.&lt;/small&gt;&lt;/p&gt;
 &lt;p&gt;That’s it! After a few minutes, the cluster should be up and running.&lt;/p&gt;
 &lt;p&gt;If you created a new domain for your cluster, it may take some time until the cluster is formed. If you run &lt;code class=&quot;language-text&quot;&gt;journalctl -fu tinc@default&lt;/code&gt; to watch the tinc log you should see that the DNS records are not resolvable yet. This should fix itself after a few minutes.
@@ -2176,7 +2176,7 @@ This will make sure the float IP is always assigned to one of the running hosts.
 &lt;h3 id=&quot;postgresql&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#postgresql&quot; aria-label=&quot;postgresql permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;PostgreSQL&lt;/h3&gt;
 &lt;p&gt;PostgreSQL is used as main database powering this blog for instance. The &lt;a href=&quot;https://github.com/5pi/services/blob/master/20_postgres.yml&quot;&gt;configuration&lt;/a&gt; is straight forward but uses my custom DigitalOcean Storage flexvolume plugin. Before using it the first time, the volume needs to get created, attached, formatted and detached again. You can run the &lt;a href=&quot;https://github.com/5pi/infra/blob/master/packer/files/usr/libexec/kubernetes/kubelet-plugins/volume/exec/5pi.de~do-volume/do-volume&quot;&gt;flexvol plugin&lt;/a&gt; to do this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;do-volume create pgdata 10G my postgres volume
-do-volume attach &amp;#39;{ &amp;quot;volume&amp;quot;: &amp;quot;pgdata&amp;quot; }&amp;#39;
+do-volume attach &apos;{ &quot;volume&quot;: &quot;pgdata&quot; }&apos;
 mkfs.ext3 /dev/disk/by-id/scsi-0DO_Volume_pgdata&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;After that, the yaml file can get applied and postgres should spin up.&lt;/p&gt;
 &lt;h3 id=&quot;ghost&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ghost&quot; aria-label=&quot;ghost permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Ghost&lt;/h3&gt;
@@ -2184,7 +2184,7 @@ mkfs.ext3 /dev/disk/by-id/scsi-0DO_Volume_pgdata&lt;/code&gt;&lt;/pre&gt;&lt;/di
 Since the official Ghost image can’t be easily configured automatically and is huge, I’m using my own (&lt;a href=&quot;https://alpinelinux.org/&quot;&gt;alpine&lt;/a&gt; based) &lt;a href=&quot;https://hub.docker.com/r/fish/ghost/&quot;&gt;Docker image&lt;/a&gt;.
 Although designed as a &lt;em&gt;modern&lt;/em&gt; blogging platform, it doesn’t fit particular well into the new container/12factor world. For example, it assumes that the current working directory is writable. Since we want to run ghost as unprivileged user, we need to make the volume writable by that user. Unfortunately there is no good way to do that. People often create images that run chown as root when starting, then dropping privileges. But this can become time consuming and has possible security implications. The upcoming &lt;a href=&quot;https://github.com/kubernetes/kubernetes/pull/26926&quot;&gt;flexvolume redesign&lt;/a&gt; will fix this issue. For now we need to make the volume world-writable initially:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;do-volume create ghost-fish 1
-do-volume attach &amp;#39;{ &amp;quot;volume&amp;quot;: &amp;quot;ghost-fish&amp;quot; }&amp;#39;
+do-volume attach &apos;{ &quot;volume&quot;: &quot;ghost-fish&quot; }&apos;
 mkfs.ext4 /dev/disk/by-id/scsi-0DO_Volume_ghost-fish
 
 mount /dev/disk/by-id/scsi-0DO_Volume_ghost-fish /mnt
@@ -2195,7 +2195,7 @@ do-volume detach /dev/disk/by-id/scsi-0DO_Volume_ghost-fish&lt;/code&gt;&lt;/pre
 &lt;p&gt;Here I choose simplicity over security for the time being since I’m the only operator of this cluster anyway. You might want to make a different trade off.&lt;/p&gt;
 &lt;p&gt;Now we still need to create databases and users, another thing that hasn’t been addressed by Kubernetes yet. For that we need to find the Postgres pod, then &lt;code class=&quot;language-text&quot;&gt;exec&lt;/code&gt; into it to create database and users:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kubectl exec -ti postgres-2416409090-jf8uh -- psql -U postgres
-create user ghost_fish with password &amp;#39;pwd-from-secrets.yml&amp;#39;;
+create user ghost_fish with password &apos;pwd-from-secrets.yml&apos;;
 create database ghost_fish;
 grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now we can use the yaml file to deploy Ghost. Beside deploying the pods, we also create a &lt;a href=&quot;https://github.com/5pi/services/blob/df95f43b1db833a49b6693000787b44d9a92624d/50_ghost_fish.yml#L13&quot;&gt;Ingress to configure Traefik&lt;/a&gt;. This routes requests for &lt;code class=&quot;language-text&quot;&gt;5pi.de&lt;/code&gt; to service &lt;code class=&quot;language-text&quot;&gt;ghost-fish&lt;/code&gt; on port 80 which is defined above and maps to the Ghost deployment&lt;/p&gt;
@@ -2545,11 +2545,11 @@ To automatically update the instances, you can specify a UpdatePolicy requiring 
 &lt;p&gt;Fortunately CloudFormation offers a UpdatePolicy option WaitOnResourceSignals which can be used to signal that any new consul node coming up connects sucessfully to the cluster before the any new instance gets terminated.&lt;/p&gt;
 &lt;h1 id=&quot;updatepolicy&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#updatepolicy&quot; aria-label=&quot;updatepolicy permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UpdatePolicy&lt;/h1&gt;
 &lt;p&gt;The changes to the CloudFormation template are straight forward. In the AutoScalingGroup we add a &lt;code class=&quot;language-text&quot;&gt;UpdatePolicy&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;WaitOnResourceSignals: true&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;UpdatePolicy&amp;quot; : {
-  &amp;quot;AutoScalingRollingUpdate&amp;quot; : {
-    &amp;quot;MinInstancesInService&amp;quot; : 2,
-    &amp;quot;PauseTime&amp;quot; : &amp;quot;PT15M&amp;quot;,
-    &amp;quot;WaitOnResourceSignals&amp;quot; : true
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&quot;UpdatePolicy&quot; : {
+  &quot;AutoScalingRollingUpdate&quot; : {
+    &quot;MinInstancesInService&quot; : 2,
+    &quot;PauseTime&quot; : &quot;PT15M&quot;,
+    &quot;WaitOnResourceSignals&quot; : true
   }
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If &lt;code class=&quot;language-text&quot;&gt;WaitOnResourceSignals&lt;/code&gt; is set,&lt;/p&gt;
@@ -2565,35 +2565,35 @@ AWS CloudFormation continues the update.&lt;/p&gt;
 &lt;p&gt;Once a new instance starts, we need to wait for consul to join the cluster and replicate. Since we need to guarantee that a new node actually joined the cluster, not some partition of it, we need something that goes through the raft log.
 When looking at the consul documentation, there are a few endpoint we could use. Unfortunately the documentation doesn’t state what the consistency guarantees of status endpoints like &lt;code class=&quot;language-text&quot;&gt;peers&lt;/code&gt; are, so &lt;a href=&quot;https://github.com/hashicorp/consul/issues/880&quot;&gt;I had to ask&lt;/a&gt;. Turns out, we can trust &lt;code class=&quot;language-text&quot;&gt;peers&lt;/code&gt;.
 With that knowing, we can simply wait for consul being ready as part of the UserData script, then signal success by using the &lt;code class=&quot;language-text&quot;&gt;cfn-signal&lt;/code&gt; tool:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;quot;UserData&amp;quot;: { &amp;quot;Fn::Base64&amp;quot; : { &amp;quot;Fn::Join&amp;quot; : [&amp;quot;&amp;quot;, [
-  &amp;quot;IP=$(ip addr show dev eth0|awk &amp;#39;/inet /{print $2}&amp;#39;|cut -d/ -f1)\n&amp;quot;,
-  &amp;quot;while ! curl -s http://localhost:8500/v1/status/peers | grep -q $IP:; do echo Waiting for consul; sleep 1; done\n&amp;quot;,
-  &amp;quot;cfn-signal --resource InfraScalingGroup --stack &amp;quot;, {&amp;quot;Ref&amp;quot;: &amp;quot;AWS::StackName&amp;quot;}, &amp;quot; --region &amp;quot;, {&amp;quot;Ref&amp;quot; : &amp;quot;AWS::Region&amp;quot;}, &amp;quot;\n&amp;quot;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&quot;UserData&quot;: { &quot;Fn::Base64&quot; : { &quot;Fn::Join&quot; : [&quot;&quot;, [
+  &quot;IP=$(ip addr show dev eth0|awk &apos;/inet /{print $2}&apos;|cut -d/ -f1)\n&quot;,
+  &quot;while ! curl -s http://localhost:8500/v1/status/peers | grep -q $IP:; do echo Waiting for consul; sleep 1; done\n&quot;,
+  &quot;cfn-signal --resource InfraScalingGroup --stack &quot;, {&quot;Ref&quot;: &quot;AWS::StackName&quot;}, &quot; --region &quot;, {&quot;Ref&quot; : &quot;AWS::Region&quot;}, &quot;\n&quot;
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1 id=&quot;ami&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ami&quot; aria-label=&quot;ami permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;AMI&lt;/h1&gt;
 &lt;p&gt;The ami runs consul on start and uses a IAM role with read-only EC2 access. Since we tagged all consul instances, this allows the init script to discover peers via the AWS API:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;URL=&amp;quot;http://169.254.169.254/latest/&amp;quot;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;URL=&quot;http://169.254.169.254/latest/&quot;
 ID=$(curl $URL/meta-data/instance-id)
 REGION=$(curl $URL/dynamic/instance-identity/document | \
   jq -r .region)
 
 SERVERS=$(aws --region $REGION ec2 describe-instances \
   --filters \
-  &amp;quot;Name=tag:aws:cloudformation:stack-id,Values=$STACK_ID&amp;quot; \
-  &amp;quot;Name=tag:role,Values=consul&amp;quot; \
-  &amp;quot;Name=instance-state-name,Values=running&amp;quot; | \
-    jq -r &amp;#39;.Reservations[].Instances[].PrivateIpAddress&amp;#39; \
+  &quot;Name=tag:aws:cloudformation:stack-id,Values=$STACK_ID&quot; \
+  &quot;Name=tag:role,Values=consul&quot; \
+  &quot;Name=instance-state-name,Values=running&quot; | \
+    jq -r &apos;.Reservations[].Instances[].PrivateIpAddress&apos; \
 )&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;We also need to check that SERVERS include the necessary number of peers to form a cluster. Since we’re using runit which restarts failing jobs, we just fail if we found less peers than expected and wait to get restarted:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if [ $(echo &amp;quot;$SERVERS&amp;quot; | wc -l) -lt $BOOTSTRAP_EXPECT ]
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;if [ $(echo &quot;$SERVERS&quot; | wc -l) -lt $BOOTSTRAP_EXPECT ]
 then
-  echo &amp;quot;Not enough peers, expected $BOOTSTRAP_EXPECT nodes but got $SERVERS&amp;quot;
+  echo &quot;Not enough peers, expected $BOOTSTRAP_EXPECT nodes but got $SERVERS&quot;
   exit 1
 fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Once all peers are up and running, we can start consul:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;exec /usr/bin/consul agent -data-dir /var/lib/consul \
   -config-dir=/etc/consul \
-  $(echo &amp;quot;$SERVERS&amp;quot; | sed &amp;#39;s/^/ -retry-join /&amp;#39; | tr -d &amp;#39;\n&amp;#39;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  $(echo &quot;$SERVERS&quot; | sed &apos;s/^/ -retry-join /&apos; | tr -d &apos;\n&apos;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h1 id=&quot;updating-the-stack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#updating-the-stack&quot; aria-label=&quot;updating the stack permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Updating the Stack&lt;/h1&gt;
 &lt;p&gt;With all this in place you can do a fully automated rolling upgrade while keeping a quorum. Just update the stack and you should get something like this while having a fully operable cluster:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/e458b67bbb060e2f44d87934ff67c7cd/output_710_280.gif&quot; alt=&quot;Update Stack Log&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Scope and Ownership in Tech Companies]]></title><description><![CDATA[My first job was a typical corporate job at a financial service provider after which I worked at large hosting company before joining…]]></description><link>https://5pi.de/2015/04/22/scope-and-ownership-in-tech-companies/</link><guid isPermaLink="false">https://5pi.de/2015/04/22/scope-and-ownership-in-tech-companies/</guid><pubDate>Wed, 22 Apr 2015 12:19:36 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
@@ -2779,7 +2779,7 @@ p
 w
 EOF
 DEV_DISK=$(losetup -f --show disk.img)
-DEV=/dev/mapper/$(kpartx -av $DEV_DISK | cut -d&amp;#39; &amp;#39; -f3)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+DEV=/dev/mapper/$(kpartx -av $DEV_DISK | cut -d&apos; &apos; -f3)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now you can mount &lt;code class=&quot;language-text&quot;&gt;$DEV&lt;/code&gt; and install your OS. Running &lt;code class=&quot;language-text&quot;&gt;update-grub&lt;/code&gt;/&lt;code class=&quot;language-text&quot;&gt;grub-mkconfig&lt;/code&gt; should detect and use the disk images UUID. On some systems it seems to require a unmount/detach and remount of the disk image, otherwise you end up with &lt;code class=&quot;language-text&quot;&gt;root=&lt;/code&gt; pointing &lt;code class=&quot;language-text&quot;&gt;/dev/loopX&lt;/code&gt;. To detach the mappings and loop device once you’re done, run:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;kpartx -d $DEV_DISK
 losetup -d $DEV_DISK&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -2810,10 +2810,10 @@ GOARCH=arm ./make.bash&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;With pure Go, cross compilation is trivial. This example:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;package main
 
-import &amp;quot;fmt&amp;quot;
+import &quot;fmt&quot;
 
 func main() {
-	fmt.Println(&amp;quot;Hello World&amp;quot;)
+	fmt.Println(&quot;Hello World&quot;)
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;can be cross-compiling for arm with &lt;code class=&quot;language-text&quot;&gt;GOARCH=arm go build test.go&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Now things get much more complicated once you use CGO, meaning Go code calling C functions.&lt;/p&gt;
@@ -2855,7 +2855,7 @@ GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
-I didn’t have time to benchmark it yet, but it seems to perform much better than I expected. Right now, it only scrapes itself, giving us ~250 time series. After running it for a few hours it already collected 137806 samples. Graphing a simple time series like &lt;code class=&quot;language-text&quot;&gt;process_goroutines&lt;/code&gt; for the past hour takes between 150-170ms. The probably most expensive operation you can do (and definitely shouldn’t do on a production system) is graphing &lt;em&gt;all&lt;/em&gt; time series by executing &lt;code class=&quot;language-text&quot;&gt;{job=~&amp;quot;.*&amp;quot;}&lt;/code&gt; this returns in about 30s on the Raspberry Pi.
+I didn’t have time to benchmark it yet, but it seems to perform much better than I expected. Right now, it only scrapes itself, giving us ~250 time series. After running it for a few hours it already collected 137806 samples. Graphing a simple time series like &lt;code class=&quot;language-text&quot;&gt;process_goroutines&lt;/code&gt; for the past hour takes between 150-170ms. The probably most expensive operation you can do (and definitely shouldn’t do on a production system) is graphing &lt;em&gt;all&lt;/em&gt; time series by executing &lt;code class=&quot;language-text&quot;&gt;{job=~&quot;.*&quot;}&lt;/code&gt; this returns in about 30s on the Raspberry Pi.
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
@@ -2902,7 +2902,7 @@ e206202bb07cc139eaabac4c51c07f0a332337eb331bd79f19294c558fb3de62  prometheus.arm
 baf550448174198c57f3a28e2b86d49ba523e5b15d9d4c087267021e4785299b  prometheus.armv7.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Find GHOSTs in your Docker images]]></title><description><![CDATA[A severe security vulnerability in glibc < 2.18, nicknamed GHOST was just reported.
 Here is a handy one-liner (Debian/Ubuntu only though) to…]]></description><link>https://5pi.de/2015/01/27/find-ghosts-in-your-docker-images/</link><guid isPermaLink="false">https://5pi.de/2015/01/27/find-ghosts-in-your-docker-images/</guid><pubDate>Tue, 27 Jan 2015 17:30:17 GMT</pubDate><content:encoded>&lt;p&gt;A severe security vulnerability in glibc &amp;#x3C; 2.18, nicknamed &lt;a href=&quot;http://www.openwall.com/lists/oss-security/2015/01/27/9&quot;&gt;GHOST&lt;/a&gt; was just reported.
 Here is a handy one-liner (Debian/Ubuntu only though) to walk through all your Docker images and see if they include a glibc older than 2.18:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker images -q | while read I; do V=`docker run --rm --entrypoint apt-cache $I policy libc6 2&amp;gt;/dev/null | awk &amp;#39; /Installed/ { print $2&amp;quot;\n&amp;quot;2.18 }&amp;#39;|sort -V|head -1`; if [ -z &amp;quot;$V&amp;quot; ]; then echo &amp;quot;$I not apt based&amp;quot; &amp;amp;&amp;amp; continue; fi;  [ &amp;quot;$V&amp;quot; == &amp;quot;2.18&amp;quot; ] || echo &amp;quot;$I is vulnerable&amp;quot;; done&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Monitor Docker Containers with Prometheus]]></title><description><![CDATA[Monitoring Docker Running all your services in containers makes it possible to get in-depth resource and performance characteristics, since…]]></description><link>https://5pi.de/2015/01/26/monitor-docker-containers-with-prometheus/</link><guid isPermaLink="false">https://5pi.de/2015/01/26/monitor-docker-containers-with-prometheus/</guid><pubDate>Mon, 26 Jan 2015 15:15:12 GMT</pubDate><content:encoded>&lt;h3 id=&quot;monitoring-docker&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#monitoring-docker&quot; aria-label=&quot;monitoring docker permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Monitoring Docker&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker images -q | while read I; do V=`docker run --rm --entrypoint apt-cache $I policy libc6 2&gt;/dev/null | awk &apos; /Installed/ { print $2&quot;\n&quot;2.18 }&apos;|sort -V|head -1`; if [ -z &quot;$V&quot; ]; then echo &quot;$I not apt based&quot; &amp;amp;&amp;amp; continue; fi;  [ &quot;$V&quot; == &quot;2.18&quot; ] || echo &quot;$I is vulnerable&quot;; done&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Monitor Docker Containers with Prometheus]]></title><description><![CDATA[Monitoring Docker Running all your services in containers makes it possible to get in-depth resource and performance characteristics, since…]]></description><link>https://5pi.de/2015/01/26/monitor-docker-containers-with-prometheus/</link><guid isPermaLink="false">https://5pi.de/2015/01/26/monitor-docker-containers-with-prometheus/</guid><pubDate>Mon, 26 Jan 2015 15:15:12 GMT</pubDate><content:encoded>&lt;h3 id=&quot;monitoring-docker&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#monitoring-docker&quot; aria-label=&quot;monitoring docker permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Monitoring Docker&lt;/h3&gt;
 &lt;p&gt;Running all your services in containers makes it possible to get in-depth resource and performance characteristics, since every container runs in their own cgroup and the Linux kernel provides us with all kind of useful metrics.&lt;/p&gt;
 &lt;p&gt;Although there are a few other Docker monitoring tools out there, I’ll show you why I think that SoundCloud’s &lt;a href=&quot;https://developers.soundcloud.com/blog/prometheus-monitoring-at-soundcloud&quot;&gt;newly released&lt;/a&gt; &lt;a href=&quot;https://prometheus.github.io/&quot;&gt;Prometheus&lt;/a&gt; is a perfect fit for monitoring container-based infrastructures.&lt;/p&gt;
 &lt;p&gt;Prometheus features a highly dimensional &lt;a href=&quot;http://prometheus.github.io/docs/concepts/data_model/&quot;&gt;data model&lt;/a&gt; in which a time series is identified by a metric name and a set of key-value pairs. A flexible &lt;a href=&quot;http://prometheus.github.io/docs/querying/basics/&quot;&gt;query language&lt;/a&gt; allows querying and graphing this data. It features advanced &lt;a href=&quot;http://prometheus.github.io/docs/concepts/metric_types/&quot;&gt;metric types&lt;/a&gt; like summaries, building &lt;a href=&quot;http://prometheus.github.io/docs/querying/functions/#rate()&quot;&gt;rates&lt;/a&gt; from totals over specified time spans or &lt;a href=&quot;http://prometheus.github.io/docs/querying/rules/&quot;&gt;alerting&lt;/a&gt; on any expression and has no dependencies, making it a dependable system for debugging during outages.&lt;/p&gt;
@@ -2916,9 +2916,9 @@ Here is a handy one-liner (Debian/Ubuntu only though) to walk through all your D
 &lt;p&gt;With Prometheus’s support for dimensional data, you can have global and straightforward metric names like &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes&lt;/code&gt; with multiple dimensions to identify the specific instances of your service.&lt;/p&gt;
 &lt;p&gt;I’ve created a simple &lt;a href=&quot;https://github.com/docker-infra/container_exporter&quot;&gt;container-exporter&lt;/a&gt; to gather Docker Container metrics and expose them for Prometheus to consume. This exporter uses the container’s name, id and image as dimensions. Additional per-exporter dimension can be set in the &lt;code class=&quot;language-text&quot;&gt;prometheus.conf&lt;/code&gt;.
 If you use the metric name directly as a query expression, it will return all time series with their labels for this metric name:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;23f731ee29ae12fef1ef6726e2fce60e5e37342ee9e35cb47e3c7a24422f9e88&amp;quot;,instance=&amp;quot;http://1.2.3.4:9088/metrics&amp;quot;,job=&amp;quot;container-exporter&amp;quot;,name=&amp;quot;haproxy-exporter-int&amp;quot;,image=&amp;quot;prom/haproxy-exporter:latest&amp;quot;}	11468800.000000
-container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;57690ddfd3bb954d59b2d9dcd7379b308fbe999bce057951aa3d45211c0b5f8c&amp;quot;,instance=&amp;quot;http://1.2.3.5:9088/metrics&amp;quot;,job=&amp;quot;container-exporter&amp;quot;,name=&amp;quot;haproxy-exporter&amp;quot;,image=&amp;quot;prom/haproxy-exporter:latest&amp;quot;}	16809984.000000
-container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267ebb3299af08a276e4ea6fd7bf3cb26632889d9394900adc832a302b4&amp;quot;,instance=&amp;quot;http://1.2.3.2:9088/metrics&amp;quot;,job=&amp;quot;container-exporter&amp;quot;,name=&amp;quot;node-exporter&amp;quot;,image=&amp;quot;prom/container-exporter:latest&amp;quot;}
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{env=&quot;prod&quot;,id=&quot;23f731ee29ae12fef1ef6726e2fce60e5e37342ee9e35cb47e3c7a24422f9e88&quot;,instance=&quot;http://1.2.3.4:9088/metrics&quot;,job=&quot;container-exporter&quot;,name=&quot;haproxy-exporter-int&quot;,image=&quot;prom/haproxy-exporter:latest&quot;}	11468800.000000
+container_memory_usage_bytes{env=&quot;prod&quot;,id=&quot;57690ddfd3bb954d59b2d9dcd7379b308fbe999bce057951aa3d45211c0b5f8c&quot;,instance=&quot;http://1.2.3.5:9088/metrics&quot;,job=&quot;container-exporter&quot;,name=&quot;haproxy-exporter&quot;,image=&quot;prom/haproxy-exporter:latest&quot;}	16809984.000000
+container_memory_usage_bytes{env=&quot;prod&quot;,id=&quot;907ac267ebb3299af08a276e4ea6fd7bf3cb26632889d9394900adc832a302b4&quot;,instance=&quot;http://1.2.3.2:9088/metrics&quot;,job=&quot;container-exporter&quot;,name=&quot;node-exporter&quot;,image=&quot;prom/container-exporter:latest&quot;}
 ...
 ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If you run lot of containers, this looks something like this:&lt;/p&gt;
@@ -2954,8 +2954,8 @@ container_memory_usage_bytes{env=&amp;quot;prod&amp;quot;,id=&amp;quot;907ac267e
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;To help you make sense of this data, you can filter and/or aggregate these metrics&lt;/p&gt;
 &lt;h4 id=&quot;slice--dice&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#slice--dice&quot; aria-label=&quot;slice  dice permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Slice &amp;#x26; Dice&lt;/h4&gt;
-&lt;p&gt;With Prometheus’s query language, you can slice and dice data by any dimension you want. If you’re interested in all containers with a given name, you can use an expression like &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{name=&amp;quot;consul-server&amp;quot;}&lt;/code&gt;, which would show only the time series for which &lt;code class=&quot;language-text&quot;&gt;name == &amp;quot;consul-server&amp;quot;&lt;/code&gt;.
-Prometheus also supports regular expressions, so instead of matching the full script you can do &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;}&lt;/code&gt;, which would show something like this:&lt;/p&gt;
+&lt;p&gt;With Prometheus’s query language, you can slice and dice data by any dimension you want. If you’re interested in all containers with a given name, you can use an expression like &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{name=&quot;consul-server&quot;}&lt;/code&gt;, which would show only the time series for which &lt;code class=&quot;language-text&quot;&gt;name == &quot;consul-server&quot;&lt;/code&gt;.
+Prometheus also supports regular expressions, so instead of matching the full script you can do &lt;code class=&quot;language-text&quot;&gt;container_memory_usage_bytes{name=~&quot;^consul&quot;}&lt;/code&gt;, which would show something like this:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
@@ -2988,8 +2988,8 @@ Prometheus also supports regular expressions, so instead of matching the full sc
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;You can use any other dimension for filtering as well, so you can get metrics about all containers on a given host, in a given environment or zone.&lt;/p&gt;
 &lt;h4 id=&quot;aggregation&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#aggregation&quot; aria-label=&quot;aggregation permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Aggregation&lt;/h4&gt;
-&lt;p&gt;Similar to Graphite, Prometheus supports aggregation functions but due to its dimensions this gets even more powerful. Summing up the memory usage of all your “consul-*” works as expected with &lt;code class=&quot;language-text&quot;&gt;sum(container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;})&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Now let’s say you want to see the difference in average memory usage between your ‘consul’ and ‘consul-server’ containers. This is achieved by providing the dimensions to keep in the aggregated result like this &lt;code class=&quot;language-text&quot;&gt;avg(container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;}) by (name)&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;Similar to Graphite, Prometheus supports aggregation functions but due to its dimensions this gets even more powerful. Summing up the memory usage of all your “consul-*” works as expected with &lt;code class=&quot;language-text&quot;&gt;sum(container_memory_usage_bytes{name=~&quot;^consul&quot;})&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now let’s say you want to see the difference in average memory usage between your ‘consul’ and ‘consul-server’ containers. This is achieved by providing the dimensions to keep in the aggregated result like this &lt;code class=&quot;language-text&quot;&gt;avg(container_memory_usage_bytes{name=~&quot;^consul&quot;}) by (name)&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
@@ -3020,27 +3020,27 @@ Prometheus also supports regular expressions, so instead of matching the full sc
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;If you have services in multiple zones and configure the zone name as an additional label pair, you can also keep that dimension to show the memory usage per name and zone by using an expression like &lt;code class=&quot;language-text&quot;&gt;avg(container_memory_usage_bytes{name=~&amp;quot;^consul&amp;quot;}) by (name,zone)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you have services in multiple zones and configure the zone name as an additional label pair, you can also keep that dimension to show the memory usage per name and zone by using an expression like &lt;code class=&quot;language-text&quot;&gt;avg(container_memory_usage_bytes{name=~&quot;^consul&quot;}) by (name,zone)&lt;/code&gt;.&lt;/p&gt;
 &lt;h4 id=&quot;using-prometheus--container-exporter&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#using-prometheus--container-exporter&quot; aria-label=&quot;using prometheus  container exporter permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Using Prometheus + Container-Exporter&lt;/h4&gt;
 &lt;p&gt;As you know, I like to run everything in containers, including the container-exporter and Prometheus itself. Running the &lt;a href=&quot;https://github.com/docker-infra/container_exporter&quot;&gt;container-exporter&lt;/a&gt; should be as easy as this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;docker run -p 8080:8080 -v /sys/fs/cgroup:/cgroup \
            -v /var/run/docker.sock:/var/run/docker.sock prom/container-exporter&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now you need to install Prometheus. For that refer to the &lt;a href=&quot;http://prometheus.github.io/docs/introduction/install/&quot;&gt;official documentation&lt;/a&gt;. To make Prometheus pull the metrics from the container-exporter, you need to add it as a target to the configuration. For example:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;job: {
-  name: &amp;quot;container-exporter&amp;quot;
-  scrape_interval: &amp;quot;1m&amp;quot;
+  name: &quot;container-exporter&quot;
+  scrape_interval: &quot;1m&quot;
   target_group: {
   	labels: {
 	    label: {
-    		name: &amp;quot;zone&amp;quot;
-        	value: &amp;quot;us-east-1&amp;quot;
+    		name: &quot;zone&quot;
+        	value: &quot;us-east-1&quot;
 	    }
         label: {
-        	name: &amp;quot;env&amp;quot;
-            value: &amp;quot;prod&amp;quot;
+        	name: &quot;env&quot;
+            value: &quot;prod&quot;
         }
     }
-    target: &amp;quot;http://1.2.3.4:8080/metrics&amp;quot;
+    target: &quot;http://1.2.3.4:8080/metrics&quot;
   }
 }&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now rebuild your image as described in the documentation and start it. Prometheus should now poll your container-exporter every 60s.&lt;/p&gt;
