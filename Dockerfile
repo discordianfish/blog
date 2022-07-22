@@ -1,4 +1,4 @@
-FROM node:13.7.0-stretch-slim
+FROM node:18-bullseye-slim
 
 COPY package.json /usr/src/
 WORKDIR /usr/src
