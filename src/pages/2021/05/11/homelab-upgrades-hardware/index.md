@@ -1,6 +1,6 @@
 ---
 title: 'Kubernetes at Home: Hardware'
-date: 2020-05-11T00:00:00
+date: 2021-05-11T00:00:00
 tags: [ kubernetes, homelab, IoT, hardware, zfs ]
 layout: post
 image: rack.jpg
