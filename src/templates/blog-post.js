@@ -1,10 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby-link'
 import get from 'lodash/get'
 
 import Bio from '../components/Bio'
 import typography from '../utils/typography'
+import { graphql } from 'gatsby'
 
 let rhythm = typography.rhythm
 let scale = typography.scale

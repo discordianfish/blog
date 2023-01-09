@@ -1,9 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby-link'
 import get from 'lodash/get'
 
 import typography from '../utils/typography'
-import styles from '../css/blog.module.css';
+import * as styles from '../css/blog.module.css';
+import { graphql } from 'gatsby'
 
 let rhythm = typography.rhythm
 let scale = typography.scale

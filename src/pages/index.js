@@ -1,17 +1,13 @@
 import React from 'react'
 
-import Link from 'gatsby-link'
-import Img from 'gatsby-image'
-
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
 import List from '../components/List'
-import typography from '../utils/typography'
-let rhythm = typography.rhythm
+import { graphql } from 'gatsby'
 
-import styles from '../css/blog.module.css';
+import * as styles from '../css/blog.module.css';
 
 class BlogIndex extends React.Component {
   render() {
@@ -45,32 +41,31 @@ export default BlogIndex
 
 
 export const pageQuery = graphql`
-  query IndexQuery {
-    site {
-      siteMetadata {
-        title
-      }
+query IndexQuery {
+  site {
+    siteMetadata {
+      title
     }
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date, frontmatter___index], order: DESC }
-      filter: { frontmatter: { tags: { ne: "page" } } }
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 350)
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            tags
-            index
-            image {
-              childImageSharp {
-                fluid(maxWidth: 400, maxHeight: 250) {
-                  ...GatsbyImageSharpFluid
-                }
+  }
+  allMarkdownRemark(
+    sort: [{frontmatter: {date: DESC}}, {frontmatter: {index: ASC}}]
+    filter: {frontmatter: {tags: {ne: "page"}}}
+  ) {
+    edges {
+      node {
+        excerpt(pruneLength: 350)
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          tags
+          index
+          image {
+            childImageSharp {
+              fluid(maxWidth: 400, maxHeight: 250) {
+                ...GatsbyImageSharpFluid
               }
             }
           }
@@ -78,4 +73,5 @@ export const pageQuery = graphql`
       }
     }
   }
+}
 `

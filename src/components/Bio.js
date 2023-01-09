@@ -6,7 +6,7 @@ import typography from '../utils/typography'
 
 let rhythm = typography.rhythm
 
-import Link from 'gatsby-link'
+import { Link } from 'gatsby-link'
 
 import '../fonts/fontello/css/fontello.css'
 

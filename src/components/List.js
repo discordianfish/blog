@@ -1,16 +1,14 @@
 import React from 'react'
 
-import Link from 'gatsby-link'
+import { Link } from 'gatsby-link'
 import Img from 'gatsby-image'
 
 import get from 'lodash/get'
-import Helmet from 'react-helmet'
 
-import Bio from '../components/Bio'
 import typography from '../utils/typography'
 let rhythm = typography.rhythm
 
-import styles from '../css/blog.module.css';
+import * as styles from '../css/blog.module.css';
 
 class List extends React.Component {
   render() {
