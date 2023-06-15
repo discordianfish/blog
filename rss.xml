@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[5π Consulting]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Sep 2021 14:44:41 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 15 Jun 2023 13:28:23 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
 day. Building an agile cloud native infrastructure for a high velocity AI based
 content moderation startup.]]></description><link>https://5pi.de/case-studies/koko/</link><guid isPermaLink="false">https://5pi.de/case-studies/koko/</guid><content:encoded>&lt;p&gt;From legacy infrastructure to over 100 million content moderation decisions per
 day.&lt;/p&gt;
@@ -8,10 +8,10 @@ content moderation startup.&lt;/p&gt;
 &lt;blockquote class=&quot;testimonial&quot;&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 643px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/edae78162912c3d499b8203214ecc783/e3f06/kareem.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 94.47852760736197%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUEBv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAa2DbKK6AI5JwHZDH//EAB4QAAIBAwUAAAAAAAAAAAAAAAIDAQAEERITIjEy/9oACAEBAAEFAnloWo5FlXI5Wnm6rjyuI3B6/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAx/9oACAEDAQE/AREIv//EABYRAAMAAAAAAAAAAAAAAAAAAAEQMf/aAAgBAgEBPwE1Gr//xAAcEAABAwUAAAAAAAAAAAAAAAABABEhAhAgIlL/2gAIAQEABj8ChDZwbPzKpEY//8QAHBABAQACAgMAAAAAAAAAAAAAAREAMRAhQVFh/9oACAEBAAE/IXoorLm2xk4p+ej3hNS3184TZesAYTGpXP/aAAwDAQACAAMAAAAQp8B8/8QAFxEBAAMAAAAAAAAAAAAAAAAAEQABEP/aAAgBAwEBPxAJ2uf/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAgEBPxBQP//EABsQAQACAwEBAAAAAAAAAAAAAAERIQAxURBB/9oACAEBAAE/EFsRzxOFCQFKd1O/DtND46Mqo0u4WjwwEQGB3eOYJZkq4xWJe5//2Q==&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Kareem Kouddous&quot; title=&quot;Kareem Kouddous&quot; src=&quot;/static/edae78162912c3d499b8203214ecc783/e3f06/kareem.jpg&quot; srcset=&quot;/static/edae78162912c3d499b8203214ecc783/d2f63/kareem.jpg 163w,
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 94.47852760736197%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUEBv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAa2DbKK6AI5JwHZDH//EAB4QAAIBAwUAAAAAAAAAAAAAAAIDAQAEERITIjEy/9oACAEBAAEFAnloWo5FlXI5Wnm6rjyuI3B6/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAx/9oACAEDAQE/AREIv//EABYRAAMAAAAAAAAAAAAAAAAAAAEQMf/aAAgBAgEBPwE1Gr//xAAcEAABAwUAAAAAAAAAAAAAAAABABEhAhAgIlL/2gAIAQEABj8ChDZwbPzKpEY//8QAGxABAAIDAQEAAAAAAAAAAAAAAQARECExQVH/2gAIAQEAAT8hexUrVzrY1WLP3w+wnJd1hOt6gDRUalZ//9oADAMBAAIAAwAAABDnx3z/xAAVEQEBAAAAAAAAAAAAAAAAAAARIP/aAAgBAwEBPxAJi//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/EFA//8QAGxABAAIDAQEAAAAAAAAAAAAAAREhADFREEH/2gAIAQEAAT8QWxHPE4UJAUp3U78O00PjoyqjS7gXHgkEUYHd45gpmSrjFYl7n//Z&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Kareem Kouddous&quot; title=&quot;&quot; src=&quot;/static/edae78162912c3d499b8203214ecc783/e3f06/kareem.jpg&quot; srcset=&quot;/static/edae78162912c3d499b8203214ecc783/d2f63/kareem.jpg 163w,
 /static/edae78162912c3d499b8203214ecc783/c989d/kareem.jpg 325w,
-/static/edae78162912c3d499b8203214ecc783/e3f06/kareem.jpg 643w&quot; sizes=&quot;(max-width: 643px) 100vw, 643px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+/static/edae78162912c3d499b8203214ecc783/e3f06/kareem.jpg 643w&quot; sizes=&quot;(max-width: 643px) 100vw, 643px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
   &lt;/a&gt;
     &lt;/span&gt;
   &lt;code&gt;Working with Johannes enabled us to dramatically accelerate product
@@ -28,12 +28,12 @@ throughput application.
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 14.723926380368097%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAO0lEQVQI12NgwA2YgVgBylYHYm8om5GBTCAMxClA7A/E+UCcCjWUj1wD2YFYA4jtoIYaALEqELPi0wQAk0gDoAlOQyYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 14.723926380368097%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAATElEQVR42p3OMQ5AUBQF0UOsQTQSlepv4DcKjR0IpV1YvuZJEIWYZpKbKS7vFOEWDSrM6PykDE/YsGDHivxoPnE+rJEwYkAf27W5cQCpygO/6AbFGQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Logo&quot;
-        title=&quot;Logo&quot;
+        title=&quot;&quot;
         src=&quot;/static/1bc80e2cb128767187e1830cdeb8d580/0a47e/logo-wide.png&quot;
         srcset=&quot;/static/1bc80e2cb128767187e1830cdeb8d580/222b7/logo-wide.png 163w,
 /static/1bc80e2cb128767187e1830cdeb8d580/ff46a/logo-wide.png 325w,
@@ -41,6 +41,7 @@ throughput application.
         sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The Internet can be a scary place. Koko keeps your community safe by using AI to
@@ -102,12 +103,12 @@ GPU instances and back to zero after the jobs finished.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 47.852760736196316%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAABr0lEQVQozz1Su64UMQydL4Gdl+0kzjs72Xns3EUIQYGAEgmJ6kq0lHwHQtDQICoaKj4Qjy5COrEcv+LjuMll8jHFXHzMLsQRqTtB30L7eOxPkH1mdmyddd6wNeyUZh+i80GURg6gartBITsbhx7tB9bvVLpP06ccPjpIxPrI7PpRKWb2Ej8C9QM0pUwxlr4Dfm3DvcdV3b5t29d5+hGf/tkvvxIuquZFGpRo79N82YiMpISQGx+S5djxGN77y7OF3tL+eb19ucbv9u73Un6GsWL2k/A6tb3WttYFQKV8LqU2fQ8PED4l1ZEIXiA8B3qp8Q2qV2rQ2J4G6VOeVcRtO0gLQlNqNUIDUQvEceigsTPYamjV8AhFOSyopVVj3P9guY4jNaIZZ0nJRYEAlFhkJA9TQdLasEix/3OJhMM4jNj4HFzykq+ZibTSRhtDSltvUUpaKxAjaSMlkMRlAOW7HCA1aa55rWmtZZ/zdinX+cC+nG8rAJ2Xc92naSvzk6Vea92m+a7WdVpuF/bchBBlEj4WtuEoTHxAuBHLFGUfUowiQjrLtihlFBlpRLZjGPAvJN9vHGWv5y8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 47.852760736196316%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAABs0lEQVR42k2Qva7UQAyF8yTcTTLx78x4MvlPdrMXXRASQkhUVLeioaCi5S1AFEg0UNHQ8YAobIP1FUc6tnzsIneDpdzm3tocrHVAVQl1ieVdU5fYWfY++BBDNPVBfWTxZm2MiUULkQDIZemEgsXW1RQ/eHmU7n03furTR4OWvJr6WNUNi/fBALkBquqmGPo5pa6uILwJ9s7ozPff9svXZfzZPvzZp18ZZ576tevHuoaUumU5I0rOg1kuzHLQVEWXHtP8bKO3tH/Z9s9b/h6uv5f+hzUDZBva3J/KWjSM4wJAuRtyHoq6hhvqY5+nBql5Ac1z4JcMr5FesWMsTw6ALWUiLUtXOygrd3eqCmaPKIhCpMyKIFgewIndEzo0HC6TisT/m53DAlF8DMQKDQMwgCAJkNy+Qqyix8A/i28CUUS9c1BYl2JnGoMGTywsKt4zS2gjEmuMGgOrsngiRVISPfaZNUhFXqfusnTnedjX/rL0l2XY1+G6DfcbAE3nYblO82VYH7Z5n+bLuN5P03ncni4SfBFjCrENlkXikRn1BoBWdRNisqNStCwaiASRiY6bq6r5Cx4cbuUeiufFAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Autoscaling Dashboard&quot;
-        title=&quot;Autoscaling Dashboard&quot;
+        title=&quot;&quot;
         src=&quot;/static/11142449492391c031ce5b468b20afc4/a6d36/autoscaling.png&quot;
         srcset=&quot;/static/11142449492391c031ce5b468b20afc4/222b7/autoscaling.png 163w,
 /static/11142449492391c031ce5b468b20afc4/ff46a/autoscaling.png 325w,
@@ -117,6 +118,7 @@ GPU instances and back to zero after the jobs finished.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -156,12 +158,12 @@ logs as well as integrate them into Grafana dashboards.&lt;/p&gt;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 69.32515337423312%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACh0lEQVQozz2Sa0/bMBSG80cmoE18i53Yca7NrbeEtlxaVtCgYozLKgpjGpuYQNokPmz/ZdrnaZ/313ZKN6Q3R6/tY5+TxzZcVzEmbNuJolaSZEmSah0wyjl3KeWrJYhCyKfVDAwMQZBgwNc0iWlRiM0mboBnwiQcZhpNhDEDIURBlkVME4NZzRBiG1q6LY+3ONc2Z8Qug2C21dkfZAqKY2pahMD+pw2QvTprOUSUwuZuEp4P8+NhMavii1F2s9d+OOxe7hSLcSfVLjRiE5thRjGDo5fxSUtDubHTS+9OBp9fD26PqvuTzbvj+sNR/WlWfzkdlKGCf1k1aa06/2/+td2K/P1hMamz6SDf2wQVLwdLHYxKLR1IFdwFZs8CRitgIEO6UvuxUj4IjHA1tV1mu5hw4OcIEYaJJ71AB1qHwpFSapsJBCygMucOwVRKz/N8xjhCwNzCGOAjIVyoA8yeOYMXjqLMWW9YCFPD5u6aSdabZK2BQRsNbCECLWHEEGbQg8dtuDbLosp1tWCC2oGvM18vaSulFuP2xbhzvlWcDMs3Wz14GZyL1OEtxrdD76L2BSINE4+K+GrSWUzat/vdh1m1mQZGGYc/r8a/301+3Uz/3E5/zHcxIuMiup927qa9+9ng2+n2WZW82LCqIr4+qucH/bcH1eKwHrUjI9D+4qD38bD//lX18Lq6nrZNk+z28++LyeN8/PVs9DjfuZz21hpIuspxHFc6SgEheKTcgLfdzaJeHvfyqCpb7TQ2LaykrMtWv4j7RVIXSayliWicpHGc+V4QR2kUpZQKIwzjvOjFrUJKpbxIqhBQw/WkeReuQHoh42p9A2GL5FnZ6fbDMCrLTlG0AepfdFO0K28O5UQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 69.32515337423312%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACnElEQVR42i1R2U4cVxDtH7HA03erumv37X0bpmcBAwPMGOyEALYwkATHTuJYeHuw5F+x36M85+eiJpaOSnVOqVTnqAJrY0QtpU7TPMvKLC3iKAFQEg2ARFSIGkApZYdpViplAdT9igmUtoQCZUCICEM+osCV5WgIg1HIGQfOkTFgDCgVhHDGvitCyMA713jVap0prUD2WXaxnDzdrRNUWmBIueDIhwUAIQXH75QNNJhV+dXe+GJ/fLaofl52r9aTux/6m4Pu5apvvBsRIYVEjsARhRzqPYAjgAr2+/rt+fbd+fafP87vLnbeni3+OJ3/dbr49HxnK49GIecc6eAZGENKBaXi/xSD7SJNDhfdXl8dzJv92T3m7XLeHi66yGjK0JhIKau11drdN05KI6VB1IG1LvK5ixLnfBTnUkdMKAGaUAxDbrROsyJycRIn3qdKO2c9oqZ0cBQoZRgT1kZR5BEkpTwMKecQEjYcUTYkfBAJYxwJFUpHIM1myBiDQCq7QWEzFBsjthGKh2SIBKgFl4yBRcyMIhQIFT5ymVFOqjJNJkUqQQZx7N8cT18fz14d9beH019X21qi1WYr1mOtj0r/y24eCxgRvtsVvz3uX64nb06mH35aPGqyoM3zrzcH/9we/n27/vf16tvVkjNxNC4+Pu3vnszenz368nx5tVM/2KR9k18/mT9b9xfr2YuT2XaXB0nsL1dbtyfTm+Pp76fTF6uOUL47qT9fH3y8XL473/l0uXf9eLo5YtY4pYzWxhjrnBMgA+fivin6tuybfNbV47qgTMQumnVV3+R9W07bIo0sZVBWTd2M0ySrqraq2uFV3qdl3WV5ba2zLrEu4VwkSVZUnTWDgtI+HDFGeVlUbTv2Pq2qpixrRPUfAsizXV2ill0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Stream Processing Dashboard&quot;
-        title=&quot;Stream Processing Dashboard&quot;
+        title=&quot;&quot;
         src=&quot;/static/87a6eb80f7df852d72c949c282e58488/a6d36/streamprocessing.png&quot;
         srcset=&quot;/static/87a6eb80f7df852d72c949c282e58488/222b7/streamprocessing.png 163w,
 /static/87a6eb80f7df852d72c949c282e58488/ff46a/streamprocessing.png 325w,
@@ -171,6 +173,7 @@ logs as well as integrate them into Grafana dashboards.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;
 When Koko’s API receives content to classify, it needs to archive to S3 them for
@@ -199,8 +202,8 @@ DevOps strategy. Debugging a ELB/ECS based pilot deployment.&lt;/p&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 268px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho52aFLDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJb+cQib4k7SflNi9hKpkqTC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEEAgEFAAAAAAAAAAAAAAEAAhExECEDEhNBUXH/2gAIAQEABj8CmJ9BdPKG7qMfNoQKxcQfC7jdOKDja//EABwQAAIBBQEAAAAAAAAAAAAAAAERABAhMUFRcf/aAAgBAQABPyHfRroYtBbjweUFdDZIOPRflNFrQgSIgGovFuT/2gAMAwEAAgADAAAAEKzIQP/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EAFMJ//EABYRAQEBAAAAAAAAAAAAAAAAAAERIP/aAAgBAgEBPxBW4//EAB0QAQACAQUBAAAAAAAAAAAAAAEAESEQMUFRYbH/2gAIAQEAAT8QFSnBOTYhhiMh2Wv6aU64Aem0AwFNzbvF37FiMc8NRY4XlhIrgGO9mCeLBrRP/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;Alexander Kong&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
-/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
+/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
   &lt;/a&gt;
     &lt;/span&gt;
   &lt;code&gt;
@@ -241,8 +244,8 @@ infrastructure which is powering the platform ever since.&lt;/p&gt;
   &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 268px; &quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho52aFLDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJb+cQib4k7SflNi9hKpkqTC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEEAgEFAAAAAAAAAAAAAAEAAhExECEDEhNBUXH/2gAIAQEABj8CmJ9BdPKG7qMfNoQKxcQfC7jdOKDja//EABwQAAIBBQEAAAAAAAAAAAAAAAERABAhMUFRcf/aAAgBAQABPyHfRroYtBbjweUFdDZIOPRflNFrQgSIgGovFuT/2gAMAwEAAgADAAAAEKzIQP/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EAFMJ//EABYRAQEBAAAAAAAAAAAAAAAAAAERIP/aAAgBAgEBPxBW4//EAB0QAQACAQUBAAAAAAAAAAAAAAEAESEQMUFRYbH/2gAIAQEAAT8QFSnBOTYhhiMh2Wv6aU64Aem0AwFNzbvF37FiMc8NRY4XlhIrgGO9mCeLBrRP/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;Alexander Kong&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
-/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
+/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
   &lt;/a&gt;
     &lt;/span&gt;
   &lt;code&gt;
@@ -272,7 +275,7 @@ policies that grant only the necessary permissions.&lt;/p&gt;
 &lt;p&gt;Whether you need consulting, troubleshooting or hands-on help with building your
 infrastructure, &lt;a href=&quot;/hire-me&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Kubernetes at Home: Hardware]]></title><description><![CDATA[Diagram of Rack
 Disclaimer: While writing this article, I realize I could use Affiliate
-Links to the stuff I bought. So I gave it a try…]]></description><link>https://5pi.de/2021/05/11/homelab-upgrades-hardware/</link><guid isPermaLink="false">https://5pi.de/2021/05/11/homelab-upgrades-hardware/</guid><pubDate>Mon, 11 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/cf961ab6f525e753f89b5214b319e447/rack.svg&quot; alt=&quot;Diagram of Rack&quot;&gt;
+Links to the stuff I bought. So I gave it a try…]]></description><link>https://5pi.de/2021/05/11/homelab-upgrades-hardware/</link><guid isPermaLink="false">https://5pi.de/2021/05/11/homelab-upgrades-hardware/</guid><pubDate>Tue, 11 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/cf961ab6f525e753f89b5214b319e447/rack.svg&quot; alt=&quot;Diagram of Rack&quot;&gt;
 &lt;strong&gt;Disclaimer:&lt;/strong&gt; &lt;em&gt;While writing this article, I realize I could use Affiliate
 Links to the stuff I bought. So I gave it a try. Lemme know if that bothers
 you&lt;/em&gt;.&lt;/p&gt;
@@ -305,12 +308,12 @@ my Kubernetes-At-Home setup and start a blog series about it.&lt;/p&gt;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIFBP/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAZrPoCnlIR//xAAaEAADAAMBAAAAAAAAAAAAAAAAAgMBERRB/9oACAEBAAEFAkZteYJzyctGOOh//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgEFAAAAAAAAAAAAAAAAAAEQITEyQZH/2gAIAQEABj8CmjuaZiun/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERIUFRYYGR/9oACAEBAAE/IW4JeUU2w+XRdXsw/oR6cG2JIf/aAAwDAQACAAMAAAAQON//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EI5pGf/EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQIBAT8Q0Xlpf//EAB0QAQEAAgEFAAAAAAAAAAAAAAERACExQWFxwdH/2gAIAQEAAT8Qd2SwBoeDNI7ygVduMQjI0SGKEGvl6vWG6BxfrgiKZ//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIFAwT/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAGaz7hcBREf/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAIBAxQRMf/aAAgBAQABBQJHbnsQV1yZbWMlh//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAECAQE/AYf/xAAbEAACAQUAAAAAAAAAAAAAAAAAARAhMTJBof/aAAgBAQAGPwKaO5pmPT//xAAbEAACAgMBAAAAAAAAAAAAAAABIQBBEVFhkf/aAAgBAQABPyEjADxREo9IxHDT1KfniVUbMA6z/9oADAMBAAIAAwAAABCY3//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QjmkZ/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxCs8Kj/xAAdEAEBAAICAwEAAAAAAAAAAAABEQAhQWExUXHR/9oACAEBAAE/EGuoWBBD4ZoOGhY6yEZVEjEiBXlaesh8hxf1wRFW+uf/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Photo of Rack&quot;
-        title=&quot;Photo of Rack&quot;
+        title=&quot;&quot;
         src=&quot;/static/b65430bbc3db885e329c7095246c11f7/6aca1/rack.jpg&quot;
         srcset=&quot;/static/b65430bbc3db885e329c7095246c11f7/d2f63/rack.jpg 163w,
 /static/b65430bbc3db885e329c7095246c11f7/c989d/rack.jpg 325w,
@@ -321,6 +324,7 @@ my Kubernetes-At-Home setup and start a blog series about it.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;While I’d love to have a full rack with real network gear and servers as much as
@@ -335,7 +339,7 @@ another consideration.&lt;/p&gt;
   are plenty of other options like &lt;a href=&quot;https://amzn.to/3t3uzXe&quot;&gt;this&lt;/a&gt;
   &lt;/p&gt;
   &lt;p&gt;
-  &lt;a href=&quot;https://www.amazon.de/Good-Connections%C2%AE-Wandgeh%C3%A4use-unmontiert-tiefschwarz/dp/B08FTH3ZBJ/ref=as_li_ss_il?crid=3CV1OP8QINXMK&amp;dchild=1&amp;keywords=good+connections+19%22+wandgeh%C3%A4use&amp;qid=1619774239&amp;sprefix=good+connections+19,aps,192&amp;sr=8-3&amp;th=1&amp;linkCode=li3&amp;tag=5pi-21&amp;linkId=3935e1373aedb1f800abbbe0bec6fe9e&amp;language=de_DE&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B08FTH3ZBJ&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=DE&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=5pi-21&amp;language=de_DE&quot; &gt;&lt;/a&gt;&lt;img src=&quot;https://ir-de.amazon-adsystem.com/e/ir?t=5pi-21&amp;language=de_DE&amp;l=li3&amp;o=3&amp;a=B08FTH3ZBJ&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;
+  &lt;a href=&quot;https://www.amazon.de/Good-Connections%C2%AE-Wandgeh%C3%A4use-unmontiert-tiefschwarz/dp/B08FTH3ZBJ/ref=as_li_ss_il?crid=3CV1OP8QINXMK&amp;amp;dchild=1&amp;amp;keywords=good+connections+19%22+wandgeh%C3%A4use&amp;amp;qid=1619774239&amp;amp;sprefix=good+connections+19,aps,192&amp;amp;sr=8-3&amp;amp;th=1&amp;amp;linkCode=li3&amp;amp;tag=5pi-21&amp;amp;linkId=3935e1373aedb1f800abbbe0bec6fe9e&amp;amp;language=de_DE&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;amp;ASIN=B08FTH3ZBJ&amp;amp;Format=_SL250_&amp;amp;ID=AsinImage&amp;amp;MarketPlace=DE&amp;amp;ServiceVersion=20070822&amp;amp;WS=1&amp;amp;tag=5pi-21&amp;amp;language=de_DE&quot;&gt;&lt;/a&gt;&lt;img src=&quot;https://ir-de.amazon-adsystem.com/e/ir?t=5pi-21&amp;amp;language=de_DE&amp;amp;l=li3&amp;amp;o=3&amp;amp;a=B08FTH3ZBJ&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot;&gt;
   &lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&quot;display: flex&quot;&gt;
@@ -345,7 +349,7 @@ Unfortunately I can&apos;t find anything similar on US Amazon. This was also the
 hardest to find component. So if you have the space, just go with a bigger rack
 and case&lt;/p&gt;
   &lt;p&gt;
-  &lt;a href=&quot;https://www.amazon.de/gp/product/B072F4CYKP/ref=as_li_ss_il?ie=UTF8&amp;linkCode=li3&amp;tag=5pi-21&amp;linkId=a4bb79f1379ca883ece0bdb284260ae2&amp;language=de_DE&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B072F4CYKP&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=DE&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=5pi-21&amp;language=de_DE&quot; &gt;&lt;/a&gt;&lt;img src=&quot;https://ir-de.amazon-adsystem.com/e/ir?t=5pi-21&amp;language=de_DE&amp;l=li3&amp;o=3&amp;a=B072F4CYKP&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://www.amazon.de/gp/product/B072F4CYKP/ref=as_li_ss_il?ie=UTF8&amp;amp;linkCode=li3&amp;amp;tag=5pi-21&amp;amp;linkId=a4bb79f1379ca883ece0bdb284260ae2&amp;amp;language=de_DE&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;amp;ASIN=B072F4CYKP&amp;amp;Format=_SL250_&amp;amp;ID=AsinImage&amp;amp;MarketPlace=DE&amp;amp;ServiceVersion=20070822&amp;amp;WS=1&amp;amp;tag=5pi-21&amp;amp;language=de_DE&quot;&gt;&lt;/a&gt;&lt;img src=&quot;https://ir-de.amazon-adsystem.com/e/ir?t=5pi-21&amp;amp;language=de_DE&amp;amp;l=li3&amp;amp;o=3&amp;amp;a=B072F4CYKP&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot;&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&quot;display: flex&quot;&gt;
   &lt;p style=&quot;width: 50%&quot;&gt;I&apos;ve decided to use the Super Micro A2SDi-2C-HLN4F-B
@@ -355,8 +359,8 @@ and can power it directly from 12V,
 so bought a &lt;a href=&quot;https://amzn.to/3gR28sU&quot;&gt;80W 12V MeanWell PSU&lt;/a&gt; (&lt;a href=&quot;https://amzn.to/2RafV3d&quot;&gt;DE&lt;/a&gt;)
   &lt;/p&gt;
   &lt;p&gt;
-  &lt;a href=&quot;https://www.amazon.com/Supermicro-Motherboard-MBD-A2SDI-4C-HLN4F-B-Mini-ITX-Express/dp/B077BHMN8X?dchild=1&amp;keywords=A2SDi-2C-HLN4F-B&amp;qid=1619774725&amp;sr=8-1&amp;linkCode=li3&amp;tag=5pi-20&amp;linkId=59609640fb184ba633fe6353d29fea8e&amp;language=en_US&amp;ref_=as_li_ss_il&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B077BHMN8X&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=5pi-20&amp;language=en_US&quot; &gt;&lt;/a&gt;&lt;img src=&quot;https://ir-na.amazon-adsystem.com/e/ir?t=5pi-20&amp;language=en_US&amp;l=li3&amp;o=1&amp;a=B077BHMN8X&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;
-&lt;br /&gt;(&lt;a href=&quot;https://amzn.to/3nBPuzC&quot;&gt;DE&lt;/a&gt;)
+  &lt;a href=&quot;https://www.amazon.com/Supermicro-Motherboard-MBD-A2SDI-4C-HLN4F-B-Mini-ITX-Express/dp/B077BHMN8X?dchild=1&amp;amp;keywords=A2SDi-2C-HLN4F-B&amp;amp;qid=1619774725&amp;amp;sr=8-1&amp;amp;linkCode=li3&amp;amp;tag=5pi-20&amp;amp;linkId=59609640fb184ba633fe6353d29fea8e&amp;amp;language=en_US&amp;amp;ref_=as_li_ss_il&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;amp;ASIN=B077BHMN8X&amp;amp;Format=_SL250_&amp;amp;ID=AsinImage&amp;amp;MarketPlace=US&amp;amp;ServiceVersion=20070822&amp;amp;WS=1&amp;amp;tag=5pi-20&amp;amp;language=en_US&quot;&gt;&lt;/a&gt;&lt;img src=&quot;https://ir-na.amazon-adsystem.com/e/ir?t=5pi-20&amp;amp;language=en_US&amp;amp;l=li3&amp;amp;o=1&amp;amp;a=B077BHMN8X&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot;&gt;
+&lt;br&gt;(&lt;a href=&quot;https://amzn.to/3nBPuzC&quot;&gt;DE&lt;/a&gt;)
   &lt;/p&gt;
 &lt;/div&gt;
 &lt;div style=&quot;display: flex&quot;&gt;
@@ -364,7 +368,7 @@ so bought a &lt;a href=&quot;https://amzn.to/3gR28sU&quot;&gt;80W 12V MeanWell P
 bay, currently with 4x5TB disks and enough room for upgrades
   &lt;/p&gt;
   &lt;p&gt;
-  &lt;a href=&quot;https://www.amazon.de/gp/product/B082BR71DY/ref=as_li_ss_il?ie=UTF8&amp;linkCode=li3&amp;tag=5pi-21&amp;linkId=b0227785164e228e852a35fc66c69e4a&amp;language=de_DE&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B082BR71DY&amp;Format=_SL250_&amp;ID=AsinImage&amp;MarketPlace=DE&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=5pi-21&amp;language=de_DE&quot; &gt;&lt;/a&gt;&lt;img src=&quot;https://ir-de.amazon-adsystem.com/e/ir?t=5pi-21&amp;language=de_DE&amp;l=li3&amp;o=3&amp;a=B082BR71DY&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;
+  &lt;a href=&quot;https://www.amazon.de/gp/product/B082BR71DY/ref=as_li_ss_il?ie=UTF8&amp;amp;linkCode=li3&amp;amp;tag=5pi-21&amp;amp;linkId=b0227785164e228e852a35fc66c69e4a&amp;amp;language=de_DE&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;amp;ASIN=B082BR71DY&amp;amp;Format=_SL250_&amp;amp;ID=AsinImage&amp;amp;MarketPlace=DE&amp;amp;ServiceVersion=20070822&amp;amp;WS=1&amp;amp;tag=5pi-21&amp;amp;language=de_DE&quot;&gt;&lt;/a&gt;&lt;img src=&quot;https://ir-de.amazon-adsystem.com/e/ir?t=5pi-21&amp;amp;language=de_DE&amp;amp;l=li3&amp;amp;o=3&amp;amp;a=B082BR71DY&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot;&gt;
   &lt;/p&gt;
 &lt;/div&gt;
 Also bought patch panel, PDU and a tray to mount the non-rackable equipment.
@@ -401,12 +405,12 @@ more an infrastructure framework than just a container scheduler…]]></descript
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 49.079754601226995%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABtElEQVQoz31STUsCYRD23/hLolM3TxIKmadC7SCCkAfBKMlDHoLCIuzgxUNI3aKUEPESHQoJk3Qto9b8aDfdz/dp913frS1oYJZn5h2emZ1nXIQQUCM6oM/cDOmHgPzjVokTu0ygqDpeJaD1CXSmgChpNqnOGhjFDDPTNM3G7M1FDNAzSFoPTfSOttC6OMP9h4aJrLE5IUmSg8QkZzmTSFVVG7veBQXNsQrueAdieA5viSXcPT6hPVZoUaVSQSAQQD6fR6lUQjweRzKZRDgcRq1WozgUCqHdblsT9gTdCJ7weHON8cEmnq/O0by9Q3NoEQaDy6jX6/B6vfB4PCgUCpTEbOR2u5HL5WizdDptEaqajo6ggi/u42V9EYNsDA+dHoaStZPLyzKdxu/3I5vNgud5pFIp2iASiSCTydB3juMsQlNJ0VhV/3AD1ZUFcAkfRq9vM+EtUlmW7R0OBgNEo1H4fD6Uy2WaUxTle4dM8klxF+LaPMTtVZAhPzslp7IMd7tdNBoNW32nyrOEXD2FsBvD9GQPZCI6buyn/27w5w7tYCpCH/WhCyP7V/87YEb2c0rTvgD9d9LwP1fZRgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 49.079754601226995%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABvklEQVR42p2SQW8SQRTH+T58Bj7BxrsXr0QREjiUlgS5UE0qSQ96qBdOVUpIMF6wFyInbiQtppGUxiy7pg0uh+IuLAu7Mz+zA9StPZj4T2bmzbx5/5n3fy9GBEJIhJRIIflfxMJJSvjlBYxcwdAJuPYE3kqoC1L51w+E63ZE90TuKEJnKfhur/hxesLPt3tcXlwwciEI1qSu62JZlrJnsxm2bTOZTNR5iPF4jOd5a0LfDzAcwdXwCuvVM+ychv7hiG9Tn9u5z2rpsb//kkwmQ6vVolwuUyqVyGazVCoVms0mqVRK2eEvYytfMJouMYdDbr58ZnZ8yOj8jEv9mhnQPz9jd3ePXq9HPB6n0Wgo0k6nQ6FQIJFIMBgMSKfTmKYZpiyxBRj6iMnBc8zCY6yPVXQXRBCoNKrVqgrI5/P0+3263a76oaZp1Ot1crkctVpto2EobKiNqWO8eEIv/YjbkzcslNLiXgWDzQPtdptkMkmxWLzT7k9RNoaY3OC+fspiR8M7PYZt+ZEIIVTAdg1hGAaO49yRhb57hNKZsvj0jvn7A/yv3QjhQ/zdKg/6cBssVx7Sm4e5/bOBoz0YJfwNnynUhBQ1/uUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;argo&quot;
-        title=&quot;argo&quot;
+        title=&quot;&quot;
         src=&quot;/static/a099ca3512e83579d67b0aa9ede5261a/f7a31/argo.png&quot;
         srcset=&quot;/static/a099ca3512e83579d67b0aa9ede5261a/222b7/argo.png 163w,
 /static/a099ca3512e83579d67b0aa9ede5261a/ff46a/argo.png 325w,
@@ -414,6 +418,7 @@ more an infrastructure framework than just a container scheduler…]]></descript
         sizes=&quot;(max-width: 458px) 100vw, 458px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -476,7 +481,7 @@ Kubernetes with the following annotations set:&lt;/p&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k8s-webhook-handler.io/before&lt;/code&gt;: The SHA of the most recent commit on ref before the push.&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k8s-webhook-handler.io/repo_name&lt;/code&gt;: Repo name including user (e.g. airbnb/k8s-webhook-handler)&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k8s-webhook-handler.io/repo_url&lt;/code&gt;: git URL (e.g. git://github.com/airbnb/k8s-webhook-handler.git)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k8s-webhook-handler.io/repo_ssh&lt;/code&gt;: ssh URL (e.g. git@github.com:airbnb/k8s-webhook-handler.git)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k8s-webhook-handler.io/repo_ssh&lt;/code&gt;: ssh URL (e.g. &lt;a href=&quot;mailto:git@github.com&quot;&gt;git@github.com&lt;/a&gt;:airbnb/k8s-webhook-handler.git)&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k8s-webhook-handler.io/event_type&lt;/code&gt;: Event type (e.g. &lt;code class=&quot;language-text&quot;&gt;push&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;delete&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k8s-webhook-handler.io/event_action&lt;/code&gt;: Event type specific action (e.g. &lt;code class=&quot;language-text&quot;&gt;created&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;deleted&lt;/code&gt;)&lt;/li&gt;
 &lt;/ul&gt;
@@ -531,12 +536,12 @@ repository.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 31.901840490797547%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA8UlEQVQY02VQvU7DMBjsC8CjdGCBoSw8EFOfiAVBOxIGoM3SIiVFVaIo5EeB2ImbH0ciS6oMSfzxKa6qVD1Zp7N1953tEQwg+nXQQhz5XEgeHbzbKSzu4ONa0MeirEn4k+c5Orquk1yWJaW0rmv0Nk0jQ31YNOJlDLML9nRj68oviVV12bat7/uEENd1HcdJksS27SAI4jg2DKOqqkFYGcP8kj1PvjevhO4+16uiKNCt6zqOwE7LsjRNw20URTgiy7LBtb/u4f0W3q6APPC/Pc9Tz/MwjJymKec8DEPGGNbiLNM0B81nHyZ6yAfDKeS51P/jQ0ZTBztmbgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 31.901840490797547%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAIAAABM9SnKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR42lWQTUrEQBCFZ6unGdzpXg/gWVx7ndFZjgtXGfAPMRszSYid2DG/ndgxMIFAh9Bd1WIi0n4U1IOqB1VvoQ1wqh+BqJSaxTwCAJww9xe//fVCb8+0dYzZ6msvPuL3pmkAQE2M49h1XZZlQggAGIbBMKPEm6VeH+RXJ7vn2zjJt5allAqCgFL6NlGWped5YRgWReE4Tt/3hnmz1NeHbHUU2JskY0+PD5xzQoht24SQNE1d132ZSJIkiqK6ro2z3Ut9f67vTnW5bveiaT4ppYQQSinnvG3bPM+rqmKMxXHs+74QwjDPMWn8CwwRpZQAoP8DAFLK+edvlAtGQXV2MKcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;kaniko&quot;
-        title=&quot;kaniko&quot;
+        title=&quot;&quot;
         src=&quot;/static/54a2fe072c7e19200e97cdb2b4d7bc45/a6d36/kaniko.png&quot;
         srcset=&quot;/static/54a2fe072c7e19200e97cdb2b4d7bc45/222b7/kaniko.png 163w,
 /static/54a2fe072c7e19200e97cdb2b4d7bc45/ff46a/kaniko.png 325w,
@@ -546,6 +551,7 @@ repository.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -730,12 +736,12 @@ and non-GPU deployments:
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 116.56441717791411%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAACmUlEQVQ4y5VU2W7TUBD139JnQDzzFXwAgheCUFkESBR4ACGUsISqLWm8JPG++9pO6ZJWh5mb2iSuHdqHkey7zJx7zplRdCdEW0zdGLcH23hvjXBcHiNKM7hRJvcMN0LXPYU3m1Fd4qSGE0Gzw5X1EG13quhMyDGjhBP6H5setMu11YLXSrj65K2vPezYI+ACWJyfI8wKQhvcDGGVkJFtj3fx0zYRpyUCSmYGyUZ0/0348KCPH66FOMkRpDnsML1ewjbl+Ml3v73AjjlCmc0RZQI+JV4VSG/hVdlE9MSOMPNiTCnMIMXEu3qumbQTIf9/HxlwghgiL7BYLBCJEuqlKKvnOhE2Q7V8iWrmx7AkwrjT0DXC6oe5aT5nVzVhE8IwyRCLHF4i1s6wN7UG0n8JWyru6RZMQpeQZYrsCE6Y1YU5bC8l8yeShrr15Id7FXpdlVrvl2mjdziE6vrEaQI3zqhQglfqHr6YBjyiw4lSWGQrRfYrXVytUvXxmNZMQvBpomGr34Me+chFgXw+hx8K3Bu8xGNtgJPiD1ISLqY95bftUeWlkatQnQC8znZhUTiYEhal4mpGCCdEhyH3l9aSHN4ZPMcjtQ+cXuDs4hxH5QmejobYGvRQkE2Kco7Ts0V9gXk90E1khChJBfGbr9GkvFb30bemiJJCqsjED00LH4wxfTM3NAdjUSMbk5XYTjwbmTfeX/Oh42VSKeaLD/PI+qgd4sH+Z6luQJbxSASjIRpzLm1jN3y4NufcpRXeaAe4P3wLQU9mD3LSytRdQ6Gzl5eDNYHnixqFvqE9my2otDX5oe1j17JJiKXCUz/+76RunYeMxvUzPCMT3+o/QVnMiUeBo+MTmfTGCas5yCq/00ckhpBd0VRyU/wF7O+VrEeBZIEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 116.56441717791411%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAClElEQVR42p2Uy27TQBSG/bQsWNANrHgCXoAtUhcVLErEre2GDWJR0rQKhSRt4tR2bM/Yc/GMPe6Vtj+aSQ0hahqRxZFGts8/55z/O/ZOCMd8jAlHTAs83XuH7UkPv04vIXWJTGqMU4b7cprwFr2IqMTGUQe7SQAhKxBeYJJLjFO+mqCtUuQGMSkwmFCMEra0ugcFQyqw7ffxnSRgwrZbIs6L1VpuZvj42ybeR4fALXB9ewOhDfxkxRkGhKOfEPjUzlMgyqR7tlLLTYVr7RY+TXq4Muco6xrcVriqy3aGrdEh2nEIyqzD4s7lFQVdpVEOkhfIhIKqTpGKFTj8y5lAdxRhknFIVaI+O0euDEYxc9+M70azUNDePA+tn+Su9ZBy164939tJukDwH5epwMFRgCTjKCsDY04XYmONGi8TtDGKc4eKBTrNC4RU/kHKCkREICTCnYO76j2fTNXnBZvndqfbUYRn+x8woCmkUJBlBSYqvOh+xobfgSkMhNLgqoKXZsoxN4xz144NCzLNtTsHqUA3ivGy9xVjxiBVBa4r2Lz1/h52gj60rsFUCSo1vNbwEF+iEVRh3Ie5KLEXRXg9PADlCtRWpA1YXrrKBxHFUUhcsi5qMK7dDJvwnu9v4dVwF7i8weX1NWpzgZ1RH2udlsNFVzXOLq4QZHZOHIOQoH+SQJUGTE4vs2vZOO25VaJT7hqnhkmGn0mKid0QVriEk3QWL+ZMCO1+z6HkBTMsjQlzs/l4/AOP2m9QGoNCl5BKOxZneWuEH9wUW6HFoBsn2PJ7SHmBlE0jWAD18tUjDAktoFjtnLd/6llw/0vQJk0cdyHWj9vOYcIkmKoWrt0SwekMd/wBnnTeOodVWbkfw6yTDwn+BuAql3/8p51WAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;koko-ci&quot;
-        title=&quot;koko-ci&quot;
+        title=&quot;&quot;
         src=&quot;/static/e7c53a5a4cbff2c265f5e0064b0c1265/a6d36/koko-ci.png&quot;
         srcset=&quot;/static/e7c53a5a4cbff2c265f5e0064b0c1265/222b7/koko-ci.png 163w,
 /static/e7c53a5a4cbff2c265f5e0064b0c1265/ff46a/koko-ci.png 325w,
@@ -744,6 +750,7 @@ and non-GPU deployments:
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -765,14 +772,11 @@ is so great about Kubernetes: It’s not just the datacenter as a computer idea,
 but also the building blocks that &lt;em&gt;are&lt;/em&gt; complex but only need to be solved once,
 by Kubernetes, to benefit many different use cases on top of it.&lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;CI setup is still being used.&lt;/small&gt;&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
-&lt;li id=&quot;fn-1&quot;&gt;
-&lt;p&gt;&lt;small&gt;Koko has been acquired by Airbnb where a modified version of this
-CI setup is still being used.&lt;/small&gt;&lt;/p&gt;
-&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
-&lt;/li&gt;
+&lt;li id=&quot;fn-1&quot;&gt;&lt;small&gt;Koko has been acquired by Airbnb where a modified version of this&lt;a href=&quot;#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Running Kubernetes on OpenWrt]]></title><description><![CDATA[Why.. 
 Me, better with clean software than clean hardware As you might know, I’m living in Berlin, Germany. Maybe you also know that our…]]></description><link>https://5pi.de/2019/05/10/k8s-on-openwrt/</link><guid isPermaLink="false">https://5pi.de/2019/05/10/k8s-on-openwrt/</guid><pubDate>Fri, 10 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;why&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why&quot; aria-label=&quot;why permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why..&lt;/h1&gt;
@@ -789,12 +793,12 @@ Me, better with clean software than clean hardware As you might know, I’m livi
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABpux5hgoP/8QAGxAAAQQDAAAAAAAAAAAAAAAAAAECAxEEFCH/2gAIAQEAAQUC2FVJZ2ux74WWf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAERAAISIGH/2gAIAQEABj8CSqBwTBF6/wD/xAAZEAADAQEBAAAAAAAAAAAAAAAAARFhITH/2gAIAQEAAT8hTTPQHJYJ0SJKVo8aUf/aAAwDAQACAAMAAAAQxx//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QrX//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBH/8QAGxAAAgMBAQEAAAAAAAAAAAAAAREAIUExUWH/2gAIAQEAAT8QGsRYCtl7GfMhAJg3TrYBGZHkBDjdP6eRfChP/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABpvxphgoP/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAECAxEEIf/aAAgBAQABBQJXtq2+MuffDTT/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAABBAMAAAAAAAAAAAAAAAARAAECEiAhcf/aAAgBAQAGPwIVi3FTZx//xAAaEAEBAQEAAwAAAAAAAAAAAAABEQAhMVFh/9oACAEBAAE/IVBP6EzckJ2cwAXVN4fde//aAAwDAQACAAMAAAAQhx//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QrX//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBH/8QAGhAAAgMBAQAAAAAAAAAAAAAAAREAIUExUf/aAAgBAQABPxAIx2AyeXsYtSEAYG9rYJGZHkBDjdNteRPChP/Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;&amp;quot;Home Infrastructure&amp;quot;&quot;
-        title=&quot;&amp;quot;Home Infrastructure&amp;quot;&quot;
+        title=&quot;&quot;
         src=&quot;/static/f29a91b6451f3b7d2894b1bf8bb8e7b0/6aca1/homeinfra.jpg&quot;
         srcset=&quot;/static/f29a91b6451f3b7d2894b1bf8bb8e7b0/d2f63/homeinfra.jpg 163w,
 /static/f29a91b6451f3b7d2894b1bf8bb8e7b0/c989d/homeinfra.jpg 325w,
@@ -805,6 +809,7 @@ Me, better with clean software than clean hardware As you might know, I’m livi
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -977,12 +982,12 @@ interface definition for the cni0 interface:&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 85.2760736196319%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsTAAALEwEAmpwYAAACZUlEQVQ4y1VTS27dMAz0OfJ+tmV9qb8l2+8hyCJAlt20BdpLdNET9Ood2WmbAgOBokhxOKK6um65LCHmXMpcqvNRSCWVPqC0cT44F2KaERN3hJCCT3B2/SSv/Xi99afz5el0xnq+3HZcT+d/eDpdcPTRc770nZDa2mjIMyb7gffDdGAcuVJWKRoGfrtNw8gbhmnYT9vas05pisEHb5yldfG1+Dm7OcNjawnbGpelrc/P6X6PKfmcfal+2yKa6pQyxlhjCIi4ALYmMqR18zhnU7Qx2Bytd1ZrRCKGvHPTJDvOFWyQPF3YtQe9d9rN6BkI3/o/eGf7TvvWjx0uEMJwTa8vrTDaHsdpZJyPyobg5sCFHlvDuwqGwpIgEmwAlSUT+udX+vXNvm1GScOFEoOmN+u+u+CoBngMCEo0WEknu2ay2jDQHpkMTv/4pB9WB62j1iOXvFf0hcxnUlEv1kxCMQZ+Sgdzv78kIq/UOImOMQ7BJ0kwpNSQpHEWCgYSGIpqh+3+coTiOBUCYdRos0mEkIOPQ89w4zxX5CAOI9X4C43RQw6c1gbID0Mb61xsyahQly3lAhdUGXadd80Z1D5weP7DMSQQDPmYMynNMUDHMTw7T0L9Dzms3zFMAi/XHe2BHpIRjf4xNrDJOguxfSTrsdWGsGJb69q+R1mVcZgwCnMONaZ1TiuM5GtyOaZ7zo/Zl5geM059SfkBbyxl9T7hYyERH8OE9sdsrancaw62ZIy3r3NbS3I1u5zDel8w2CD4F1AO78wxzTXaOoNBKjCiQ+1WPlCJriQ7R7ctOXlILTGRDVwi8Tc7oaX0C8EeGgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 85.2760736196319%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsTAAALEwEAmpwYAAACk0lEQVR42k1Ty44kNRCsrwDt9HR3+e18+F2uqeqa3lnBbVfigICP4M6Vb0fuhhVSHNIRlh3pSE/LupXaYsqltFIbcTTWWwdPOI8cEvHQY8oxlZRKTMUjH8d9mrW7zPJynV9Or59eXl9O59Pr5YmX0/mBQQ7poT43/PDjJySevEeiCBiUcrM0QuhZ6HnWUloP7DxJZWdhhLIDY4ORyp7PIqUyOY8phhQpMr+tqbVYS2glpMhrz/s2cNvTx0fZ9pxLLCX2npbGva8TIhMFRALAHJmZaTCMQPDUBkWRx+mAhEhMjAit9ckYz5yUctf5YU/oJ6QySjkpnZBmNCJHO0o+SGVfzyKmPGnjtAaH9NNHYgIhjZRaSmMUcImhRqNBSiOkVtJ6pLgmILpcZCltMsYZj3/9gX//Cj+v6B2OqATQV6bfKRIsEY1FY7wDhI4Q8a2S0662PgnpSvJ/foOKED0k74Wxenb4G+Iv5BJ2BG280tagg0Tbdq9EoHSuyySVBWDr0GjtPSKF4dl6xKC01dYhBmO9VAZGcqiN856M8aUuk7W+tTWlKqRhTrV2rSwCl9yGVYelLN6hVjaGTGMc7JgLT8uyPnJOlTkZ6+dZXmc5CzULdb2K62P5nZn/K4TUp9dzqW3czJwAGZCF1N/hHALwsOrwf7yRIy17vspa+2QtIAZrwXuCMRjsgbwn4sgcQxy/wjtCGg3HVHp/y7lx7vv75wmAc6upl7K1stW81riUUHO5tXprcSn1tqSeYy91bznnxwMVBN73Y9LaxxBzxGXJpbccoCQqiVqh/Chqppy5v7UYSCun9cD1qoZtpFBzOtZ27P39uN235b73+77e9378Wy/Htn75fNvWhTmFkGLMAHQc7/8Ahf6pieboiTMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;grafana&quot;
-        title=&quot;grafana&quot;
+        title=&quot;&quot;
         src=&quot;/static/0dfbce4d4f1b5751a08a7e3a269d237d/a6d36/grafana.png&quot;
         srcset=&quot;/static/0dfbce4d4f1b5751a08a7e3a269d237d/222b7/grafana.png 163w,
 /static/0dfbce4d4f1b5751a08a7e3a269d237d/ff46a/grafana.png 325w,
@@ -992,6 +997,7 @@ interface definition for the cni0 interface:&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -1027,12 +1033,12 @@ I’ve frequently hear people say something like this: The number of people who 
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 33.74233128834356%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB2ElEQVQoz02RS08TARSF528Yf4VrF8YtMcZE0KSJEhYGBV1gxZZEfCHGlmihiMFIUhRaLdbGyMPKosVHhUK0KRUwKDFIW8UySKfT13RmPtspRu9Nbk7uOfcs7hHs40UuuPO0e/KsJFVAq3StdE1D13X0Kq4y2l+mVq4lP5tyuqbd1Qv+BcVYyEUoKbqB1a00emrj32VuGcoZA+ZLGutbGmrF+/JcH4nSNvxKo0o7Bi9Ux9qmhnMqy9B7SM1Gka5Z+NFxHikQoJx0IEXqUWImxPQaV56VuOqTaR/JYY3cZ2XCQ9pqRjSfpvztK0L8u8LzJyOYux9T118gdMbKO7sF//gMyZZjiDP7cd4cIOiqw/vQTNeYTDT+icMdsxxwnGT6xCGizS2IFQ8tlUBoe5SjuStAa98SvSGFKfsAHw7uY7HJxOLtO6wGTUScewnf28Op1jYsoxKOyd8cvRjh+K0jvL3bzXJjI6lBJ/rPFIKYVTlnC2PumWY+9pmJl2Fe1Z8lNuQywtlIrOPpb+Dp8A06baNccq3S1BOloTNGr91G8GOcOfcY229C1VRqP0QvkpezZCQZtayQ03QK/6WZVzDMy5Ux/LrAdV+GyYUd5qNf8Ppe8MDtRdnV/gEjFtKhxCfkQAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 33.74233128834356%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB0klEQVR42kWR309SARTH7x/RQ39JvbfebPOhsbXVMmRGL/XgRu5O3HRiKZHTfqAvFIsNpIlJGZY2wrZMGQOxJNJJwUMUPwa7/L5476dxb6uzfXfO95zvOQ/nK8y/6SAutbB4WyR+KPRCUVQto6o6dKKhRxVV13nSQY6r2b9SRdMK/k+y1mh0QGrqy0qpiJLN8C8aKdROXi/bKse/u9p9266T/fIRlMp0C7+0udDsqPysqMy/lnBGFDI7KWo2kbzVQsW/TDfvRIoaaMUN1EpJJla6jAckRjwKlm0X0ZCbsnib4s1B5IMkwvaRwkbwOeLUU/oetwiax0ncGca39o6c+Sql8HlcjllWFwy88l5H9DRIf/vCJWucszPXWBu6QHzARMHnQc19RxhZajM4GcF0b4+59ye8mHNxcO4Micv9JO86SG/dIPbwFDuLpzGbjQy7K8yGqlwRP9M31s+G287hgJHc/WnIZhDqbZXRR1FuTYXY3fvKy/WPhIesxB4s0Ht9oVjAt2hkxWNjwv6M0SeHmBwJLo6lmJ60sxlL8MG7TCES1k3RLZKR23Vq9SZdWaYFtNT/nsgKyCc9vUog2mFmVWI9Xmc/lePt5hZuf4CqVNNM+QMaitJipBARjQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Google - Wannabe&quot;
-        title=&quot;Google - Wannabe&quot;
+        title=&quot;&quot;
         src=&quot;/static/634d60838678047c8b9f6f323a3a9be1/a6d36/wannabe.png&quot;
         srcset=&quot;/static/634d60838678047c8b9f6f323a3a9be1/222b7/wannabe.png 163w,
 /static/634d60838678047c8b9f6f323a3a9be1/ff46a/wannabe.png 325w,
@@ -1042,6 +1048,7 @@ I’ve frequently hear people say something like this: The number of people who 
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -1226,12 +1233,12 @@ interested in measuring the performance and…]]></description><link>https://5pi
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 85.88957055214723%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsTAAALEwEAmpwYAAACPUlEQVQ4y3WT23LTMBCG8/4vwRMUZrjvAFdQeoAWSiFNICfb8dk6rbRa2WYVTyeEaWd+Z1aOPv272vUMjcyXn/MkU23ZIwRrgtNRHMQ4LukQk+WXOnikYSznN/L3wyygY15UO6scaoMAk7wFcvyrEZwHQ+4gq3vvxnHc3F0kv25nfJJq8mTxabdKuqJwWloprBJ8IMOg1eL6TVfuyTlecgpoQSlV1q0GOyO0ViunjFWdN0fxMqA1nfh6cV7us0g6CAiya9IsA2PGcZhgWabr+eXrZl+h7CaBEN5wqZDuMi0kH8SFBAdKtJ0QRNT3fYQ5jzovFj9uRFaibFC2LBBdhAHqdH0owXoXYXZu2tZ7H+Fku6mLvEi2dZ57I70Rk9gipi3E9fkrzosQKd78KXxwlk7HOlEfxbsoJqm3q3VT1Uw+4xxrVsKpEzLCSsQi0QawwdrYtqcLO4GdVlw2d4Vln8RxbDUCKu15Qib4f2dnufVTJ54RgtfmZRgZNi/BsUOGZ4Mxztz2aGXX/uts+JIJdPQH5UHFwGofY85Io+IWqOkNz/aJcwjUk+chZfWEMaYp9ofYB+viv4c9QyAlZXt0JuLvhCjwuHsK6HlTT7EU5HqJQUfeE7+v67rip20lD98EKy3fXZ2lacrfUrr6vrx5Cw1gGMu7D9XifhhHdnp/fbbbJdKASbbN5ccsr9ixDwx38v7htigq69xu+2c5vwO+XqL14898s+Z0eMO3+y9Zlg/DUO73m8e5kHIcBnb+C/9syQ9N02Z/AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 85.88957055214723%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsTAAALEwEAmpwYAAACLklEQVR42n2S227TQBCG8/4PwTsAFxUXIIGQWlQU2lBES6Bu0ySOndh7ntmZ2bXBOaiNKEifrX8vPv+zux5Fr8rpWb1YedNkxhThL8LTZRaW3De3V6F8GEmE6JRtVhSQIRDuYQyyfXOkXR4Anznmvi/O31U/r0aZ2TblYnr6UCztehODQ2fRWfBWIgZnissT2zYSUSIMfsQQQrVpXYCRRERv4yBoCpr9HnAmc7RNe3F60tTVYEZIBEY1y7KEELquGwkBelfPi1/j12atyCqymqwGaxhAQpjdLZy2iYC3ezaqVVqnlHLOo8yI3q9Xyx9fz0y5JtOSUWQUaM0+pACqWqJ3u7FTBKtbpZSIDHI5nzV1Vc1nm1XN4DiYHbuxnWrHb1801VJi3MuqVUrvZcIA1kSnOGjyj4A1idAoezu9aTfNfs97+dCcCKO3T7Ud6AwjJMKExIiPsj6SAb0FtwcPAbzjCELA3m9v6Dn5cHvwPIMcBOFfY4PE/8rhWD5qxsDBMnpBN5w2eBk45OjJWQ5O0DM4AXfcLJyFEpNwTBwzD3kIQkMWEsBEMTFloS6LNeZJswx/y/B0naQ0rDhJFBq+JmnQU84dMTdt02jdGGP04Z6N1R++vKzrTYyyKC7vJm+iJkrdevK+LaZd3yuz+Xjxqixr44O7L9T482rdpm3nyLTq8tv5ut4A4Ky4ub0eg0Niubue1A/3fd/rph1PPq3KKnddPZ/Prr9rY/uu+9P8G+jsyUdKJv7cAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;lambda-designer&quot;
-        title=&quot;lambda-designer&quot;
+        title=&quot;&quot;
         src=&quot;/static/867486a1cfca72c0aefe8faa3aa54a18/a6d36/lambda-designer.png&quot;
         srcset=&quot;/static/867486a1cfca72c0aefe8faa3aa54a18/222b7/lambda-designer.png 163w,
 /static/867486a1cfca72c0aefe8faa3aa54a18/ff46a/lambda-designer.png 325w,
@@ -1240,6 +1247,7 @@ interested in measuring the performance and…]]></description><link>https://5pi
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -1349,12 +1357,12 @@ replacement and &lt;code class=&quot;language-text&quot;&gt;metrics_path&lt;/cod
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 86.50306748466258%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsTAAALEwEAmpwYAAACW0lEQVQ4y51SS28SURSen1KXxVQ3xo0D8+KtCzuPC4Xp1NTE1JSFC+MvMDFAx0RbwUdSf0BxI2ChCrQlmhijkcT62KgRrU1qLS2PgRkGPMy0FRtjgl9OZs4593z3O+feiymKommaruvtAQEUzGR2u93OgAAK1mg0YBsI9AEBFExVVSD/pzLMbCqbMLdUjVkOVfdn/q5szv++vF1T1H+388fMJtoGufSlXFUUk6wbdkhZVbU95f7T1juG8ubLurpzkOxvAXaA8G15q97UsGazeXDaxrc3wtrGi1qr0u10IaW120pL27+Ovdaef9ioNlpwz9BCW9/vGXzglL4/65ENbO02Sp82wVF7DwNqespP361XFRWr7NY047lohj40CGuv14sV5efXH/Wa0tquKqADSd2YXVM18Itr3yr1Jvbk1efpWD4UX568kZu+vXxlfvXy3WLo/tzkbMoXXpqKFS7dWx2Xs6F4/mK8EIoVpmbzoTsrE9cfX5jLYStvPnqvptBMGskPuUiai6RGry2dn78VuLngi2bRTApFkkjOsOE0F37ER9OCnOSjqTE56ZczWDaXdZ9h0bjEBf2CKLEBkRs7h6SAIPq5gCSIIgoEuaDEixN8UIIyXoQlqPF5zrJYYiFhOX7S6znNUJTb5aRIwmmnvW4PQzMup8PB2GmadtgZj8vpcjjAICYJ4tjIyJGhISyReHD0xDDjZAiSpGgat1ptBMEwDI7jFEWTFAUhGDhQwDD2UzhutdnAhi0WbHEx4yatfiSwHIcQYln4/3Y4nmcNQIbneUEQwB81QFHUL0GSFESGg3IJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 86.50306748466258%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAIAAABSJhvpAAAACXBIWXMAAAsTAAALEwEAmpwYAAACeklEQVR42o2Sy08TQRzH90/Bozy8qQe77s4+Wl7d3W61lKhp2UKJMZ6USHoiBrFgNDHBqImhSGviQeIBaINKAloEJT4SjGggMQZIfUT00Ha3Mzs7ZlsKhRD0c/ruzOzvM7+ZoXRdhxCaponKVOb9oRBCGGNCiFWmMu8Ppeu6aZqWZeEylXl/9jbj/zQbhlEylyiZK0d2TVXm3WaMbfPn1d96Af2z+e2et0oSQt59WcsZhV0/7zCb9gcFIdxhtuy89HNBR9k9zbh4KEurGwZE2z2X6tqFLLL4bT4Ps5Zln5yJMURb17HZ19ynTE6HVKFQgAjh4tzmOkzeZ2bzMEvsZeTHn9yHr78IIfZLwnYtQqz0x/WcAalsLm+PlfdjX5VF3qzP6Cib2dCRaWY2sgvL3wkhZnlvhJDpxbW8gajU65Xu4ReXhtLn78x035/tffjqcnz+QuLWubuTZ24864qlI/GX4cGpyHC6K5bujqUv3nseGZnTbk71PJinUm9XQM+4PJCUBsabryab+pKNvU8CQ4Pq9cdK/1O5f0KJTijXJhuvJJv6Us3RlNQ/4Y4mpehY++1pamwy2ew91dre4dOCLVrYF+w4GTjbGg74Q22+YNivtfvbQj6ts6Wt0xfs9IfCLZrmD3X4AgH1dICKj8RrDh1uqG/gWOByioBlnCLf4KrnAecSRZHnOQBEga93OZ2i4BRFnuMAw9TV1h2oqqISiUTNkVrBKbAAcDxP08dZwAmi4KBpjucBAAzLMiwLOA4AThBEB00zDOOg6YPV1dSj0VH+2NETXlVWFFVVJUlSPB6v1ytJkizLiqLIRVRVVRTF4/FIRdxut8Ph+AvLZhXrYmyEngAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;graph&quot;
-        title=&quot;graph&quot;
+        title=&quot;&quot;
         src=&quot;/static/364937c94659b580a3a99cb7eea04e80/9128f/graph.png&quot;
         srcset=&quot;/static/364937c94659b580a3a99cb7eea04e80/222b7/graph.png 163w,
 /static/364937c94659b580a3a99cb7eea04e80/ff46a/graph.png 325w,
@@ -1362,6 +1370,7 @@ replacement and &lt;code class=&quot;language-text&quot;&gt;metrics_path&lt;/cod
         sizes=&quot;(max-width: 603px) 100vw, 603px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[fluentd for data warehousing with athena]]></title><description><![CDATA[Or how I replaced AWS Firehose by fluentd instances and saved >80% EC2 traffic
@@ -1378,12 +1387,12 @@ costs. Using AWS Kinesis Firehose koko is one of my current…]]></description><
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAFusYxKVlB//8QAGhAAAQUBAAAAAAAAAAAAAAAAAAECERIiE//aAAgBAQABBQJ2TRzUmVuXcf/EABcRAAMBAAAAAAAAAAAAAAAAAAABEiH/2gAIAQMBAT8Bawg//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECEyH/2gAIAQIBAT8BU9LT/8QAGBAAAwEBAAAAAAAAAAAAAAAAABAxAUH/2gAIAQEABj8CmKEXD//EABsQAAICAwEAAAAAAAAAAAAAAAERADEQIWFB/9oACAEBAAE/IRKGzwlTcI3yd0sJGYYGqxP/2gAMAwEAAgADAAAAEKwf/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EFcE/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAAREP/aAAgBAgEBPxAFH//EAB0QAQACAQUBAAAAAAAAAAAAAAEAESExQVFxgeH/2gAIAQEAAT8Qwr5VcJz3wRpKCKQ48gpinpi0utAWafYWlu9g02izg9XP/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAFusYxIWFB//8QAGxAAAQQDAAAAAAAAAAAAAAAAAAECEiIREyH/2gAIAQEAAQUCdUsprUz2ZNx//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECEiH/2gAIAQMBAT8BccKH/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECEyH/2gAIAQIBAT8BU9LT/8QAGBABAQADAAAAAAAAAAAAAAAAADEBEEH/2gAIAQEABj8CmNREcf/EABwQAAICAgMAAAAAAAAAAAAAAAERACExYUFR0f/aAAgBAQABPyEShycEqVIm9QdqWZPIzDCsTVH/2gAMAwEAAgADAAAAEL/f/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EEcT/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/EANR/8QAHhABAAIBBAMAAAAAAAAAAAAAAREhADFRYXFBgaH/2gAIAQEAAT8QpDtEwm/exjQUiw164xZUPTjOapAT9HOEhJnI8TWK6Qcrn//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;By English: Petty Officer 2nd Class Casey H. Kyhl, U.S. Navy (www.defense.gov), Public domain, via Wikimedia Commons&quot;
-        title=&quot;By English: Petty Officer 2nd Class Casey H. Kyhl, U.S. Navy (www.defense.gov), Public domain, via Wikimedia Commons&quot;
+        title=&quot;&quot;
         src=&quot;/static/d8a7d70f8cee9fbbacce4fcac00fb6cc/6aca1/firehose.jpg&quot;
         srcset=&quot;/static/d8a7d70f8cee9fbbacce4fcac00fb6cc/d2f63/firehose.jpg 163w,
 /static/d8a7d70f8cee9fbbacce4fcac00fb6cc/c989d/firehose.jpg 325w,
@@ -1394,6 +1403,7 @@ costs. Using AWS Kinesis Firehose koko is one of my current…]]></description><
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -1495,12 +1505,12 @@ process them in parallel.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 69.32515337423312%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACh0lEQVQozz2Sa0/bMBSG80cmoE18i53Yca7NrbeEtlxaVtCgYozLKgpjGpuYQNokPmz/ZdrnaZ/313ZKN6Q3R6/tY5+TxzZcVzEmbNuJolaSZEmSah0wyjl3KeWrJYhCyKfVDAwMQZBgwNc0iWlRiM0mboBnwiQcZhpNhDEDIURBlkVME4NZzRBiG1q6LY+3ONc2Z8Qug2C21dkfZAqKY2pahMD+pw2QvTprOUSUwuZuEp4P8+NhMavii1F2s9d+OOxe7hSLcSfVLjRiE5thRjGDo5fxSUtDubHTS+9OBp9fD26PqvuTzbvj+sNR/WlWfzkdlKGCf1k1aa06/2/+td2K/P1hMamz6SDf2wQVLwdLHYxKLR1IFdwFZs8CRitgIEO6UvuxUj4IjHA1tV1mu5hw4OcIEYaJJ71AB1qHwpFSapsJBCygMucOwVRKz/N8xjhCwNzCGOAjIVyoA8yeOYMXjqLMWW9YCFPD5u6aSdabZK2BQRsNbCECLWHEEGbQg8dtuDbLosp1tWCC2oGvM18vaSulFuP2xbhzvlWcDMs3Wz14GZyL1OEtxrdD76L2BSINE4+K+GrSWUzat/vdh1m1mQZGGYc/r8a/301+3Uz/3E5/zHcxIuMiup927qa9+9ng2+n2WZW82LCqIr4+qucH/bcH1eKwHrUjI9D+4qD38bD//lX18Lq6nrZNk+z28++LyeN8/PVs9DjfuZz21hpIuspxHFc6SgEheKTcgLfdzaJeHvfyqCpb7TQ2LaykrMtWv4j7RVIXSayliWicpHGc+V4QR2kUpZQKIwzjvOjFrUJKpbxIqhBQw/WkeReuQHoh42p9A2GL5FnZ6fbDMCrLTlG0AepfdFO0K28O5UQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 69.32515337423312%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACnElEQVR42i1R2U4cVxDtH7HA03erumv37X0bpmcBAwPMGOyEALYwkATHTuJYeHuw5F+x36M85+eiJpaOSnVOqVTnqAJrY0QtpU7TPMvKLC3iKAFQEg2ARFSIGkApZYdpViplAdT9igmUtoQCZUCICEM+osCV5WgIg1HIGQfOkTFgDCgVhHDGvitCyMA713jVap0prUD2WXaxnDzdrRNUWmBIueDIhwUAIQXH75QNNJhV+dXe+GJ/fLaofl52r9aTux/6m4Pu5apvvBsRIYVEjsARhRzqPYAjgAr2+/rt+fbd+fafP87vLnbeni3+OJ3/dbr49HxnK49GIecc6eAZGENKBaXi/xSD7SJNDhfdXl8dzJv92T3m7XLeHi66yGjK0JhIKau11drdN05KI6VB1IG1LvK5ixLnfBTnUkdMKAGaUAxDbrROsyJycRIn3qdKO2c9oqZ0cBQoZRgT1kZR5BEkpTwMKecQEjYcUTYkfBAJYxwJFUpHIM1myBiDQCq7QWEzFBsjthGKh2SIBKgFl4yBRcyMIhQIFT5ymVFOqjJNJkUqQQZx7N8cT18fz14d9beH019X21qi1WYr1mOtj0r/y24eCxgRvtsVvz3uX64nb06mH35aPGqyoM3zrzcH/9we/n27/vf16tvVkjNxNC4+Pu3vnszenz368nx5tVM/2KR9k18/mT9b9xfr2YuT2XaXB0nsL1dbtyfTm+Pp76fTF6uOUL47qT9fH3y8XL473/l0uXf9eLo5YtY4pYzWxhjrnBMgA+fivin6tuybfNbV47qgTMQumnVV3+R9W07bIo0sZVBWTd2M0ySrqraq2uFV3qdl3WV5ba2zLrEu4VwkSVZUnTWDgtI+HDFGeVlUbTv2Pq2qpixrRPUfAsizXV2ill0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Dashboard&quot;
-        title=&quot;Dashboard&quot;
+        title=&quot;&quot;
         src=&quot;/static/87a6eb80f7df852d72c949c282e58488/a6d36/dashboard.png&quot;
         srcset=&quot;/static/87a6eb80f7df852d72c949c282e58488/222b7/dashboard.png 163w,
 /static/87a6eb80f7df852d72c949c282e58488/ff46a/dashboard.png 325w,
@@ -1510,6 +1520,7 @@ process them in parallel.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -1727,12 +1738,12 @@ and submitted it to &lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hack
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 20.245398773006134%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAArElEQVQI101P2QqDQBDz/7+ql9e6QqXFB31o672HuuvtWyMLpRAyYYbMZKxpaue505p3XdP3jVJca6EUG0e5LD1GAMRP/3esqnpzXtT1ByxE2TQZUJYv+LdNG6yrMmLfB8PoHGYUHHTdM6VuHN/D0PX9a5o+Pe8SRQGlNqUOIbckeUQRIcR2nFMQ2IxlMFomQNtWUpZSVrjPeY510AYYAQgCRjQhCsbyYTie+gKvHdkxzMfpiwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 20.245398773006134%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAIAAAABPYjBAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsklEQVR42l2P2wqDMBBE/f+P6kUbjAoVWgR9aqWkSTRmN16yeWxV6ENhGJgDy85E02TmeUDsrJXWSgCN2AHocTTew5+WxS6L/cVIiKfWLylX73uhVCtlK8QDQBE5IgzBeQ9ESORCGDdf+XpMhACKsWOes6oqi4Kl6blp7oydyjLLsiTPL2ka1/XteuWcx0ly4DxWqiXCaC+AqAEUgBoGaczbuW6PG9eIeif7NGPEPA/fzx94+dkZYT6CNgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;What people call production nowadays... - pst&quot;
-        title=&quot;What people call production nowadays... - pst&quot;
+        title=&quot;&quot;
         src=&quot;/static/acfed1c5b7512a39140c4288b9d642b6/b06ae/hn-comment.png&quot;
         srcset=&quot;/static/acfed1c5b7512a39140c4288b9d642b6/222b7/hn-comment.png 163w,
 /static/acfed1c5b7512a39140c4288b9d642b6/ff46a/hn-comment.png 325w,
@@ -1740,6 +1751,7 @@ and submitted it to &lt;a href=&quot;https://news.ycombinator.com/&quot;&gt;Hack
         sizes=&quot;(max-width: 560px) 100vw, 560px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;.&lt;/p&gt;
@@ -1922,12 +1934,12 @@ can use the following expression:&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAACRUlEQVQ4y5VUyW4aQRCdH+FEThxQ5EsYkrBJ7DayzJ2PiRBOlBz8E/HBETkn+Qf+AQzYVvAmM0t3z/JSVcMQO4ocUtJzd3VVv35VNdiK4xhBEMD3fVmVUvA8D67rYr1eQ2u9jTPYT+N8909Y/MdoQ9CIoghhGCIIAyExxojP5+wzJL6J8TmDOdK9FZGjPB/K8ZFaTIEnFuOvxnlRSI+RIO0rhEEIa/ui0kJqFAVdBe2p7eup8eWI8o2vt9AEJkpirHAjlY1fSkv01g6U6ws5nyvXk0pYSUDlBkZLLhuvYZi0wwrpslKUyNCkTCd733Pguw7urla0dwVJXFH/iDQwNCRXcpXvCbhSi5urKOlxadsSWX0cPdvKJy3hociU6RVDn4FmFbQaUmZozwg094oarhj0JfDXwCv5MbWCwWch5UQ8FCa8f7jHz5sVVrfXgutb2pPPZ46zxoNzh8XVHPOLORaXS8wvF5hdzDBdTDFdznC+PMdsMYNLAiyWOplM8Pn0FOOv4wTj3zj7cobvP75Rnz3pmdr0WlGvfe3Jqja+DIUJh8N32Nt7iVqthnKpjFKphEqlAtu2kc2+QL1ep0EE2MWEcDT6gGLxDXq9A7TbbXQ6HUG1WkUul8P+wb78MtIhPAchfP9xhOJbm0i6aDQaaDabaLVaojCTyaDb7f4n4fEIr21bVDFZSpqUnBXVjwn/WfJwdIxXBSKki0zG6rifhUIB+XyeWtGT/zI7E56cfCKCMo6O+jg8PBQwSb/fl4EMBoOdFf4CsVxyJpzLTv4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAACVUlEQVR42pWUS04bQRCGfQ8kxI5thAjeeDwR4iVQLBaseF4gCkKxHGWbBQchIpKdIyTZkIsEbEOEzSPCPV1VPTN/VDWOeW7c0q/pru76uuqX2yXkQEgDPHmkaQoiQpIkcM5hMBhARBBCsLj33ta6r/M8z0fSofklXQgLggRkWWbBNMsMotL1KB6KucVD+ghoHJECSIkHJ2S3aMV5dn/rw/E0lmcZ8jRDIIEQg5lRytLidvEMcoTAAnZka01Afg/TdaZnDSBDkEAZWsSoQm1DA0GKTU1KBgPwgKxyYb1Mu/AQIjun0kKK/NRkQPWLyUOYwEMJe3jvDHp72Qf5xCTCdi4ERggC8g7MHkzJMJ9RUqoqR/7ML6v8QfyZh/ljr0cti/4cEmdi/ToH0Yp8Yp4GIqQmRsqMjMiUsyAzse2rNQa8ub3B5VUPves++jd99K976F317OvcHf7eXaP7p4PORQfdiy7aFx2cnZ/htPsbp90ztLtttM87cIlDSUs9+XWCoy9HaH1rodVqodlqFmo2cfz1GD9+fkdIBYl5RmApvCb2Q1Hhr7aswP39d5iZeYU4foOoEqFSqaBarWJubg6Tk5PY2Nh40cOnw16KTj7UPyKqxqjV3mJ1ddW0traGOI4xPT2NnZ2d8YCNT3VEccVAy8vLWFlZMWmFExMT2N7eHhNYr6MaRSOgamlpCeVyGVNTU9ja2hoP+P7gAK/LZSwuLmJ+fh4LCwuIogizs7PW8tjAw8PPWF+vYXd315K1xc3NTezt7aFWq6HRaFjC/3+fl6SPQF/KPzgPcpLAql+RAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;mem_per_app&quot;
-        title=&quot;mem_per_app&quot;
+        title=&quot;&quot;
         src=&quot;/static/0f0a37acb794c49740014ce150e3ae1f/a6d36/mem_per_app.png&quot;
         srcset=&quot;/static/0f0a37acb794c49740014ce150e3ae1f/222b7/mem_per_app.png 163w,
 /static/0f0a37acb794c49740014ce150e3ae1f/ff46a/mem_per_app.png 325w,
@@ -1936,6 +1948,7 @@ can use the following expression:&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -1962,12 +1975,12 @@ we can figure out usage of other resources too.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAACPklEQVQ4y5WSTW9SURCG+0dYsWPRqBu5VbGQAC1UQsq+/8XYUI0u+ivsosa6K9amcWclKaDW9COKXKuUj1JaLvdyv+B1ZihKG2zoSd7MnIHz3HfOmYlerwfHcWAYhkTTNCXXdR2apsGyLKl3Oh0R7zny73z2qiZc1/17iHOOLNu2RcN13g/n3W5X9sNxYvAHXvyF69bV3weuBrnrOv+Ao+xfFTsYVeflOCa5NvtAtj8OcGBwFLDVqtC9nl44/A+Ql23pcB1L9hblhtEkNxbVDWrRhmW2RZXjXXrE2uU7NE2D2nIvXHQlWrZOX27Qy56hXjtApcIHq7Q/FzWbKur1Q6jqB+jtRh/YbmnQzzTUy2WcnTSgn7dR47x+ip/FPPa/buGolMe3gy2RWtyG+n0bpeJHlCge7m1ib3edgNQyt6KdN9GolUm/cVJVUT3+gUb1F+mIDmSxv/ceXz5tYmcng3wug0I+g2z2DQq5dXwuvJVaPrcBrUVAbiuX28HKykusrb0e0prE1dVX2Nh4J7NqmhZdAc2nzKorsu1+zjWZQwYuPnmMO7dvIRgMIRAIiKanp6EoCrxeL8LhsEzCOLMqwHT6Gaam7iOReITZ2VnEYjFRMBiEz+fD3NzcJeB1EuDT52lMPVAIEkckEkE0GsXMzIw49Hg8iMfjNwQupXFPUcQVwwbQQcvs+kYtL6aXcNdPQDrIMHYXCoXg9/sxOTlJV5GQRxkbuLz8ggAPMT+fQjKZFDEklUrJgywsLIzt8A+RU2fWIfC1jwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAACWElEQVR42pWUyU4bQRCG/R5IiBvXCIF98dgSYhMoFgdOrC8QEaFYjnLNgRcJ4hBzywnCkk0oQYjFAQKJiexEGIwXbDyrZzxf1D0MMhwgHumfrq7u/rqqp3oCALZtYxgGjuNgmqa0NU1DVVXq9boc9/2ir+u6tO8/Yn1AvMQk0TYaDdkKgJDvb/Y122J+s8T8gA/5n8d13QfHLMvyInwM6IPE5uBK+Wx/zLZNTFP3gCL8h2B3I3ObfL6gWs2hqlc3EdpOM+FOa1kqjlOX0Qlb18s4joVlaTQa4mNdS53nUtRqpbsRGoaG6zZu0vM2MfQrVLWAqha5uDjk/FwszKOpRQkvFdNc5n+QzWyiaRUPqF7X0Co1LnM5quUr1GqNwlmOSqFEJr3FydEGfzO7/DpeJX2yQfb3VzLpTbKn32R7crjMz6P3aFqVgDiL60qJciEnVcxnyV9kKF+eUcz/IXO6xfHxRw5S6+zsrJDaX2V/b5nt7Xekdlc42F9lb3eZg+8fUGtVAiKtz18+sbDwhqWlJMnkW0/STrK4uMja2rqsBMM0qddFDTrY8qj8mvT6sg4F8PnsM7q6nhCNRgmHw1IRJUJPT5D29nbGxsYercPbmyKMF/GXKJEosdhThoeHpUZGRuQGnZ2dTE1NtQZMvIqjRMMSNDg4yNDQkFQwGKStrY3JyckWgfE4EUW5BQoNDAwQCoXo6OhgYmKiNeDs3Bw9oRD9/f309vbS19eHoih0d3fLlFsGzs+/ZnQ0xvT0tFwsUhwfH2dmZoZYLEYikcD/zfl3/768m2TxDzCdaEOwQjq8AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;cpu_per_app&quot;
-        title=&quot;cpu_per_app&quot;
+        title=&quot;&quot;
         src=&quot;/static/ee8bde4b930678ada8505a9cc8e749ba/a6d36/cpu_per_app.png&quot;
         srcset=&quot;/static/ee8bde4b930678ada8505a9cc8e749ba/222b7/cpu_per_app.png 163w,
 /static/ee8bde4b930678ada8505a9cc8e749ba/ff46a/cpu_per_app.png 325w,
@@ -1976,6 +1989,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -2003,12 +2017,12 @@ we can figure out usage of other resources too.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAACAklEQVQ4y5WTzXISQRSFeRFWsGJBqRsZNAhU8Z9QVNjzLpYpoqWLPIWpuMA1D2FewnJlwjD8zv/xnjv0mIlWxK469J2e7u+ee3vIRVEE3/ex2+0QBAFc19V4s9lgvV7rM9f3+73K8zx9v91uEcfxH8oZCOcwDHVmAoqHH68zNu8ZPxTN5UhlYEYscSRO/ncYTs5kVMvyIgok+8rRmHDO4X6HKAz+WqIRYQrkD6FchAE6y0PWxHkgCbgeH5yoDsnMuYxD9ucpIJ8jPwEmewIE23UKygAJY/PTktlwx86UTGDo/97DOLPnYcl8MDcUMRa4t1xILAeDUA959gKxJE4Hq5I2PB5pDwOWw6azl1JyuFlrWZHn0wM8cbO8+wn7/g7O0oYt8eLHdzi2DWdxj5UkXMk6LzdH8u3tN1xff8ZsNkv19TB/ubnBfD7Xb3Uvt+26ycfts2wvkee5KlaqwIt3b/Hi+TM0mk3UajVVvV6HZVkoFototVqa/ZihwOn0A6rV1xgOz9Dr9dDv91WNRgOlUglnp6cpUG/VCFnpX4+b3n+conpiCWSAdruNTqeDbrerDvP5PAaDQQb4lBLg5RSvLEtdEWagBBYKBXWdcfivki+ml3hZEaAcJIzumtLPSqWCcrksrRjqRRwNvLr6JIA3OD8fYzQaqQgZj8d6IZPJ5GiHvwBjwXcCQ/PQaQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/UlEQVR42pWUS47aQBCGfQ8kxI5tEgHeYCwhXgLFmgUrnheIJhoFEWWbxVwkrOAK7DhLFCkJ2OZh99N/VA0mkJlIUNIvd7ervq5ql9tKkgRCCMRxDKUUGGOIogiHwwH7/R6cc0gpzTr5kC+9J1FsKjKKt8iZgmiitYaSElIIA6FgWifRnHQ5Jv9Lkb9lIEohtYSCWIzXLM3kf2aA6Y6paSpxv0sJx1LiCInWtwH/zVBzBrnbXgHlNjDAi1SRJPpWIH8JDH0k+sJHcKjocOVzBorTB7jOMLwGBj4S2jQ9AhaffUymtH7qFovORam/56MYg9iGoBllT0/ubwwwTUYzdgFMXpZMbaKlNEGUoTrsoYWEEtzsHPtrBOvfRmHgw//1E/6P7wh9H+FmjTDYYLcNTK9aRF6tVpjNvmGxmGM+n2NBOo1nsxmWyyWUkojjCJwzCMFNNoLzs6Q8rhngx8cPePf2DVzXRblcNnKcCorFErLZLLrd7k19aP4UGnyafIZTceF579Fut406nY7ZIJ/PYzgc3gecfpnAccsG1Gw20Wq1jEqlEjKZDAaDwZ3AyQQVxzkDSY1GA7ZtI5fLod/v3wd8fHpC0bZRr9dRrVZRq9XgOA4KhYIp+W7g8/NXPDx4GI1GJphK7PV6GI/H8DwP0+n02OCn2+Y1UfvRrfUHBAt3YidIWT4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;net_per_app&quot;
-        title=&quot;net_per_app&quot;
+        title=&quot;&quot;
         src=&quot;/static/9cdc5336080b286047c358a645a9a8ed/a6d36/net_per_app.png&quot;
         srcset=&quot;/static/9cdc5336080b286047c358a645a9a8ed/222b7/net_per_app.png 163w,
 /static/9cdc5336080b286047c358a645a9a8ed/ff46a/net_per_app.png 325w,
@@ -2017,6 +2031,7 @@ we can figure out usage of other resources too.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Frontend Testing Zoo - Or, Nightwatch without Selenium]]></title><description><![CDATA[What I always find hardest to figure it when it comes to unknown systems, it’s ‘how things fit together’. These project might have great…]]></description><link>https://5pi.de/2017/04/17/selenium-webdriver-chromedriver-nightwatch-chrome-headless/</link><guid isPermaLink="false">https://5pi.de/2017/04/17/selenium-webdriver-chromedriver-nightwatch-chrome-headless/</guid><pubDate>Mon, 17 Apr 2017 12:50:12 GMT</pubDate><content:encoded>&lt;p&gt;What I always find hardest to figure it when it comes to unknown systems, it’s ‘how things fit together’. These project might have great documentation, but how the ecosystem plays together is usually left as an exercise for the reader.
@@ -2026,7 +2041,7 @@ I’ve learned that Selenium is the godmother of modern frontend testing. It’s
 &lt;p&gt;Apparently WebDriver is also used for talking &lt;em&gt;to&lt;/em&gt; Selenium. I think this is called ‘hub’ or something, that’s about as deep as my ‘deep dive’ gets for now. Either way, this makes the big picture look like:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Nightwatch -[webdriver]-&gt; Selenium -[webdriver]-&gt; Chromedriver -&gt; Chrome&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Selenium comes in a server and standalone flavor, where the server apparently is only used for grid based testing where you would have a bunch of Selenium nodes running on different systems. Turns out, if you don’t need grid based testing or support for legacy browsers which don’t provide WebDriver adapter, there is little use for Selenium after all.&lt;/p&gt;
-&lt;p&gt;Fortunately you can make Nightwatch talk directly to Chromedriver. This requires start&lt;em&gt;processto be set to false and selenium&lt;/em&gt;host/_port to point the address of Chromedriver:&lt;/p&gt;
+&lt;p&gt;Fortunately you can make Nightwatch talk directly to Chromedriver. This requires start_processto be set to false and selenium_host/_port to point the address of Chromedriver:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;{
   &quot;output_folder&quot;: false,
   &quot;src_folders&quot;: [&quot;tests&quot;],
@@ -2072,12 +2087,12 @@ Which brings me to my initial observation: Figuring out how a thing works is har
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 85.88957055214723%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAwX/xAAXAQADAQAAAAAAAAAAAAAAAAAAAgMB/9oADAMBAAIQAxAAAAHPKyGVbFyi7hBPUGn/xAAcEAADAAEFAAAAAAAAAAAAAAABAgMTABEiMjT/2gAIAQEAAQUCIGRyrUVNwQM1HFKzHA94+nX/xAAZEQABBQAAAAAAAAAAAAAAAAABAAIQESH/2gAIAQMBAT8BFDUXT//EABYRAAMAAAAAAAAAAAAAAAAAAAEgMf/aAAgBAgEBPwEVP//EABsQAAIDAAMAAAAAAAAAAAAAAAABEBEhUWHh/9oACAEBAAY/An0cGDdGL0VqHH//xAAdEAACAgIDAQAAAAAAAAAAAAAAASExEVEQYXGB/9oACAEBAAE/IZgIQmi+ZJShqtsyxmK7D1FPRb5wXZ//2gAMAwEAAgADAAAAEMsHfP/EABgRAAMBAQAAAAAAAAAAAAAAAAABERAh/9oACAEDAQE/EHi3Sro8/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxCm5BZ//8QAIBABAQABBAEFAAAAAAAAAAAAAREAECExQVFhgZGhwf/aAAgBAQABPxCU4uN4MDRmIvuvjCvNO2CQhW6LJ3MMwPIPn/DNyTL5B1fWaF9nS//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 85.88957055214723%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAQBAgMF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDAP/aAAwDAQACEAMQAAAB15VxSratUXMBl9cEf//EABwQAQACAQUAAAAAAAAAAAAAAAECAxMAESIyNP/aAAgBAQABBQJDJJjKyMNxDLZMstrOD3o9Lr//xAAZEQEAAgMAAAAAAAAAAAAAAAABAAIQESH/2gAIAQMBAT8BNHWNs//EABYRAAMAAAAAAAAAAAAAAAAAAAEgMf/aAAgBAgEBPwEVP//EABsQAAICAwEAAAAAAAAAAAAAAAABECERMWGx/9oACAEBAAY/AnyKGyteiyhjj//EAB4QAAICAgIDAAAAAAAAAAAAAAABITERQRBRYYGh/9oACAEBAAE/IZBsRpNJesk5Qg+nsyxHp5D6h9HxcGx//9oADAMBAAIAAwAAABDoDwD/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREQIf/aAAgBAwEBPxB49Cro8//EABgRAAIDAAAAAAAAAAAAAAAAAAABEBEh/9oACAECAQE/ENOUKP/EAB8QAQABAwQDAAAAAAAAAAAAAAERABAhMUFRgWGhwf/aAAgBAQABPxDSmImdCiqOQi9rxQzzJxQmsciJCN4oqVhIO1+FBy2TyDafMWv2Gx//2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Four tiny Macarones - or one month Kubernetes cluster&quot;
-        title=&quot;Four tiny Macarones - or one month Kubernetes cluster&quot;
+        title=&quot;&quot;
         src=&quot;/static/db5a9488a10ec170588bdbaab13f615a/6aca1/Quatre_macarons-_October_2009.jpg&quot;
         srcset=&quot;/static/db5a9488a10ec170588bdbaab13f615a/d2f63/Quatre_macarons-_October_2009.jpg 163w,
 /static/db5a9488a10ec170588bdbaab13f615a/c989d/Quatre_macarons-_October_2009.jpg 325w,
@@ -2088,6 +2103,7 @@ Which brings me to my initial observation: Figuring out how a thing works is har
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/a&gt;
 &lt;small&gt;Four sweets or production Kubernetes for a month&lt;/small&gt;&lt;/p&gt;
@@ -2214,12 +2230,12 @@ grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 61.34969325153374%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsTAAALEwEAmpwYAAACAElEQVQozxVSyXLkIAz1ZwTMYjBCLAa8tJdOdyo5Zw6Zmut8wfz/D4y6SgfxVKC30C1B7Lf1uj/qehzn2WrNwaWUplJyyjFEAEDEEELOeZ6XuU5rSzl5Qjo1cMbE3uDXE9HZnnMqwblWKhSM2Q9SiRfItJDeu1B9RK+kYox1PRMF1b9v+3O5GbWWSklBFywOEByxCIYQqQnU0v8ZccLiraNz33eM9xXkVQamHA5aCQJ71YshSh8AzOjoqhCCC6nF+DAJozfGSMk57xwNhZK9MFIg+IBoXnteRfzBjWYYJBF2aikpIwp6VwlDW3rewThqpcOoMugJ1OT0PQ9ElDTTPMV4q2pO7Hl7+zzetsKPxvbKroU5wzo3uiW63+/jz/v49wt+Hu77bj8Wcy8WjPCA55o/1nDV8FjifS17wyXjVhNR60jmFsKe/JHDmcO9xC2GPeKRib/QWm+tbCVtU9xK3udK/VHTOU9kWQeUhRS8ZwAuUqwpjBRYz8k4UjWQ/eRVz2LwVDkiucA5oxE50qEDHMgOPypvpbPSW4VGJytBCRW8x8E5whVYaa1yVvuBLNJO97JDgA3De0pXCs8Jv1q8crpKeBYErciRBnEJeUuZ5KwptTit63zNGZTsKAnSczU4q783fC54VbwaPhb6HZShWLK9VXO0V53N3IrZ20iNFvw/cDBsLYIvOlcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 61.34969325153374%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDUlEQVR42hWRzY7UMBCE8xSwsbvb/3bbTuI4mZlkd4YFrThwQoITB+68/xugudShpPqkqho2huve3+7v/XKc57mufcqh1jIvSy015xxjZOacc621921d5n2tc00550FbIQUuU/x+5xI9SCmFBCkVYp65zmyUAvl0CDD6kBuXzJqUHMcBBESL/36YPw+3syJAAlCAJirPriSXLSEAAZAE/9PGFqdgvEKQcngZRXX4tevPFNgaq5SUgiSohFxidMHjEwdSaq3ih59qTdZZBCnEEJMiVFKCBhl84JQMoUJUSHIURmutNAhwmubCxUcQkgA0PdODs4ZIeUPVq2SQrTqLUUSEhFJmLvtiWh7f9pf366dtGvdZXJs4+pjcOHjnO4dfd/f74f5+PPXn3X7bzevikgVO+XUv77t9W9yj+9c1Hs3t1R0tOI2DQuzMtxJe5/xY65dtuk75muM5Ja9QSrm3dm3t7O3o2/08zn27LtNt61apwQdCpBchrHOJOSZ2zgkACc9JrNaIIMQYQkgxphiD90KI56HjOHCMyQZH3pDXaBU6TUFr1uQVkLcuGm/JGrQalAZt0GmdLDkNOAQfrrk8ankr+X3ij1buc30s+XvjbJS1bo15i/WSpz3nPdfO07auRyus1bPzwulY4m2JZ0uPno45XaZ4rGw1EWKr5tLMbbW3Zs7VXhZz6/7erVPyP1JibJ2fuEcGAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Grafana&quot;
-        title=&quot;Grafana&quot;
+        title=&quot;&quot;
         src=&quot;/static/a6e84b03bb42b9933c5e83d8b5943a97/a6d36/grafana-kube.png&quot;
         srcset=&quot;/static/a6e84b03bb42b9933c5e83d8b5943a97/222b7/grafana-kube.png 163w,
 /static/a6e84b03bb42b9933c5e83d8b5943a97/ff46a/grafana-kube.png 325w,
@@ -2230,6 +2246,7 @@ grant all privileges on database ghost_fish to ghost_fish;&lt;/code&gt;&lt;/pre&
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -2285,8 +2302,8 @@ themself inspired by those.&lt;/p&gt;</content:encoded></item><item><title><![CD
 Google uses a &lt;a href=&quot;https://medium.com/backchannel/how-google-s-new-photos-app-can-tell-cats-from-dogs-ffd651dfcd80&quot;&gt;neural network&lt;/a&gt; which is trained by millions of photos on the web to identify objects in pictures.&lt;/p&gt;
 &lt;p&gt;This works very well and when thinking about it’s mistakes, the uncanny feeling just amplifies: They are mistakes, they aren’t bugs. It’s not faulty, it’s just a little unexperienced - almost like a child.
 In fact, I would be very interested in a catogorization standoff between a child and Google.&lt;/p&gt;
-&lt;h1 id=&quot;concerts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#concerts&quot; aria-label=&quot;concerts permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Concerts&lt;/h1&gt;
-&lt;p&gt;&lt;span
+&lt;p&gt;#Concerts
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
@@ -2299,12 +2316,12 @@ In fact, I would be very interested in a catogorization standoff between a child
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 92.02453987730061%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAAFBElEQVQ4yx2UZ1DUBxDF/7YYOUDugCvcwXEFrsAh0sQ7EARFEQU8NUFUBMEWsRBU7IiAiG0OMTr2MpYYo4hEEKJx1MQ6xtgbVbB8chLHTNqMv/zHTzu7s7Oz773dJzx8+IimxkZu3/iFn1uaafn+JJdOn+J6Uws3zzTSfOU+D/77yE9XLtNwtp5LF1q4KPa3NDTQUn+WCw2NNJ04TfO9LtoBYc2yxVgtJnHgVfbMzqTuiygOp0Uy00/NqRAHuZGFRH37DKnOyCRnBt8d3MnUIBnrw5Xk631I8RpIldKANmY2zronCJvKyxidlsHf//zL9ryZnMidyuGsVEpDwmiMz2JJ4EhGDMomQO5H5dYaHty6QbbVxobEWBYMMpDtr8Nli8fSS0VmyhSE0rJKfNXBpKaNwx4QRrTCSoKPkmkmK04PEybBC4fehFrlj1pvwRxsQuuhQv65lCCJG1FSBUbBg76CQPrIFHHD6o3IZT4YAvVYdUGEBxoIDdQR4a/HHmjFHGAl0mwhOtRGkFqDTuOPRasjVKvF7B+ATaMlQmfG31vJ5PTxCBWlpbj3EgiWy9F5y1B4eqJyd0fh4YlcKsV7gEzkJx97zDARgR+jTMEM0WgY5ONDhMybUIWKcL8A1D5ROEtOICxfuhSpuwfZE8fj0CqI9ZUQKZVg8PRicB8JCssUHDc/EmJPJDM5mVVzC8gbbGC6WUm6WslohZYMSSiaBfUsei+qvKK4iImTJvPhw3tyHTFUJkeyxG4lWa1is2kIkdrRaMetJcJk42xjC12P77MjO5MbK3KoGBnLqqAIfhhWgDGmlPHlDQglxUuIjE1m8+YaBmtCsOts2FVyYpVahnoakQsSzOIWloBg1m2oZePKCiaGpZETM5zcUAv5lkQmy4di6K1idkYOQtmaMnoL/Rjo5oFCIsN3wMBPHOplvihEJd36uqEXbzLcFI5Oqcfoo8HmbcA8UEW0UkWcnxGzpx5pXw+mpWcivH3zmnt379LZ0UlbWydPn7fx/HkrT54+pbu751Ottb2D7p5XdHT10Nn9hs6Xr+ns6qa1rYO29pf0dL/l2YsuOjpfItSdqWd+YSHbNlVx93I97x418vh6E+2/3sFVvoaGk8f57dI5zrgqOF1dwjnXCs7XlHBxbzXX6vZz9UAFh7eUcuvcAd6330I46FqP0+TFULU7+SMGs22qjV2rZ9C0YxemzwQWpg9h39J8srUSCg1ibhX4SowlDgW75ySxc4wnKWoB16wk2s5/g/Dj6SOUTk2gdnYC23PsHMwJ59CaLO4c28Ddk5VsyUtg+VgHixxBzIqSMTLUnwKbjA1pVg4vnsC+bCu5USo2zkzl1dUjCA8uHGXf6jhq1qVSt7uICwcq2b98Cq3NVfDXJfYWT2BhvInV4oAQWR+yUmJxTbGzdrgRV3Y0DUUOtk6PozovkRfNuxCuHd1EnnMAEyZ5ETeqP8dd8zi7eT41BUnUlU1jZVIQ650xjI0M/vSvVfPGc7G2kFWZdlwZZhGRjR1OK1tSDTTWLhMhH6qmxGmidlkOX8//kkc3j3OsfC4r4/1YmRhMgUVOZVoYYUY9/fv0ZcboaPJGRZGfGM7GUQa2JMmpilNQHu7GnpnjEH7vuce7p+d433WTP7tu8/GPF5wQFV0ep6E4TrQno5yiaNEwArRI3dzw6vcZQ00aZoxxUBzjT4Vd9MZ4OdVDJByaM5b/AbYzAyDOL9gIAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 92.02453987730061%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAAE50lEQVR42iWTaUzTBwDF/1OZIswDKdCWowelLW2lXTmKtGgRZS2CxSKKF5WiHSrgRFDQiSKggMHNG2+ReUURM7Nl8diiM9k+uC9Lpolu2fZhmSabwriR/hbxJe+95L28j08YGxvjLQaHhhgYHublqx5e9w2MZ28bv98PQ/34x968y8b84/5O32Hozei7bnQEoftmN+tKSrjVdYWO5jrOVZdyrtxHm28jV73l7Nl+hrZ/YHP9Xio2lNJ+pI36TSU0f+xhd3ERNR4vrcuK2NBynfM9IBxqaUCv0/K6t4cb1V4erJ3HPc98ysJF3E/Jola7CtX6S0yXyPF6PTz7+THeuDDOpsrYro/A8cFULsQloBbZsFScRDjy+SFMyel8+/ARnzgKqJznYltqMjuTkjmgms/KGTqcilSU4mgKvaWcOnaMDJkOt9ZAnkJKXrSSojANciGQnFQ7wrHj7YjECrTxs0mOnY1FZsASKWOJRocrxkh8iII0vZHZOgMhIgmhonBUETFEhUpRicJJlMagmxXJ9MBp5DoWIhw/fIiw4GCMqjhUUdGoI6XEisXIw8VopbLxsUqixqI3YYlVkKbRYFQoMcuimR0ZiSEyihSlGuUMMdmZKxBa9u9HEARkITOJmhrIjAkTmCW8x8yJAQRPmMjk96NQbLqEca4DY1gITl08FlEousDJmCZPIT44BM0UESHaQtxXniK0NDWiUam52HGeZRYDxQYpy9USTKGheEKj0OmLMH/1L0bbQirLKvjyaicNuamccqdQZlLjiY6jSb4Ala+boucjCK0NDWTnunnx4iWFaXOpTJ/DFlsCHykV1GispIgSiJFnkqiM5/K1bp4+/olG13K6N3tpXjSP7YZ0Oq1r+VCahyt/N0Lj3iaCpkVgs9qRBokJDxITNikA7QwR4onTmCQIRM2ciVIaR+YCN9m2LCySZBJCVNjDxSyWmzBPiiZEEFiRkYXQdf0Gdms62VkO8rJd5DlzcC/Kwe1cxPLF+eQ481i+tICNXh8FuW4KXQWsda+ieMkyivPcrMtbRslSLy7nUnZWViG8evWaZ7/+Rm9vD/jHz4Z/bAT/m1H6+/oYHBxi7M0oI/3/MdLfy8hAHyMDvYwO9jE8PMRgf984R4aH8I8NI1w41Y41Xs6itERatpXw8GQ5XUdreXTjJlkGNTWlHm4dbaTWkUKNNYZGRyz7HDJaClLoqF1DR0kSvox4Tu9YxR/fnUO4c6OTzZl61s6R47Wq+cwdx8mdq7h/uh2PzcjWHCMnKlbiNURSZQ6k1DwdnyaA3fNlXKxyca5ARn5cIM3eTH6/047ww90uWkvtXN29mNv1K+mqdnG+1s2TWw3w923Ob8tnY5qGHVk63OogrAYl5Wkx7LHLOL3JSWexiaosNXUr7fx57wzC8wfXOVilp7RcT0NDLl93NHFlbyl32ysYfdLJiY1OtmXqqHIakAQKrHfN5XptAbsWxHPAncDNMgtnffNoLUzi8bVmhAdftJGfLlDijsJseZ8LB318c3gLdQ4NBwvnsNksoWVJInaTdvxR9etz6G71sTUnjcMuLceXKGjLkrFvjoiO6tUIv3x/i67mYu5fPsTtyyd4/dePXGvbQY1Vwq5MDWvUEdTZ4zCrlEwNmEySXExqrJgVNiOfpstpts1ivy2CJvNUTq3O4H9isRuBD5PY0wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 42 18&quot;
-        title=&quot;Screen Shot 2015 09 02 at 14 42 18&quot;
+        title=&quot;&quot;
         src=&quot;/static/36bddfe74c91b79319b26a9fd726c4a5/a6d36/Screen-Shot-2015-09-02-at-14-42-18.png&quot;
         srcset=&quot;/static/36bddfe74c91b79319b26a9fd726c4a5/222b7/Screen-Shot-2015-09-02-at-14-42-18.png 163w,
 /static/36bddfe74c91b79319b26a9fd726c4a5/ff46a/Screen-Shot-2015-09-02-at-14-42-18.png 325w,
@@ -2315,12 +2332,13 @@ In fact, I would be very interested in a catogorization standoff between a child
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
 I’m really not sure about this one.&lt;/p&gt;
-&lt;h1 id=&quot;dessert&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dessert&quot; aria-label=&quot;dessert permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dessert&lt;/h1&gt;
-&lt;p&gt;&lt;span
+&lt;p&gt;#Dessert
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
@@ -2333,12 +2351,12 @@ I’m really not sure about this one.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 80.98159509202453%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAD4UlEQVQ4y32Sa0yTZxiGvx/7NZMl+7GZYRzonCzZHMHghGVKkMPAA4k76GIYAXToPIARFcY6tSKbDESojEJBUKBAwcmA2spJqBLAKCBiQEBGOmGWMSBqgRba79onEsfI4pPced/ndL9PnvcWpqeneYYnT54wPj6O0WhkbGwMq9WC1WJhanKSyYmJfyH5E9I5MXc3P5X6pHrbzAyIIsIzsoU2IyUfPzUzPDqGecqCxWbHarNhnbExabVik3ypm2mpbmauR5RglbiEzs5OTsjltBhqMTReJ1NdzJ+PHmEZGeSPG3qGO1ow993DPNCD2fgAxkfo6+6mvv4GPV09DLU1causgLaKYiZGRhDy8/IQBIEdX33O4ahI3l32Ni0tTVge9tL8yzGaFNHcLzjN4GUlfUVK8k/J8fYKZHvQfvIPhRPj8Q6hLkv4YsVrtJdrEArUhfi7r0IV6s29c3uJ2uRGVU0Npv5eTkbsIv9EOLUZR/i9Kp2ysz/g7eOH47IPcF8XSITPWg6sceSojwtfuq5Ao0yVCIs1eDsvJdfLAaNsA3kHN1FruMHInUYUX/tSlnKIWmUsHeWptFUqCA/Zjq/fZjx9tuK43In3l76Bl5szgZtWEBOzH6FQo2GDizMyz/fQ7/VDHvQp+roGRu82krV7I4XR2yg8E01rpYrGcgU7w4JxWf0xrms24Lzqw9l1OSx3QFsSiaH6CkJOTu5s0Gf1StycFrP41VeouFrNaIcBZfA6MkM+IX2fP78qokiK3omf70Zef9MJj/VbUCWdwcN9LWEhIeSdy6CmWI2g0+lwdXVFmxBJ2sFgvt0WQHfXPf66Y0Av20H52VguHt+LKiaESlUiiZIiDhyV8/3xBEpTf+RCSgIp8u/IjJcx2HYTYWpqShL14wVKFBHt4gvPJs7L2O3/qbTZJCXOiwm2SStPB8f42zjM8ICJoX4TjyQ87Bui9Eo5FXodXZ0PqCjXk6DI5GbbndlGu/SgKIovRG0Xn/uCyWTC0NBIe3s3zbc6aG6op6buGqHxkSxau4j4lFPSZ8QRsXElby1ZSmJ2ztxktlmChRDqm66xOXgLRcU53K8qoTk3gebL2YQdDcB/nycXMmWo4z7jt8LzbNm8npNxsrkJ7S8mnG/CcH8fhlwVty+pUR3ZzZ4Ady7G7kGr/BlDQRp1RXk06LUMdN3lcNIu0tUpLycc6GhFfSxKQiTxQX5EBKwmdutHJO70Izf2G64UZqMryaFOk0xRVjTVddrnexPF/ycc7O2mIi0JbUYy1Vlnuar8CV3GaapzUtFlJXJdd4mq0nx02cnUVZTQ1nr7pYT/ABOe1OoNVmZxAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 80.98159509202453%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAD70lEQVR42n2T6U+UVxSH3z+gH0oavxQNlIpCW6u1YmMlqIUpippIGpKmEhHEUqmYsJUUhJRFxIWiBUfWsYpsIwLi2KmyMxrosBbLVqIsQlsdGJRhVmbep+Elbb9Yf8kvN/fknOecnNwrWK1WLBYLCwsL6PV6xicmmJ+fx2q1YDWbMJuMmI3GlVOyicXFRckmkwnDwgLz+jnsNhvLEpaBoiiytLSEXbJNgr0wGNDp51k0mTHbbFhsNsxWK4blu8Ui5S/nma02lhyi5GWWMDg4SEF+AcP9Wrp7u7mpvsvc3BzGp9NMdjajG/4V4+QYxpkJjH9MgUHPxONHaLU9jD8aRzcywGCTitH2e5ieP0coKipEEAQiwoI5HhWJx7q36evvwzL+Gz2XU9DKExmrOM9MbSGPlEXUZJ9l754gQsNjKI2PJHmHJ4c3ruag5xuMNKsRShQKfLd4Ig/fgzbna47JPqBNo2F6dIhTMRGUfXeU5sIEJu7KqT6fxM5dMpzXvIP3zkDiZVuJ3LyGON/3Cdrkxp1rJQjFP17F32M15f5rmEn9lOKoANo6tPzZ1UJOsIy6C7E05ScyoMqj4+b3HD4YhEy2Dx/fQNzd3fho7Zvs3/4u/n5uZJ5ORrhSWor/Jg8ydnnQemI3mWH7aHnQyV9dTZREBFCRFExVThJ99fl0qPI4Gh7CZi8fPtwmw239emldruucqSv/krYGNYJcflkKyrZ48rG7My5Or3GvVcOznkbkITsoCvWmIOYAquJkziWE4ycL4PVVLvh8Ekhe1hne27CBI6GhKIsU3FfdQqiorOQtV1eUJ8NIDt7L57JtDA8PMdPxE3Ux+6nKiKIw9iC5Jz7jxg9pnIyN51BEDNHxKVRlp5GflcqZxBhyk+OY6v0FwbBoQKd7BoisSJQs2pfAbkd0OLA77DjElbjNasXhELHbHdiW36FpEavZCKIoVQp2sw3z0xc8n9EzNz2L7skcs1M6dJOzNGraadFo+H30Cc2tnVwpv8nQyNhKW/GfAf4bQ/opumc6erX9PBwYo6PrIR3tGhpb2onISsBpuxPn8s7z4PYZIvzcWeXswqXySqnQ7nDwMgnqVjUBIftRVl9ntKmGnrKL3K9VEHjcG+8jXlwtTKIsbS9VJRfx9/Xi7LlTUqHj/4Azo8M0FMvprilHkXCM6AM+KNOjUZdcQKMsoLFMQcudesZHhog8dYjC8rxXAx/3dXEj/Vuq0uJI/cKPr2QbSQzcSnb4bkpTIvlZeY2G2lI0dXLKir+hsU390h3+C5x42E91djq1FzNR5WZQn3OSupxkVPIsbl3KoPl2JXeuF1F/+TQNNWX09vTwKv0NQmvWOcPCu30AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 44 38&quot;
-        title=&quot;Screen Shot 2015 09 02 at 14 44 38&quot;
+        title=&quot;&quot;
         src=&quot;/static/305de6716396787bfbf295278dda2def/a6d36/Screen-Shot-2015-09-02-at-14-44-38.png&quot;
         srcset=&quot;/static/305de6716396787bfbf295278dda2def/222b7/Screen-Shot-2015-09-02-at-14-44-38.png 163w,
 /static/305de6716396787bfbf295278dda2def/ff46a/Screen-Shot-2015-09-02-at-14-44-38.png 325w,
@@ -2349,23 +2367,24 @@ I’m really not sure about this one.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
 Let’s finish this course with a nice bowl of raw chicken.&lt;/p&gt;
-&lt;h1 id=&quot;dogs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dogs&quot; aria-label=&quot;dogs permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dogs&lt;/h1&gt;
-&lt;p&gt;&lt;span
+&lt;p&gt;#Dogs
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 83.43558282208589%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEU0lEQVQ4y4WUC1BUZRTHr0EgNGFqmmWDj0F7oJYjCiLFQzTEF6KOgMCiYLqKk27GwxclOuSqoA05MCpppAji+ABdBBcQfJRaZi9IgXQBAUdGZBf2xe6vb3eGpqaZOjP/+80595z/nfOd/z2S2WxGr9fT1dVFW1sb3d3ddr+3t/d/0V9nNBrp6+vDarUiWSwWTCYTBoPBnmQ7jcI3Gk3YPtYnYLb7RjtsubZiG2zv+2MWy98I/8ts5BbrP2M2omeiE3Pfv2ul4sICylRlqCsqKFepUF0opUJdTeHZCtG+llZNEz/dquHs6XwunCumWfOAp087OXXyG6rKS7hff5fiogLUl0rRa7uQoiKW4zcjkHUfyknblk5aWjofJe0gRr6dp8+6KT1ZRELEEhSKTYSHhVNZVcmzlnqUSTKyMrZwNHcvJYfSKNoho/1BA5KXlx/jx09ghrcf586r2Z+dx/pPdpG8VSnaNZOTpcT//WDCI+W8PmoC51VqtI3fcyhZRn7uAXIy9/DjmSxKtoTRdO8+0jiPcbi5ueHk5Exw8By2fqokfEkMy6Ni0el6+PKLLCKi1xC3biv+odFcVNdi6ugkOyWFU8dzuf3tda7mJHFYPovGhkaksJDZuDg7MECSGOLqwGtDBjFmuBshAX7oxdRXr1nH7PC1pO47zZxIBSr1NR7V/44ydQO31Je4pr5M1bHP2RTmy717ouW9O9NJXLGM6AUBrFgUSNzCIOIXhyBbGoZO283+A9nErU4ldWcuseKsuX6b9qZGvs7ezcX8ExxU7qH8fCGJK1eKgbUgdXZ2gtVih1Wgz2zCJNAvCZt429vbhEZ7MBgNIgehOStarZbHT57Y/X6z69DH24fpPr4E+QfyQdAsEqOXc0yRQHrsAs7m59mFnrppLbt2b6dMyORqrZrHHR1oGu7y2YalRMo2INuYQ1LGCTSt7UjCbA9GDhvB0rmhTJ/sxbaYKNbPn0lephKtTsdMb09WLgtlVfRiIucHcLu2mkcPf2b/lnkEeYuhuroxauRo6n6rQ3J2dmHAc47Ex8RSdDSPqZOmsC8jk5REBds/TsZi1qOICSA+zp+5M70YPdSVkpIL3PmummmjnZk0digeI15k+vhXuV/3K9JAB2decBzIFM93SN+8mbkBwSjEZOMWLWRHcpK4WjNrZPPx8XQnbsk8Znm/y6G8fO7cuIK7q8SoIQPxfMWFwDeH01AvCAOmTSUhKoKMbSkUHDnImeN5fJWdyeHMXVSWnkGnNxC/Vo58gS8bE2J5y8ODyyJ+40olIx0l3hj8PBOGOvDe2EE01P2ClCRfxREhXlVxIVfLL3KzuoKbVy5TVlzAzZoqusUdek9+m9ApYwjx8cT9JUd+qCmjtlKNu5PExGEuTHzZCd8xg0XLgrCpsYHW5ha04r/tEcW9PTb0oLPtRSEVi1hTLRoNLc0aOtpaaW9tti8Ng0FP84M/xPJ4+BdMYpX9Ce8K1H6IE42aAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 83.43558282208589%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEYklEQVR42oWSCUyUVxSFf2k1JlVbMdSltFGLia1LjVFxK7Kk7lodEZFKkWEti6MVBkYUsbijIoJUWYpSdxAotgIajCgwIoKoMxUSta1URQEZ+GcYZoGvmd80aZo0vcnJfe/knfNu3juC2Wymt7cXURTR6XS0tLRgNBr/F93d3VI3GAyS1mq1ShD6enslw56eHumAXq/HZDK9gdmMxWKR8IbrkfrfnM3ANpBNa1vbfAQbYdv8V/X19dFjMkn9n2W72Dbdv7VCw916ykp+Qa2+RXVlJTcrrnOj4jrXKmu4dUeDxdzD48YH1KnLKSspQl15HavVgub+PYoLztOoqUN7v47Cwos8btIgFBUU4ObqgWyFJ7GblWyL20H89kT8IuJJTj8lPcPe2FgUIXIUim8JCwmSJqsozCJRGUR6ciIFp9PITZRzLfcAwtGjx3Fymsin4ycTEaqg9Go1m2N2EBG1m7zCUvRiF7KF81nh6Y+LhwwXt8WIhm4qf9hJzv4YMg8nkZ97nAcnNlKcrEQ4eCCZQe8M5r2hQ3FwGIFqSyLKuL0sXCQjMzOHrs7XBAYEsD4kluXeIXj5bUDUG2goLuNQXBTlpT+hvnKJki1LOLNPhZB39gxjHUfQr5+AnSDgONwBRwd7xo0axrG0NJ6/eM7kqXMJ35pBWHwmPsEqDIYeirIyOZm6H22NmtobVzir8iJJGYFw9fJlNgb5s/KLmSyf9xkrXaew2n06S+dOI3nfbtrb21jp6UuY8iBBm/YQrIhHFA2UnPuRvKxUTiQd4XT2MVJ2biNBtRXBFma9KEKflV6rGavZhNFooNtoxGJ5k62WlpdS4EVRj15vkDiT0Uhraysduk5buKSft5hNCKmpabi7eSCTeeKz2pv16/w4tiWKgu+i2Bspp+XZM+7UVLFnl4pT57LRaOqpr7+N1WKlND+d6Eg5QZtTiEkq5uylaoTQ0FAEQeAtu7eZ6DQO9zmzWTprLjt9PfnadQa/NTVx8cIZZk0cTZh8DYHrVhG3IQCjKFJeeIho+WzGOI5kQP/B+K7zR4iMVEiGo0Y6knkkhRjFBpbMX8qprJP4rfBEfaMKbW05vssmExK4iFmTPsZjznS6RAO7lAHMdBrEhLHvM9Z+ABvlPgjh34RLhkMHDkbu44siOIRl7gtIiI5hgfMMaiqr0DZU4TptNG7Ok5CvWsi8mc68eNVGdLAPw/sLOA0fwoRhdigD1iDsSkjg86lTiQxYz8HE7VzMzSIn/TDZKftJ37OdF0+fcLO2Hv+1XxL11WK8V3ux2N0Fg9jJpoC1OPYXmPLBECbZC8QEeiHkZnyPKiKE89kZXC3Kp7q8hNsVV6gq+5n8nAx0ra+4kJ/HGPuB+Lh8wofDBrHEeTxYjAR6ybAXBMa/O4CP7ATCvZch/NnczEOtlmfNzXS0t9PZ8RpRp6NL10H7q5dYLGZet7XRUFdHo/YBjxo1ND3USpF6+vsT7tfV8uu9u2jqa/njySP+ArV5z71Aj0xcAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 40 14&quot;
-        title=&quot;Screen Shot 2015 09 02 at 14 40 14&quot;
+        title=&quot;&quot;
         src=&quot;/static/b6300e467befbb18c0a227ecbbd91c04/a6d36/Screen-Shot-2015-09-02-at-14-40-14.png&quot;
         srcset=&quot;/static/b6300e467befbb18c0a227ecbbd91c04/222b7/Screen-Shot-2015-09-02-at-14-40-14.png 163w,
 /static/b6300e467befbb18c0a227ecbbd91c04/ff46a/Screen-Shot-2015-09-02-at-14-40-14.png 325w,
@@ -2376,11 +2395,12 @@ Let’s finish this course with a nice bowl of raw chicken.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;
 To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/British_Shorthair&quot;&gt;british shorthair&lt;/a&gt; the dogs of cats.&lt;/p&gt;
-&lt;h1 id=&quot;birds&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#birds&quot; aria-label=&quot;birds permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Birds&lt;/h1&gt;
-&lt;p&gt;&lt;span
+&lt;p&gt;#Birds
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
@@ -2393,12 +2413,12 @@ To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/Br
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 80.98159509202453%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEFElEQVQ4y62T61PUZRTHf39AzfTaaizf2KhJTc44k6XpZGkwORTmhaDwjgQoICK7gLAgBMIilzW5eAHcC8iGwC4ScltWd5ebArvc2UXugYMYAnKRTz9onF72pjPzffM93+ec8zzf8wjz8/MsLS0xPT3N5OQkIyMjzM3NMTs7+594rZuammJxcXEVAiuxvMxK4ZcvX64KFhYWxKSIhX+411jRrPIiFub/za0UXlpaFMssI8zMzjE9M8f/Ea+WQXj1YhxVWhyB56WcD7lAeEQYprr7LEy0M2DRExMpQyK9iEQiIePaVSae2FgcbkaXlynyUYSFRYiQUlOh59UzB8JzexOxP+3Caf1atqx/m81r3+R6ahh2yx2MmaHsdlrHJxveZ9M7b3FgzxZsprt06lORn3Dmg/fWsHndGja9+wbJMn+edj9E6DJVUBYfxG/+B4k99g2R+zZx038PoUHelGUkcEdykkRvVy65f8Flt40opCeRSQKpkoeSEeBJ3IlviXT9mKvHd5CTmYJQoryJMj6YBLGj9+6NBO/fSn6SNzFBP5ASHkhB3Bn8936E79cfkhLkhirxFP7H3CiURxJ/1IWjOzYQ7LqVHJkXhYoQhKtJsfgc2stF3wP4HNiG3487SZccJvGMM14unyE7+zMB7js5tf9zLvm5khXhgZ/bVs4dP4zM9yABHl9yxnMPVy54oEkOQBjod1BbrqO3xcxEXxuOtkZGux4xOtBH+6Nmuh83iXwrAx1NOFpNoindDNp7aKk3M9RrY9xhxW5tYkQ88+zPYdGU6ec8nZpkeGIYa18jHY5WBsdG+evFDI6hXpptRhGN9Pb380xc/tGJMdq72ugf7KPVamN4bBz7k37MDWZsHVYEu6OXhiYTlsYqrmSGEHvpNGpVNhaLhaKSXM5JPZCe9+J6toI6QzX19QYS04OQp4WQlJCAtqCAIq2GX85+x+WkUISeni4sZgOjQ32kZ6Xi6XWEfLUKy8M6HD3tSGMCOXTYE43yNjWV5XTZHqPMv0FkdDiJcb+i1agxVlUiiwknMioCob3dSm11OYMOG8rbmTht38vl5GRRVE5fRwtp6XFs2eVC8pUUcXl1PKitwNnVk21fuRAhCaUg7xa/q5V8un0f37sfESfs7qTqvp7WxyZsoiFBUaeJT4miqkxPg8mAsaaCowHuJMhlVN3Trf6inFs38As5QXSUhLzsLEq0+cRGRxMQ6oPQ3dNJSWkhDfVGWkRHi/8oRJEtpzBfTbV4RaOhlsxcBdk5CvTFWurECR+Jb64rv0taqpyMtBSKCjSU3tWiVOciWLu7KC7VUm0ow2iupM5cjbJQg0qVK5qiobyimBJ9EfctDejulVJRWUxltY7aBzWUGSxkZV1Dpb4h6m+i0xfzN04NzQlgquujAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 80.98159509202453%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEEklEQVR42qWOW1DUBRSH/4/10lszWU3NWNkkMzk2Nk09lFjpUIqaMmNeMHFcDCMFEVb2MkCyrAu4KkHiSnFzF5CLLCz3hYVtl+W6KyAIuOwFAS/JxYjbIl8DT/XWTGfm93C+mfOdn7C0tMTy8jKzs7NMTU0xNjbG3Nwc8/Pz/znT09P4fL41jwCw8vw5q+LFxYU12doTnw+fb5Ut/itrhz4fS/9gCwsLa5yVFYT5+QWeTs2wvOxbE/2feb4CAgsz3M5SI5bGc14iRSqTYjLWsPjkHhP2OlQKBRJZArESKenpaTx09bE84aChKBup/Cdk8ngkUim1VeWsTHsRZscHUIu247f+VTa9tQ6/114kTRmJs62E9mw5AZvX8/47b/DeupfYs3Uj3S0lDNf/QsapQDa8/jJ+b77CxnUvoIg9zuMhC8KI3UKdOpYbZ4+gCt1F/O5NaEL9kUeHoc9MRh8fzuUf9pMU/DmKXe+ikZ5Afj6Spqtyss6FkBS6h7hvPuTy4Y/RatQItaUF5CVFkSoK4OS2DUTt20JBighl9H6SY8IpTY7k9A4/wrf7oY7YQ9Glk/wYshtdsgy1KJBjn7xN5M7N5CQEU5wWiaD77TqnDn5N4rljnDnkz5ngL7kWd4yr4n2I9m5FEX2SmJCvOHXAH2VEENmJIqIPfUp06BFUYhHiE4GcDQkkXX6cwstRCA9GvdTpyxjstvLU04+rt4uxgS4eee/T7+hmyN7FU89dHgzacTqsPHYNMOEZoae9jdGhXv7w9OEecDB+z8HkhBdhbn6Ombk/eTT5iJ7hDvpdDrzjD5iZ/QvPuIvO3ha6etsYcjqZfPaMx5NP6B/swe0dxtHTy+j4Q9xeD7aOVvr6exC8o6uLhc7uFtJ/k6BUhJGfdw2bzYahuhBx3HdIzh1Fk3kFk8lIZ6cVdYaY1KvRXEpWUaQroEJfSnhEEInKKAS3ewRbazMPx0a4kZfJgeCj5OXmYrM0475/D6Vaxt6gb7mZl0tTQw2Ddx3cKssn7oKMFIWSYu1NLE1GklQJyOSxCE7nEKbGaryuPvS3b/LBZzu4cFGFubEG58AdcnLS2OIfgColFWNtBR2tJoIOnuCjbQFIz8egy/kVQ8kttn2xn537Dq82dNJYb+COvZWBPjvSi1EkpEgwVlfRbm2mzdLM9zEhJKpkGKsrsZrr0WnziYgNIz5eTK7mOpVlRaSqkjkdE4bg8oxQUVFCR/vv9Di6qG7Uk5F1ieICLU3GWqzmFrK1GjQ5P1OlL8VsqsPeZaOmoZKMjCtkpl2htEiHobwMXUEewrDbTXllKaaWWqztJqwdZgpvF6PV5qGvLKbBaMBQU069rZ2q2moaGg00m+swW03UWTq4kaWhsDCXW0X5GAx6/gaLs89Z7J65wwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 39 47&quot;
-        title=&quot;Screen Shot 2015 09 02 at 14 39 47&quot;
+        title=&quot;&quot;
         src=&quot;/static/76ffd3846a9708abec735e4b77acd861/a6d36/Screen-Shot-2015-09-02-at-14-39-47.png&quot;
         srcset=&quot;/static/76ffd3846a9708abec735e4b77acd861/222b7/Screen-Shot-2015-09-02-at-14-39-47.png 163w,
 /static/76ffd3846a9708abec735e4b77acd861/ff46a/Screen-Shot-2015-09-02-at-14-39-47.png 325w,
@@ -2409,12 +2429,13 @@ To be fair, you could consider &lt;a href=&quot;https://en.wikipedia.org/wiki/Br
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
 Birds. That’s definitely correct.&lt;/p&gt;
-&lt;h1 id=&quot;skylines&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#skylines&quot; aria-label=&quot;skylines permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Skylines&lt;/h1&gt;
-&lt;p&gt;&lt;span
+&lt;p&gt;#Skylines
+&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
@@ -2427,12 +2448,12 @@ Birds. That’s definitely correct.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 92.63803680981594%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEjklEQVQ4y42UCUxUVxSGX5rURKuAgFLjyKoEq1itjdomSqPGuosCooCKqAQtRrSOghuylSU1YFVsjRrFplHjhiAKFcoi+yJLQVQEEcRBBpFhgAFm5usF1NCkbXqSL2d5eSf3vPPuLyFMr9fT29uLUqlEpVLxvvYBna6/8C7XoRO5Tqsd8F1dXQw16UZ8AgmJSdxOvEP87QTuJCWRnJJCiuD+/fukpaaSnpHF72kZpKVn8oeIc3LzKSgsoqi4mGJBWVkZVVVVqNVqJHdPb3btDUAecIQDh4MIPBpCUHAIYWFhREREEBMTTfRPsRwKjiQk4hjhP8YQc+I0sT+f4ey5c8TFxXHh4kUuX7lMe3s70tJVzjiv24CH51a2+fjis8MXv917kMv34e8fQOCRQI4EhbFl+y58/eT47fVnX8AhAoOCCQkNJTIyisioKE6ePEXbmzaku2LElORksjIzyH6QRV7OA/JzsyktKaK8tISqijIeP6qiID9PkEtRYT4PiwvEs2JBEX+Wl1BZ/pDqygp6NBqk+lYNCpWW5g542aalXtlDraKL6hdvqaxrpeJZK48a1NQqoaZFL4CngifNeh4rBK90gzRp0PT0IWUrekl+3MGV3EYupddx/FYFP/xWTFBcMXuOp+G+/wK7fykkKqWTsMS3BN5s4fCNFg5eayHg6msOXGnm8FUF4TebaGnvQeoRq36h0fPkLZQ395BZ08G1nDq85eEsc/Fi3ipXQi9lcTa9gRP3nnG+oJczeRpO52iIze4mNquLU5mdnM5Q0aoWJ6yrraXp1UsKS0vZe/AouwKO4umzE2OTMYz5VMakWXOR79uC956dBJw8T2EbpDZAynM9Sc/03K2FhBq4/qgXlUaHNOPzqSxZtJApk+0wNhqNkaEhBiNHMt3aHFtLS2T2M9no5sD6LZvYGRhObsVT4u8lczU+kWpFO3lVtdxITiW/ugZVhwrJUmbG5IlWTLebyBef2TLN1oapNpZ8M9mKL22tMRcNFy5ewqwFy7Cfu5jZc+aydPG3LHKYh7+PG/u3OXJM7sKtX6Npfd2ENEqcyGKCjHHGhliZmWBuOhoLEyPsTEdhKWKjCTZ8YjyOYSbWGFrY8/GI0QwbboCZmYwRw0diZWXDbDtTnOdPpaG+DmnBAgc2b/Vis6cHXh7ObHJ3wXO9E9vd17Bt41o2eG3CydmRVWsccXRxY6WjMytWu7Lc0ZVlK51Yu3EHruvckO/+DoXiFVJjo5pWpY5uDfTf8/d0Dom7u0Wu5n+ZZGqiw9xcx/jxWoFeoEMm6xvwgzXhZTrGjtUKwRCqg04o06DiaLXvlEc3qDz9aiRJkli11B+I7pK4OgM5Q2p8qN2KHxA2+vr0f5e3IUgTDcBgxOCLm+2bmSN7juGomoEmduMzkT7qfNe0i3tJvQNj/WdDlzEN+M54TfD8Sm56q/FbUUf0kgy+sqjFe1YpoQ5tfD8vnYPz71KS0TfQUEz4799wrFTGcptGPKa8wcpaI/5HDasnqXCwVvL1tAac7Fpwt69n5ow8ricJhaBHCGmXWFT3P/IX18FQyzy7jLsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 92.63803680981594%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEfElEQVR42o2UfUzUdRzHf2krl6kkgoqSTDhBFAOyaR4+XSAop+CKVJRWqTjFp0BTfGA8JShgPiA5zSkL50yYBXKaCHLcCYeoKKKkuIWaIncnxPFwz/dqd+jqj8re22ufz3v77vP57r19v4LFYsEuk8mEQa9Hq9U6+pey2WwvsNqNA3tvtfZhNpvR6/WOM3YvNNxupFKuQF6l4HKlnPLyCpRKJdU1NahUKge1tbXUXa/nat11rl67zo36mzQ03uHu3SYHTU1NNDc309rairA/9zBfrFrLpsQktu5MISk5jZTUdNLS08nMzGRP1h4OHDxI1r48kr/JZlfWPnIOHCLvu6McOXqM/Px8CgoKOH7ihOMiwq7d2cyRLmTRss/5MnYNq1avZd36DSQkbGLrlq0kJiaSkpLK5m1JxMZtZH38FuK/3sb2pGRS09LIyMggJ2cvGRmZyEplCCpVLQUFJyksKqKkpASZrJRfLsgoL7uIsqqSK1VyrqpqHBFcOC/j0qUyKsrLUMgvo1RUckVRSW21khqlnAf37yF0dBvQ6PR0mS10m6HTAO09oNZZaH1u4IlWz2ONHnWXlXYDaHpA0wtt3dDWBc/s6KC1E7RdJoRmnYWKFj3F9WpOKR9x5MKvZJ++QfoPdew8Vktc5jmWJ58htbCF3bI/SC/WkvqThuSzGpKKNOz4sY3kM23sOP2EQpUWwYSNJyYLDepebrWZqP6ti/O3n5NbVM1na5MJj45l/orNHFNoyStr4bC8nSM1BvKUPeQqesmt6uWQvJucMh0lt7oQ1Go1Wq2ap2o15ysqid+eSmbu9wTPi2DIoMGMHjeRGdJwvt2fSuTK1eTL7yB/BqXNJorvmzl718i5+xZONZqpajEiJCTEExoiIXKBFJGXJ05DnBg8eAhuLsPw83BntKcvfh8GsC0hCklUDCdLy2h8rKWw+BxX7rTQ3GGi8uY9SlW3uPdUjbAubhWjXJyYIPLE39sLfx8R48d6ECjyIGSCJ94+4/GdImZJ9CJ8xGEEBUuJXBCBNCyMlUs+JmvHejI2RnF8bwL1NRcRlsbEMNzVhTFuIxg70oVxo4bj5eaKl+tQ/EcOxW2UO0M9xjFomAeDxvjj7O7D62+8jesId9xch+Ps7Mo0fy9m+zmzL20TwoYN65gydSoLP4lCGhbM/FAJ0tBgIkJmET1PglQ6l5DwcMRiMWJJCNMlYYinS5g2M5Sp4tkEfRTOnAWLmRM8i7wD2QidnV2o1c8xmsyOt2+19mF5wUtvtYDZZP9IbPyXhPivwNsb3g+EgAAI/Bt93kZgIPj6QkQEr5QglYIg2Ojfv68KgvFF/Yt+/ezVikj0PwZGR8GIATaE18DpTStLJz7inYG/89aAdgYO6MDD9QaCYF9mwXe8/tUD1yw2svxdDUsmPSVn7kNOreggdmYDCUFyRMNa2TKjjrjJ3SwL+Jldnz7A6ojw33MUoubqCBDqiJ3czqJJWkSTLMz30xEzoY0gbw0LP3jI6ve0RE++RnhkPT16I0ajAYPhn/kTh55OeIDfVi4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Screen Shot 2015 09 02 at 14 49 11&quot;
-        title=&quot;Screen Shot 2015 09 02 at 14 49 11&quot;
+        title=&quot;&quot;
         src=&quot;/static/f9f2873c3d2aea66273e2893b6cf2f89/a6d36/Screen-Shot-2015-09-02-at-14-49-11.png&quot;
         srcset=&quot;/static/f9f2873c3d2aea66273e2893b6cf2f89/222b7/Screen-Shot-2015-09-02-at-14-49-11.png 163w,
 /static/f9f2873c3d2aea66273e2893b6cf2f89/ff46a/Screen-Shot-2015-09-02-at-14-49-11.png 325w,
@@ -2443,6 +2464,7 @@ Birds. That’s definitely correct.&lt;/p&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -2471,12 +2493,12 @@ Bar graph or 8-bit skylines?&lt;/p&gt;</content:encoded></item><item><title><![C
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 81.59509202453987%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAAe1zVTpowP/EABkQAAMBAQEAAAAAAAAAAAAAAAECAwARFP/aAAgBAQABBQJrNjQ99GI0hMokBz//xAAZEQADAAMAAAAAAAAAAAAAAAAAAQMCESH/2gAIAQMBAT8BpSa5gbkj/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECIkH/2gAIAQIBAT8BinpY/8QAGxAAAgMAAwAAAAAAAAAAAAAAABEBAiEQMUH/2gAIAQEABj8C7NkwbFasP3j/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFh0f/aAAgBAQABPyFVJReQmGvSeJUfiN6uZMLZ+xSz3s//2gAMAwEAAgADAAAAEJjf/8QAGREBAAIDAAAAAAAAAAAAAAAAAQARIXGx/9oACAEDAQE/EHQN0RxF7P/EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQIBAT8QZrGtT//EAB0QAQEAAgIDAQAAAAAAAAAAAAERACExcUFRYZH/2gAIAQEAAT8QhFyJ0Z8qwd4sZF0Ld4yBwAqvfrLDEai9n44yFSCBmp4c/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 81.59509202453987%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAdrmrnQGA//EABoQAAMBAAMAAAAAAAAAAAAAAAECAwARFCH/2gAIAQEAAQUCazYueexiDpCZRIef/8QAGREAAwADAAAAAAAAAAAAAAAAAAIDAREh/9oACAEDAQE/Aa0mvENywf/EABgRAAIDAAAAAAAAAAAAAAAAAAABAiJB/9oACAECAQE/AYp6WP/EABoQAAIDAQEAAAAAAAAAAAAAAAARAQIhEEH/2gAIAQEABj8CyTZMGxWrD95//8QAHBAAAQUAAwAAAAAAAAAAAAAAAQARITFBUWGR/9oACAEBAAE/ISmLBOIaGeQumFGZE06lwLG/UE33V//aAAwDAQACAAMAAAAQy+//xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhcf/aAAgBAwEBPxBQDuCdBb//xAAXEQADAQAAAAAAAAAAAAAAAAAAASER/9oACAECAQE/EGaxrU//xAAcEAEAAwACAwAAAAAAAAAAAAABABEhMUFRkdH/2gAIAQEAAT8QSA5FeJvW6HZcUCuC9xiKmghvybohxUfJ6cRdVAQJLTpn/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;vortex&quot;
-        title=&quot;vortex&quot;
+        title=&quot;&quot;
         src=&quot;/static/29dd07b878f06e9e5cece16d0d7a2b39/6aca1/Airplane_vortex_edit.jpg&quot;
         srcset=&quot;/static/29dd07b878f06e9e5cece16d0d7a2b39/d2f63/Airplane_vortex_edit.jpg 163w,
 /static/29dd07b878f06e9e5cece16d0d7a2b39/c989d/Airplane_vortex_edit.jpg 325w,
@@ -2487,6 +2509,7 @@ Bar graph or 8-bit skylines?&lt;/p&gt;</content:encoded></item><item><title><![C
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -2527,10 +2550,10 @@ This only works well if site-wide configuration is built in. Determining all thi
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;false&quot; data-footer=&quot;false&quot; data-context=&quot;false&quot;  href=&quot;https://www.flickr.com/photos/ph0t0s/96911576/in/photolist-9yGrf-rf1xpg-iV3Hti-9yGuq-9mJACS-dF5fsX-4CYijn-96MGD7-4CYinT-rcHmFs-e3mfmk-7paoHV-e3rYs3-ebixTV-e3miwv-e3mehH-ebz9br-ebz6nv-9yGn2-maubuc-4eMsoq-gascSh-j448Si-bUvoKX-7tWwN9-8oTPht-fw2NWm-34Ydj3-zMTMt-9NFVNX-4q1pdk-9eX7xW-e72dfP-eb7MBt-4xMiAY-bznrxn-ze6qt-5GtxU5-bhCNRp-fw2NjN-fvMuU4-ebEQHU-fvMxdc-e3rZzd-ebiz6V-fw2Qn7-9NEtYQ-9NGKrb-u79vMN-9NGokq&quot; title=&quot;partly random&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/36/96911576_1a57864a0b_b.jpg&quot; width=&quot;1024&quot; height=&quot;768&quot; alt=&quot;partly random&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 Isolating change to specific points in the life cycle of systems and services reduces the complexity of runtime configuration and simplifies the mental model when reasoning about the infrastructure.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CloudFormation driven Consul in AutoScalingGroup]]></title><description><![CDATA[CloudFormation templates are a great way to manage AWS resources. All resources for a stack are configured in a json and CloudFormation…]]></description><link>https://5pi.de/2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</link><guid isPermaLink="false">https://5pi.de/2015/04/27/cloudformation-driven-consul-in-autoscalinggroup/</guid><pubDate>Mon, 27 Apr 2015 13:22:30 GMT</pubDate><content:encoded>&lt;p style=&quot;font-size:10px&quot;&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; &quot;&gt;
-      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABm5qJWpnUP//EABkQAAIDAQAAAAAAAAAAAAAAAAABAgMSBP/aAAgBAQABBQLDTcWZH2USUrqjcD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAgBAgEBPwGlP//EABwQAAIABwAAAAAAAAAAAAAAAAACARAREiExQf/aAAgBAQAGPwLU6RVjFx0//8QAGRABAQEAAwAAAAAAAAAAAAAAAQARUaGx/9oACAEBAAE/IXB0NwpnVSJL6E73/9oADAMBAAIAAwAAABB3L//EABcRAQADAAAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QKTclE//EABYRAAMAAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxCCn//EABwQAQADAAIDAAAAAAAAAAAAAAEAESFRYXGBsf/aAAgBAQABPxC97CqcqPFcnEW9Ii6d0PGzJSchf2NSD9E//9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;dreamy consul 2&quot; title=&quot;dreamy consul 2&quot; src=&quot;/static/09a85130490779b28e2855643e68eb19/b4294/dreamy_consul-2.jpg&quot; srcset=&quot;/static/09a85130490779b28e2855643e68eb19/d2f63/dreamy_consul-2.jpg 163w,
+      &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABm5qJWpnUP//EABkQAAIDAQAAAAAAAAAAAAAAAAABAgMSBP/aAAgBAQABBQLDTcWZH2USUrqmbgf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAwEBPwFH/8QAFREBAQAAAAAAAAAAAAAAAAAAABL/2gAIAQIBAT8BpT//xAAcEAACAAcAAAAAAAAAAAAAAAAAAgEQERIhMUH/2gAIAQEABj8C1OkUYxcdP//EABsQAAIBBQAAAAAAAAAAAAAAAAABESExUYGx/9oACAEBAAE/IXAyTMIY5lBhRuhz2P8A/9oADAMBAAIAAwAAABBXL//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QUa3CD//EABYRAAMAAAAAAAAAAAAAAAAAAAEQIf/aAAgBAgEBPxCCn//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESFRYXGBkbH/2gAIAQEAAT8QvOwqnIsV9Yt7kVdDasdthyochf2OSL4J/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;dreamy consul 2&quot; title=&quot;&quot; src=&quot;/static/09a85130490779b28e2855643e68eb19/b4294/dreamy_consul-2.jpg&quot; srcset=&quot;/static/09a85130490779b28e2855643e68eb19/d2f63/dreamy_consul-2.jpg 163w,
 /static/09a85130490779b28e2855643e68eb19/c989d/dreamy_consul-2.jpg 325w,
-/static/09a85130490779b28e2855643e68eb19/b4294/dreamy_consul-2.jpg 600w&quot; sizes=&quot;(max-width: 600px) 100vw, 600px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+/static/09a85130490779b28e2855643e68eb19/b4294/dreamy_consul-2.jpg 600w&quot; sizes=&quot;(max-width: 600px) 100vw, 600px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
     &lt;/span&gt;&lt;br&gt;
 &lt;span&gt;Jessie Eastland, &lt;a href=&quot;http://commons.wikimedia.org/wiki/File:Dreamy_Twilight.jpg&quot;&gt;„Dreamy Twilight“&lt;/a&gt;, Consul Logo added&lt;/span&gt;, &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/legalcode/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;
 &lt;/p&gt;
@@ -2609,12 +2632,12 @@ fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 57.668711656441715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAF2KWXSTCf/xAAYEAEBAQEBAAAAAAAAAAAAAAABABESAv/aAAgBAQABBQLyzZl03Sg3/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAAEQESExQf/aAAgBAQAGPwLVktWjhbf/xAAaEAACAwEBAAAAAAAAAAAAAAAAAREhMUHB/9oACAEBAAE/Ia3wdWEnALDwcTrTCxsNaP/aAAwDAQACAAMAAAAQAA//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPxCn/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Qiv/EABwQAAIDAQADAAAAAAAAAAAAAAERACExQWGRwf/aAAgBAQABPxB77cOote+YRkQEASdVOFYUV2z9SlFEkqrEVkBHX3n2MRW8qf/Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 57.668711656441715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAF2KWXSTCf/xAAYEAEBAQEBAAAAAAAAAAAAAAABABESAv/aAAgBAQABBQLyzZl03Sg3/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAAAEQESExQf/aAAgBAQAGPwLVktWjhbf/xAAcEAACAgIDAAAAAAAAAAAAAAAAAREhMUFRwfD/2gAIAQEAAT8hrehtYJOPHIsHQ4nFUwWNhrR//9oADAMBAAIAAwAAABAAD//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EBn/xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAgEBPxBIb//EABsQAAIDAQEBAAAAAAAAAAAAAAERACExQZHB/9oACAEBAAE/EHtTMNwLXsKogIAk6qgrDYHbPydQbFVcVkY6+8+mMRW8qf/Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ownership&quot;
-        title=&quot;ownership&quot;
+        title=&quot;&quot;
         src=&quot;/static/c3811564b5efa34e1c0c89eb4d18fbe8/6aca1/acient_jobs.jpg&quot;
         srcset=&quot;/static/c3811564b5efa34e1c0c89eb4d18fbe8/d2f63/acient_jobs.jpg 163w,
 /static/c3811564b5efa34e1c0c89eb4d18fbe8/c989d/acient_jobs.jpg 325w,
@@ -2625,6 +2648,7 @@ fi&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -2639,12 +2663,12 @@ I want to provide my thoughts on questions around Scope and Ownership but leave 
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAACAP/aAAwDAQACEAMQAAABWuVRmSCv/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAECEQMSEzH/2gAIAQEAAQUCxt6Pwtxj0spn/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPwGhf//EABkQAAIDAQAAAAAAAAAAAAAAAAEQACGRMf/aAAgBAQAGPwLp2Gzqp//EABsQAQACAgMAAAAAAAAAAAAAAAEAERBBITGB/9oACAEBAAE/IVBqbhrd0bhrTgSuKewh/9oADAMBAAIAAwAAABCb7//EABURAQEAAAAAAAAAAAAAAAAAABEQ/9oACAEDAQE/EGs//8QAFhEBAQEAAAAAAAAAAAAAAAAAACER/9oACAECAQE/EJYj/8QAHBABAQEBAAIDAAAAAAAAAAAAAREhADFxQVGR/9oACAEBAAE/EESgrGZ+9OgxFWb9c68576Ri6t35nQ0FxDvRYge+/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBBP/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAFvKpkkC//EABoQAAICAwAAAAAAAAAAAAAAAAERAhIAAxD/2gAIAQEAAQUC1k0LWMxjd8//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwGH/8QAFhEAAwAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/AaF//8QAGRAAAgMBAAAAAAAAAAAAAAAAAREAIJEh/9oACAEBAAY/AmzsPTtf/8QAGRABAAMBAQAAAAAAAAAAAAAAAQARQSEx/9oACAEBAAE/IVDquGrvDYaxlDVRfKe7AZ//2gAMAwEAAgADAAAAEFMv/8QAFREBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQMBAT8QbP/EABYRAAMAAAAAAAAAAAAAAAAAABARIf/aAAgBAgEBPxCSH//EAB0QAQEAAgIDAQAAAAAAAAAAAAERACExcUFRkbH/2gAIAQEAAT8QihSsZr7jmBiKvn1knnO8GRra3fLMisHRov5gzTrvP//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Scope of Company&quot;
-        title=&quot;Scope of Company&quot;
+        title=&quot;&quot;
         src=&quot;/static/63cb55515393f4a5fa21cf6acc6f6d5d/c08c5/3355654186_6751a40056_z.jpg&quot;
         srcset=&quot;/static/63cb55515393f4a5fa21cf6acc6f6d5d/d2f63/3355654186_6751a40056_z.jpg 163w,
 /static/63cb55515393f4a5fa21cf6acc6f6d5d/c989d/3355654186_6751a40056_z.jpg 325w,
@@ -2652,6 +2676,7 @@ I want to provide my thoughts on questions around Scope and Ownership but leave 
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
     &lt;/span&gt;&lt;/a&gt;
 No company does everything on their own. You don’t build your own servers, let alone CPUs and chances are high, you don’t even run servers on your own.
@@ -2676,12 +2701,12 @@ Now if you are company operating at large scale, you need to actually &lt;em&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHE1C4VCxP/xAAZEAEBAQADAAAAAAAAAAAAAAACAREAEjH/2gAIAQEAAQUCRlqBwGdfajdqp5//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAARExEBKR/9oACAEBAAY/ApeKKkb14RR//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARIVGh/9oACAEBAAE/IX9JhHNKlbcA7odgyYrCFPCf/9oADAMBAAIAAwAAABD3/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPxBJ/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxBOGn//xAAcEAEAAgIDAQAAAAAAAAAAAAABESEAMUFRYXH/2gAIAQEAAT8QN5YNkQBeCTKQ3m/jyzkhvoBLI+95c72AywF9e5uqHIsz/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 79.14110429447852%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFJqEhwFE//xAAZEAEBAAMBAAAAAAAAAAAAAAACAQAREjH/2gAIAQEAAQUCQiqB0DOfajeqqc//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAARExEBKR/9oACAEBAAY/ApeKKkb14RR//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARIVGh/9oACAEBAAE/IWtJhFNKlbeoDuh2DBisIQ8J/9oADAMBAAIAAwAAABDnH//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EEn/xAAWEQEBAQAAAAAAAAAAAAAAAAAAASH/2gAIAQIBAT8Qla//xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhMVFxgf/aAAgBAQABPxAjlo6VQGw2Rw77DaVm9lhOuBNK++zZH0BtCvyW0K7Y5P/Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Team&quot;
-        title=&quot;Team&quot;
+        title=&quot;&quot;
         src=&quot;/static/ce4c6510a30130413060085014fcb3b3/6aca1/samurai.jpg&quot;
         srcset=&quot;/static/ce4c6510a30130413060085014fcb3b3/d2f63/samurai.jpg 163w,
 /static/ce4c6510a30130413060085014fcb3b3/c989d/samurai.jpg 325w,
@@ -2690,6 +2715,7 @@ Now if you are company operating at large scale, you need to actually &lt;em&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -2724,12 +2750,12 @@ Nothing is worse than having some specific form of organization without knowing 
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 60.122699386503065%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHXVzAkH//EABgQAQEBAQEAAAAAAAAAAAAAAAECABAR/9oACAEBAAEFAqvzFLhzJ3//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhEDH/2gAIAQEAAT8hqk+brBck6ZiKdNDz/9oADAMBAAIAAwAAABDDD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQACAgMAAAAAAAAAAAAAAAEAIRFBMVFx/9oACAEBAAE/EEWpVruWiC8Gogqj7A2NAwyBgA6gYn//2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 60.122699386503065%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHYW6QGD//EABgQAAMBAQAAAAAAAAAAAAAAAAABAhEQ/9oACAEBAAEFAqvBU2aOV3//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhEGH/2gAIAQEAAT8hokk3UC/MKdMxFOmh5//aAAwDAQACAAMAAAAQQA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEAAgMAAwAAAAAAAAAAAAABABEhMUFRYYH/2gAIAQEAAT8QVcxbezLILpyNFo+mBscB9hYFAHiBU//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Image&quot;
-        title=&quot;Image&quot;
+        title=&quot;&quot;
         src=&quot;/static/7183da7353128252eb634f7ebc882360/6aca1/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700.jpg&quot;
         srcset=&quot;/static/7183da7353128252eb634f7ebc882360/d2f63/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700.jpg 163w,
 /static/7183da7353128252eb634f7ebc882360/c989d/Rahn_Kloster_Sanct_Gallen_nach_Lasius_700.jpg 325w,
@@ -2738,6 +2764,7 @@ Nothing is worse than having some specific form of organization without knowing 
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -2754,7 +2781,7 @@ Maybe it sparks the interest in building some good tooling around that - or mayb
 &lt;p&gt;A HVM image on the other hand is a &lt;em&gt;disk&lt;/em&gt; image with a MBR that gets executed on boot.&lt;/p&gt;
 &lt;h2 id=&quot;paravirtual&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#paravirtual&quot; aria-label=&quot;paravirtual permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Paravirtual&lt;/h2&gt;
 &lt;p&gt;Apparently HVM is the future, so feel free to skip this section.&lt;/p&gt;
-&lt;p&gt;Creating a PV image is simple. This creates a 10G sparse file with ext4 filesystem and a label ‘root’. &lt;/p&gt;
+&lt;p&gt;Creating a PV image is simple. This creates a 10G sparse file with ext4 filesystem and a label ‘root’.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;dd if=/dev/zero of=filesystem.img bs=1 count=0 seek=10G
 mkfs.ext4 -L root -F filesystem.img&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now you you can mount that image, install your OS (debootstrap comes handy) and create a menu.lst. You probably also want to install cloud-init to take care of your networking and fstab setup. You need to refer to the filesystem label you specified running &lt;code class=&quot;language-text&quot;&gt;mkfs.ext4 -L&lt;/code&gt;. Something like this should do it:&lt;/p&gt;
@@ -2837,12 +2864,12 @@ GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACAElEQVQoz31SyW4TQRCdj4JLLnDAsbAlyz9ATsHbNQf+iAsnTkgIKYjFFpaDYgNxwAZ7FjuDl5npmfFUr2Oq22AFlPDU6q5e3qtX3W1VKpVqtVoul0ulhwY4lIrFYuFB4ToODwt3Du7dPbiPwR5WlmWr1ZoQIqTM83x7E3bLT99Pn31w91OEJaVEPgBwLra3kP8BUqIoAqAWpQBMAFdG8lb8ZUQpSilKWLiMEeMaYDygf6kUNtAbjAuBi2ma5nv17TXbAmUYU1JgE5uUk4iTUKSxhIwnsZKSRYESQlLYcfEAI6Ehc56ML+ncYeFaJoTOXQVZLkTOWS4FW/1UFKJBjy18kcS7hJk7oUvfkIUI+71kOMi8afr9Mh0P0d2ufuyRLGISdN/EF+eZM8EY86ejC7hyf5PB98CbbqZj8uksm9laXCm8FRzpwk+/fl53TtfvXsVfPqajIczdzeQb+LNckxUeNKluely5SaKzdtB5vXj5nPS7pN9DFbQNVx5ekIVcvDLTax0jpaEDJHMenneD7ls0RQY9zLk8fbGZjFi4whNW/v+PgdvBUi19SUIsDWYOXrtiVAmubePzep7nuq5t247juAYY4FQHuDj5MbXtJElQSL8c2vljz4rj+MnJyePj40aj2TBoNnVQq9Wwr9frrVbr6NFRu93ZfUxlKsxNUb8AScPlhyxqFB4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAACGElEQVR42nWS224TMRCG804IgQTqAVIq9R16V0RS+gy94EV4BMQVVYVUVFChpIGegLZJlWyT5rDd7MZ78PgwYyN7QRRKP1ny2t4Z//N7Kk8WF5eWlhYWFqrVxyXVanX+0fzszOx15uZm795/eOfeg3I5M+OOK0Weh2E4mcRCCK010n/QiNbaV42Ll+/a9hoVRCyKnHOulCIiezvGWOM/iChljHNeEUKAUKDIH9/KX1mIAEBpXSEi4dFaA3DudhGNQWNACCGlUgoAsiy7mcvJ1gAkALUirXVRKJa4kTEUXGUpaS1ZglKiAGeAMSpLZRKbMjg7PxX9rowjnTHoB5hnpBQJYVDLKETg6bd9GPR0OrXeFOgHMOi5YCKaHjXT46+81+XddnZ6bLy3pTYVR3qaJHs7bL/BLzqaJSRl3j4pgvNfsvmgx4PzvNtiB42ic2ZK5/wlKo6yk+N4dzt6v5keNvPWD7gMis4Z7wfGGHczIdry7xsOI/Dpl0/xx61w83XS3GFHzcmHt0W3xS8DUsoFa619hrIj/rSJS4iaHe5NdrfZ/md20MjbJ9HWm7z1XU6uqHyqsjf+eUzrl8aQGPah15HRGHx1KAB5QVI62YgYXV2Nx+HIE4bh2I3xcDh002g06vcGg0GeppZQpVOv0akzRBWl1Iv19acrK6urz+ueVU+t9qxer9dqtbW1teXl5Y2NDWvt7wKxLOonpsfjmKMDY7oAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;goroutines&quot;
-        title=&quot;goroutines&quot;
+        title=&quot;&quot;
         src=&quot;/static/0c0309899e4000452ea789b5324129b0/a6d36/rpi_gorouting.png&quot;
         srcset=&quot;/static/0c0309899e4000452ea789b5324129b0/222b7/rpi_gorouting.png 163w,
 /static/0c0309899e4000452ea789b5324129b0/ff46a/rpi_gorouting.png 325w,
@@ -2852,6 +2879,7 @@ GOARCH=arm go build -o prometheus.arm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
@@ -2869,12 +2897,12 @@ I didn’t have time to benchmark it yet, but it seems to perform much better th
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.25766871165644%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAABz0lEQVQoz5VSS08aURSeX+bKLliYmIaNESiEJU2jFrUdTVODxSE+FjaFSBTb2BCjQEnTqEBaki4MXZgYdQUsjFp5DAiOzus+ZnpmEDOxpI1fbu6c8+W87neGcXs8Xq/XY8LdheuZyzHssMLldDwZsPfZnjotYAghqqrq/4SmaXD/LLYSBxXNwjMIoVsTkiSBTXqBUqLr1DwaJUQUxVq9JggCoyqKJKuiSu5a/AVgZZVUW5KCCLjUACEYw4eBFBhbURSMsSzL0B/cTkMgZVnRCCpdtmP50nnj1qyvI6wriEIhBnIgrlPyvpvV7g5gPFYQb7jNhbHIWPTbChBMd7Y7VawKWV2oBgbf5ofeDtv8gzOxoCGYqQf9b3KHqfAtu2+l3xl+GUxjgh+XzDev2MAsOzMVnH9T5y97j219MTW2A+pi4AuHhWjUF98Y/bzhbzYuDMEwRtQMgBuOZqr14D8xV60Xfu2mEs9zmdfZPbbd/s30iNN0GWFBEpvXrWqjel45K58WT4pH3/d/JNNzuYw/uzeZy7CCUDH2fHRymMvv7mTTya/x+Pbap/iH1fWlcJR7HwksLU9zixPvuBEuNBIKvfi4Pv4lxW5vvUolp8rl4z+xpKOKjI8+2QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 66.25766871165644%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAABxElEQVR42o2R70tTURjH758VBEERCnrZL/bSfyATEhuNahqEvxWMGFZGJJcNfJEbOhC3KRSKexXoi5DSV27OYbuzu7Zzz855nufEvbvVVkZ+Xn45z/N9vt+jBUOhcDgcDDj4/QG/i8/n6+vr70TX+6/f7Ll247au67qn6FqLc9u2AQARiUhdRlvdOKgk94qduoYAzWaTMcY5R0R1BXirZdZqjDHHmfEWE54t/Y0iIbHOBKDzQIIUwjkXETUi4s7lXEpp2zZjTAgBLrYLgTgsXbzMfy6Zjfb2dhAipUkX/B8AoJSyGtbz9OLo8lhiK+Fk9k77udJrqLu5X2/KZjk0Guy53/t0edwtzKUro1J/KESEbuBipRq48+LWQDw6lyFCrR3visOnZ+cjsclI7Mn43ES1dv7Ps3+PEQKCBKmUKuwXXi0NJozhhBExzbJXGHRAiKr7w11np7Cd3fXU6lAu+zCfjVnW2eXOQMQBGpx9+259vaiWKqWjk+Odj3vp9ZmtbCS3+WA7/7herzjDh18+7Rbeb3/Y3MilUpnkyrs3RjL++u384tLks/jYzEJ0YnZ4evbe1PRdwxjJrD1Kr0Yza7Fi8egHFp+hS61ugTgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;goroutines&quot;
-        title=&quot;goroutines&quot;
+        title=&quot;&quot;
         src=&quot;/static/41ee3e1033ec4be8cbd8b134b87fc946/a6d36/rpi_all-1.png&quot;
         srcset=&quot;/static/41ee3e1033ec4be8cbd8b134b87fc946/222b7/rpi_all-1.png 163w,
 /static/41ee3e1033ec4be8cbd8b134b87fc946/ff46a/rpi_all-1.png 325w,
@@ -2884,6 +2912,7 @@ I didn’t have time to benchmark it yet, but it seems to perform much better th
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -2935,12 +2964,12 @@ container_memory_usage_bytes{env=&quot;prod&quot;,id=&quot;907ac267ebb3299af08a2
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAACK0lEQVQoz42S2U7bQBSG/bx9Gi6qUhUIS1upVGVpL6qC1ErQKEDsOBhCbGerU5yAstuefbF7bIgKUi/665M958yMz39mbLTbrUaj4eZqep43Go2VUkJwsRTnIkvl7QS/2OqsfAuzVEMyy7J6vW5MC41zTeJCGGOElmD8EBKMNSeC4iRBURRBAdM0jTAMYXMY3vaDAFx4rut7nu8XgBPP9ZZhs+lC0Gr5sCYIfh0fHxkT0HQ2ni0QYXf348HwfjqPE0whXERoeD+azqMYkfkiCW7DeYwolzCVZplVsw3OOIhQQhllHIAXLSD0WUiZ4A8D6AF6Ni3TgJakFFrLVCutVaqlzlEFUqsCvUTly+BA8wOzbYNSKiHUqU6zf6JS8PgsI5WGjF2/NBhjhJEFiWKWJAw9JS6ISBLTJ0maJBTD96qWVVSWf30WruSj58dQqKXzhykhKFSu1cy8cloY+39pndt2HCffPJqM2t1GO/CHo9/9vheEwSKeD8PW3aCFcNTr+277Ohx0e0FneDeI4jnBcZbJs7OKAX9fp3d9dVN2/fOaU3bcc9M+qlg/rjzr4vKkXD1ybk4uG+Vz+3uzW73yK1bjtO5Vreuf+18+GFJILuCWkwgtmCBcEsYxYVgqLhXDOIKnkHAjjAskeCwFQmjGeGxZF8YgHHw9PX61u7H6cWt9b3P7sLR5AIOd0uHOxsHbzc/v33zaWd/b3tovre2WXhes7pbWDt+trL38AxXh/ayjzJkcAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsSAAALEgHS3X78AAACKklEQVR42nWS+04aQRSH92H7Dn2a/tukrUULKg2mSCRYWu+wsywLVbsoAruw7M7l7NwbRo02aX/5Mpk5OZl8c/GiKLrqXfkuCKHpdCqEAIDyOQClEnyxpm/eDd9+uOZiE2ttFEVeulwuV8skSdI0xRgTQsr/RJZcuD0ppcaYMAy9OP6dpun9/V0cx1E09Pv9AKHgOc9LhBDy/X4QoMFgEARoPB63Wi0vTdNVli1Xa0JZkq5m83m2zikDygATOl8k2TrHmBaYTqezPMdcSAaltTYMhx4AAOeYsYKSJ4jDTQgDCiUBKCjFlD425ARzKfu+71FKpRRaCWu1Ndoa40aHNVpLJUuthNHKGm0cWqunC2OMKa2VsdpY9YqXpTb27xizqYxGIw8Y0JKtWV4AxkAKwK/BgHNW5Kx4VSGkBGUtGgw8ypiS0mjlxJybmztD5SSlVC8IKUpOrdWDEG20td4c71HO2H9L/kcbIMuz28n4ZjJOVrPp9Pp+dpcTvFjEs4cxlORuFo9uwkUyiSc3D/M5ocT9MOP7vieFup1E51fNYNg9uWxfBMcnF43u2bde+PO83+6cNi77zUu/3T07CMYnaNQ9R+3e8McFatcPKh5jIDjwkhY4B6CCg3tyLDgXHAheC85cA+OcAuQlFITmjGX93qknSt77hT42q1ut/Z2jvb3jWq2zv9OuVzv1audr7XujclTfbu/XOruVw+pWs1o5rH5qftk+brzf/fwHeYED+eOBJtMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;container_memory_usage_bytes.png&quot;
-        title=&quot;container_memory_usage_bytes.png&quot;
+        title=&quot;&quot;
         src=&quot;/static/065a19374aba5620f406a9361ff35444/a6d36/container_memory_usage_bytes.png&quot;
         srcset=&quot;/static/065a19374aba5620f406a9361ff35444/222b7/container_memory_usage_bytes.png 163w,
 /static/065a19374aba5620f406a9361ff35444/ff46a/container_memory_usage_bytes.png 325w,
@@ -2949,6 +2978,7 @@ container_memory_usage_bytes{env=&quot;prod&quot;,id=&quot;907ac267ebb3299af08a2
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -2969,12 +2999,12 @@ Prometheus also supports regular expressions, so instead of matching the full sc
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.25766871165644%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABb0lEQVQoz41S207DMAztJ/NNPPAn/ACTGCtIPLBN6zatt1wc2005SbeWISFx5J0dN47tOCnq+nKoDmfgdK7rumlba62xNmboMIzj+HUJD0+fj88n6CHGMQOrBTZUxwr7q+pYNwld17VtC+4BaIiuY2dd3zdNiwCsglGjOFZH1Nzt9tvt9jWjLMv3DOi39RpuudmsVi/4/7gBer/fF0iAAiEEZkY1uKpoNsEYE4gosPV0aTrj2QWFWVLWdJwCoT6IJRjWxGVtfMhuCvWsxIIsYi0bAxYw+XRmVIjTDG6TuNNYCxS9A49xiZh2FaDgrO87Mv1si2vROWoroUERxzxxEEGuAkcl/FThgydb9AAbIKaacYz3lee2/0JeHRRpRAKDNTMSFeklJF8S3+walEVwGB2lL6KCj5JbEk2VBR0y/9yQNF/1kIPm1n63Pd3q+E/EedopY2qbNZA6h6uVdK8wz4sm8fl1EIyU0gsQzJ+R6Bsz5/EIIKlP0wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 66.25766871165644%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABdElEQVR42oVSW27bMBDUtXuMnqM36DHaQILV+iMwHFuREdN87ZNkQTKWg6BFBwNylsvHcMnBGHNezpfLZV3X6/XNGBNC8N7nhpRyKeUa9Mu356/fT6WUXAdKE3noi5flfF4WY8ztdnPOWWudc76hCucwhOi9vaestd77YX19Xdf19HI6Ho/TNI3jOM/zr4ZxHKdpquE8P/38sdvt9vv974Z5ng+HwxBjsNYiIjP3XUUkNXjvAQCRAtCbubmIwBpJAgqxllIGVQHiUIc4kgBX4SJ5qGEkBVZkJWQOQYLvZIj1zimlnFIvQCmPYjwUU4aYCd9r1dq6Kuch50wI4B0Ej3eCd5smiKSCqijSCSLEXG2LCBJRUlLZiMJdcFJOiVXTB1+Pk3v3T9vbbE3KslH6yTlnlRYTP3IfNANRREFW0Y3C0qut3KYysdQtG+9aRdo/S/mvtrXhv7Y/32KrtiixIlCoz1wfFZEjcuyaBDbdU+03UMnlD6OR8TxGq1rCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;container_memory_usage_bytes_consul.png&quot;
-        title=&quot;container_memory_usage_bytes_consul.png&quot;
+        title=&quot;&quot;
         src=&quot;/static/2a7a760e3618b0ac5e2f4d9ba57082c5/a6d36/container_memory_usage_bytes_consul.png&quot;
         srcset=&quot;/static/2a7a760e3618b0ac5e2f4d9ba57082c5/222b7/container_memory_usage_bytes_consul.png 163w,
 /static/2a7a760e3618b0ac5e2f4d9ba57082c5/ff46a/container_memory_usage_bytes_consul.png 325w,
@@ -2983,6 +3013,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -3003,12 +3034,12 @@ Prometheus also supports regular expressions, so instead of matching the full sc
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 76.07361963190185%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVQoz6WS22rCQBCG86y9s1LSitCrthcteKHv0dIDhfY1hCqoiZIbRRFPjW6y2XO2s7sqaYNX/ZjAn8n+O7OT9bbbeD6fr5bL9Xodx/Fms0EIpWm6s1BKtdaUq4fP6f3HVKocXs1j8ZIErQ7AaudMLGkBjHGamDyyuAXecrGAyrPZbDKZBEHQ6/XCMBhZ+oZBGA6BTrfbHwRRFI0KeFmWmfYIEUKYakkKgktKOP5GqzjZJGSHKVrHC4SRyqUu4CmLOQmgc6EYEZhJopTMTU7lB2DNKBrW6rXLmv/y/mjMUkjKMyoxhLEJAga3sTM4XAE4eeer0263x+OxNVv0b3I70aJ539oh4/byhOWPrVz5mHHFOOcnK5fNxbIAWOD1/2Zo20w618fBOq3UUevD3J0Gy94MZ1b2m4vC+U+i7L7GrAptQzVBMrgjECBYhp2GAH38RDMMfg8Mb69P1crZdb1+cV5pNhqcZDncMUYVY4ISxZkL0CZptWTMVLbm5yu/enN75/t+s9VynZf/U3mcP2pMVkPwmdHiAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 76.07361963190185%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsSAAALEgHS3X78AAABnklEQVR42q1SSy8EQRCe/0oicVphbThJHNw4E3FzwE3EwWmzv0AsY81hyAZZO6O359HP6gfdw+xYGydfKpN69Ff1VU8HaIJGo1GSJOl7ihBK0zTLsjwvMMYTjBnj1pqMys7p087Fs23AGBPkeT4ejx05TYuiKMqSUkoooR7sG5Ry4nOEkKrKGQvePF6eX4bDYRiGt3e3g8Egeoiihyj0GHj0+zcuH7nkfXgfhmEcx0FZlhhjSqkQAmOcZ7mUkktGRJFMRihLcjopGH5LX4syU1rVmp1s5VFvorTkQIRi2mhXt878YW2tvelft1Zaq2uty6tza20AAFxSrkhlFa1uP70e7XyEUK/X63a78WPsyH4wGN/bf90k8xO1zqlApZxsAFDgZTt1s7QZsjGmWhMAvsgA0Cz/Qa53mU7+H3KzxRxfa/sd/iBrVzLao/kAZ97jvAtr/GetFDCmhFBCAOeSUcW5CzkX1PsudL7WOrDWnp0cb3Za21tbG+vto4MDLYUSvDJHnueD4F/kw8P95aWFdruzsLi4u7f3W/BcfMr+AMeIVXPOyfG6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;container_memory_usage_bytes_consul_by_name&quot;
-        title=&quot;container_memory_usage_bytes_consul_by_name&quot;
+        title=&quot;&quot;
         src=&quot;/static/b0d3d92bda3203b73787ae1285ca75bc/a6d36/container_memory_usage_bytes_consul_by_name-1.png&quot;
         srcset=&quot;/static/b0d3d92bda3203b73787ae1285ca75bc/222b7/container_memory_usage_bytes_consul_by_name-1.png 163w,
 /static/b0d3d92bda3203b73787ae1285ca75bc/ff46a/container_memory_usage_bytes_consul_by_name-1.png 325w,
@@ -3017,6 +3048,7 @@ Prometheus also supports regular expressions, so instead of matching the full sc
         sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -3064,12 +3096,12 @@ That’s all great but we never cared that much about containerization even thou
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 71.77914110429448%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABej1UwsSsbf/EABoQAAMAAwEAAAAAAAAAAAAAAAECEQADEjL/2gAIAQEAAQUCaKGcnc3NNgUFPWf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAQUBAAAAAAAAAAAAAAAAARECEiExUWH/2gAIAQEABj8C0WapnhjKIceC6ybaT//EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQVFh/9oACAEBAAE/Ib5RQcz4MfVTWYOH2MrZWjqJrfYmXDFmn//aAAwDAQACAAMAAAAQPz//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QqKz/xAAYEQACAwAAAAAAAAAAAAAAAAAAAREhQf/aAAgBAgEBPxCGUsP/xAAdEAEAAwEAAgMAAAAAAAAAAAABABEhMUFRcYHx/9oACAEBAAE/EHQkFRvIOobCECev1AKFFGmPc2s2CdHlF34mxivri6uWBFy38n//2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 71.77914110429448%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABejVlAsSobf/EABkQAAMAAwAAAAAAAAAAAAAAAAECEQADEv/aAAgBAQABBQJooZydzc02BQUtz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAEEAgMAAAAAAAAAAAAAAAABAhFRITESMmH/2gAIAQEABj8C0cdNmjGUIWPBLWjq0//EABsQAQEBAAMBAQAAAAAAAAAAAAERACExQVFh/9oACAEBAAE/IW5iB3vyc/QaLJDp+525EiPHUW+jwuI1bf/aAAwDAQACAAMAAAAQ7P8A/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EKis/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERQf/aAAgBAgEBPxCMqWH/xAAcEAEBAAMAAwEAAAAAAAAAAAABEQAhMUFRcfH/2gAIAQEAAT8QY28qN8yOmhUiHrlApTWx7wJ19iYeUe/MWmGs1RZciNJK/mf/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Grumpy Ops&quot;
-        title=&quot;Grumpy Ops&quot;
+        title=&quot;&quot;
         src=&quot;/static/771312892d96c881b4ae67cf16d6b28c/09d21/mainframe.jpg&quot;
         srcset=&quot;/static/771312892d96c881b4ae67cf16d6b28c/d2f63/mainframe.jpg 163w,
 /static/771312892d96c881b4ae67cf16d6b28c/c989d/mainframe.jpg 325w,
@@ -3077,6 +3109,7 @@ That’s all great but we never cared that much about containerization even thou
         sizes=&quot;(max-width: 540px) 100vw, 540px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
@@ -3104,12 +3137,12 @@ Instead of a release every few weeks, it’s not uncommon to deploy multiple tim
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAARlAAAEZQAGA43XUAAACpUlEQVQoz2WSX0hTURzHL71EPRQEYdKfJ+k5fCuwfyS9FNaDQVEvFSEpQUlGUVZvCaULs6WZzMVmbopbTofO6cY29ydszrurMzdpzrmbbq2pm3nv+Z3T2a6zsB+Xc7+/c87n9/2dw2FIPjwez/DwsMvlslqtHMfZbDYq3G43FXRpZGTE6XRSzbIs3YwxpiMj/QBAp9PV1b3o7OxUKpUqlYqmJpNJLpdrNBq73W42m2lpmUxmNBr/wpItTcbHvQZDn8fjnpzkHA67xWKhmjK0l6EhEx2dTrte3+vz+bfC+RBz39YQRbS6ms7JFUJSkt2/MNBaojghiHcwpBEkEVoBvIDQMp1f+z0bDPkQalsXqhEk/odzOSYIjiA4iuAj4FpBvA94lJDWTOZYfKkU450AY5KTBDB5SkQwm7u5egQMJrtisf2h0LVU6iofOxWNFiWTdGd97qSCZLvpjNNpgpARwT0E/Qj2YsJw3AWf72uH+p1aPehnn8XjJfTseIMCyTwLz89PBwINPB9B6JGItiPYLSImGHxYWVnDMMzFsvKF6JdIpIaQEAAGGBBRFybrG3AkMpFavrUYb8ysBQAKadt0Pr5U1PFJQ+HjpWdCVkeULSTkhiCUiWIFxmGp3ywsrIuJX99M2jrW9YaQkxgzP5M7wmHm+0yN/FWbTtsxV/w29vogJtuEtZbNq5acaStUGNyOCnl9lUp92mw+8Vn/dGDwrrLtvK5d0dOoMFxvGGh+3tNXbewfDc/dJqQWQSoPZws5LNbLvQZO1vBB232uubm1S8u2tFY1Nd5s79arbXo765c3aVreK/z+B4ToMc7k3nb2rSGqwmFVMHTAN1aseHl4anrf1OShYKzAe6l8as+TQMFjd8mVwOxZr9cxM/OD59M8vxhPJP4Am7mrZKG2PFsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 71.16564417177914%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAARlAAAEZQAGA43XUAAACpUlEQVR42m2RW0iTYRjHPwrpwtu8k+hIVAgF3RRBURQFWShdBUUYQYcbhcIIMi8ynZU3qUun4Gi6UTo3m4s259emfjt9+s3pXIq6NY9zBxMPre97n/eJTaedHt6L/wvv7/3/+T8MIlJKEdHn83Ec5/F4nE7n6Ogoz/N2u93r9bpcLkEQOI7jU+Pz+TA9zKYymUyVlTK1ukWpVKpUKp1OZzabGxoaNBpNX1+fxWJhWVYur9XrdQDwNywIQmtrW3e3xeMRWJY1mT5zds5g+Gi1Wo3Gzp4eG8fZNBoNx7n+45waQpGkBE2fpAaAlZWVlP6BuJR+sAUDpUjIuCg9A5oAWAWyCrBEyDKlKIrR8fExSewVpWJCAv/CGz6EnCbkFIFOoDKJlAHYENlE4nw4fB0gA6B9PeBWbEqRUgIwlwwAdQQYilnRaPZkIG/p+41Y9MTc7O5ohEEsTK1FQvyjMCqKSIiFQCkBOyG7EJmxsZMjI71fWJVWq/d6n4fDBxDnUvBWHUl4ITLr9yvm56cAyiSyk0AWUCYYKCopkWVmZl66mDs17QyGHiEGgCKFIUlqp3R1Aw6F/PHYnWjs5fKyHyBbIgwiE49nq5pV27dnHMo54uf4oLAf8a4oFkjSNYCB9bxJWBRJND7U86ly2KVCzANg1tZ2zEwz06Enr8veNDbVhfJbZsoPIm6TEo8phd/bhtTVMeAoqq64pdWdsVmPG42FJvPt980XOpRNhnq14WpFl6y4s+umpcsd/FaO+AIgnoaTv7g4R77BKFS9avygvaxQVHfoB98qHsprCtQ6o8ZkcHz119e3yWvfufl7iDUUFjdXlbSemNAMeo8OuM81VeU43ft497Hhyb3cg1x+T2n/4ae9Z+/3919xOMx+/1Qk8nMhEosvLv4CizSs9Q1uQDsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Automate all the things&quot;
-        title=&quot;Automate all the things&quot;
+        title=&quot;&quot;
         src=&quot;/static/7971ab1879abb9b42b152dd5b66ef7bf/0b533/automate.png&quot;
         srcset=&quot;/static/7971ab1879abb9b42b152dd5b66ef7bf/222b7/automate.png 163w,
 /static/7971ab1879abb9b42b152dd5b66ef7bf/ff46a/automate.png 325w,
@@ -3117,6 +3150,7 @@ Instead of a release every few weeks, it’s not uncommon to deploy multiple tim
         sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
