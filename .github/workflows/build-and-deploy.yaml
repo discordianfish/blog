@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - master
+  pull_request: {}
+
+permissions:
+  packages: write
+  contents: write
 
 jobs:
   build:
@@ -25,15 +30,18 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          push: true # Required for cache
-          load: true # Required to make image available to docker run
           tags: ghcr.io/discordianfish/blog:${{ github.sha }}
           context: .
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          push: true
       - name: Copy
-        run: docker run --user root:root -v $PWD/out:/out ghcr.io/discordianfish/blog:${{ github.sha }} cp -r public/ /out/
+        run: |
+          mkdir out
+          docker run --user "$(id -u):$(id -g)" -v $PWD/out:/out ghcr.io/discordianfish/blog:${{ github.sha }} cp -r public/ /out/
+        if: ${{ github.ref == 'refs/heads/master' }}}
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: out/public
+        if: ${{ github.ref == 'refs/heads/master' }}}
