@@ -3,8 +3,9 @@ title: 'Build securely with Github Actions and ECR using OpenID Connect'
 date: 2024-02-05T00:00:00
 tags: [ github, aws, ecr, docker, containers, kubernetes ]
 layout: post
+image: cerberus.webp
 ---
-
+![Cerberus/OIDC validating Herculus' Cloud Access. Thanks DALL-E!](./cerberus.webp)
 # Intro
 Most companies and projects these days use some form of CI/CD to automatically build artifacts like binaries or container images when new code is pushed to a repository. Commonly this involves:
 
@@ -88,6 +89,7 @@ In this case, the `sub` condition will ensure that this role can only be assumed
 
 The remaining configuration is pretty standard:
 
+```hcl
 data "aws_iam_policy_document" "github-action-repo-access" {
   statement {
     effect = "Allow"
@@ -128,7 +130,7 @@ resource "aws_iam_role_policy_attachment" "github-action-repo-access" {
 ## Configuring GitHub Action Workflow
 Now you can create a GitHub Workflow that assumes the role and logs into ECR without providing any secrets to GitHub:
 
-```hcl
+```yaml
 name: Build and push container image
 on:
   push: {}
@@ -176,7 +178,7 @@ To fix this and ensure consistent naming while also making our workflow reusable
 
 
 ## Make workflow resuable
-```hcl
+```yaml
 # <org>/gh-actions/.github/workflows/build-and-push.yaml
 name: Build and push container image
 on:
@@ -222,7 +224,7 @@ jobs:
 
 Now this workflow can be called from the source repository like this:
 
-```hcl
+```yaml
 name: Build and push
 
 on:
@@ -246,12 +248,12 @@ Despite the apparent common requirement for this, there seems to be no web ui op
 
 To allow us to build conditions for other claims we're using the following:
 
-```
+```json
 {"include_claim_keys":["repo","context","job_workflow_ref"]}
 ```
 
 This can be set as an org-wide default for new repositories like this:
-```
+```bash
 curl \
   -X PUT \
   -H "Accept: application/vnd.github+json" \
@@ -262,7 +264,7 @@ curl \
 ```
 
 For existing repositories to take effect, it needs to be applied on the repo level as well:
-```
+```bash
 curl -L \
   -X PUT \
   -H "Accept: application/vnd.github+json" \
@@ -314,4 +316,4 @@ This configuration implements the desired goals:
 # Common Issues
 While granting ECR access from GitHub Actions using this approach seems to be the most sensible one, it's quite complex and it's configuration error prone,
 checking AWS Cloudtrail to debug claims maching the StringLike conditions was very useful. You can find it in the AWS Console here:
-- https://<region>.console.aws.amazon.com/cloudtrail/home?region=<region>#/events?EventName=AssumeRoleWithWebIdentity
+- [https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventName=AssumeRoleWithWebIdentity](https://us-east-1.console.aws.amazon.com/cloudtrail/home?region=us-east-1#/events?EventName=AssumeRoleWithWebIdentity)
