@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 05 Feb 2024 16:31:42 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
-day. Building an agile cloud native infrastructure for a high velocity AI based
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 07 Feb 2024 10:20:28 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
+day and acquired by Airbnb. Building an agile cloud native infrastructure for a high velocity AI based
 content moderation startup.]]></description><link>https://5pi.de/case-studies/koko/</link><guid isPermaLink="false">https://5pi.de/case-studies/koko/</guid><content:encoded>&lt;p&gt;From legacy infrastructure to over 100 million content moderation decisions per
-day.&lt;/p&gt;
+day and &lt;a href=&quot;https://www.businessinsider.com/airbnb-quietly-acquired-an-ai-content-moderation-startup-in-2018-2020-1&quot;&gt;acquired by Airbnb&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Building an agile cloud native infrastructure for a high velocity AI based
 content moderation startup.&lt;/p&gt;
 &lt;!--end--&gt;
@@ -47,8 +47,8 @@ throughput application.
 &lt;p&gt;The Internet can be a scary place. Koko keeps your community safe by using AI to
 identify bad actors and damaging content. Koko detects issues in real time and
 notifies your moderation system.&lt;/p&gt;
-&lt;p&gt;Koko is already used by several top online communities to support over 100
-million moderation decisions per day.&lt;/p&gt;
+&lt;p&gt;Koko was used by several top online communities to support over 100
+million moderation decisions per day and was &lt;a href=&quot;https://www.businessinsider.com/airbnb-quietly-acquired-an-ai-content-moderation-startup-in-2018-2020-1&quot;&gt;acquired by Airbnb&lt;/a&gt; in 2018.&lt;/p&gt;
 &lt;h2 id=&quot;rancher-to-kubernetes-migration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#rancher-to-kubernetes-migration&quot; aria-label=&quot;rancher to kubernetes migration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Rancher to Kubernetes migration&lt;/h2&gt;
 &lt;p&gt;When Koko contacted me, their infrastructure was running on an old version of
 &lt;a href=&quot;https://rancher.com/&quot;&gt;Rancher&lt;/a&gt; which should be replaced by a Kubernetes
@@ -191,7 +191,7 @@ more about the details in &lt;a href=&quot;/2018/10/31/fluentd-for-data-warehous
 &lt;p&gt;Koko’s ability to rapidly and reliably build new features helped it to attract
 some of the largest social networks.&lt;/p&gt;
 &lt;p&gt;I’m proud to have built the infrastructure that allowed Koko to be confident in
-change and deliver it fast.&lt;/p&gt;
+change and deliver it fast, ultimately helping them to get &lt;a href=&quot;https://www.businessinsider.com/airbnb-quietly-acquired-an-ai-content-moderation-startup-in-2018-2020-1&quot;&gt;acquired by Airbnb&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Do you want to accelerate your product development by building upon or migrating
 to modern cloud native infrastructure? &lt;a href=&quot;/hire-me&quot;&gt;Let me know!&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Styla: Content Experience Engine]]></title><description><![CDATA[Advising a content commerce startup on Docker migration, AWS deployment and
 DevOps strategy. Debugging a ELB/ECS based pilot deployment. Implementation of and migration to lambda based machine learning pipeline.]]></description><link>https://5pi.de/case-studies/styla/</link><guid isPermaLink="false">https://5pi.de/case-studies/styla/</guid><content:encoded>&lt;p&gt;Advising a content commerce startup on Docker migration, AWS deployment and
