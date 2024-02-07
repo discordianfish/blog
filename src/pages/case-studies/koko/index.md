@@ -6,7 +6,7 @@ index: 10
 ---
 
 From legacy infrastructure to over 100 million content moderation decisions per
-day.
+day and [acquired by Airbnb](https://www.businessinsider.com/airbnb-quietly-acquired-an-ai-content-moderation-startup-in-2018-2020-1).
 
 Building an agile cloud native infrastructure for a high velocity AI based
 content moderation startup.
@@ -30,8 +30,8 @@ The Internet can be a scary place. Koko keeps your community safe by using AI to
 identify bad actors and damaging content. Koko detects issues in real time and
 notifies your moderation system.
 
-Koko is already used by several top online communities to support over 100
-million moderation decisions per day.
+Koko was used by several top online communities to support over 100
+million moderation decisions per day and was [acquired by Airbnb](https://www.businessinsider.com/airbnb-quietly-acquired-an-ai-content-moderation-startup-in-2018-2020-1) in 2018.
 
 
 ## Rancher to Kubernetes migration
@@ -137,7 +137,7 @@ Koko's ability to rapidly and reliably build new features helped it to attract
 some of the largest social networks.
 
 I'm proud to have built the infrastructure that allowed Koko to be confident in
-change and deliver it fast.
+change and deliver it fast, ultimately helping them to get [acquired by Airbnb](https://www.businessinsider.com/airbnb-quietly-acquired-an-ai-content-moderation-startup-in-2018-2020-1).
 
 Do you want to accelerate your product development by building upon or migrating
 to modern cloud native infrastructure? [Let me know!](/hire-me).
