@@ -1,84 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 30 Apr 2025 17:54:00 GMT</lastBuildDate><item><title><![CDATA[Styla: Content Experience Engine]]></title><description><![CDATA[Advising a content commerce startup on Docker migration, AWS deployment and
-DevOps strategy. Debugging a ELB/ECS based pilot deployment. Implementation of and migration to lambda based machine learning pipeline.]]></description><link>https://5pi.de/case-studies/styla/</link><guid isPermaLink="false">https://5pi.de/case-studies/styla/</guid><content:encoded>&lt;p&gt;Advising a content commerce startup on Docker migration, AWS deployment and
-DevOps strategy. Debugging a ELB/ECS based pilot deployment.&lt;/p&gt;
-&lt;p&gt;Implementation of and migration to lambda based machine learning pipeline.&lt;/p&gt;
-&lt;!--end--&gt;
-&lt;blockquote class=&quot;testimonial&quot;&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 268px; &quot;&gt;
-      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho52aFLDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJb+cQib4k7SflNi9hKpkqTC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEEAgEFAAAAAAAAAAAAAAEAAhExECEDEhNBUXH/2gAIAQEABj8CmJ9BdPKG7qMfNoQKxcQfC7jdOKDja//EABwQAAIBBQEAAAAAAAAAAAAAAAERABAhMUFRcf/aAAgBAQABPyHfRroYtBbjweUFdDZIOPRflNFrQgSIgGovFuT/2gAMAwEAAgADAAAAEKzIQP/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EAFMJ//EABYRAQEBAAAAAAAAAAAAAAAAAAERIP/aAAgBAgEBPxBW4//EAB0QAQACAQUBAAAAAAAAAAAAAAEAESEQMUFRYbH/2gAIAQEAAT8QFSnBOTYhhiMh2Wv6aU64Aem0AwFNzbvF37FiMc8NRY4XlhIrgGO9mCeLBrRP/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
-/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-  &lt;code&gt;
-    We worked with Johannes on two projects and greatly benefited from his knowledge and experience.
-  &lt;/code&gt;
-  &lt;footer&gt;&lt;cite&gt;Alexander Kong, CTO at Styla.com&lt;/cite&gt;&lt;/footer&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;about-styla&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#about-styla&quot; aria-label=&quot;about styla permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;About Styla&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/40c7d3d40842ccd99311f9b8157b07be/styla.svg&quot; alt=&quot;Logo&quot;&gt;
-&lt;a href=&quot;https://www.styla.com/&quot;&gt;Styla&lt;/a&gt; offers a Content Experience Engine that
-automatically designs your content and makes it shoppable, inspiring your
-customers to buy more.&lt;/p&gt;
-&lt;p&gt;Styla’s automation technology designs your content in real-time and enhances the
-user experience on every device.&lt;/p&gt;
-&lt;h2 id=&quot;docker-migration-and-aws-devops-strategy-consulting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker-migration-and-aws-devops-strategy-consulting&quot; aria-label=&quot;docker migration and aws devops strategy consulting permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Docker migration and AWS DevOps strategy consulting&lt;/h2&gt;
-&lt;p&gt;Before they contacted me, Styla’s stack consisted of Ansible managed AWS EC2
-instances with their applications directly deployed to the machine ad-hoc.&lt;/p&gt;
-&lt;p&gt;When expanding their product to more markets, Styla contracted me for a day to
-discuss their challenges and advise them on further and more robust automation,
-with the goal of having all the infrastructure as code.&lt;/p&gt;
-&lt;p&gt;Styla already experimented with Docker and wanted to deploy on &lt;a href=&quot;https://aws.amazon.com/ecs/&quot;&gt;AWS
-ECS&lt;/a&gt; but had severe issues with a python based data
-dashboard. The application, running behind an AWS ELB, became unresponsive about
-every minute. My investigations showed that their application used blocking IO
-and was single threaded. Since the AWS ELB health checks didn’t close the
-connection, the application didn’t respond to request until it timed out.
-Running the application as workers under a pre-forking HTTP server solved this
-problem.&lt;/p&gt;
-&lt;p&gt;After discussing the goals and specifics of the infrastructure, I recommended
-using Cloudformation for the deployment of the ECS cluster and other
-infrastructure. This allows to keep all stack configuration in simple JSON/YAML
-documents that can be used to rollout changes to the infrastructure in a
-controlled fashion. To keep the existing workflows, the template can be executed
-by Ansible.&lt;/p&gt;
-&lt;p&gt;Over the course of the next months, Styla implemented the recommended
-infrastructure which is powering the platform ever since.&lt;/p&gt;
-&lt;blockquote class=&quot;float-right&quot;&gt;
-  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 268px; &quot;&gt;
-      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho52aFLDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJb+cQib4k7SflNi9hKpkqTC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEEAgEFAAAAAAAAAAAAAAEAAhExECEDEhNBUXH/2gAIAQEABj8CmJ9BdPKG7qMfNoQKxcQfC7jdOKDja//EABwQAAIBBQEAAAAAAAAAAAAAAAERABAhMUFRcf/aAAgBAQABPyHfRroYtBbjweUFdDZIOPRflNFrQgSIgGovFuT/2gAMAwEAAgADAAAAEKzIQP/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EAFMJ//EABYRAQEBAAAAAAAAAAAAAAAAAAERIP/aAAgBAgEBPxBW4//EAB0QAQACAQUBAAAAAAAAAAAAAAEAESEQMUFRYbH/2gAIAQEAAT8QFSnBOTYhhiMh2Wv6aU64Aem0AwFNzbvF37FiMc8NRY4XlhIrgGO9mCeLBrRP/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
-/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-  &lt;code&gt;
-    We were impressed how Johannes gathered insights into our application on a system level and quickly solved our application issue.
-  &lt;/code&gt;
-  &lt;footer&gt;&lt;cite&gt;Alexander Kong, CTO at Styla.com&lt;/cite&gt;&lt;/footer&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;machine-learning-stack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-stack&quot; aria-label=&quot;machine learning stack permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning Stack&lt;/h2&gt;
-&lt;p&gt;As a data driven platform, there is a strong need for a reliable machine
-learning pipeline.&lt;/p&gt;
-&lt;p&gt;After Styla successfully adopted the discussed infrastructure changes, revamping
-the machine learning pipeline was the next project I was involved with.&lt;/p&gt;
-&lt;p&gt;The first step in the pipeline is structuring the data. To minimize ongoing
-operational costs, we decided to use &lt;a href=&quot;https://aws.amazon.com/lambda&quot;&gt;AWS Lambda&lt;/a&gt;
-to automatically run Styla’s structuring code when new data gets written to a S3
-bucket. This code uploads the results to a new bucket which triggers another
-Lambda to load the structured data into various data stores.&lt;/p&gt;
-&lt;p&gt;Beside the Lambda based pipeline, the stack consist of a Spark cluster for
-further processing and data stores that can be queries from Styla’s backend services.&lt;/p&gt;
-&lt;p&gt;I configured and deployed the stack as Cloudformation templates wrapped in
-Ansible roles, consistent with Styla’s general deployment workflow.&lt;/p&gt;
-&lt;p&gt;Especially when it comes to data warehousing and analysis, security is of utmost
-importance. Therefor the stack follows the security best practices by using
-individual IAM roles for each Lambda and data store with tightly locked down
-policies that grant only the necessary permissions.&lt;/p&gt;
-&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Whether you need consulting, troubleshooting or hands-on help with building your
-infrastructure, &lt;a href=&quot;/hire-me&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Your Site's RSS Feed]]></title><description><![CDATA[Outside the box, no one can hear you scream.]]></description><link>https://5pi.de</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 17 Jul 2025 21:28:32 GMT</lastBuildDate><item><title><![CDATA[Koko: AI-Powered Community Moderation]]></title><description><![CDATA[From legacy infrastructure to over 100 million content moderation decisions per
 day and acquired by Airbnb. Building an agile cloud native infrastructure for a high velocity AI based
 content moderation startup.]]></description><link>https://5pi.de/case-studies/koko/</link><guid isPermaLink="false">https://5pi.de/case-studies/koko/</guid><content:encoded>&lt;p&gt;From legacy infrastructure to over 100 million content moderation decisions per
 day and &lt;a href=&quot;https://www.businessinsider.com/airbnb-quietly-acquired-an-ai-content-moderation-startup-in-2018-2020-1&quot;&gt;acquired by Airbnb&lt;/a&gt;.&lt;/p&gt;
@@ -273,7 +193,87 @@ some of the largest social networks.&lt;/p&gt;
 &lt;p&gt;I’m proud to have built the infrastructure that allowed Koko to be confident in
 change and deliver it fast, ultimately helping them to get &lt;a href=&quot;https://www.businessinsider.com/airbnb-quietly-acquired-an-ai-content-moderation-startup-in-2018-2020-1&quot;&gt;acquired by Airbnb&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Do you want to accelerate your product development by building upon or migrating
-to modern cloud native infrastructure? &lt;a href=&quot;/hire-me&quot;&gt;Let me know!&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Build securely with Github Actions and ECR using OpenID Connect]]></title><description><![CDATA[Intro Most companies and projects these days use some form of CI/CD to automatically build artifacts like binaries or container images when…]]></description><link>https://5pi.de/2024/aws-gh-actions/</link><guid isPermaLink="false">https://5pi.de/2024/aws-gh-actions/</guid><pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+to modern cloud native infrastructure? &lt;a href=&quot;/hire-me&quot;&gt;Let me know!&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Styla: Content Experience Engine]]></title><description><![CDATA[Advising a content commerce startup on Docker migration, AWS deployment and
+DevOps strategy. Debugging a ELB/ECS based pilot deployment. Implementation of and migration to lambda based machine learning pipeline.]]></description><link>https://5pi.de/case-studies/styla/</link><guid isPermaLink="false">https://5pi.de/case-studies/styla/</guid><content:encoded>&lt;p&gt;Advising a content commerce startup on Docker migration, AWS deployment and
+DevOps strategy. Debugging a ELB/ECS based pilot deployment.&lt;/p&gt;
+&lt;p&gt;Implementation of and migration to lambda based machine learning pipeline.&lt;/p&gt;
+&lt;!--end--&gt;
+&lt;blockquote class=&quot;testimonial&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 268px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho52aFLDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJb+cQib4k7SflNi9hKpkqTC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEEAgEFAAAAAAAAAAAAAAEAAhExECEDEhNBUXH/2gAIAQEABj8CmJ9BdPKG7qMfNoQKxcQfC7jdOKDja//EABwQAAIBBQEAAAAAAAAAAAAAAAERABAhMUFRcf/aAAgBAQABPyHfRroYtBbjweUFdDZIOPRflNFrQgSIgGovFuT/2gAMAwEAAgADAAAAEKzIQP/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EAFMJ//EABYRAQEBAAAAAAAAAAAAAAAAAAERIP/aAAgBAgEBPxBW4//EAB0QAQACAQUBAAAAAAAAAAAAAAEAESEQMUFRYbH/2gAIAQEAAT8QFSnBOTYhhiMh2Wv6aU64Aem0AwFNzbvF37FiMc8NRY4XlhIrgGO9mCeLBrRP/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
+/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;code&gt;
+    We worked with Johannes on two projects and greatly benefited from his knowledge and experience.
+  &lt;/code&gt;
+  &lt;footer&gt;&lt;cite&gt;Alexander Kong, CTO at Styla.com&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;about-styla&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#about-styla&quot; aria-label=&quot;about styla permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;About Styla&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/40c7d3d40842ccd99311f9b8157b07be/styla.svg&quot; alt=&quot;Logo&quot;&gt;
+&lt;a href=&quot;https://www.styla.com/&quot;&gt;Styla&lt;/a&gt; offers a Content Experience Engine that
+automatically designs your content and makes it shoppable, inspiring your
+customers to buy more.&lt;/p&gt;
+&lt;p&gt;Styla’s automation technology designs your content in real-time and enhances the
+user experience on every device.&lt;/p&gt;
+&lt;h2 id=&quot;docker-migration-and-aws-devops-strategy-consulting&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker-migration-and-aws-devops-strategy-consulting&quot; aria-label=&quot;docker migration and aws devops strategy consulting permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Docker migration and AWS DevOps strategy consulting&lt;/h2&gt;
+&lt;p&gt;Before they contacted me, Styla’s stack consisted of Ansible managed AWS EC2
+instances with their applications directly deployed to the machine ad-hoc.&lt;/p&gt;
+&lt;p&gt;When expanding their product to more markets, Styla contracted me for a day to
+discuss their challenges and advise them on further and more robust automation,
+with the goal of having all the infrastructure as code.&lt;/p&gt;
+&lt;p&gt;Styla already experimented with Docker and wanted to deploy on &lt;a href=&quot;https://aws.amazon.com/ecs/&quot;&gt;AWS
+ECS&lt;/a&gt; but had severe issues with a python based data
+dashboard. The application, running behind an AWS ELB, became unresponsive about
+every minute. My investigations showed that their application used blocking IO
+and was single threaded. Since the AWS ELB health checks didn’t close the
+connection, the application didn’t respond to request until it timed out.
+Running the application as workers under a pre-forking HTTP server solved this
+problem.&lt;/p&gt;
+&lt;p&gt;After discussing the goals and specifics of the infrastructure, I recommended
+using Cloudformation for the deployment of the ECS cluster and other
+infrastructure. This allows to keep all stack configuration in simple JSON/YAML
+documents that can be used to rollout changes to the infrastructure in a
+controlled fashion. To keep the existing workflows, the template can be executed
+by Ansible.&lt;/p&gt;
+&lt;p&gt;Over the course of the next months, Styla implemented the recommended
+infrastructure which is powering the platform ever since.&lt;/p&gt;
+&lt;blockquote class=&quot;float-right&quot;&gt;
+  &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 268px; &quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAQFAQMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAG30SK8bRho52aFLDf/xAAbEAEBAAIDAQAAAAAAAAAAAAADAgASAQQRE//aAAgBAQABBQJb+cQib4k7SflNi9hKpkqTC+UL/8QAFREBAQAAAAAAAAAAAAAAAAAAIEH/2gAIAQMBAT8Bg//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EACAQAAEEAgEFAAAAAAAAAAAAAAEAAhExECEDEhNBUXH/2gAIAQEABj8CmJ9BdPKG7qMfNoQKxcQfC7jdOKDja//EABwQAAIBBQEAAAAAAAAAAAAAAAERABAhMUFRcf/aAAgBAQABPyHfRroYtBbjweUFdDZIOPRflNFrQgSIgGovFuT/2gAMAwEAAgADAAAAEKzIQP/EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EAFMJ//EABYRAQEBAAAAAAAAAAAAAAAAAAERIP/aAAgBAgEBPxBW4//EAB0QAQACAQUBAAAAAAAAAAAAAAEAESEQMUFRYbH/2gAIAQEAAT8QFSnBOTYhhiMh2Wv6aU64Aem0AwFNzbvF37FiMc8NRY4XlhIrgGO9mCeLBrRP/9k=&apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;Alexander Kong&quot; title=&quot;&quot; src=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg&quot; srcset=&quot;/static/6fa4911f9f1160805ce38ae20d7a3b1e/d2f63/alex.jpg 163w,
+/static/6fa4911f9f1160805ce38ae20d7a3b1e/6b6e1/alex.jpg 268w&quot; sizes=&quot;(max-width: 268px) 100vw, 268px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;code&gt;
+    We were impressed how Johannes gathered insights into our application on a system level and quickly solved our application issue.
+  &lt;/code&gt;
+  &lt;footer&gt;&lt;cite&gt;Alexander Kong, CTO at Styla.com&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;machine-learning-stack&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-stack&quot; aria-label=&quot;machine learning stack permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning Stack&lt;/h2&gt;
+&lt;p&gt;As a data driven platform, there is a strong need for a reliable machine
+learning pipeline.&lt;/p&gt;
+&lt;p&gt;After Styla successfully adopted the discussed infrastructure changes, revamping
+the machine learning pipeline was the next project I was involved with.&lt;/p&gt;
+&lt;p&gt;The first step in the pipeline is structuring the data. To minimize ongoing
+operational costs, we decided to use &lt;a href=&quot;https://aws.amazon.com/lambda&quot;&gt;AWS Lambda&lt;/a&gt;
+to automatically run Styla’s structuring code when new data gets written to a S3
+bucket. This code uploads the results to a new bucket which triggers another
+Lambda to load the structured data into various data stores.&lt;/p&gt;
+&lt;p&gt;Beside the Lambda based pipeline, the stack consist of a Spark cluster for
+further processing and data stores that can be queries from Styla’s backend services.&lt;/p&gt;
+&lt;p&gt;I configured and deployed the stack as Cloudformation templates wrapped in
+Ansible roles, consistent with Styla’s general deployment workflow.&lt;/p&gt;
+&lt;p&gt;Especially when it comes to data warehousing and analysis, security is of utmost
+importance. Therefor the stack follows the security best practices by using
+individual IAM roles for each Lambda and data store with tightly locked down
+policies that grant only the necessary permissions.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Whether you need consulting, troubleshooting or hands-on help with building your
+infrastructure, &lt;a href=&quot;/hire-me&quot;&gt;let me know&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Build securely with Github Actions and ECR using OpenID Connect]]></title><description><![CDATA[Intro Most companies and projects these days use some form of CI/CD to automatically build artifacts like binaries or container images when…]]></description><link>https://5pi.de/2024/aws-gh-actions/</link><guid isPermaLink="false">https://5pi.de/2024/aws-gh-actions/</guid><pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
